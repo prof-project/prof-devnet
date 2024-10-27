@@ -1,0 +1,91 @@
+#!/bin/bash
+
+# Exit on any error
+set -e
+
+ETHEREUM_PACKAGE_VERSION="beb764fb9a18fcb09cb7d3d9ee48e4826595512d"
+KURTOSIS_VERSION="0.87.2"
+
+# Colors for output
+GREEN='\033[0;32m'
+RED='\033[0;31m'
+YELLOW='\033[1;33m'
+NC='\033[0m' # No Color
+
+echo "Setting up environment..."
+
+# Check if git is installed
+if ! command -v git &> /dev/null; then
+    echo -e "${RED}Git is not installed. Please install git first.${NC}"
+    exit 1
+fi
+
+# Initialize and update ethereum-package submodule if needed
+echo -e "${YELLOW}Checking ethereum-package version...${NC}"
+if [ ! -d "ethereum-package" ] || [ ! -f "ethereum-package/.git" ]; then
+    echo "Initializing ethereum-package submodule..."
+    git submodule add https://github.com/kurtosis-tech/ethereum-package.git 2>/dev/null || true
+    git submodule update --init
+fi
+
+# Checkout specific version of ethereum-package
+cd ethereum-package
+current_hash=$(git rev-parse HEAD)
+if [ "$current_hash" != "$ETHEREUM_PACKAGE_VERSION" ]; then
+    echo -e "${YELLOW}Wrong ethereum-package version detected${NC}"
+    echo -e "Current: $current_hash"
+    echo -e "Wanted:  $ETHEREUM_PACKAGE_VERSION"
+    echo "Checking out ethereum-package version ${ETHEREUM_PACKAGE_VERSION}..."
+    git fetch
+    git checkout $ETHEREUM_PACKAGE_VERSION
+else
+    echo -e "${GREEN}Correct ethereum-package version already checked out${NC}"
+fi
+cd ..
+
+# Kurtosis installation
+echo -e "${YELLOW}Checking Kurtosis version...${NC}"
+
+# Check current Kurtosis version if installed
+if command -v kurtosis &> /dev/null; then
+    current_version=$(kurtosis version | grep "CLI Version:" | awk '{print $3}' | tr -d ']')
+    if [ "$current_version" = "$KURTOSIS_VERSION" ]; then
+        echo -e "${GREEN}Correct Kurtosis version ($KURTOSIS_VERSION) already installed${NC}"
+    else
+        echo -e "${YELLOW}Wrong Kurtosis version detected (got: $current_version, want: $KURTOSIS_VERSION)${NC}"
+        echo "Removing existing Kurtosis installation..."
+        sudo apt remove -y kurtosis-cli
+        needs_install=true
+    fi
+else
+    echo "Kurtosis not found"
+    needs_install=true
+fi
+
+# Install Kurtosis if needed
+if [ "${needs_install}" = true ]; then
+    # Set up Kurtosis repository
+    echo "Setting up Kurtosis repository..."
+    echo "deb [trusted=yes] https://apt.fury.io/kurtosis-tech/ /" | sudo tee /etc/apt/sources.list.d/kurtosis.list
+
+    # Update package list
+    echo "Updating package list..."
+    sudo apt update
+
+    # Install specific version of Kurtosis
+    echo "Installing Kurtosis version $KURTOSIS_VERSION..."
+    sudo apt install -y kurtosis-cli=$KURTOSIS_VERSION -V
+
+    # Verify installation
+    installed_version=$(kurtosis version | grep "CLI Version:" | awk '{print $3}' | tr -d ']')
+    if [ "$installed_version" != "$KURTOSIS_VERSION" ]; then
+        echo -e "${RED}Failed to install correct Kurtosis version!${NC}"
+        echo -e "Wanted: $KURTOSIS_VERSION"
+        echo -e "Got: $installed_version"
+        exit 1
+    fi
+fi
+
+echo -e "${GREEN}Setup completed successfully!${NC}"
+echo -e "Ethereum Package version: ${GREEN}$ETHEREUM_PACKAGE_VERSION${NC}"
+echo -e "Kurtosis version: ${GREEN}$KURTOSIS_VERSION${NC}"
