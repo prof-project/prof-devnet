@@ -1,0 +1,16 @@
+[submodule "ethereum-package"]
+	path = ethereum-package
+	url = https://github.com/prof-project/ethereum-package
+	branch = main
+[submodule "prof-relay"]
+	path = prof-relay
+	url = https://github.com/prof-project/prof-relay
+	branch = main
+[submodule "builder"]
+	path = builder
+	url = https://github.com/prof-project/builder
+	branch = main
+[submodule "prof-sequencer"]
+	path = prof-sequencer
+	url = https://github.com/prof-project/prof-sequeuncer
+	branch = main
