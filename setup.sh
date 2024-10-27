@@ -5,6 +5,7 @@ set -e
 
 ETHEREUM_PACKAGE_VERSION="beb764fb9a18fcb09cb7d3d9ee48e4826595512d"
 KURTOSIS_VERSION="0.87.2"
+RELAY_BRANCH="1-grpc-bundle-merger"
 
 # Colors for output
 GREEN='\033[0;32m'
@@ -89,3 +90,53 @@ fi
 echo -e "${GREEN}Setup completed successfully!${NC}"
 echo -e "Ethereum Package version: ${GREEN}$ETHEREUM_PACKAGE_VERSION${NC}"
 echo -e "Kurtosis version: ${GREEN}$KURTOSIS_VERSION${NC}"
+
+
+# Build the relay Docker image
+echo -e "${YELLOW}Building relay Docker image...${NC}"
+if [ -d "go-prof-relay" ]; then
+    cd go-prof-relay
+    
+    # Check and switch to correct branch
+    current_branch=$(git rev-parse --abbrev-ref HEAD)
+    if [ "$current_branch" != "$RELAY_BRANCH" ]; then
+        echo -e "${YELLOW}Wrong branch detected${NC}"
+        echo -e "Current: $current_branch"
+        echo -e "Wanted:  $RELAY_BRANCH"
+        echo "Checking out relay branch ${RELAY_BRANCH}..."
+        git fetch
+        git checkout $RELAY_BRANCH
+    else
+        echo -e "${GREEN}Correct relay branch already checked out${NC}"
+    fi
+    
+    echo "Building prof-project/prof-relay without cache..."
+    make docker-image
+    if [ $? -eq 0 ]; then
+        echo -e "${GREEN}Relay image built successfully${NC}"
+    else
+        echo -e "${RED}Relay image build failed${NC}"
+        exit 1
+    fi
+    cd ..
+else
+    echo -e "${RED}Relay directory not found!${NC}"
+    exit 1
+fi
+
+# Run the Project with Kurtosis
+echo -e "${YELLOW}Starting up services using Kurtosis...${NC}"
+cd ethereum-package
+kurtosis run --enclave prof-test-enhanced ./ --args-file network_params.yaml
+
+# Check Logs (Optional)
+echo "To check the logs for prof mev-relay-api, run:"
+echo "kurtosis service logs prof-test mev-relay-api"
+
+# Cleanup Option
+echo "To stop and clean up the enclave, run:"
+echo "kurtosis enclave rm -f prof-test"
+
+echo "Setup completed successfully."
+
+

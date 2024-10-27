@@ -1,3 +1,17 @@
+# PROF testing with Kurtosis
+
+To run the kurtosis enclave with the network_params.yaml, run the following command:
+```bash
+kurtosis run --enclave <NAME> ./ --args-file network_params.yaml
+```
+
+The following extra_args is needed to run the Prof Relay in the mev_relay_launcher.star:
+
+```
+"--bundle-merger-url",
+builder_uri,
+```
+
 The following network_params.yaml is executing correctly for a plain MEV setup with the ethereum-package:
 
 (The main difference is the seconds_per_slot, which is set to 2 instead of 12, and the mev_flood_seconds_per_bundle which is set to 1 instead of 15 in the original network_params.yaml + grafane is removed)
