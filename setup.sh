@@ -6,6 +6,7 @@ set -e
 ETHEREUM_PACKAGE_VERSION="beb764fb9a18fcb09cb7d3d9ee48e4826595512d"
 KURTOSIS_VERSION="0.87.2"
 RELAY_BRANCH="1-grpc-bundle-merger"
+BUNDLE_MERGER_BRANCH="5-simulateBundleJsonRPC"
 
 # Colors for output
 GREEN='\033[0;32m'
@@ -123,6 +124,39 @@ else
     echo -e "${RED}Relay directory not found!${NC}"
     exit 1
 fi
+
+# Initialize and check bundle-merger
+echo -e "${YELLOW}Checking bundle-merger...${NC}"
+if [ ! -d "go-bundle-merger" ] || [ ! -f "go-bundle-merger/.git" ]; then
+    echo "Initializing bundle-merger submodule..."
+    git submodule add https://github.com/prof-project/go-bundle-merger.git 2>/dev/null || true
+    git submodule update --init
+fi
+
+# Check and switch to correct bundle-merger branch
+cd go-bundle-merger
+current_branch=$(git rev-parse --abbrev-ref HEAD)
+if [ "$current_branch" != "$BUNDLE_MERGER_BRANCH" ]; then
+    echo -e "${YELLOW}Wrong branch detected${NC}"
+    echo -e "Current: $current_branch"
+    echo -e "Wanted:  $BUNDLE_MERGER_BRANCH"
+    echo "Checking out bundle-merger branch ${BUNDLE_MERGER_BRANCH}..."
+    git fetch
+    git checkout $BUNDLE_MERGER_BRANCH
+else
+    echo -e "${GREEN}Correct bundle-merger branch already checked out${NC}"
+fi
+
+# Build the bundle-merger
+echo "Building bundle-merger..."
+make docker-build    # Changed from make docker-image to match Makefile
+if [ $? -eq 0 ]; then
+    echo -e "${GREEN}Bundle-merger image built successfully${NC}"
+else
+    echo -e "${RED}Bundle-merger image build failed${NC}"
+    exit 1
+fi
+cd ..
 
 # Run the Project with Kurtosis
 echo -e "${YELLOW}Starting up services using Kurtosis...${NC}"

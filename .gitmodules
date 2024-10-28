@@ -4,3 +4,6 @@
 [submodule "go-prof-relay"]
 	path = go-prof-relay
 	url = https://github.com/prof-project/go-prof-relay.git
+[submodule "go-bundle-merger"]
+	path = go-bundle-merger
+	url = https://github.com/prof-project/go-bundle-merger.git
