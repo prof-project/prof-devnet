@@ -41,18 +41,17 @@ if [[ "$current_remote" == *"kurtosis-tech"* ]]; then
     git fetch origin
 fi
 
-# Checkout specific branch and commit
+# Checkout specific branch
 git fetch origin prof-devnet
-git checkout prof-devnet
-current_hash=$(git rev-parse HEAD)
-if [ "$current_hash" != "$ETHEREUM_PACKAGE_VERSION" ]; then
-    echo -e "${YELLOW}Wrong ethereum-package version detected${NC}"
-    echo -e "Current: $current_hash"
-    echo -e "Wanted:  $ETHEREUM_PACKAGE_VERSION"
-    echo "Checking out ethereum-package version ${ETHEREUM_PACKAGE_VERSION}..."
-    git checkout $ETHEREUM_PACKAGE_VERSION
+current_branch=$(git rev-parse --abbrev-ref HEAD)
+if [ "$current_branch" != "prof-devnet" ]; then
+    echo -e "${YELLOW}Wrong branch detected${NC}"
+    echo -e "Current: $current_branch"
+    echo -e "Wanted:  prof-devnet"
+    echo "Checking out prof-devnet branch..."
+    git checkout prof-devnet
 else
-    echo -e "${GREEN}Correct ethereum-package version already checked out${NC}"
+    echo -e "${GREEN}Correct branch already checked out${NC}"
 fi
 cd ..
 
