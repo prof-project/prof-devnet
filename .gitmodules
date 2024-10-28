@@ -7,3 +7,6 @@
 [submodule "go-bundle-merger"]
 	path = go-bundle-merger
 	url = https://github.com/prof-project/go-bundle-merger.git
+[submodule "go-prof-sequencer"]
+	path = go-prof-sequencer
+	url = https://github.com/prof-project/go-prof-sequencer

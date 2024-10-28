@@ -3,10 +3,11 @@
 # Exit on any error
 set -e
 
-ETHEREUM_PACKAGE_VERSION="beb764fb9a18fcb09cb7d3d9ee48e4826595512d"
+ETHEREUM_PACKAGE_VERSION="9a6a7834a112c8507af1bc436df8283a98f6ac35"
 KURTOSIS_VERSION="0.87.2"
 RELAY_BRANCH="1-grpc-bundle-merger"
 BUNDLE_MERGER_BRANCH="5-simulateBundleJsonRPC"
+SEQUENCER_BRANCH="1-implement-first-draft-of-sequencer-in-go"
 
 # Colors for output
 GREEN='\033[0;32m'
@@ -26,19 +27,29 @@ fi
 echo -e "${YELLOW}Checking ethereum-package version...${NC}"
 if [ ! -d "ethereum-package" ] || [ ! -f "ethereum-package/.git" ]; then
     echo "Initializing ethereum-package submodule..."
-    git submodule add https://github.com/kurtosis-tech/ethereum-package.git 2>/dev/null || true
+    git submodule add https://github.com/prof-project/ethereum-package.git 2>/dev/null || true
     git submodule update --init
 fi
 
-# Checkout specific version of ethereum-package
+# Update remote if it's pointing to kurtosis-tech
 cd ethereum-package
+current_remote=$(git remote get-url origin)
+if [[ "$current_remote" == *"kurtosis-tech"* ]]; then
+    echo "Updating remote to prof-project repository..."
+    git remote remove origin
+    git remote add origin https://github.com/prof-project/ethereum-package.git
+    git fetch origin
+fi
+
+# Checkout specific branch and commit
+git fetch origin prof-devnet
+git checkout prof-devnet
 current_hash=$(git rev-parse HEAD)
 if [ "$current_hash" != "$ETHEREUM_PACKAGE_VERSION" ]; then
     echo -e "${YELLOW}Wrong ethereum-package version detected${NC}"
     echo -e "Current: $current_hash"
     echo -e "Wanted:  $ETHEREUM_PACKAGE_VERSION"
     echo "Checking out ethereum-package version ${ETHEREUM_PACKAGE_VERSION}..."
-    git fetch
     git checkout $ETHEREUM_PACKAGE_VERSION
 else
     echo -e "${GREEN}Correct ethereum-package version already checked out${NC}"
@@ -154,6 +165,40 @@ if [ $? -eq 0 ]; then
     echo -e "${GREEN}Bundle-merger image built successfully${NC}"
 else
     echo -e "${RED}Bundle-merger image build failed${NC}"
+    exit 1
+fi
+cd ..
+
+# Initialize and check sequencer
+echo -e "${YELLOW}Checking sequencer...${NC}"
+if [ ! -d "go-prof-sequencer" ] || [ ! -f "go-prof-sequencer/.git" ]; then
+    echo "Initializing sequencer submodule..."
+    git submodule add https://github.com/prof-project/go-prof-sequencer.git 2>/dev/null || true
+    git submodule update --init
+fi
+
+# Check and switch to correct sequencer branch
+cd go-prof-sequencer
+current_branch=$(git rev-parse --abbrev-ref HEAD)
+if [ "$current_branch" != "$SEQUENCER_BRANCH" ]; then
+    echo -e "${YELLOW}Wrong branch detected${NC}"
+    echo -e "Current: $current_branch"
+    echo -e "Wanted:  $SEQUENCER_BRANCH"
+    echo "Checking out sequencer branch ${SEQUENCER_BRANCH}..."
+    git fetch
+    git checkout $SEQUENCER_BRANCH
+else
+    echo -e "${GREEN}Correct sequencer branch already checked out${NC}"
+fi
+
+# Build the sequencer
+echo "Building sequencer..."
+make init
+make docker-build
+if [ $? -eq 0 ]; then
+    echo -e "${GREEN}Sequencer image built successfully${NC}"
+else
+    echo -e "${RED}Sequencer image build failed${NC}"
     exit 1
 fi
 cd ..

@@ -1,6 +1,23 @@
 # PROF testing with Kurtosis
 
+The Setup script checks that the kurtosis version, the ethereum-package version, the relay branch, the bundle merger branch and the sequencer branch are correct.
+Successively, it spins up the enclave with the network_params.yaml.
+
+```
+./setup.sh
+```
+
+Kurtosis, and especially the ethereum-package, are fairly volatile, so deviation from the setup script can lead to unexpected behavior.
+
+## The Ethereum Package
+
+The ethereum-package is adapted from commit hash `beb764fb9a18fcb09cb7d3d9ee48e4826595512d`, and further expanded to include the Prof Relay, Bundle Merger and Sequencer.
+The reason to use a specific commit hash is to have a more stable environment, whereas later versions do not support a stable MEV value chain.
+
+## Running the enclave & specific parameters
+
 To run the kurtosis enclave with the network_params.yaml, run the following command:
+
 ```bash
 kurtosis run --enclave <NAME> ./ --args-file network_params.yaml
 ```
