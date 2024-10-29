@@ -202,10 +202,28 @@ else
 fi
 cd ..
 
+# Build prof-flood
+echo -e "${YELLOW}Building prof-flood...${NC}"
+if [ -d "prof-flood" ]; then
+    cd prof-flood
+    echo "Building prof-project/mev-flood without cache..."
+    docker build --no-cache -t prof-project/mev-flood .
+    if [ $? -eq 0 ]; then
+        echo -e "${GREEN}Prof-flood image built successfully${NC}"
+    else
+        echo -e "${RED}Prof-flood image build failed${NC}"
+        exit 1
+    fi
+    cd ..
+else
+    echo -e "${RED}Prof-flood directory not found!${NC}"
+    exit 1
+fi
+
 # Run the Project with Kurtosis
 echo -e "${YELLOW}Starting up services using Kurtosis...${NC}"
 cd ethereum-package
-kurtosis run --enclave prof-test-enhanced ./ --args-file network_params.yaml
+kurtosis run --enclave prof-test-flood ./ --args-file network_params.yaml
 
 # Check Logs (Optional)
 echo "To check the logs for prof mev-relay-api, run:"
@@ -213,7 +231,7 @@ echo "kurtosis service logs prof-test mev-relay-api"
 
 # Cleanup Option
 echo "To stop and clean up the enclave, run:"
-echo "kurtosis enclave rm -f prof-test"
+echo "kurtosis enclave rm -f prof-test-flood"
 
 echo "Setup completed successfully."
 
