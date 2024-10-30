@@ -8,6 +8,7 @@ KURTOSIS_VERSION="0.87.2"
 RELAY_BRANCH="1-grpc-bundle-merger"
 BUNDLE_MERGER_BRANCH="5-simulateBundleJsonRPC"
 SEQUENCER_BRANCH="1-implement-first-draft-of-sequencer-in-go"
+PROF_FLOOD_BRANCH="1-adapt-for-prof-sequencer"
 
 # Colors for output
 GREEN='\033[0;32m'
@@ -206,6 +207,20 @@ cd ..
 echo -e "${YELLOW}Building prof-flood...${NC}"
 if [ -d "prof-flood" ]; then
     cd prof-flood
+    
+    # Check and switch to correct branch
+    current_branch=$(git rev-parse --abbrev-ref HEAD)
+    if [ "$current_branch" != "$PROF_FLOOD_BRANCH" ]; then
+        echo -e "${YELLOW}Wrong branch detected${NC}"
+        echo -e "Current: $current_branch"
+        echo -e "Wanted:  $PROF_FLOOD_BRANCH"
+        echo "Checking out prof-flood branch ${PROF_FLOOD_BRANCH}..."
+        git fetch
+        git checkout $PROF_FLOOD_BRANCH
+    else
+        echo -e "${GREEN}Correct prof-flood branch already checked out${NC}"
+    fi
+    
     echo "Building prof-project/mev-flood without cache..."
     docker build --no-cache -t prof-project/mev-flood .
     if [ $? -eq 0 ]; then
