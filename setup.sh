@@ -237,7 +237,7 @@ fi
 
 # Run the Project with Kurtosis
 echo -e "${YELLOW}Starting up services using Kurtosis...${NC}"
-cd ethereum-package
+cd prof-ethereum-package
 kurtosis run --enclave prof-test-flood ./ --args-file network_params.yaml
 
 # Check Logs (Optional)
