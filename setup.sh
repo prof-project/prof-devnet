@@ -3,12 +3,7 @@
 # Exit on any error
 set -e
 
-ETHEREUM_PACKAGE_VERSION="9a6a7834a112c8507af1bc436df8283a98f6ac35"
 KURTOSIS_VERSION="0.87.2"
-RELAY_BRANCH="1-grpc-bundle-merger"
-BUNDLE_MERGER_BRANCH="5-simulateBundleJsonRPC"
-SEQUENCER_BRANCH="1-implement-first-draft-of-sequencer-in-go"
-PROF_FLOOD_BRANCH="1-adapt-for-prof-sequencer"
 
 # Colors for output
 GREEN='\033[0;32m'
@@ -23,38 +18,6 @@ if ! command -v git &> /dev/null; then
     echo -e "${RED}Git is not installed. Please install git first.${NC}"
     exit 1
 fi
-
-# Initialize and update ethereum-package submodule if needed
-echo -e "${YELLOW}Checking ethereum-package version...${NC}"
-if [ ! -d "ethereum-package" ] || [ ! -f "ethereum-package/.git" ]; then
-    echo "Initializing ethereum-package submodule..."
-    git submodule add https://github.com/prof-project/ethereum-package.git 2>/dev/null || true
-    git submodule update --init
-fi
-
-# Update remote if it's pointing to kurtosis-tech
-cd ethereum-package
-current_remote=$(git remote get-url origin)
-if [[ "$current_remote" == *"kurtosis-tech"* ]]; then
-    echo "Updating remote to prof-project repository..."
-    git remote remove origin
-    git remote add origin https://github.com/prof-project/ethereum-package.git
-    git fetch origin
-fi
-
-# Checkout specific branch
-git fetch origin prof-devnet
-current_branch=$(git rev-parse --abbrev-ref HEAD)
-if [ "$current_branch" != "prof-devnet" ]; then
-    echo -e "${YELLOW}Wrong branch detected${NC}"
-    echo -e "Current: $current_branch"
-    echo -e "Wanted:  prof-devnet"
-    echo "Checking out prof-devnet branch..."
-    git checkout prof-devnet
-else
-    echo -e "${GREEN}Correct branch already checked out${NC}"
-fi
-cd ..
 
 # Kurtosis installation
 echo -e "${YELLOW}Checking Kurtosis version...${NC}"
@@ -100,27 +63,12 @@ if [ "${needs_install}" = true ]; then
 fi
 
 echo -e "${GREEN}Setup completed successfully!${NC}"
-echo -e "Ethereum Package version: ${GREEN}$ETHEREUM_PACKAGE_VERSION${NC}"
 echo -e "Kurtosis version: ${GREEN}$KURTOSIS_VERSION${NC}"
-
 
 # Build the relay Docker image
 echo -e "${YELLOW}Building relay Docker image...${NC}"
 if [ -d "go-prof-relay" ]; then
     cd go-prof-relay
-    
-    # Check and switch to correct branch
-    current_branch=$(git rev-parse --abbrev-ref HEAD)
-    if [ "$current_branch" != "$RELAY_BRANCH" ]; then
-        echo -e "${YELLOW}Wrong branch detected${NC}"
-        echo -e "Current: $current_branch"
-        echo -e "Wanted:  $RELAY_BRANCH"
-        echo "Checking out relay branch ${RELAY_BRANCH}..."
-        git fetch
-        git checkout $RELAY_BRANCH
-    else
-        echo -e "${GREEN}Correct relay branch already checked out${NC}"
-    fi
     
     echo "Building prof-project/prof-relay without cache..."
     make docker-image
@@ -136,28 +84,6 @@ else
     exit 1
 fi
 
-# Initialize and check bundle-merger
-echo -e "${YELLOW}Checking bundle-merger...${NC}"
-if [ ! -d "go-bundle-merger" ] || [ ! -f "go-bundle-merger/.git" ]; then
-    echo "Initializing bundle-merger submodule..."
-    git submodule add https://github.com/prof-project/go-bundle-merger.git 2>/dev/null || true
-    git submodule update --init
-fi
-
-# Check and switch to correct bundle-merger branch
-cd go-bundle-merger
-current_branch=$(git rev-parse --abbrev-ref HEAD)
-if [ "$current_branch" != "$BUNDLE_MERGER_BRANCH" ]; then
-    echo -e "${YELLOW}Wrong branch detected${NC}"
-    echo -e "Current: $current_branch"
-    echo -e "Wanted:  $BUNDLE_MERGER_BRANCH"
-    echo "Checking out bundle-merger branch ${BUNDLE_MERGER_BRANCH}..."
-    git fetch
-    git checkout $BUNDLE_MERGER_BRANCH
-else
-    echo -e "${GREEN}Correct bundle-merger branch already checked out${NC}"
-fi
-
 # Build the bundle-merger
 echo "Building bundle-merger..."
 make docker-build    # Changed from make docker-image to match Makefile
@@ -168,14 +94,6 @@ else
     exit 1
 fi
 cd ..
-
-# Initialize and check sequencer
-echo -e "${YELLOW}Checking sequencer...${NC}"
-if [ ! -d "go-prof-sequencer" ] || [ ! -f "go-prof-sequencer/.git" ]; then
-    echo "Initializing sequencer submodule..."
-    git submodule add https://github.com/prof-project/go-prof-sequencer.git 2>/dev/null || true
-    git submodule update --init
-fi
 
 # Check and switch to correct sequencer branch
 cd go-prof-sequencer
@@ -207,20 +125,7 @@ cd ..
 echo -e "${YELLOW}Building prof-flood...${NC}"
 if [ -d "prof-flood" ]; then
     cd prof-flood
-    
-    # Check and switch to correct branch
-    current_branch=$(git rev-parse --abbrev-ref HEAD)
-    if [ "$current_branch" != "$PROF_FLOOD_BRANCH" ]; then
-        echo -e "${YELLOW}Wrong branch detected${NC}"
-        echo -e "Current: $current_branch"
-        echo -e "Wanted:  $PROF_FLOOD_BRANCH"
-        echo "Checking out prof-flood branch ${PROF_FLOOD_BRANCH}..."
-        git fetch
-        git checkout $PROF_FLOOD_BRANCH
-    else
-        echo -e "${GREEN}Correct prof-flood branch already checked out${NC}"
-    fi
-    
+ 
     echo "Building prof-project/mev-flood without cache..."
     docker build --no-cache -t prof-project/mev-flood .
     if [ $? -eq 0 ]; then
@@ -234,6 +139,18 @@ else
     echo -e "${RED}Prof-flood directory not found!${NC}"
     exit 1
 fi
+
+# Build the builder
+cd go-prof-builder
+echo "Building builder..."
+make docker-image
+if [ $? -eq 0 ]; then
+    echo -e "${GREEN}Builder image built successfully${NC}"
+else
+    echo -e "${RED}Builder image build failed${NC}"
+    exit 1
+fi
+cd ..
 
 # Run the Project with Kurtosis
 echo -e "${YELLOW}Starting up services using Kurtosis...${NC}"

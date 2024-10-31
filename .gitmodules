@@ -13,3 +13,6 @@
 [submodule "prof-ethereum-package"]
 	path = prof-ethereum-package
 	url = https://github.com/prof-project/prof-ethereum-package.git
+[submodule "go-prof-builder"]
+	path = go-prof-builder
+	url = https://github.com/prof-project/builder.git
