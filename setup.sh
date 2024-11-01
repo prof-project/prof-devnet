@@ -96,21 +96,8 @@ else
 fi
 cd ..
 
-# Check and switch to correct sequencer branch
-cd go-prof-sequencer
-current_branch=$(git rev-parse --abbrev-ref HEAD)
-if [ "$current_branch" != "$SEQUENCER_BRANCH" ]; then
-    echo -e "${YELLOW}Wrong branch detected${NC}"
-    echo -e "Current: $current_branch"
-    echo -e "Wanted:  $SEQUENCER_BRANCH"
-    echo "Checking out sequencer branch ${SEQUENCER_BRANCH}..."
-    git fetch
-    git checkout $SEQUENCER_BRANCH
-else
-    echo -e "${GREEN}Correct sequencer branch already checked out${NC}"
-fi
-
 # Build the sequencer
+cd go-prof-sequencer
 echo "Building sequencer..."
 make init
 make docker-build
