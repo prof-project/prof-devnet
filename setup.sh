@@ -86,6 +86,7 @@ fi
 
 # Build the bundle-merger
 echo "Building bundle-merger..."
+cd go-bundle-merger
 make docker-build    # Changed from make docker-image to match Makefile
 if [ $? -eq 0 ]; then
     echo -e "${GREEN}Bundle-merger image built successfully${NC}"
