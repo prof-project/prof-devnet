@@ -9,6 +9,11 @@ Successively, it spins up the enclave with the network_params.yaml.
 Kurtosis, and especially the ethereum-package, are fairly volatile, so deviation from the setup script can lead to unexpected behavior.
 
 # Makefile targets
+This project uses a Makefile as a frontend. To use make, first install. E.g. via apt on a Debian system:
+```
+sudo apt install -y make
+```
+
 - init: initialize the repo
 - buildContainers: build all container images for the project
 - run: start the kurtosis package
@@ -131,4 +136,10 @@ persistent: false
 xatu_sentry_enabled: false
 global_tolerations: []
 global_node_selectors: {}
+```
+
+# debugging
+To follow errors on a specific service, for example the builder, execute:
+```
+kurtosis service logs -f prof-test-flood el-3-geth-builder-lighthouse --match=error
 ```
