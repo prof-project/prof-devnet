@@ -2,8 +2,20 @@
 The Setup script checks that the kurtosis version, the ethereum-package version, the relay branch, the bundle merger branch and the sequencer branch are correct.
 Successively, it spins up the enclave with the network_params.yaml.
 
+
 ```
 ./setup.sh
+```
+
+Alternatively,
+```
+make init
+```
+copy go-bundle-merger/.env.sample to go-bundle-merger/.env and add your (classic) Github personal access token.
+```
+make build-all-containers
+make run
+make stop
 ```
 
 Kurtosis, and especially the ethereum-package, are fairly volatile, so deviation from the setup script can lead to unexpected behavior.
