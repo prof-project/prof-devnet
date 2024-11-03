@@ -143,7 +143,7 @@ cd ..
 # Run the Project with Kurtosis
 echo -e "${YELLOW}Starting up services using Kurtosis...${NC}"
 cd prof-ethereum-package
-kurtosis run --enclave prof-test-flood ./ --args-file network_params.yaml
+kurtosis run --enclave prof-test-flood-$(USER) ./ --args-file network_params.yaml
 
 # Check Logs (Optional)
 echo "To check the logs for prof mev-relay-api, run:"
@@ -151,7 +151,7 @@ echo "kurtosis service logs prof-test mev-relay-api"
 
 # Cleanup Option
 echo "To stop and clean up the enclave, run:"
-echo "kurtosis enclave rm -f prof-test-flood"
+echo "kurtosis enclave rm -f prof-test-flood-$(USER)"
 
 echo "Setup completed successfully."
 
