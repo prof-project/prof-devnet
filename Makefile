@@ -17,7 +17,7 @@ build-go-prof-relay:
 	$(MAKE) -C go-prof-relay/ docker-image
 
 build-go-prof-sequencer:
-	$(MAKE) -C go-prof-sequencer/ docker-build
+	$(MAKE) -C go-prof-sequencer/ docker-build-noauth
 
 build-prof-flood:
 	$(MAKE) -C prof-flood/ docker-build

@@ -100,7 +100,7 @@ cd ..
 cd go-prof-sequencer
 echo "Building sequencer..."
 make init
-make docker-build
+make docker-build-noauth
 if [ $? -eq 0 ]; then
     echo -e "${GREEN}Sequencer image built successfully${NC}"
 else
