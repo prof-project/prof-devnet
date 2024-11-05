@@ -32,6 +32,12 @@ sudo apt install -y make
 - runScript: execute the scripted version of this package and the preparation
 - stop: stop the kurtosis package
 
+## full build and rerun
+For an easy iterative development, just copy the following line to your terminal and run it, whenever you modified any of the images in use:
+```
+make stop;make build-all-containers; make run
+```
+
 ## The Ethereum Package
 The ethereum-package is adapted from commit hash `beb764fb9a18fcb09cb7d3d9ee48e4826595512d`, and further expanded to include the Prof Relay, Bundle Merger and Sequencer.
 The reason to use a specific commit hash is to have a more stable environment, whereas later versions do not support a stable MEV value chain.
