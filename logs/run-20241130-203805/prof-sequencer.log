@@ -1,0 +1,920 @@
+[GIN] 2024/12/01 - 01:39:32 | 404 |        1.94µs |      172.16.4.4 | GET      "/nonexistent"
+2024/12/01 01:39:32 Cleanup job took 1.88µs
+2024/12/01 01:39:35 Generated new UUID for bundle: e5b6a983-f79b-4326-b0e2-d3ca9b5fbc0c
+2024/12/01 01:39:35 Valid transaction: &{inner:0xc0005a2280 time:{wall:13964269869643727416 ext:7695109471 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b61a0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:39:35 Transaction nonce: 18
+[GIN] 2024/12/01 - 01:39:35 | 202 |     675.124µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:39:35 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=18)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:39:35 Bundle with UUID e5b6a983-f79b-4326-b0e2-d3ca9b5fbc0c received and added to the pool
+2024/12/01 01:39:36 Generated new UUID for bundle: 27f6db71-9e98-4cb5-a972-ab055b681101
+2024/12/01 01:39:36 Valid transaction: &{inner:0xc000352480 time:{wall:13964269870709693511 ext:8687333742 loc:0x12c0420} hash:{_:[] _:{} v:0xc0005022a0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:39:36 Transaction nonce: 19
+2024/12/01 01:39:36 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=19)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:39:36 Bundle with UUID 27f6db71-9e98-4cb5-a972-ab055b681101 received and added to the pool
+[GIN] 2024/12/01 - 01:39:36 | 202 |    1.593793ms |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:39:37 Generated new UUID for bundle: fc071ca4-59f7-40cd-aece-d9fc73323110
+2024/12/01 01:39:37 Valid transaction: &{inner:0xc000352680 time:{wall:13964269871759227821 ext:9663126228 loc:0x12c0420} hash:{_:[] _:{} v:0xc000502340} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:39:37 Transaction nonce: 20
+2024/12/01 01:39:37 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=20)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:39:37 Bundle with UUID fc071ca4-59f7-40cd-aece-d9fc73323110 received and added to the pool
+[GIN] 2024/12/01 - 01:39:37 | 202 |     385.218µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:39:37 Cleanup job took 11.72µs
+2024/12/01 01:39:37 1 bundles sent via gRPC
+2024/12/01 01:39:37 Bundle with UUID e5b6a983-f79b-4326-b0e2-d3ca9b5fbc0c marked for deletion
+2024/12/01 01:39:37 Bundle e5b6a983-f79b-4326-b0e2-d3ca9b5fbc0c processed successfully: Bundle merged successfully
+2024/12/01 01:39:38 Generated new UUID for bundle: f7600291-69f5-4e38-a260-e8bcfbfe3f3f
+2024/12/01 01:39:38 Valid transaction: &{inner:0xc0005a2e00 time:{wall:13964269872842545146 ext:10672701729 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b6160} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:39:38 Transaction nonce: 21
+2024/12/01 01:39:38 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=21)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:39:38 Bundle with UUID f7600291-69f5-4e38-a260-e8bcfbfe3f3f received and added to the pool
+[GIN] 2024/12/01 - 01:39:38 | 202 |     774.826µs |     172.16.4.28 | POST     "/eth_sendBundle"
+[GIN] 2024/12/01 - 01:39:39 | 202 |     327.887µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:39:39 Generated new UUID for bundle: 4a743456-c25e-417f-92ba-143374750110
+2024/12/01 01:39:39 Valid transaction: &{inner:0xc0001c8080 time:{wall:13964269873925075755 ext:11681490514 loc:0x12c0420} hash:{_:[] _:{} v:0xc0004801a0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:39:39 Transaction nonce: 22
+2024/12/01 01:39:39 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=22)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:39:39 Bundle with UUID 4a743456-c25e-417f-92ba-143374750110 received and added to the pool
+2024/12/01 01:39:40 Generated new UUID for bundle: 29bf967c-ee3e-4b08-b9f1-a8cfa039db62
+[GIN] 2024/12/01 - 01:39:40 | 202 |     184.334µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:39:40 Valid transaction: &{inner:0xc000352600 time:{wall:13964269875009006742 ext:12691679677 loc:0x12c0420} hash:{_:[] _:{} v:0xc000502180} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:39:40 Transaction nonce: 23
+2024/12/01 01:39:40 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=23)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:39:40 Bundle with UUID 29bf967c-ee3e-4b08-b9f1-a8cfa039db62 received and added to the pool
+2024/12/01 01:39:41 Generated new UUID for bundle: 29f84486-bcd1-4287-bdf3-5fd610081357
+2024/12/01 01:39:41 Valid transaction: &{inner:0xc000352980 time:{wall:13964269876109309551 ext:13718240662 loc:0x12c0420} hash:{_:[] _:{} v:0xc000502240} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:39:41 Transaction nonce: 24
+[GIN] 2024/12/01 - 01:39:41 | 202 |     128.452µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:39:41 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=24)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:39:41 Bundle with UUID 29f84486-bcd1-4287-bdf3-5fd610081357 received and added to the pool
+2024/12/01 01:39:42 Generated new UUID for bundle: 21937b46-1237-46e1-a93b-e4f779c3ac2c
+2024/12/01 01:39:42 Valid transaction: &{inner:0xc0005a3180 time:{wall:13964269877167833239 ext:14703022526 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b6200} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:39:42 Transaction nonce: 25
+2024/12/01 01:39:42 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=25)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+[GIN] 2024/12/01 - 01:39:42 | 202 |     133.453µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:39:42 Bundle with UUID 21937b46-1237-46e1-a93b-e4f779c3ac2c received and added to the pool
+2024/12/01 01:39:42 Cleanup job took 25.31µs
+2024/12/01 01:39:42 1 bundles sent via gRPC
+2024/12/01 01:39:42 Bundle with UUID 27f6db71-9e98-4cb5-a972-ab055b681101 marked for deletion
+2024/12/01 01:39:42 Bundle 27f6db71-9e98-4cb5-a972-ab055b681101 processed successfully: Bundle merged successfully
+2024/12/01 01:39:43 Generated new UUID for bundle: 0265209a-c8ee-4ac4-8bef-ba722019b9ef
+2024/12/01 01:39:43 Valid transaction: &{inner:0xc0005a3400 time:{wall:13964269878238299157 ext:15699746620 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b62e0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+[GIN] 2024/12/01 - 01:39:43 | 202 |     138.973µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:39:43 Transaction nonce: 26
+2024/12/01 01:39:43 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=26)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:39:43 Bundle with UUID 0265209a-c8ee-4ac4-8bef-ba722019b9ef received and added to the pool
+2024/12/01 01:39:44 Generated new UUID for bundle: ce663bdc-4022-47c6-b7b4-3062a9e02fd5
+2024/12/01 01:39:44 Valid transaction: &{inner:0xc0005a3700 time:{wall:13964269879361286569 ext:16748992208 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b6360} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:39:44 Transaction nonce: 27
+2024/12/01 01:39:44 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=27)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:39:44 Bundle with UUID ce663bdc-4022-47c6-b7b4-3062a9e02fd5 received and added to the pool
+[GIN] 2024/12/01 - 01:39:44 | 202 |     209.874µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:39:45 Generated new UUID for bundle: 3775b93f-20c8-41fd-8940-af79924a7b12
+2024/12/01 01:39:45 Valid transaction: &{inner:0xc0001c8300 time:{wall:13964269880450045087 ext:17764008912 loc:0x12c0420} hash:{_:[] _:{} v:0xc000480220} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:39:45 Transaction nonce: 28
+2024/12/01 01:39:45 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=28)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:39:45 Bundle with UUID 3775b93f-20c8-41fd-8940-af79924a7b12 received and added to the pool
+[GIN] 2024/12/01 - 01:39:45 | 202 |     414.549µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:39:46 Generated new UUID for bundle: ad32e880-4936-4b94-8a44-b4e72c4e0bdf
+[GIN] 2024/12/01 - 01:39:46 | 202 |     280.446µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:39:46 Valid transaction: &{inner:0xc0001c8500 time:{wall:13964269881535348793 ext:18775570794 loc:0x12c0420} hash:{_:[] _:{} v:0xc0004802c0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:39:46 Transaction nonce: 29
+2024/12/01 01:39:46 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=29)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:39:46 Bundle with UUID ad32e880-4936-4b94-8a44-b4e72c4e0bdf received and added to the pool
+2024/12/01 01:39:47 Generated new UUID for bundle: 028786f0-7d05-4c6a-a707-3a609821ae39
+2024/12/01 01:39:47 Valid transaction: &{inner:0xc0001c8700 time:{wall:13964269882626703356 ext:19793183533 loc:0x12c0420} hash:{_:[] _:{} v:0xc000480340} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:39:47 Transaction nonce: 30
+2024/12/01 01:39:47 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=30)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:39:47 Bundle with UUID 028786f0-7d05-4c6a-a707-3a609821ae39 received and added to the pool
+[GIN] 2024/12/01 - 01:39:47 | 202 |      471.94µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:39:47 Cleanup job took 5.47µs
+2024/12/01 01:39:47 1 bundles sent via gRPC
+2024/12/01 01:39:47 Bundle with UUID fc071ca4-59f7-40cd-aece-d9fc73323110 marked for deletion
+2024/12/01 01:39:47 Bundle fc071ca4-59f7-40cd-aece-d9fc73323110 processed successfully: Bundle merged successfully
+2024/12/01 01:39:48 Generated new UUID for bundle: 0d640f78-20c3-4418-9c6f-6f50e61f9467
+2024/12/01 01:39:48 Valid transaction: &{inner:0xc000352b00 time:{wall:13964269883713224828 ext:20805963171 loc:0x12c0420} hash:{_:[] _:{} v:0xc0005022e0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:39:48 Transaction nonce: 31
+2024/12/01 01:39:48 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=31)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:39:48 Bundle with UUID 0d640f78-20c3-4418-9c6f-6f50e61f9467 received and added to the pool
+[GIN] 2024/12/01 - 01:39:48 | 202 |     834.937µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:39:49 Generated new UUID for bundle: ebc644d0-9d43-43f8-83d7-47c744a17e4f
+2024/12/01 01:39:49 Valid transaction: &{inner:0xc000352d00 time:{wall:13964269884739686319 ext:21758682838 loc:0x12c0420} hash:{_:[] _:{} v:0xc0005023a0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:39:49 Transaction nonce: 32
+[GIN] 2024/12/01 - 01:39:49 | 202 |     114.743µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:39:49 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=32)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:39:49 Bundle with UUID ebc644d0-9d43-43f8-83d7-47c744a17e4f received and added to the pool
+2024/12/01 01:39:50 Generated new UUID for bundle: 2e769700-f779-4069-960f-ead849ad7419
+2024/12/01 01:39:50 Valid transaction: &{inner:0xc000352f00 time:{wall:13964269885817619481 ext:22762874176 loc:0x12c0420} hash:{_:[] _:{} v:0xc000502420} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:39:50 Transaction nonce: 33
+[GIN] 2024/12/01 - 01:39:50 | 202 |     147.703µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:39:50 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=33)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:39:50 Bundle with UUID 2e769700-f779-4069-960f-ead849ad7419 received and added to the pool
+2024/12/01 01:39:51 Generated new UUID for bundle: d65e4374-21ce-4fdf-af00-f59d194904be
+2024/12/01 01:39:51 Valid transaction: &{inner:0xc000353100 time:{wall:13964269886898185349 ext:23769698230 loc:0x12c0420} hash:{_:[] _:{} v:0xc0005024a0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:39:51 Transaction nonce: 34
+2024/12/01 01:39:51 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=34)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:39:51 Bundle with UUID d65e4374-21ce-4fdf-af00-f59d194904be received and added to the pool
+[GIN] 2024/12/01 - 01:39:51 | 202 |     162.273µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:39:52 Generated new UUID for bundle: d2e3ec51-33ce-4540-96d9-22e44fe0126a
+2024/12/01 01:39:52 Valid transaction: &{inner:0xc000353300 time:{wall:13964269887976150253 ext:24773921320 loc:0x12c0420} hash:{_:[] _:{} v:0xc000502520} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:39:52 Transaction nonce: 35
+2024/12/01 01:39:52 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=35)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:39:52 Bundle with UUID d2e3ec51-33ce-4540-96d9-22e44fe0126a received and added to the pool
+[GIN] 2024/12/01 - 01:39:52 | 202 |     154.743µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:39:52 Cleanup job took 3.1µs
+2024/12/01 01:39:52 1 bundles sent via gRPC
+2024/12/01 01:39:52 Bundle with UUID f7600291-69f5-4e38-a260-e8bcfbfe3f3f marked for deletion
+2024/12/01 01:39:52 Bundle f7600291-69f5-4e38-a260-e8bcfbfe3f3f processed successfully: Bundle merged successfully
+2024/12/01 01:39:53 Generated new UUID for bundle: c584ea4e-16a5-492b-b114-881756b8c1e0
+2024/12/01 01:39:53 Valid transaction: &{inner:0xc0005a3a00 time:{wall:13964269889052401991 ext:25776431244 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b63e0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:39:53 Transaction nonce: 36
+2024/12/01 01:39:53 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=36)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+[GIN] 2024/12/01 - 01:39:53 | 202 |     192.654µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:39:53 Bundle with UUID c584ea4e-16a5-492b-b114-881756b8c1e0 received and added to the pool
+2024/12/01 01:39:54 Generated new UUID for bundle: 6320e22c-7074-4aae-915f-8186674899be
+2024/12/01 01:39:54 Valid transaction: &{inner:0xc0005a3c00 time:{wall:13964269890130294944 ext:26780582343 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b6460} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:39:54 Transaction nonce: 37
+2024/12/01 01:39:54 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=37)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:39:54 Bundle with UUID 6320e22c-7074-4aae-915f-8186674899be received and added to the pool
+[GIN] 2024/12/01 - 01:39:54 | 202 |     141.673µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:39:55 Generated new UUID for bundle: a7f1bcf8-c696-49b2-8801-fccbf72cad03
+2024/12/01 01:39:55 Valid transaction: &{inner:0xc0005a3e00 time:{wall:13964269891208103824 ext:27784649409 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b64e0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:39:55 Transaction nonce: 38
+[GIN] 2024/12/01 - 01:39:55 | 202 |     190.144µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:39:55 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=38)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:39:55 Bundle with UUID a7f1bcf8-c696-49b2-8801-fccbf72cad03 received and added to the pool
+2024/12/01 01:39:56 Generated new UUID for bundle: 51867754-89a5-4c0d-b2a9-c5440d1759b0
+2024/12/01 01:39:56 Valid transaction: &{inner:0xc0001c8a80 time:{wall:13964269892286511997 ext:28789315748 loc:0x12c0420} hash:{_:[] _:{} v:0xc000480400} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:39:56 Transaction nonce: 39
+2024/12/01 01:39:56 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=39)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:39:56 Bundle with UUID 51867754-89a5-4c0d-b2a9-c5440d1759b0 received and added to the pool
+[GIN] 2024/12/01 - 01:39:56 | 202 |     145.593µs |     172.16.4.28 | POST     "/eth_sendBundle"
+[GIN] 2024/12/01 - 01:39:57 | 202 |     175.734µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:39:57 Generated new UUID for bundle: 009d984b-7509-45c2-b471-fa884d75691a
+2024/12/01 01:39:57 Valid transaction: &{inner:0xc0001c8d80 time:{wall:13964269893365615624 ext:29794677571 loc:0x12c0420} hash:{_:[] _:{} v:0xc000480480} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:39:57 Transaction nonce: 40
+2024/12/01 01:39:57 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=40)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:39:57 Bundle with UUID 009d984b-7509-45c2-b471-fa884d75691a received and added to the pool
+2024/12/01 01:39:57 Cleanup job took 17.451µs
+2024/12/01 01:39:57 1 bundles sent via gRPC
+2024/12/01 01:39:57 Bundle with UUID 4a743456-c25e-417f-92ba-143374750110 marked for deletion
+2024/12/01 01:39:57 Bundle 4a743456-c25e-417f-92ba-143374750110 processed successfully: Bundle merged successfully
+2024/12/01 01:39:58 Generated new UUID for bundle: 206908b5-7fe3-4ae5-b44a-98830e15b645
+2024/12/01 01:39:58 Valid transaction: &{inner:0xc000353600 time:{wall:13964269894445907806 ext:30801227929 loc:0x12c0420} hash:{_:[] _:{} v:0xc0005025c0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:39:58 Transaction nonce: 41
+2024/12/01 01:39:58 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=41)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:39:58 Bundle with UUID 206908b5-7fe3-4ae5-b44a-98830e15b645 received and added to the pool
+[GIN] 2024/12/01 - 01:39:58 | 202 |     214.284µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:39:59 Generated new UUID for bundle: ee4b729d-c8b2-4e69-9fda-5fdbbdd233c9
+2024/12/01 01:39:59 Valid transaction: &{inner:0xc000353800 time:{wall:13964269895523447871 ext:31805026200 loc:0x12c0420} hash:{_:[] _:{} v:0xc000502640} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:39:59 Transaction nonce: 42
+2024/12/01 01:39:59 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=42)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:39:59 Bundle with UUID ee4b729d-c8b2-4e69-9fda-5fdbbdd233c9 received and added to the pool
+[GIN] 2024/12/01 - 01:39:59 | 202 |     225.064µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:00 Generated new UUID for bundle: c238ccd8-74dd-4602-b6fb-4eab132b3416
+2024/12/01 01:40:00 Valid transaction: &{inner:0xc000353a00 time:{wall:13964269896602174541 ext:32810011016 loc:0x12c0420} hash:{_:[] _:{} v:0xc0005026c0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:00 Transaction nonce: 43
+[GIN] 2024/12/01 - 01:40:00 | 202 |     173.854µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:00 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=43)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:00 Bundle with UUID c238ccd8-74dd-4602-b6fb-4eab132b3416 received and added to the pool
+2024/12/01 01:40:01 Generated new UUID for bundle: d050305b-399e-424d-bc19-2d23c08c8b3a
+2024/12/01 01:40:01 Valid transaction: &{inner:0xc000353c00 time:{wall:13964269897685425765 ext:33819520426 loc:0x12c0420} hash:{_:[] _:{} v:0xc000502740} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:01 Transaction nonce: 44
+2024/12/01 01:40:01 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=44)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:01 Bundle with UUID d050305b-399e-424d-bc19-2d23c08c8b3a received and added to the pool
+[GIN] 2024/12/01 - 01:40:01 | 202 |     263.125µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:02 Generated new UUID for bundle: eaa87a82-5e49-4340-ab61-a4bae1da8e0e
+2024/12/01 01:40:02 Valid transaction: &{inner:0xc000353d80 time:{wall:13964269898776830949 ext:34837183756 loc:0x12c0420} hash:{_:[] _:{} v:0xc0005027c0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+[GIN] 2024/12/01 - 01:40:02 | 202 |     407.658µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:02 Transaction nonce: 45
+2024/12/01 01:40:02 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=45)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:02 Bundle with UUID eaa87a82-5e49-4340-ab61-a4bae1da8e0e received and added to the pool
+2024/12/01 01:40:02 Cleanup job took 31.761µs
+2024/12/01 01:40:02 1 bundles sent via gRPC
+2024/12/01 01:40:02 Bundle with UUID 29bf967c-ee3e-4b08-b9f1-a8cfa039db62 marked for deletion
+2024/12/01 01:40:02 Bundle 29bf967c-ee3e-4b08-b9f1-a8cfa039db62 processed successfully: Bundle merged successfully
+2024/12/01 01:40:03 Generated new UUID for bundle: e6c0131d-c032-470a-b544-1403c812083f
+2024/12/01 01:40:03 Valid transaction: &{inner:0xc0001b4200 time:{wall:13964269899873690805 ext:35860301888 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b6560} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+[GIN] 2024/12/01 - 01:40:03 | 202 |     566.202µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:03 Transaction nonce: 46
+2024/12/01 01:40:03 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=46)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:03 Bundle with UUID e6c0131d-c032-470a-b544-1403c812083f received and added to the pool
+2024/12/01 01:40:04 Generated new UUID for bundle: 7dd09e8d-b7a9-41a5-a5a7-f3244b05d56b
+2024/12/01 01:40:04 Valid transaction: &{inner:0xc0001c8f80 time:{wall:13964269900961895423 ext:36874764582 loc:0x12c0420} hash:{_:[] _:{} v:0xc000480560} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:04 Transaction nonce: 47
+2024/12/01 01:40:04 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=47)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:04 Bundle with UUID 7dd09e8d-b7a9-41a5-a5a7-f3244b05d56b received and added to the pool
+[GIN] 2024/12/01 - 01:40:04 | 202 |     590.242µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:05 Generated new UUID for bundle: 588f8a87-e575-4ee4-8fcc-fa32878d3b2c
+2024/12/01 01:40:05 Valid transaction: &{inner:0xc0001c9180 time:{wall:13964269902055006263 ext:37894133608 loc:0x12c0420} hash:{_:[] _:{} v:0xc000480660} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:05 Transaction nonce: 48
+2024/12/01 01:40:05 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=48)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:05 Bundle with UUID 588f8a87-e575-4ee4-8fcc-fa32878d3b2c received and added to the pool
+[GIN] 2024/12/01 - 01:40:05 | 202 |     417.789µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:06 Generated new UUID for bundle: 13c78684-701b-4c6e-9ef2-cda5425b6908
+2024/12/01 01:40:06 Valid transaction: &{inner:0xc0001c9380 time:{wall:13964269903165108116 ext:38930493627 loc:0x12c0420} hash:{_:[] _:{} v:0xc000480700} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:06 Transaction nonce: 49
+2024/12/01 01:40:06 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=49)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:06 Bundle with UUID 13c78684-701b-4c6e-9ef2-cda5425b6908 received and added to the pool
+[GIN] 2024/12/01 - 01:40:06 | 202 |     259.515µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:07 Generated new UUID for bundle: cb4ec81d-23ae-4418-b27e-6295430e285c
+[GIN] 2024/12/01 - 01:40:07 | 202 |     351.898µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:07 Valid transaction: &{inner:0xc0001c9580 time:{wall:13964269904210410010 ext:39902053717 loc:0x12c0420} hash:{_:[] _:{} v:0xc0004807a0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:07 Transaction nonce: 50
+2024/12/01 01:40:07 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=50)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:07 Bundle with UUID cb4ec81d-23ae-4418-b27e-6295430e285c received and added to the pool
+2024/12/01 01:40:07 Cleanup job took 17.13µs
+2024/12/01 01:40:07 1 bundles sent via gRPC
+2024/12/01 01:40:07 Bundle with UUID 29f84486-bcd1-4287-bdf3-5fd610081357 marked for deletion
+2024/12/01 01:40:07 Bundle 29f84486-bcd1-4287-bdf3-5fd610081357 processed successfully: Bundle merged successfully
+2024/12/01 01:40:08 Generated new UUID for bundle: 77fe65cb-d365-429d-8c09-77fc6be1c2b0
+2024/12/01 01:40:08 Valid transaction: &{inner:0xc0001b4480 time:{wall:13964269905284000412 ext:40901902285 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b65e0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:08 Transaction nonce: 51
+2024/12/01 01:40:08 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=51)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+[GIN] 2024/12/01 - 01:40:08 | 202 |     644.723µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:08 Bundle with UUID 77fe65cb-d365-429d-8c09-77fc6be1c2b0 received and added to the pool
+2024/12/01 01:40:09 Generated new UUID for bundle: 3d57746e-b017-47fc-8301-759065b11e8c
+2024/12/01 01:40:09 Valid transaction: &{inner:0xc0001b4680 time:{wall:13964269906363630871 ext:41907790920 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b6660} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:09 Transaction nonce: 52
+[GIN] 2024/12/01 - 01:40:09 | 202 |     165.853µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:09 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=52)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:09 Bundle with UUID 3d57746e-b017-47fc-8301-759065b11e8c received and added to the pool
+2024/12/01 01:40:10 Generated new UUID for bundle: 78ba66ba-6418-454f-9615-e51656d81cec
+2024/12/01 01:40:10 Valid transaction: &{inner:0xc0001c9800 time:{wall:13964269907514979323 ext:42985397538 loc:0x12c0420} hash:{_:[] _:{} v:0xc000480820} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:10 Transaction nonce: 53
+2024/12/01 01:40:10 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=53)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:10 Bundle with UUID 78ba66ba-6418-454f-9615-e51656d81cec received and added to the pool
+[GIN] 2024/12/01 - 01:40:10 | 202 |     269.455µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:11 Generated new UUID for bundle: 9c4284e7-5177-4811-8035-944e73c7a299
+2024/12/01 01:40:11 Valid transaction: &{inner:0xc0001c9b00 time:{wall:13964269908588066175 ext:43984742566 loc:0x12c0420} hash:{_:[] _:{} v:0xc0004808a0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:11 Transaction nonce: 54
+2024/12/01 01:40:11 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=54)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:11 Bundle with UUID 9c4284e7-5177-4811-8035-944e73c7a299 received and added to the pool
+[GIN] 2024/12/01 - 01:40:11 | 202 |     256.896µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:12 Generated new UUID for bundle: b24ed355-c19b-4db3-8cc5-852f49259bb1
+2024/12/01 01:40:12 Valid transaction: &{inner:0xc0001c9d00 time:{wall:13964269909675569968 ext:44998504545 loc:0x12c0420} hash:{_:[] _:{} v:0xc000480920} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:12 Transaction nonce: 55
+[GIN] 2024/12/01 - 01:40:12 | 202 |     349.927µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:12 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=55)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:12 Bundle with UUID b24ed355-c19b-4db3-8cc5-852f49259bb1 received and added to the pool
+2024/12/01 01:40:12 Cleanup job took 18.52µs
+2024/12/01 01:40:12 1 bundles sent via gRPC
+2024/12/01 01:40:12 Bundle with UUID 21937b46-1237-46e1-a93b-e4f779c3ac2c marked for deletion
+2024/12/01 01:40:12 Bundle 21937b46-1237-46e1-a93b-e4f779c3ac2c processed successfully: Bundle merged successfully
+2024/12/01 01:40:13 Generated new UUID for bundle: 91141b49-1951-4d39-b12a-4e2846142c16
+2024/12/01 01:40:13 Valid transaction: &{inner:0xc0001c9f00 time:{wall:13964269910777568612 ext:46026761355 loc:0x12c0420} hash:{_:[] _:{} v:0xc0004809c0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:13 Transaction nonce: 56
+2024/12/01 01:40:13 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=56)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+[GIN] 2024/12/01 - 01:40:13 | 202 |     585.902µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:13 Bundle with UUID 91141b49-1951-4d39-b12a-4e2846142c16 received and added to the pool
+2024/12/01 01:40:14 Generated new UUID for bundle: 136701ed-d574-4b14-9b7f-744e722d1861
+2024/12/01 01:40:14 Valid transaction: &{inner:0xc0002ac180 time:{wall:13964269911830188949 ext:47005639868 loc:0x12c0420} hash:{_:[] _:{} v:0xc000480a40} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:14 Transaction nonce: 57
+2024/12/01 01:40:14 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=57)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:14 Bundle with UUID 136701ed-d574-4b14-9b7f-744e722d1861 received and added to the pool
+[GIN] 2024/12/01 - 01:40:14 | 202 |     170.734µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:16 Generated new UUID for bundle: fb8c9da7-9d08-48e3-8161-ae204b361b38
+2024/12/01 01:40:16 Valid transaction: &{inner:0xc0001b4880 time:{wall:13964269913000385842 ext:48028353113 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b66e0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:16 Transaction nonce: 58
+[GIN] 2024/12/01 - 01:40:16 | 202 |     274.786µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:16 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=58)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:16 Bundle with UUID fb8c9da7-9d08-48e3-8161-ae204b361b38 received and added to the pool
+2024/12/01 01:40:17 Generated new UUID for bundle: 7b7665e8-e01a-4c1d-8530-8a321f950874
+2024/12/01 01:40:17 Valid transaction: &{inner:0xc0001b4a80 time:{wall:13964269914099828974 ext:49054054431 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b6760} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:17 Transaction nonce: 59
+2024/12/01 01:40:17 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=59)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:17 Bundle with UUID 7b7665e8-e01a-4c1d-8530-8a321f950874 received and added to the pool
+[GIN] 2024/12/01 - 01:40:17 | 202 |     285.516µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:17 Cleanup job took 55.472µs
+2024/12/01 01:40:17 1 bundles sent via gRPC
+2024/12/01 01:40:18 Bundle with UUID 0265209a-c8ee-4ac4-8bef-ba722019b9ef marked for deletion
+2024/12/01 01:40:18 Bundle 0265209a-c8ee-4ac4-8bef-ba722019b9ef processed successfully: Bundle merged successfully
+2024/12/01 01:40:18 Generated new UUID for bundle: 73c9d6f3-b535-47ed-bfb7-de473a5746fd
+2024/12/01 01:40:18 Valid transaction: &{inner:0xc0002ac400 time:{wall:13964269915153106963 ext:50033590586 loc:0x12c0420} hash:{_:[] _:{} v:0xc000480ae0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:18 Transaction nonce: 60
+2024/12/01 01:40:18 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=60)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:18 Bundle with UUID 73c9d6f3-b535-47ed-bfb7-de473a5746fd received and added to the pool
+[GIN] 2024/12/01 - 01:40:18 | 202 |     788.076µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:19 Generated new UUID for bundle: 6eba8831-0263-4442-a90c-8950666a5e25
+[GIN] 2024/12/01 - 01:40:19 | 202 |       480.6µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:19 Valid transaction: &{inner:0xc0001b4d00 time:{wall:13964269916249377199 ext:51056118998 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b67e0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:19 Transaction nonce: 61
+2024/12/01 01:40:19 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=61)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:19 Bundle with UUID 6eba8831-0263-4442-a90c-8950666a5e25 received and added to the pool
+2024/12/01 01:40:20 Generated new UUID for bundle: 08c18d4d-174e-4dfa-9a6a-588e99e242b6
+2024/12/01 01:40:20 Valid transaction: &{inner:0xc000550100 time:{wall:13964269917333964040 ext:52066964025 loc:0x12c0420} hash:{_:[] _:{} v:0xc000502880} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:20 Transaction nonce: 62
+[GIN] 2024/12/01 - 01:40:20 | 202 |     649.674µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:20 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=62)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:20 Bundle with UUID 08c18d4d-174e-4dfa-9a6a-588e99e242b6 received and added to the pool
+2024/12/01 01:40:21 Generated new UUID for bundle: bee1d44a-fd41-4f2e-aa38-fdee206cc67e
+2024/12/01 01:40:21 Valid transaction: &{inner:0xc0001b4f80 time:{wall:13964269918417744696 ext:53077002847 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b6860} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:21 Transaction nonce: 63
+2024/12/01 01:40:21 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=63)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:21 Bundle with UUID bee1d44a-fd41-4f2e-aa38-fdee206cc67e received and added to the pool
+[GIN] 2024/12/01 - 01:40:21 | 202 |     159.994µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:22 Generated new UUID for bundle: 993e28e2-b1ca-4d4d-9161-49b6ac8b0a12
+2024/12/01 01:40:22 Valid transaction: &{inner:0xc0001b5180 time:{wall:13964269919496472226 ext:54081988633 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b68e0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:22 Transaction nonce: 64
+2024/12/01 01:40:22 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=64)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:22 Bundle with UUID 993e28e2-b1ca-4d4d-9161-49b6ac8b0a12 received and added to the pool
+[GIN] 2024/12/01 - 01:40:22 | 202 |     661.234µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:22 Cleanup job took 31.041µs
+2024/12/01 01:40:23 1 bundles sent via gRPC
+2024/12/01 01:40:23 Bundle with UUID ce663bdc-4022-47c6-b7b4-3062a9e02fd5 marked for deletion
+2024/12/01 01:40:23 Bundle ce663bdc-4022-47c6-b7b4-3062a9e02fd5 processed successfully: Bundle merged successfully
+2024/12/01 01:40:23 Generated new UUID for bundle: b3987697-a51c-4919-a89b-e83f664dbf7b
+2024/12/01 01:40:23 Valid transaction: &{inner:0xc0002ac600 time:{wall:13964269920608520790 ext:55120295293 loc:0x12c0420} hash:{_:[] _:{} v:0xc000480b60} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:23 Transaction nonce: 65
+2024/12/01 01:40:23 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=65)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:23 Bundle with UUID b3987697-a51c-4919-a89b-e83f664dbf7b received and added to the pool
+[GIN] 2024/12/01 - 01:40:23 | 202 |     408.368µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:24 Generated new UUID for bundle: cb5936b1-522d-4290-9280-ec3fb5b5d8e3
+2024/12/01 01:40:24 Valid transaction: &{inner:0xc0001b5400 time:{wall:13964269921732738217 ext:56170770896 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b6960} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:24 Transaction nonce: 66
+2024/12/01 01:40:24 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=66)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:24 Bundle with UUID cb5936b1-522d-4290-9280-ec3fb5b5d8e3 received and added to the pool
+[GIN] 2024/12/01 - 01:40:24 | 202 |     713.385µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:25 Generated new UUID for bundle: ef57575f-ccc8-4891-9142-f6d3cf66ee06
+2024/12/01 01:40:25 Valid transaction: &{inner:0xc0001b5600 time:{wall:13964269922775296435 ext:57139587290 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b69e0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:25 Transaction nonce: 67
+[GIN] 2024/12/01 - 01:40:25 | 202 |     306.827µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:25 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=67)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:25 Bundle with UUID ef57575f-ccc8-4891-9142-f6d3cf66ee06 received and added to the pool
+2024/12/01 01:40:26 Generated new UUID for bundle: 390aeff9-3424-4d65-b2a0-5498fbd466f3
+2024/12/01 01:40:26 Valid transaction: &{inner:0xc0002ac780 time:{wall:13964269923858815734 ext:58149364765 loc:0x12c0420} hash:{_:[] _:{} v:0xc000480be0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:26 Transaction nonce: 68
+2024/12/01 01:40:26 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=68)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:26 Bundle with UUID 390aeff9-3424-4d65-b2a0-5498fbd466f3 received and added to the pool
+[GIN] 2024/12/01 - 01:40:26 | 202 |     710.925µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:27 Generated new UUID for bundle: a2431e72-70e7-4baa-9184-88c83601c8b7
+2024/12/01 01:40:27 Valid transaction: &{inner:0xc000550300 time:{wall:13964269924942596888 ext:59159404095 loc:0x12c0420} hash:{_:[] _:{} v:0xc000502920} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:27 Transaction nonce: 69
+2024/12/01 01:40:27 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=69)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:27 Bundle with UUID a2431e72-70e7-4baa-9184-88c83601c8b7 received and added to the pool
+[GIN] 2024/12/01 - 01:40:27 | 202 |      974.37µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:27 Cleanup job took 242.786µs
+2024/12/01 01:40:28 1 bundles sent via gRPC
+2024/12/01 01:40:28 Bundle with UUID 3775b93f-20c8-41fd-8940-af79924a7b12 marked for deletion
+2024/12/01 01:40:28 Bundle 3775b93f-20c8-41fd-8940-af79924a7b12 processed successfully: Bundle merged successfully
+2024/12/01 01:40:28 Generated new UUID for bundle: 30a799c1-c6de-44ff-88e9-e1828a104016
+2024/12/01 01:40:28 Valid transaction: &{inner:0xc0001b5800 time:{wall:13964269926020651035 ext:60163716418 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b6a80} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+[GIN] 2024/12/01 - 01:40:28 | 202 |     541.761µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:28 Transaction nonce: 70
+2024/12/01 01:40:28 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=70)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:28 Bundle with UUID 30a799c1-c6de-44ff-88e9-e1828a104016 received and added to the pool
+[GIN] 2024/12/01 - 01:40:29 | 202 |     540.411µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:29 Generated new UUID for bundle: b1b69387-0766-4637-8199-957ea696d2be
+2024/12/01 01:40:29 Valid transaction: &{inner:0xc000550680 time:{wall:13964269927109459555 ext:61178783114 loc:0x12c0420} hash:{_:[] _:{} v:0xc0005029a0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:29 Transaction nonce: 71
+2024/12/01 01:40:29 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=71)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:29 Bundle with UUID b1b69387-0766-4637-8199-957ea696d2be received and added to the pool
+2024/12/01 01:40:30 Generated new UUID for bundle: 42a2e668-50d3-441e-ba41-91eddffe7037
+[GIN] 2024/12/01 - 01:40:30 | 202 |     310.266µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:30 Valid transaction: &{inner:0xc000550880 time:{wall:13964269928176318538 ext:62171900273 loc:0x12c0420} hash:{_:[] _:{} v:0xc000502a20} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:30 Transaction nonce: 72
+2024/12/01 01:40:30 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=72)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:30 Bundle with UUID 42a2e668-50d3-441e-ba41-91eddffe7037 received and added to the pool
+2024/12/01 01:40:31 Generated new UUID for bundle: 15bb44be-706d-4360-9faf-474e9cef7ca2
+2024/12/01 01:40:31 Valid transaction: &{inner:0xc000550a80 time:{wall:13964269929257157712 ext:63178997623 loc:0x12c0420} hash:{_:[] _:{} v:0xc000502aa0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:31 Transaction nonce: 73
+2024/12/01 01:40:31 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=73)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:31 Bundle with UUID 15bb44be-706d-4360-9faf-474e9cef7ca2 received and added to the pool
+[GIN] 2024/12/01 - 01:40:31 | 202 |     314.506µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:32 Generated new UUID for bundle: 61bbc888-fe38-4a00-8888-16aabc076341
+2024/12/01 01:40:32 Valid transaction: &{inner:0xc000550c80 time:{wall:13964269930336274390 ext:64184372477 loc:0x12c0420} hash:{_:[] _:{} v:0xc000502b20} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:32 Transaction nonce: 74
+2024/12/01 01:40:32 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=74)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+[GIN] 2024/12/01 - 01:40:32 | 202 |     188.434µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:32 Bundle with UUID 61bbc888-fe38-4a00-8888-16aabc076341 received and added to the pool
+2024/12/01 01:40:32 Cleanup job took 62.471µs
+2024/12/01 01:40:33 1 bundles sent via gRPC
+2024/12/01 01:40:33 Bundle with UUID ad32e880-4936-4b94-8a44-b4e72c4e0bdf marked for deletion
+2024/12/01 01:40:33 Bundle ad32e880-4936-4b94-8a44-b4e72c4e0bdf processed successfully: Bundle merged successfully
+2024/12/01 01:40:33 Generated new UUID for bundle: 1b8dce95-8eb3-4b8a-acda-3bb99ede7cfc
+2024/12/01 01:40:33 Valid transaction: &{inner:0xc0001b5a80 time:{wall:13964269931455437372 ext:65229793655 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b6b20} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:33 Transaction nonce: 75
+2024/12/01 01:40:33 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=75)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:33 Bundle with UUID 1b8dce95-8eb3-4b8a-acda-3bb99ede7cfc received and added to the pool
+[GIN] 2024/12/01 - 01:40:33 | 202 |       960.1µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:34 Generated new UUID for bundle: 474af69f-755e-4386-933b-40a3452b4fda
+2024/12/01 01:40:34 Valid transaction: &{inner:0xc000550e00 time:{wall:13964269932519357175 ext:66219971614 loc:0x12c0420} hash:{_:[] _:{} v:0xc000502ba0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:34 Transaction nonce: 76
+2024/12/01 01:40:34 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=76)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:34 Bundle with UUID 474af69f-755e-4386-933b-40a3452b4fda received and added to the pool
+[GIN] 2024/12/01 - 01:40:34 | 202 |     701.395µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:35 Generated new UUID for bundle: d8a03cf4-b08f-40db-8949-05b0bb7953eb
+2024/12/01 01:40:35 Valid transaction: &{inner:0xc0001b5c80 time:{wall:13964269933639215052 ext:67266087727 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b6ba0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:35 Transaction nonce: 77
+2024/12/01 01:40:35 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=77)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+[GIN] 2024/12/01 - 01:40:35 | 202 |     318.576µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:35 Bundle with UUID d8a03cf4-b08f-40db-8949-05b0bb7953eb received and added to the pool
+2024/12/01 01:40:36 Generated new UUID for bundle: 6db86de8-056a-47b8-b0d0-b6f04b6efd69
+2024/12/01 01:40:36 Valid transaction: &{inner:0xc0001b5e80 time:{wall:13964269934700715243 ext:68253846034 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b6c20} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:36 Transaction nonce: 78
+2024/12/01 01:40:36 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=78)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:36 Bundle with UUID 6db86de8-056a-47b8-b0d0-b6f04b6efd69 received and added to the pool
+[GIN] 2024/12/01 - 01:40:36 | 202 |     705.724µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:37 Generated new UUID for bundle: d2d6006f-30c3-4a9f-ad16-f69ea6c9eef4
+2024/12/01 01:40:37 Valid transaction: &{inner:0xc0004cc100 time:{wall:13964269935739851348 ext:69219240325 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b6ca0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:37 Transaction nonce: 79
+2024/12/01 01:40:37 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=79)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:37 Bundle with UUID d2d6006f-30c3-4a9f-ad16-f69ea6c9eef4 received and added to the pool
+[GIN] 2024/12/01 - 01:40:37 | 202 |     162.484µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:37 Cleanup job took 37.221µs
+2024/12/01 01:40:38 1 bundles sent via gRPC
+2024/12/01 01:40:38 Bundle with UUID 028786f0-7d05-4c6a-a707-3a609821ae39 marked for deletion
+2024/12/01 01:40:38 Bundle 028786f0-7d05-4c6a-a707-3a609821ae39 processed successfully: Bundle merged successfully
+2024/12/01 01:40:38 Generated new UUID for bundle: 6df710db-c2d1-42e0-953e-0f73c5876f8a
+[GIN] 2024/12/01 - 01:40:38 | 202 |      439.45µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:38 Valid transaction: &{inner:0xc0004cc300 time:{wall:13964269936884706456 ext:70290353619 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b6d40} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:38 Transaction nonce: 80
+2024/12/01 01:40:38 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=80)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:38 Bundle with UUID 6df710db-c2d1-42e0-953e-0f73c5876f8a received and added to the pool
+[GIN] 2024/12/01 - 01:40:39 | 202 |     387.788µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:39 Generated new UUID for bundle: 1f3ea641-ef9e-4ff0-9724-8c73387b665c
+2024/12/01 01:40:39 Valid transaction: &{inner:0xc0002aca80 time:{wall:13964269937970921783 ext:71302827102 loc:0x12c0420} hash:{_:[] _:{} v:0xc000480c60} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:39 Transaction nonce: 81
+2024/12/01 01:40:39 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=81)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:39 Bundle with UUID 1f3ea641-ef9e-4ff0-9724-8c73387b665c received and added to the pool
+2024/12/01 01:40:40 Generated new UUID for bundle: 9ab04bf3-252d-40b3-883c-866a05e4f275
+2024/12/01 01:40:40 Valid transaction: &{inner:0xc000551000 time:{wall:13964269939030143675 ext:72288307170 loc:0x12c0420} hash:{_:[] _:{} v:0xc000502c20} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:40 Transaction nonce: 82
+2024/12/01 01:40:40 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=82)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:40 Bundle with UUID 9ab04bf3-252d-40b3-883c-866a05e4f275 received and added to the pool
+[GIN] 2024/12/01 - 01:40:40 | 202 |     439.779µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:41 Generated new UUID for bundle: d38a93f2-4457-4104-900d-4959bb2f314f
+2024/12/01 01:40:41 Valid transaction: &{inner:0xc000551180 time:{wall:13964269940128390542 ext:73312812213 loc:0x12c0420} hash:{_:[] _:{} v:0xc000502ca0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:41 Transaction nonce: 83
+2024/12/01 01:40:41 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=83)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:41 Bundle with UUID d38a93f2-4457-4104-900d-4959bb2f314f received and added to the pool
+[GIN] 2024/12/01 - 01:40:41 | 202 |     274.656µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:42 Generated new UUID for bundle: 7f38cc19-6f23-430f-9bf4-44f1f7e8993e
+2024/12/01 01:40:42 Valid transaction: &{inner:0xc0004cc580 time:{wall:13964269941201921985 ext:74312601832 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b6dc0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+[GIN] 2024/12/01 - 01:40:42 | 202 |     154.393µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:42 Transaction nonce: 84
+2024/12/01 01:40:42 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=84)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:42 Bundle with UUID 7f38cc19-6f23-430f-9bf4-44f1f7e8993e received and added to the pool
+2024/12/01 01:40:42 Cleanup job took 181.684µs
+2024/12/01 01:40:43 1 bundles sent via gRPC
+2024/12/01 01:40:43 Bundle with UUID 0d640f78-20c3-4418-9c6f-6f50e61f9467 marked for deletion
+2024/12/01 01:40:43 Bundle 0d640f78-20c3-4418-9c6f-6f50e61f9467 processed successfully: Bundle merged successfully
+2024/12/01 01:40:43 Generated new UUID for bundle: e4e941d3-9958-40bc-a639-122ff6ae6f4c
+2024/12/01 01:40:43 Valid transaction: &{inner:0xc0002acd00 time:{wall:13964269942293227016 ext:75330165049 loc:0x12c0420} hash:{_:[] _:{} v:0xc000480d00} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:43 Transaction nonce: 85
+2024/12/01 01:40:43 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=85)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:43 Bundle with UUID e4e941d3-9958-40bc-a639-122ff6ae6f4c received and added to the pool
+[GIN] 2024/12/01 - 01:40:43 | 202 |     924.769µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:44 Generated new UUID for bundle: c9a4e361-e452-47db-b8c0-2fc11e569167
+2024/12/01 01:40:44 Valid transaction: &{inner:0xc0004cc800 time:{wall:13964269943453811993 ext:76417008192 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b6e40} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:44 Transaction nonce: 86
+2024/12/01 01:40:44 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=86)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+[GIN] 2024/12/01 - 01:40:44 | 202 |     276.466µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:44 Bundle with UUID c9a4e361-e452-47db-b8c0-2fc11e569167 received and added to the pool
+2024/12/01 01:40:45 Generated new UUID for bundle: f411bcbc-4a8f-4f0b-8d2f-1269586fa9af
+2024/12/01 01:40:45 Valid transaction: &{inner:0xc0004cca00 time:{wall:13964269944526813183 ext:77416267558 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b6ec0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:45 Transaction nonce: 87
+2024/12/01 01:40:45 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=87)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:45 Bundle with UUID f411bcbc-4a8f-4f0b-8d2f-1269586fa9af received and added to the pool
+[GIN] 2024/12/01 - 01:40:45 | 202 |     258.345µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:46 Generated new UUID for bundle: 34db1653-a5a1-4f47-9cf6-405a28805a03
+2024/12/01 01:40:46 Valid transaction: &{inner:0xc0004ccb80 time:{wall:13964269945624989399 ext:78440701950 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b6f40} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:46 Transaction nonce: 88
+2024/12/01 01:40:46 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=88)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:46 Bundle with UUID 34db1653-a5a1-4f47-9cf6-405a28805a03 received and added to the pool
+[GIN] 2024/12/01 - 01:40:46 | 202 |     596.502µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:47 Generated new UUID for bundle: a3ebf730-1581-4fa1-a012-f760c48a4e37
+2024/12/01 01:40:47 Valid transaction: &{inner:0xc0002acf00 time:{wall:13964269946644590567 ext:79386561314 loc:0x12c0420} hash:{_:[] _:{} v:0xc000480d80} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:47 Transaction nonce: 89
+2024/12/01 01:40:47 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=89)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:47 Bundle with UUID a3ebf730-1581-4fa1-a012-f760c48a4e37 received and added to the pool
+[GIN] 2024/12/01 - 01:40:47 | 202 |     180.634µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:47 Cleanup job took 41.08µs
+2024/12/01 01:40:48 1 bundles sent via gRPC
+2024/12/01 01:40:48 Bundle with UUID ebc644d0-9d43-43f8-83d7-47c744a17e4f marked for deletion
+2024/12/01 01:40:48 Bundle ebc644d0-9d43-43f8-83d7-47c744a17e4f processed successfully: Bundle merged successfully
+2024/12/01 01:40:48 Generated new UUID for bundle: 4cee7f59-8344-4dd6-a510-023439cc44f4
+2024/12/01 01:40:48 Valid transaction: &{inner:0xc0004ccd80 time:{wall:13964269947786127137 ext:80454356060 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b6fe0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:48 Transaction nonce: 90
+2024/12/01 01:40:48 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=90)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+[GIN] 2024/12/01 - 01:40:48 | 202 |     815.607µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:48 Bundle with UUID 4cee7f59-8344-4dd6-a510-023439cc44f4 received and added to the pool
+2024/12/01 01:40:49 Generated new UUID for bundle: 07ae1c20-a160-46d3-957c-e215c0dd346b
+2024/12/01 01:40:49 Valid transaction: &{inner:0xc000551500 time:{wall:13964269948850839335 ext:81445326414 loc:0x12c0420} hash:{_:[] _:{} v:0xc000502d20} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:49 Transaction nonce: 91
+2024/12/01 01:40:49 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=91)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:49 Bundle with UUID 07ae1c20-a160-46d3-957c-e215c0dd346b received and added to the pool
+[GIN] 2024/12/01 - 01:40:49 | 202 |     341.377µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:50 Generated new UUID for bundle: cd02267d-100d-4ef1-93cd-162116428c74
+2024/12/01 01:40:50 Valid transaction: &{inner:0xc0004ccf00 time:{wall:13964269949950870279 ext:82471615534 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b7060} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:50 Transaction nonce: 92
+2024/12/01 01:40:50 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=92)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:50 Bundle with UUID cd02267d-100d-4ef1-93cd-162116428c74 received and added to the pool
+[GIN] 2024/12/01 - 01:40:50 | 202 |     342.557µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:51 Generated new UUID for bundle: adf229e3-3d39-4d4d-9af7-b5baab76eb46
+2024/12/01 01:40:51 Valid transaction: &{inner:0xc0004cd100 time:{wall:13964269951039636549 ext:83486639990 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b70e0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:51 Transaction nonce: 93
+2024/12/01 01:40:51 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=93)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+[GIN] 2024/12/01 - 01:40:51 | 202 |    1.186065ms |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:51 Bundle with UUID adf229e3-3d39-4d4d-9af7-b5baab76eb46 received and added to the pool
+2024/12/01 01:40:52 Generated new UUID for bundle: 0c8e447e-b3c0-400f-aba1-40a495dc16ae
+2024/12/01 01:40:52 Valid transaction: &{inner:0xc0004cd300 time:{wall:13964269952099800512 ext:84473062119 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b7160} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:52 Transaction nonce: 94
+[GIN] 2024/12/01 - 01:40:52 | 202 |     151.703µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:52 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=94)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:52 Bundle with UUID 0c8e447e-b3c0-400f-aba1-40a495dc16ae received and added to the pool
+2024/12/01 01:40:52 Cleanup job took 50.981µs
+2024/12/01 01:40:53 1 bundles sent via gRPC
+2024/12/01 01:40:53 Bundle with UUID 2e769700-f779-4069-960f-ead849ad7419 marked for deletion
+2024/12/01 01:40:53 Bundle 2e769700-f779-4069-960f-ead849ad7419 processed successfully: Bundle merged successfully
+2024/12/01 01:40:53 Generated new UUID for bundle: 64db5ca7-43d8-4a56-86be-63a95f54e61c
+2024/12/01 01:40:53 Valid transaction: &{inner:0xc000551780 time:{wall:13964269953219375433 ext:85518895216 loc:0x12c0420} hash:{_:[] _:{} v:0xc000502da0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:53 Transaction nonce: 95
+2024/12/01 01:40:53 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=95)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:53 Bundle with UUID 64db5ca7-43d8-4a56-86be-63a95f54e61c received and added to the pool
+[GIN] 2024/12/01 - 01:40:53 | 202 |    1.026741ms |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:54 Generated new UUID for bundle: 7c8c2cf0-7479-4519-a16d-34e447726dd6
+2024/12/01 01:40:54 Valid transaction: &{inner:0xc000551980 time:{wall:13964269954303293152 ext:86529071121 loc:0x12c0420} hash:{_:[] _:{} v:0xc000502e20} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+[GIN] 2024/12/01 - 01:40:54 | 202 |     773.446µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:54 Transaction nonce: 96
+2024/12/01 01:40:54 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=96)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:54 Bundle with UUID 7c8c2cf0-7479-4519-a16d-34e447726dd6 received and added to the pool
+2024/12/01 01:40:55 Generated new UUID for bundle: 5392edd3-8e9f-48b6-8055-142ebc1b465a
+2024/12/01 01:40:55 Valid transaction: &{inner:0xc000551b80 time:{wall:13964269955410145598 ext:87562181733 loc:0x12c0420} hash:{_:[] _:{} v:0xc000502ea0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:55 Transaction nonce: 97
+2024/12/01 01:40:55 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=97)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:55 Bundle with UUID 5392edd3-8e9f-48b6-8055-142ebc1b465a received and added to the pool
+[GIN] 2024/12/01 - 01:40:55 | 202 |     656.203µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:56 Generated new UUID for bundle: 13f9d251-784a-4f45-9880-987878cd462a
+[GIN] 2024/12/01 - 01:40:56 | 202 |    1.283936ms |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:56 Valid transaction: &{inner:0xc000551d80 time:{wall:13964269956479185856 ext:88557480177 loc:0x12c0420} hash:{_:[] _:{} v:0xc000502f20} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:56 Transaction nonce: 98
+2024/12/01 01:40:56 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=98)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:56 Bundle with UUID 13f9d251-784a-4f45-9880-987878cd462a received and added to the pool
+2024/12/01 01:40:57 Generated new UUID for bundle: d7e655a0-d2d4-42fb-9684-6dfccbbce2b6
+2024/12/01 01:40:57 Valid transaction: &{inner:0xc00057c000 time:{wall:13964269957523398619 ext:89527951106 loc:0x12c0420} hash:{_:[] _:{} v:0xc000502fa0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:57 Transaction nonce: 99
+2024/12/01 01:40:57 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=99)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:57 Bundle with UUID d7e655a0-d2d4-42fb-9684-6dfccbbce2b6 received and added to the pool
+[GIN] 2024/12/01 - 01:40:57 | 202 |     153.843µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:57 Cleanup job took 9.64µs
+2024/12/01 01:40:58 1 bundles sent via gRPC
+2024/12/01 01:40:58 Bundle with UUID d65e4374-21ce-4fdf-af00-f59d194904be marked for deletion
+2024/12/01 01:40:58 Bundle d65e4374-21ce-4fdf-af00-f59d194904be processed successfully: Bundle merged successfully
+2024/12/01 01:40:58 Generated new UUID for bundle: 05f3894a-fe79-41a6-a5f6-37e5d68dfbfb
+2024/12/01 01:40:58 Valid transaction: &{inner:0xc0004cd580 time:{wall:13964269958646557084 ext:90577367747 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b7200} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:58 Transaction nonce: 100
+2024/12/01 01:40:58 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=100)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:58 Bundle with UUID 05f3894a-fe79-41a6-a5f6-37e5d68dfbfb received and added to the pool
+[GIN] 2024/12/01 - 01:40:58 | 202 |     681.344µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:59 Generated new UUID for bundle: c053d8e9-cb5c-4aa2-a3f9-fb359b03aa76
+[GIN] 2024/12/01 - 01:40:59 | 202 |     322.706µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:40:59 Valid transaction: &{inner:0xc00057c200 time:{wall:13964269959722914185 ext:91579983024 loc:0x12c0420} hash:{_:[] _:{} v:0xc000503020} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:40:59 Transaction nonce: 101
+2024/12/01 01:40:59 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=101)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:40:59 Bundle with UUID c053d8e9-cb5c-4aa2-a3f9-fb359b03aa76 received and added to the pool
+2024/12/01 01:41:00 Generated new UUID for bundle: 0ca164bf-2f95-41b1-96f8-389dfc437d65
+2024/12/01 01:41:00 Valid transaction: &{inner:0xc00057c400 time:{wall:13964269960815178568 ext:92598505583 loc:0x12c0420} hash:{_:[] _:{} v:0xc0005030a0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:00 Transaction nonce: 102
+2024/12/01 01:41:00 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=102)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:00 Bundle with UUID 0ca164bf-2f95-41b1-96f8-389dfc437d65 received and added to the pool
+[GIN] 2024/12/01 - 01:41:00 | 202 |     326.556µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:01 Generated new UUID for bundle: f0d0bf2e-5715-4b88-adc1-5cdf55b853be
+2024/12/01 01:41:01 Valid transaction: &{inner:0xc00057c600 time:{wall:13964269961904234553 ext:93613819744 loc:0x12c0420} hash:{_:[] _:{} v:0xc000503120} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:01 Transaction nonce: 103
+2024/12/01 01:41:01 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=103)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:01 Bundle with UUID f0d0bf2e-5715-4b88-adc1-5cdf55b853be received and added to the pool
+[GIN] 2024/12/01 - 01:41:01 | 202 |      470.45µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:02 Generated new UUID for bundle: 994fdafe-c944-414b-865a-8e40279b2b0f
+2024/12/01 01:41:02 Valid transaction: &{inner:0xc00057c780 time:{wall:13964269962971730700 ext:94607574067 loc:0x12c0420} hash:{_:[] _:{} v:0xc0005031a0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+[GIN] 2024/12/01 - 01:41:02 | 202 |     679.275µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:02 Transaction nonce: 104
+2024/12/01 01:41:02 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=104)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:02 Bundle with UUID 994fdafe-c944-414b-865a-8e40279b2b0f received and added to the pool
+2024/12/01 01:41:02 Cleanup job took 40.751µs
+2024/12/01 01:41:03 1 bundles sent via gRPC
+2024/12/01 01:41:03 Bundle with UUID d2e3ec51-33ce-4540-96d9-22e44fe0126a marked for deletion
+2024/12/01 01:41:03 Bundle d2e3ec51-33ce-4540-96d9-22e44fe0126a processed successfully: Bundle merged successfully
+2024/12/01 01:41:03 Generated new UUID for bundle: 29ab0cb1-4216-4a08-bf2a-c44c6713d95c
+2024/12/01 01:41:03 Valid transaction: &{inner:0xc00057ca00 time:{wall:13964269964039601854 ext:95601703397 loc:0x12c0420} hash:{_:[] _:{} v:0xc000503220} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:03 Transaction nonce: 105
+[GIN] 2024/12/01 - 01:41:03 | 202 |     507.721µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:03 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=105)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:03 Bundle with UUID 29ab0cb1-4216-4a08-bf2a-c44c6713d95c received and added to the pool
+2024/12/01 01:41:04 Generated new UUID for bundle: 8857c502-42b4-4b09-89ce-c474b9d754b4
+2024/12/01 01:41:04 Valid transaction: &{inner:0xc00057cc00 time:{wall:13964269965131870087 ext:96620229816 loc:0x12c0420} hash:{_:[] _:{} v:0xc0005032a0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:04 Transaction nonce: 106
+2024/12/01 01:41:04 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=106)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:04 Bundle with UUID 8857c502-42b4-4b09-89ce-c474b9d754b4 received and added to the pool
+[GIN] 2024/12/01 - 01:41:04 | 202 |    1.338798ms |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:05 Generated new UUID for bundle: a66f72f8-e9bb-428d-9039-f852fe69ed12
+2024/12/01 01:41:05 Valid transaction: &{inner:0xc0002ad180 time:{wall:13964269966207736718 ext:97622354613 loc:0x12c0420} hash:{_:[] _:{} v:0xc000480e20} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:05 Transaction nonce: 107
+2024/12/01 01:41:05 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=107)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:05 Bundle with UUID a66f72f8-e9bb-428d-9039-f852fe69ed12 received and added to the pool
+[GIN] 2024/12/01 - 01:41:05 | 202 |     583.473µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:06 Generated new UUID for bundle: cf5d2fa4-61f0-4515-8745-a1bba64c488a
+2024/12/01 01:41:06 Valid transaction: &{inner:0xc0002ad380 time:{wall:13964269967292891402 ext:98633767473 loc:0x12c0420} hash:{_:[] _:{} v:0xc000480ea0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:06 Transaction nonce: 108
+2024/12/01 01:41:06 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=108)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:06 Bundle with UUID cf5d2fa4-61f0-4515-8745-a1bba64c488a received and added to the pool
+[GIN] 2024/12/01 - 01:41:06 | 202 |     761.726µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:07 Generated new UUID for bundle: 31c0ad8b-6d00-4083-8327-2fb4babe3733
+[GIN] 2024/12/01 - 01:41:07 | 202 |     605.613µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:07 Valid transaction: &{inner:0xc0002ad500 time:{wall:13964269968359981881 ext:99627116128 loc:0x12c0420} hash:{_:[] _:{} v:0xc000480f20} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:07 Transaction nonce: 109
+2024/12/01 01:41:07 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=109)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:07 Bundle with UUID 31c0ad8b-6d00-4083-8327-2fb4babe3733 received and added to the pool
+2024/12/01 01:41:07 Cleanup job took 67.911µs
+2024/12/01 01:41:08 1 bundles sent via gRPC
+2024/12/01 01:41:08 Bundle with UUID c584ea4e-16a5-492b-b114-881756b8c1e0 marked for deletion
+2024/12/01 01:41:08 Bundle c584ea4e-16a5-492b-b114-881756b8c1e0 processed successfully: Bundle merged successfully
+2024/12/01 01:41:08 Generated new UUID for bundle: b92581f4-f922-4557-8e04-e527cd9e63c7
+2024/12/01 01:41:08 Valid transaction: &{inner:0xc0002ad780 time:{wall:13964269969440443137 ext:100633835560 loc:0x12c0420} hash:{_:[] _:{} v:0xc000480fc0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:08 Transaction nonce: 110
+2024/12/01 01:41:08 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=110)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+[GIN] 2024/12/01 - 01:41:08 | 202 |     399.608µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:08 Bundle with UUID b92581f4-f922-4557-8e04-e527cd9e63c7 received and added to the pool
+2024/12/01 01:41:09 Generated new UUID for bundle: 972a01d2-3971-4fae-992b-effb95fcf2f1
+2024/12/01 01:41:09 Valid transaction: &{inner:0xc0002ad980 time:{wall:13964269970511041269 ext:101630691888 loc:0x12c0420} hash:{_:[] _:{} v:0xc000481040} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:09 Transaction nonce: 111
+[GIN] 2024/12/01 - 01:41:09 | 202 |     192.754µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:09 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=111)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:09 Bundle with UUID 972a01d2-3971-4fae-992b-effb95fcf2f1 received and added to the pool
+2024/12/01 01:41:10 Generated new UUID for bundle: 49e6cd6f-a8b3-4c8a-b6b2-98f4f2289446
+2024/12/01 01:41:10 Valid transaction: &{inner:0xc0002adb80 time:{wall:13964269971588322999 ext:102634231784 loc:0x12c0420} hash:{_:[] _:{} v:0xc0004810c0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:10 Transaction nonce: 112
+2024/12/01 01:41:10 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=112)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:10 Bundle with UUID 49e6cd6f-a8b3-4c8a-b6b2-98f4f2289446 received and added to the pool
+[GIN] 2024/12/01 - 01:41:10 | 202 |     194.375µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:11 Generated new UUID for bundle: 04cfa9b2-011d-4ef6-b6b2-253c19871386
+2024/12/01 01:41:11 Valid transaction: &{inner:0xc0002add80 time:{wall:13964269972667437466 ext:103639604467 loc:0x12c0420} hash:{_:[] _:{} v:0xc000481140} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:11 Transaction nonce: 113
+2024/12/01 01:41:11 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=113)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:11 Bundle with UUID 04cfa9b2-011d-4ef6-b6b2-253c19871386 received and added to the pool
+[GIN] 2024/12/01 - 01:41:11 | 202 |     234.905µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:12 Generated new UUID for bundle: 2f0fe698-4eb4-4be8-92c3-521ea595aa94
+2024/12/01 01:41:12 Valid transaction: &{inner:0xc0004cd880 time:{wall:13964269973743553152 ext:104641978289 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b72a0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:12 Transaction nonce: 114
+2024/12/01 01:41:12 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=114)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:12 Bundle with UUID 2f0fe698-4eb4-4be8-92c3-521ea595aa94 received and added to the pool
+[GIN] 2024/12/01 - 01:41:12 | 202 |     177.954µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:12 Cleanup job took 26.391µs
+2024/12/01 01:41:13 1 bundles sent via gRPC
+2024/12/01 01:41:13 Bundle with UUID 6320e22c-7074-4aae-915f-8186674899be marked for deletion
+2024/12/01 01:41:13 Bundle 6320e22c-7074-4aae-915f-8186674899be processed successfully: Bundle merged successfully
+2024/12/01 01:41:13 Generated new UUID for bundle: 4f100092-b452-45bb-b82e-334139bce918
+2024/12/01 01:41:13 Valid transaction: &{inner:0xc0006a6000 time:{wall:13964269974823012588 ext:105647695911 loc:0x12c0420} hash:{_:[] _:{} v:0xc0004811e0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:13 Transaction nonce: 115
+2024/12/01 01:41:13 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=115)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:13 Bundle with UUID 4f100092-b452-45bb-b82e-334139bce918 received and added to the pool
+[GIN] 2024/12/01 - 01:41:13 | 202 |     234.065µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:14 Generated new UUID for bundle: 67809fd6-f571-454b-9450-10f827914d52
+2024/12/01 01:41:14 Valid transaction: &{inner:0xc0004cda80 time:{wall:13964269975905280013 ext:106656221512 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b7320} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:14 Transaction nonce: 116
+2024/12/01 01:41:14 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=116)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:14 Bundle with UUID 67809fd6-f571-454b-9450-10f827914d52 received and added to the pool
+[GIN] 2024/12/01 - 01:41:14 | 202 |     194.935µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:15 Generated new UUID for bundle: 59be9911-26dd-4fc0-aac3-b239ee90c8e5
+2024/12/01 01:41:15 Valid transaction: &{inner:0xc0004cdc80 time:{wall:13964269976983262356 ext:107660462021 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b73a0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:15 Transaction nonce: 117
+2024/12/01 01:41:15 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=117)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:15 Bundle with UUID 59be9911-26dd-4fc0-aac3-b239ee90c8e5 received and added to the pool
+[GIN] 2024/12/01 - 01:41:15 | 202 |     196.694µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:16 Generated new UUID for bundle: faf15a80-61b1-4ea9-b348-b6f3595fce4f
+2024/12/01 01:41:16 Valid transaction: &{inner:0xc0004cde80 time:{wall:13964269978058727390 ext:108662185241 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b7420} size:{_:{} _:{} v:377} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:16 Transaction nonce: 118
+[GIN] 2024/12/01 - 01:41:16 | 202 |     188.383µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:16 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=118)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:16 Bundle with UUID faf15a80-61b1-4ea9-b348-b6f3595fce4f received and added to the pool
+2024/12/01 01:41:17 Generated new UUID for bundle: 0bca581c-663c-461e-8f3d-7b7f54a146fc
+2024/12/01 01:41:17 Valid transaction: &{inner:0xc0004f6100 time:{wall:13964269979138180666 ext:109667896693 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b74a0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:17 Transaction nonce: 119
+2024/12/01 01:41:17 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=119)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:17 Bundle with UUID 0bca581c-663c-461e-8f3d-7b7f54a146fc received and added to the pool
+[GIN] 2024/12/01 - 01:41:17 | 202 |     203.235µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:17 Cleanup job took 15.41µs
+2024/12/01 01:41:18 1 bundles sent via gRPC
+2024/12/01 01:41:18 Bundle with UUID a7f1bcf8-c696-49b2-8801-fccbf72cad03 marked for deletion
+2024/12/01 01:41:18 Bundle a7f1bcf8-c696-49b2-8801-fccbf72cad03 processed successfully: Bundle merged successfully
+2024/12/01 01:41:18 Generated new UUID for bundle: f7e192a3-c78c-4190-8c3a-eff3611c5e39
+2024/12/01 01:41:18 Valid transaction: &{inner:0xc0004f6380 time:{wall:13964269980213115457 ext:110669089660 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b7540} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:18 Transaction nonce: 120
+2024/12/01 01:41:18 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=120)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:18 Bundle with UUID f7e192a3-c78c-4190-8c3a-eff3611c5e39 received and added to the pool
+[GIN] 2024/12/01 - 01:41:18 | 202 |     210.154µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:19 Generated new UUID for bundle: 896214c1-4e4f-46ea-b350-1c25cef134c1
+2024/12/01 01:41:19 Valid transaction: &{inner:0xc0004f6580 time:{wall:13964269981291543342 ext:111673775711 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b75c0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:19 Transaction nonce: 121
+2024/12/01 01:41:19 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=121)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:19 Bundle with UUID 896214c1-4e4f-46ea-b350-1c25cef134c1 received and added to the pool
+[GIN] 2024/12/01 - 01:41:19 | 202 |     175.564µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:20 Generated new UUID for bundle: ef1bc4aa-15c3-4781-b68f-e97dc1ad7838
+2024/12/01 01:41:20 Valid transaction: &{inner:0xc0004f6780 time:{wall:13964269982369230231 ext:112677720786 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b7640} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:20 Transaction nonce: 122
+2024/12/01 01:41:20 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=122)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:20 Bundle with UUID ef1bc4aa-15c3-4781-b68f-e97dc1ad7838 received and added to the pool
+[GIN] 2024/12/01 - 01:41:20 | 202 |     197.314µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:21 Generated new UUID for bundle: c7c2f3cb-3727-4c7d-992c-67358416aeb7
+2024/12/01 01:41:21 Valid transaction: &{inner:0xc0004f6980 time:{wall:13964269983452207010 ext:113686955731 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b76c0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:21 Transaction nonce: 123
+2024/12/01 01:41:21 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=123)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+[GIN] 2024/12/01 - 01:41:21 | 202 |     197.534µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:21 Bundle with UUID c7c2f3cb-3727-4c7d-992c-67358416aeb7 received and added to the pool
+2024/12/01 01:41:22 Generated new UUID for bundle: e449eea5-9041-49ed-8071-160218bf7fb9
+2024/12/01 01:41:22 Valid transaction: &{inner:0xc0004f6b80 time:{wall:13964269984532568026 ext:114693574913 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b7740} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:22 Transaction nonce: 124
+2024/12/01 01:41:22 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=124)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+[GIN] 2024/12/01 - 01:41:22 | 202 |     188.104µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:22 Bundle with UUID e449eea5-9041-49ed-8071-160218bf7fb9 received and added to the pool
+2024/12/01 01:41:22 Cleanup job took 11.51µs
+2024/12/01 01:41:23 1 bundles sent via gRPC
+2024/12/01 01:41:23 Bundle with UUID 51867754-89a5-4c0d-b2a9-c5440d1759b0 marked for deletion
+2024/12/01 01:41:23 Bundle 51867754-89a5-4c0d-b2a9-c5440d1759b0 processed successfully: Bundle merged successfully
+2024/12/01 01:41:23 Generated new UUID for bundle: 8130504a-9673-40a2-8f86-3e530b349047
+2024/12/01 01:41:23 Valid transaction: &{inner:0xc0004f6e00 time:{wall:13964269985608009918 ext:115695275001 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b77c0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:23 Transaction nonce: 125
+2024/12/01 01:41:23 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=125)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:23 Bundle with UUID 8130504a-9673-40a2-8f86-3e530b349047 received and added to the pool
+[GIN] 2024/12/01 - 01:41:23 | 202 |     227.225µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:24 Generated new UUID for bundle: 0fc65ab3-ba21-4596-9738-d197a4089e37
+2024/12/01 01:41:24 Valid transaction: &{inner:0xc0006a6280 time:{wall:13964269986693573221 ext:116707096470 loc:0x12c0420} hash:{_:[] _:{} v:0xc000481280} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:24 Transaction nonce: 126
+2024/12/01 01:41:24 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=126)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:24 Bundle with UUID 0fc65ab3-ba21-4596-9738-d197a4089e37 received and added to the pool
+[GIN] 2024/12/01 - 01:41:24 | 202 |     202.944µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:25 Generated new UUID for bundle: 4d1f85e7-33ca-48b4-8b81-9cbd7a2ac641
+2024/12/01 01:41:25 Valid transaction: &{inner:0xc0006a6480 time:{wall:13964269987768676616 ext:117708458031 loc:0x12c0420} hash:{_:[] _:{} v:0xc000481300} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:25 Transaction nonce: 127
+2024/12/01 01:41:25 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=127)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:25 Bundle with UUID 4d1f85e7-33ca-48b4-8b81-9cbd7a2ac641 received and added to the pool
+[GIN] 2024/12/01 - 01:41:25 | 202 |     161.804µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:26 Generated new UUID for bundle: d03e90b8-0fe1-4b55-b184-4b461cd01f71
+2024/12/01 01:41:26 Valid transaction: &{inner:0xc0006a6680 time:{wall:13964269988844988517 ext:118711028118 loc:0x12c0420} hash:{_:[] _:{} v:0xc000481380} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:26 Transaction nonce: 128
+2024/12/01 01:41:26 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=128)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:26 Bundle with UUID d03e90b8-0fe1-4b55-b184-4b461cd01f71 received and added to the pool
+[GIN] 2024/12/01 - 01:41:26 | 202 |     185.874µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:27 Generated new UUID for bundle: 87ccaf55-bb4f-4196-88f0-8ea96a14109e
+2024/12/01 01:41:27 Valid transaction: &{inner:0xc0004f7000 time:{wall:13964269989925946544 ext:119718244311 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b7840} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:27 Transaction nonce: 129
+[GIN] 2024/12/01 - 01:41:27 | 202 |     197.814µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:27 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=129)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:27 Bundle with UUID 87ccaf55-bb4f-4196-88f0-8ea96a14109e received and added to the pool
+2024/12/01 01:41:27 Cleanup job took 17.45µs
+2024/12/01 01:41:28 1 bundles sent via gRPC
+2024/12/01 01:41:28 Bundle with UUID 009d984b-7509-45c2-b471-fa884d75691a marked for deletion
+2024/12/01 01:41:28 Bundle 009d984b-7509-45c2-b471-fa884d75691a processed successfully: Bundle merged successfully
+2024/12/01 01:41:28 Generated new UUID for bundle: e7c6f58e-edc0-4aee-a3e8-d28bc38effc6
+2024/12/01 01:41:28 Valid transaction: &{inner:0xc0006a6880 time:{wall:13964269991008153617 ext:120726709570 loc:0x12c0420} hash:{_:[] _:{} v:0xc000481400} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:28 Transaction nonce: 130
+2024/12/01 01:41:28 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=130)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:28 Bundle with UUID e7c6f58e-edc0-4aee-a3e8-d28bc38effc6 received and added to the pool
+[GIN] 2024/12/01 - 01:41:28 | 202 |     200.364µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:29 Generated new UUID for bundle: 86682147-a6b5-4d32-85a6-a92eddf399c0
+2024/12/01 01:41:29 Valid transaction: &{inner:0xc00057cf00 time:{wall:13964269992134346008 ext:121779160137 loc:0x12c0420} hash:{_:[] _:{} v:0xc000503340} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:29 Transaction nonce: 131
+2024/12/01 01:41:29 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=131)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:29 Bundle with UUID 86682147-a6b5-4d32-85a6-a92eddf399c0 received and added to the pool
+[GIN] 2024/12/01 - 01:41:29 | 202 |     874.458µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:30 Generated new UUID for bundle: 48125fc0-1e6e-452d-9600-75b00972454e
+2024/12/01 01:41:30 Valid transaction: &{inner:0xc0006a6a80 time:{wall:13964269993208759139 ext:122779831434 loc:0x12c0420} hash:{_:[] _:{} v:0xc000481480} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:30 Transaction nonce: 132
+2024/12/01 01:41:30 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=132)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:30 Bundle with UUID 48125fc0-1e6e-452d-9600-75b00972454e received and added to the pool
+[GIN] 2024/12/01 - 01:41:30 | 202 |     393.128µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:31 Generated new UUID for bundle: 903debf1-e5d5-4b66-8ad7-1fd328e8acf7
+2024/12/01 01:41:31 Valid transaction: &{inner:0xc00057d080 time:{wall:13964269994268158776 ext:123765489257 loc:0x12c0420} hash:{_:[] _:{} v:0xc0005033c0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:31 Transaction nonce: 133
+2024/12/01 01:41:31 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=133)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:31 Bundle with UUID 903debf1-e5d5-4b66-8ad7-1fd328e8acf7 received and added to the pool
+[GIN] 2024/12/01 - 01:41:31 | 202 |     584.102µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:32 Generated new UUID for bundle: 4f619faa-484c-43ed-9574-ee7393635728
+2024/12/01 01:41:32 Valid transaction: &{inner:0xc00057d280 time:{wall:13964269995333383186 ext:124756971833 loc:0x12c0420} hash:{_:[] _:{} v:0xc000503440} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:32 Transaction nonce: 134
+2024/12/01 01:41:32 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=134)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+[GIN] 2024/12/01 - 01:41:32 | 202 |     158.464µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:32 Bundle with UUID 4f619faa-484c-43ed-9574-ee7393635728 received and added to the pool
+2024/12/01 01:41:32 Cleanup job took 33.771µs
+2024/12/01 01:41:33 1 bundles sent via gRPC
+2024/12/01 01:41:33 Bundle with UUID 206908b5-7fe3-4ae5-b44a-98830e15b645 marked for deletion
+2024/12/01 01:41:33 Bundle 206908b5-7fe3-4ae5-b44a-98830e15b645 processed successfully: Bundle merged successfully
+2024/12/01 01:41:33 Generated new UUID for bundle: 6e5fd243-fc96-4170-a83d-ca6bd538d214
+[GIN] 2024/12/01 - 01:41:33 | 202 |     359.167µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:33 Valid transaction: &{inner:0xc0004f7180 time:{wall:13964269996471642496 ext:125821489329 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b78e0} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:33 Transaction nonce: 135
+2024/12/01 01:41:33 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=135)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:33 Bundle with UUID 6e5fd243-fc96-4170-a83d-ca6bd538d214 received and added to the pool
+2024/12/01 01:41:34 Generated new UUID for bundle: 642181c5-6ac9-48a9-bd4d-893230f629fc
+2024/12/01 01:41:34 Valid transaction: &{inner:0xc00057d500 time:{wall:13964269997557164011 ext:126833269010 loc:0x12c0420} hash:{_:[] _:{} v:0xc0005034c0} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:34 Transaction nonce: 136
+2024/12/01 01:41:34 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=136)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+[GIN] 2024/12/01 - 01:41:34 | 202 |     546.641µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:34 Bundle with UUID 642181c5-6ac9-48a9-bd4d-893230f629fc received and added to the pool
+2024/12/01 01:41:35 Generated new UUID for bundle: 262f84bb-10ee-4248-a53f-96526a469947
+[GIN] 2024/12/01 - 01:41:35 | 202 |     596.503µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:35 Valid transaction: &{inner:0xc0004f7380 time:{wall:13964269998643301125 ext:127845664300 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b7960} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:35 Transaction nonce: 137
+2024/12/01 01:41:35 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=137)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:35 Bundle with UUID 262f84bb-10ee-4248-a53f-96526a469947 received and added to the pool
+2024/12/01 01:41:36 Generated new UUID for bundle: 8661bd28-55dc-4a89-ad75-632d6c8bca70
+2024/12/01 01:41:36 Valid transaction: &{inner:0xc0004f7580 time:{wall:13964269999678167481 ext:128806788832 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b79e0} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+[GIN] 2024/12/01 - 01:41:36 | 202 |     156.163µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:36 Transaction nonce: 138
+2024/12/01 01:41:36 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=138)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:36 Bundle with UUID 8661bd28-55dc-4a89-ad75-632d6c8bca70 received and added to the pool
+2024/12/01 01:41:37 Generated new UUID for bundle: 57acda25-21d3-4e7e-94a2-aa5a24df2d0a
+2024/12/01 01:41:37 Valid transaction: &{inner:0xc0004f7780 time:{wall:13964270000797604847 ext:129852484374 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b7a60} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:37 Transaction nonce: 139
+2024/12/01 01:41:37 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=139)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+[GIN] 2024/12/01 - 01:41:37 | 202 |     545.071µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:37 Bundle with UUID 57acda25-21d3-4e7e-94a2-aa5a24df2d0a received and added to the pool
+2024/12/01 01:41:37 Cleanup job took 136.043µs
+2024/12/01 01:41:38 1 bundles sent via gRPC
+2024/12/01 01:41:38 Bundle with UUID ee4b729d-c8b2-4e69-9fda-5fdbbdd233c9 marked for deletion
+2024/12/01 01:41:38 Bundle ee4b729d-c8b2-4e69-9fda-5fdbbdd233c9 processed successfully: Bundle merged successfully
+2024/12/01 01:41:38 Generated new UUID for bundle: 4b4c6491-be0d-40bd-8b34-bd6041b8bf8a
+2024/12/01 01:41:38 Valid transaction: &{inner:0xc000818200 time:{wall:13964270001884600479 ext:130865738572 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b6140} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:38 Transaction nonce: 140
+2024/12/01 01:41:38 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=140)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:38 Bundle with UUID 4b4c6491-be0d-40bd-8b34-bd6041b8bf8a received and added to the pool
+[GIN] 2024/12/01 - 01:41:38 | 202 |     718.165µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:39 Generated new UUID for bundle: 54f04386-406b-4d43-863c-a8440d913962
+2024/12/01 01:41:39 Valid transaction: &{inner:0xc000818480 time:{wall:13964270002985811286 ext:131893207435 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b61c0} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:39 Transaction nonce: 141
+2024/12/01 01:41:39 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=141)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:39 Bundle with UUID 54f04386-406b-4d43-863c-a8440d913962 received and added to the pool
+[GIN] 2024/12/01 - 01:41:39 | 202 |     795.916µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:40 Generated new UUID for bundle: a7e5615a-1b15-4ae9-8082-7b8a430017b8
+2024/12/01 01:41:40 Valid transaction: &{inner:0xc000818680 time:{wall:13964270004070872377 ext:132904526462 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b6260} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:40 Transaction nonce: 142
+2024/12/01 01:41:40 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=142)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+[GIN] 2024/12/01 - 01:41:40 | 202 |     154.274µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:40 Bundle with UUID a7e5615a-1b15-4ae9-8082-7b8a430017b8 received and added to the pool
+2024/12/01 01:41:41 Generated new UUID for bundle: c5f55539-5ef4-44aa-84d9-6f64974b47d0
+2024/12/01 01:41:41 Valid transaction: &{inner:0xc000818880 time:{wall:13964270005175237649 ext:133935149920 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b62e0} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:41 Transaction nonce: 143
+2024/12/01 01:41:41 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=143)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:41 Bundle with UUID c5f55539-5ef4-44aa-84d9-6f64974b47d0 received and added to the pool
+[GIN] 2024/12/01 - 01:41:41 | 202 |     312.987µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:42 Generated new UUID for bundle: 96066d6e-ca23-4fac-bc25-08590be5b8bb
+2024/12/01 01:41:42 Valid transaction: &{inner:0xc000818a00 time:{wall:13964270006264804434 ext:134950974841 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b6360} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:42 Transaction nonce: 144
+2024/12/01 01:41:42 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=144)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:42 Bundle with UUID 96066d6e-ca23-4fac-bc25-08590be5b8bb received and added to the pool
+[GIN] 2024/12/01 - 01:41:42 | 202 |     382.528µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:42 Cleanup job took 102.462µs
+2024/12/01 01:41:43 1 bundles sent via gRPC
+2024/12/01 01:41:43 Bundle with UUID c238ccd8-74dd-4602-b6fb-4eab132b3416 marked for deletion
+2024/12/01 01:41:43 Bundle c238ccd8-74dd-4602-b6fb-4eab132b3416 processed successfully: Bundle merged successfully
+2024/12/01 01:41:43 Generated new UUID for bundle: b009077e-8742-4806-8081-b66f69880544
+2024/12/01 01:41:43 Valid transaction: &{inner:0xc0004f6200 time:{wall:13964270007345077547 ext:135957506180 loc:0x12c0420} hash:{_:[] _:{} v:0xc000480200} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:43 Transaction nonce: 145
+2024/12/01 01:41:43 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=145)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:43 Bundle with UUID b009077e-8742-4806-8081-b66f69880544 received and added to the pool
+[GIN] 2024/12/01 - 01:41:43 | 202 |     629.753µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:44 Generated new UUID for bundle: 714e22fa-3af9-4c80-b216-0642e74b1056
+2024/12/01 01:41:44 Valid transaction: &{inner:0xc0004f6680 time:{wall:13964270008417803423 ext:136956490182 loc:0x12c0420} hash:{_:[] _:{} v:0xc0004802a0} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:44 Transaction nonce: 146
+2024/12/01 01:41:44 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=146)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:44 Bundle with UUID 714e22fa-3af9-4c80-b216-0642e74b1056 received and added to the pool
+[GIN] 2024/12/01 - 01:41:44 | 202 |      494.25µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:45 Generated new UUID for bundle: 0fb6dfd4-6453-423a-b88f-118ca9b0516c
+2024/12/01 01:41:45 Valid transaction: &{inner:0xc0004f6a80 time:{wall:13964270009467887388 ext:137932832333 loc:0x12c0420} hash:{_:[] _:{} v:0xc000480320} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:45 Transaction nonce: 147
+2024/12/01 01:41:45 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=147)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:45 Bundle with UUID 0fb6dfd4-6453-423a-b88f-118ca9b0516c received and added to the pool
+[GIN] 2024/12/01 - 01:41:45 | 202 |     193.584µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:46 Generated new UUID for bundle: f6338ab0-e2a0-4199-a342-80d59977fafd
+2024/12/01 01:41:46 Valid transaction: &{inner:0xc0004f6d80 time:{wall:13964270010589560620 ext:138980763731 loc:0x12c0420} hash:{_:[] _:{} v:0xc0004803a0} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:46 Transaction nonce: 148
+2024/12/01 01:41:46 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=148)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:46 Bundle with UUID f6338ab0-e2a0-4199-a342-80d59977fafd received and added to the pool
+[GIN] 2024/12/01 - 01:41:46 | 202 |     787.136µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:47 Generated new UUID for bundle: e591cb01-e8df-4c99-98c3-3aa3eec6d8e6
+2024/12/01 01:41:47 Valid transaction: &{inner:0xc0004f7300 time:{wall:13964270011671710671 ext:139989171958 loc:0x12c0420} hash:{_:[] _:{} v:0xc000480420} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:47 Transaction nonce: 149
+2024/12/01 01:41:47 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=149)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:47 Bundle with UUID e591cb01-e8df-4c99-98c3-3aa3eec6d8e6 received and added to the pool
+[GIN] 2024/12/01 - 01:41:47 | 202 |     740.855µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:47 Cleanup job took 109.592µs
+2024/12/01 01:41:48 1 bundles sent via gRPC
+2024/12/01 01:41:48 Bundle with UUID d050305b-399e-424d-bc19-2d23c08c8b3a marked for deletion
+2024/12/01 01:41:48 Bundle d050305b-399e-424d-bc19-2d23c08c8b3a processed successfully: Bundle merged successfully
+[GIN] 2024/12/01 - 01:41:48 | 202 |     536.252µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:48 Generated new UUID for bundle: e55a842b-5932-420f-af9c-e6a2849005db
+2024/12/01 01:41:48 Valid transaction: &{inner:0xc000818d00 time:{wall:13964270012757653982 ext:141001373595 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b6400} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:48 Transaction nonce: 150
+2024/12/01 01:41:48 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=150)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/01 01:41:48 Bundle with UUID e55a842b-5932-420f-af9c-e6a2849005db received and added to the pool
+2024/12/01 01:41:49 Generated new UUID for bundle: f074d797-fd66-47bd-a899-8db343edae36
+2024/12/01 01:41:49 Valid transaction: &{inner:0xc000818f00 time:{wall:13964270013823109796 ext:141993087435 loc:0x12c0420} hash:{_:[] _:{} v:0xc0000b6480} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:49 Transaction nonce: 151
+2024/12/01 01:41:49 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=151)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+[GIN] 2024/12/01 - 01:41:49 | 202 |     165.483µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:49 Bundle with UUID f074d797-fd66-47bd-a899-8db343edae36 received and added to the pool
+2024/12/01 01:41:50 Generated new UUID for bundle: a8f0ee6f-6eb8-426d-ae03-87f8a91bf890
+2024/12/01 01:41:50 Valid transaction: &{inner:0xc0004f7880 time:{wall:13964270014929057642 ext:143025293457 loc:0x12c0420} hash:{_:[] _:{} v:0xc0004804a0} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/01 01:41:50 Transaction nonce: 152
+2024/12/01 01:41:50 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=152)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+[GIN] 2024/12/01 - 01:41:50 | 202 |     670.764µs |     172.16.4.28 | POST     "/eth_sendBundle"
+2024/12/01 01:41:50 Bundle with UUID a8f0ee6f-6eb8-426d-ae03-87f8a91bf890 received and added to the pool

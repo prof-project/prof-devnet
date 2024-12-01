@@ -1,0 +1,454 @@
+INFO [12-01|01:38:32.880] Maximum peer count                       ETH=50 total=50
+INFO [12-01|01:38:32.882] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [12-01|01:38:32.884] Set global gas cap                       cap=50,000,000
+INFO [12-01|01:38:32.885] Initializing the KZG library             backend=gokzg
+INFO [12-01|01:38:32.967] Defaulting to pebble as the backing database
+INFO [12-01|01:38:32.967] Allocated cache and file handles         database=/data/geth/execution-data/geth/chaindata cache=16.00MiB handles=16
+INFO [12-01|01:38:33.000] Opened ancient database                  database=/data/geth/execution-data/geth/chaindata/ancient/chain readonly=false
+INFO [12-01|01:38:33.000] State scheme set by user                 scheme=path
+ERROR[12-01|01:38:33.001] Head block is not reachable
+INFO [12-01|01:38:33.016] Opened ancient database                  database=/data/geth/execution-data/geth/chaindata/ancient/state readonly=false
+INFO [12-01|01:38:33.016] Initialized path database                cache=16.00MiB buffer=64.00MiB history=90000
+INFO [12-01|01:38:33.016] Writing custom genesis block
+INFO [12-01|01:38:33.047] Successfully wrote genesis state         database=chaindata hash=158101..cf6261
+INFO [12-01|01:38:33.096] Enabling metrics collection
+INFO [12-01|01:38:33.097] Enabling stand-alone metrics HTTP endpoint address=0.0.0.0:9001
+INFO [12-01|01:38:33.097] Starting metrics server                  addr=http://0.0.0.0:9001/debug/metrics
+INFO [12-01|01:38:33.097] Maximum peer count                       ETH=50 total=50
+INFO [12-01|01:38:33.098] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [12-01|01:38:33.102] Set global gas cap                       cap=50,000,000
+INFO [12-01|01:38:33.102] Initializing the KZG library             backend=gokzg
+INFO [12-01|01:38:33.189] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [12-01|01:38:33.190] Using pebble as the backing database
+INFO [12-01|01:38:33.190] Allocated cache and file handles         database=/data/geth/execution-data/geth/chaindata cache=512.00MiB handles=524,288
+INFO [12-01|01:38:33.207] Opened ancient database                  database=/data/geth/execution-data/geth/chaindata/ancient/chain readonly=false
+INFO [12-01|01:38:33.208] State scheme set by user                 scheme=path
+INFO [12-01|01:38:33.208] Initialising Ethereum protocol           network=3,151,908 dbversion=<nil>
+INFO [12-01|01:38:33.208] Failed to load journal, discard it       err="journal not found"
+INFO [12-01|01:38:33.215] Opened ancient database                  database=/data/geth/execution-data/geth/chaindata/ancient/state readonly=false
+INFO [12-01|01:38:33.215] Initialized path database                cache=154.00MiB buffer=256.00MiB history=90000
+INFO [12-01|01:38:33.215] 
+INFO [12-01|01:38:33.215] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [12-01|01:38:33.215] Chain ID:  3151908 (unknown)
+INFO [12-01|01:38:33.215] Consensus: unknown
+INFO [12-01|01:38:33.215] 
+INFO [12-01|01:38:33.215] Pre-Merge hard forks (block based):
+INFO [12-01|01:38:33.215]  - Homestead:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md)
+INFO [12-01|01:38:33.215]  - Tangerine Whistle (EIP 150): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md)
+INFO [12-01|01:38:33.215]  - Spurious Dragon/1 (EIP 155): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+INFO [12-01|01:38:33.215]  - Spurious Dragon/2 (EIP 158): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+INFO [12-01|01:38:33.215]  - Byzantium:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md)
+INFO [12-01|01:38:33.215]  - Constantinople:              #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md)
+INFO [12-01|01:38:33.215]  - Petersburg:                  #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md)
+INFO [12-01|01:38:33.215]  - Istanbul:                    #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md)
+INFO [12-01|01:38:33.215]  - Berlin:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md)
+INFO [12-01|01:38:33.215]  - London:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md)
+INFO [12-01|01:38:33.215] 
+INFO [12-01|01:38:33.215] Merge configured:
+INFO [12-01|01:38:33.215]  - Hard-fork specification:    https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md
+INFO [12-01|01:38:33.215]  - Network known to be merged
+INFO [12-01|01:38:33.215]  - Total terminal difficulty:  0
+INFO [12-01|01:38:33.215]  - Merge netsplit block:       #0       
+INFO [12-01|01:38:33.215] 
+INFO [12-01|01:38:33.215] Post-Merge hard forks (timestamp based):
+INFO [12-01|01:38:33.215]  - Shanghai:                    @0          (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/shanghai.md)
+INFO [12-01|01:38:33.215]  - Cancun:                      @0          (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/cancun.md)
+INFO [12-01|01:38:33.215] 
+INFO [12-01|01:38:33.215] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [12-01|01:38:33.215] 
+INFO [12-01|01:38:33.215] Loaded most recent local block           number=0 hash=158101..cf6261 td=1 age=0
+WARN [12-01|01:38:33.215] Failed to load snapshot                  err="missing or corrupted snapshot"
+INFO [12-01|01:38:33.215] Rebuilding state snapshot
+INFO [12-01|01:38:33.215] Initialized transaction indexer          range="last 2350000 blocks"
+INFO [12-01|01:38:33.216] Resuming state snapshot generation       root=aa65ab..15e643 accounts=0 slots=0 storage=0.00B dangling=0 elapsed="550.121µs"
+INFO [12-01|01:38:33.219] Generated state snapshot                 accounts=279 slots=31 storage=13.66KiB dangling=0 elapsed=3.675ms
+INFO [12-01|01:38:33.312] Unprotected transactions allowed
+INFO [12-01|01:38:33.312] Gasprice oracle is ignoring threshold set threshold=2
+WARN [12-01|01:38:33.313] Engine API enabled                       protocol=eth
+INFO [12-01|01:38:33.313] Starting peer-to-peer node               instance=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3
+INFO [12-01|01:38:33.323] New local node record                    seq=1,733,017,113,322 id=33588a3285b90ff0 ip=172.16.4.12 udp=30303 tcp=30303
+INFO [12-01|01:38:33.324] IPC endpoint opened                      url=/data/geth/execution-data/geth.ipc
+INFO [12-01|01:38:33.325] Loaded JWT secret file                   path=/jwt/jwtsecret crc32=0xec7a0f2c
+INFO [12-01|01:38:33.326] HTTP server started                      endpoint=[::]:8545 auth=false prefix= cors=* vhosts=*
+INFO [12-01|01:38:33.326] WebSocket enabled                        url=ws://[::]:8546
+INFO [12-01|01:38:33.326] WebSocket enabled                        url=ws://[::]:8551
+INFO [12-01|01:38:33.326] HTTP server started                      endpoint=[::]:8551 auth=true  prefix= cors=localhost vhosts=*
+INFO [12-01|01:38:33.328] Started P2P networking                   self=enode://0b348d4f5eeefadb947ebfe899201601a78b4f0e02cb06fce260430f7a1cd107815e3a31174bd766461733be2dc661bd8899ed2ef67dfd1b4b3923aa44d3d9c7@172.16.4.12:30303
+INFO [12-01|01:38:43.890] Looking for peers                        peercount=2 tried=68 static=0
+INFO [12-01|01:38:54.119] Looking for peers                        peercount=2 tried=61 static=0
+INFO [12-01|01:39:04.238] Looking for peers                        peercount=2 tried=38 static=0
+WARN [12-01|01:39:08.315] Post-merge network, but no beacon client seen. Please launch one to follow the chain!
+INFO [12-01|01:39:14.412] Looking for peers                        peercount=2 tried=37 static=0
+INFO [12-01|01:39:16.012] Starting work on payload                 id=0x03ca567bacae876e
+INFO [12-01|01:39:16.012] Updated payload                          id=0x03ca567bacae876e number=1 hash=8d56aa..06ed68 txs=0 withdrawals=0 gas=0 fees=0 root=adf9c9..9b9986 elapsed="140.112µs"
+INFO [12-01|01:39:16.013] Stopping work on payload                 id=0x03ca567bacae876e reason=delivery
+INFO [12-01|01:39:16.110] Imported new potential chain segment     number=1 hash=8d56aa..06ed68 blocks=1 txs=0 mgas=0.000 elapsed=1.496ms     mgasps=0.000 snapdiffs=204.00B triediffs=1.56KiB triedirty=0.00B
+INFO [12-01|01:39:16.115] Chain head was updated                   number=1 hash=8d56aa..06ed68 root=adf9c9..9b9986 elapsed="143.463µs"
+ERROR[12-01|01:39:16.116] Nil finalized block cannot evict old blobs
+INFO [12-01|01:39:16.117] Indexed transactions                     blocks=2 txs=0 tail=0 elapsed=1.526ms
+INFO [12-01|01:39:18.246] Imported new potential chain segment     number=2 hash=68166a..8e7b34 blocks=1 txs=21 mgas=12.721 elapsed=9.447ms     mgasps=1346.505 snapdiffs=3.46KiB triediffs=16.38KiB triedirty=0.00B
+INFO [12-01|01:39:18.255] Chain head was updated                   number=2 hash=68166a..8e7b34 root=fc68f3..f242ec elapsed="859.768µs"
+ERROR[12-01|01:39:18.257] Nil finalized block cannot evict old blobs
+INFO [12-01|01:39:20.210] Imported new potential chain segment     number=3 hash=124d6c..123ee6 blocks=1 txs=0  mgas=0.000  elapsed="917.529µs" mgasps=0.000    snapdiffs=3.66KiB triediffs=18.10KiB triedirty=0.00B
+INFO [12-01|01:39:20.213] Chain head was updated                   number=3 hash=124d6c..123ee6 root=05171a..f9ec0f elapsed="50.621µs"
+ERROR[12-01|01:39:20.213] Nil finalized block cannot evict old blobs
+INFO [12-01|01:39:22.213] Imported new potential chain segment     number=4 hash=d250ff..4a0520 blocks=1 txs=0  mgas=0.000  elapsed=1.060ms     mgasps=0.000    snapdiffs=3.86KiB triediffs=20.06KiB triedirty=0.00B
+INFO [12-01|01:39:22.218] Chain head was updated                   number=4 hash=d250ff..4a0520 root=2c5c46..8517d6 elapsed="189.153µs"
+ERROR[12-01|01:39:22.219] Nil finalized block cannot evict old blobs
+INFO [12-01|01:39:23.335] Starting work on payload                 id=0x03473ef906148aee
+INFO [12-01|01:39:23.336] Updated payload                          id=0x03473ef906148aee number=5 hash=a7dd34..8169fa txs=0  withdrawals=0 gas=0 fees=0 root=483354..6696e4 elapsed="183.824µs"
+INFO [12-01|01:39:24.088] Stopping work on payload                 id=0x03473ef906148aee reason=delivery
+INFO [12-01|01:39:24.202] Imported new potential chain segment     number=5 hash=a7dd34..8169fa blocks=1 txs=0  mgas=0.000  elapsed=1.214ms     mgasps=0.000    snapdiffs=4.06KiB triediffs=21.88KiB triedirty=0.00B
+INFO [12-01|01:39:24.204] Chain head was updated                   number=5 hash=a7dd34..8169fa root=483354..6696e4 elapsed="35.031µs"
+ERROR[12-01|01:39:24.204] Nil finalized block cannot evict old blobs
+INFO [12-01|01:39:24.449] Looking for peers                        peercount=2 tried=20 static=0
+INFO [12-01|01:39:26.216] Imported new potential chain segment     number=6 hash=015147..a68964 blocks=1 txs=0  mgas=0.000  elapsed=2.165ms     mgasps=0.000    snapdiffs=4.26KiB triediffs=23.75KiB triedirty=0.00B
+INFO [12-01|01:39:26.221] Chain head was updated                   number=6 hash=015147..a68964 root=61038e..885df0 elapsed="131.263µs"
+ERROR[12-01|01:39:26.222] Nil finalized block cannot evict old blobs
+INFO [12-01|01:39:27.335] Starting work on payload                 id=0x03440300ba76e974
+INFO [12-01|01:39:27.335] Updated payload                          id=0x03440300ba76e974 number=7 hash=989014..dbb793 txs=0  withdrawals=0 gas=0 fees=0 root=56f29f..9515a0 elapsed="99.382µs"
+INFO [12-01|01:39:28.087] Stopping work on payload                 id=0x03440300ba76e974 reason=delivery
+INFO [12-01|01:39:28.203] Imported new potential chain segment     number=7 hash=989014..dbb793 blocks=1 txs=0  mgas=0.000  elapsed="834.727µs" mgasps=0.000    snapdiffs=4.46KiB triediffs=25.87KiB triedirty=0.00B
+INFO [12-01|01:39:28.206] Chain head was updated                   number=7 hash=989014..dbb793 root=56f29f..9515a0 elapsed="71.841µs"
+ERROR[12-01|01:39:28.206] Nil finalized block cannot evict old blobs
+INFO [12-01|01:39:30.221] Imported new potential chain segment     number=8 hash=33cd68..95b6fe blocks=1 txs=0  mgas=0.000  elapsed="846.297µs" mgasps=0.000    snapdiffs=4.66KiB triediffs=27.95KiB triedirty=0.00B
+INFO [12-01|01:39:30.225] Chain head was updated                   number=8 hash=33cd68..95b6fe root=891292..a9ab80 elapsed="76.951µs"
+ERROR[12-01|01:39:30.226] Nil finalized block cannot evict old blobs
+INFO [12-01|01:39:31.336] Starting work on payload                 id=0x031f79de7dc66e5a
+INFO [12-01|01:39:31.338] Updated payload                          id=0x031f79de7dc66e5a number=9 hash=78b277..a80645 txs=1  withdrawals=0 gas=141,319 fees=0.000706595 root=ad1ddf..cc325a elapsed=1.596ms
+INFO [12-01|01:39:32.090] Stopping work on payload                 id=0x031f79de7dc66e5a reason=delivery
+INFO [12-01|01:39:32.208] Imported new potential chain segment     number=9 hash=78b277..a80645 blocks=1 txs=1  mgas=0.141  elapsed=2.840ms     mgasps=49.751   snapdiffs=5.59KiB triediffs=34.80KiB triedirty=0.00B
+INFO [12-01|01:39:32.211] Chain head was updated                   number=9 hash=78b277..a80645 root=ad1ddf..cc325a elapsed="128.523µs"
+ERROR[12-01|01:39:32.212] Nil finalized block cannot evict old blobs
+INFO [12-01|01:39:34.249] Imported new potential chain segment     number=10 hash=7044c4..a06a75 blocks=1 txs=22 mgas=12.862 elapsed=12.296ms    mgasps=1046.016 snapdiffs=9.53KiB triediffs=53.93KiB triedirty=0.00B
+INFO [12-01|01:39:34.254] Chain head was updated                   number=10 hash=7044c4..a06a75 root=b6848b..e99194 elapsed="701.424µs"
+ERROR[12-01|01:39:34.256] Nil finalized block cannot evict old blobs
+INFO [12-01|01:39:34.492] Looking for peers                        peercount=3 tried=44 static=0
+INFO [12-01|01:39:35.336] Starting work on payload                 id=0x036634e3e561e2b7
+INFO [12-01|01:39:35.336] Updated payload                          id=0x036634e3e561e2b7 number=11 hash=b189e4..c31066 txs=0  withdrawals=0 gas=0       fees=0           root=c8c7fa..1a6c7e elapsed="297.266µs"
+INFO [12-01|01:39:36.087] Stopping work on payload                 id=0x036634e3e561e2b7 reason=delivery
+INFO [12-01|01:39:36.205] Imported new potential chain segment     number=11 hash=b189e4..c31066 blocks=1 txs=0  mgas=0.000  elapsed=1.048ms     mgasps=0.000    snapdiffs=9.73KiB triediffs=56.45KiB triedirty=0.00B
+INFO [12-01|01:39:36.210] Chain head was updated                   number=11 hash=b189e4..c31066 root=c8c7fa..1a6c7e elapsed="46.131µs"
+ERROR[12-01|01:39:36.210] Nil finalized block cannot evict old blobs
+INFO [12-01|01:39:37.337] Starting work on payload                 id=0x038d06898413d7ca
+INFO [12-01|01:39:37.345] Updated payload                          id=0x038d06898413d7ca number=12 hash=a55a5b..112bff txs=70 withdrawals=0 gas=1,470,000 fees=0.002260454208 root=9d0a93..9212b9 elapsed=7.357ms
+INFO [12-01|01:39:38.093] Stopping work on payload                 id=0x038d06898413d7ca reason=delivery
+INFO [12-01|01:39:38.220] Imported new potential chain segment     number=12 hash=a55a5b..112bff blocks=1 txs=70 mgas=1.470  elapsed=10.688ms    mgasps=137.526  snapdiffs=13.03KiB triediffs=83.20KiB triedirty=0.00B
+INFO [12-01|01:39:38.227] Chain head was updated                   number=12 hash=a55a5b..112bff root=9d0a93..9212b9 elapsed="369.058µs"
+ERROR[12-01|01:39:38.238] Nil finalized block cannot evict old blobs
+INFO [12-01|01:39:40.230] Imported new potential chain segment     number=13 hash=500cf7..8b8027 blocks=1 txs=30 mgas=0.630  elapsed=10.531ms    mgasps=59.818   snapdiffs=14.62KiB triediffs=98.96KiB triedirty=0.00B
+INFO [12-01|01:39:40.243] Chain head was updated                   number=13 hash=500cf7..8b8027 root=398c34..5eaa8f elapsed=6.941295ms
+ERROR[12-01|01:39:40.248] Nil finalized block cannot evict old blobs
+INFO [12-01|01:39:42.236] Imported new potential chain segment     number=14 hash=1d429d..b9f0a6 blocks=1 txs=96 mgas=2.767  elapsed=16.734ms    mgasps=165.341  snapdiffs=18.70KiB triediffs=128.17KiB triedirty=0.00B
+INFO [12-01|01:39:42.248] Chain head was updated                   number=14 hash=1d429d..b9f0a6 root=314ad0..0b4dfa elapsed=2.780398ms
+ERROR[12-01|01:39:42.263] Nil finalized block cannot evict old blobs
+INFO [12-01|01:39:44.258] Imported new potential chain segment     number=15 hash=369077..36e198 blocks=1 txs=100 mgas=3.823  elapsed=24.211ms    mgasps=157.902  snapdiffs=22.53KiB triediffs=156.91KiB triedirty=0.00B
+INFO [12-01|01:39:44.270] Chain head was updated                   number=15 hash=369077..36e198 root=d4eddb..62acc0 elapsed=4.251798ms
+ERROR[12-01|01:39:44.279] Nil finalized block cannot evict old blobs
+INFO [12-01|01:39:44.745] Looking for peers                        peercount=2 tried=96 static=0
+INFO [12-01|01:39:45.336] Starting work on payload                 id=0x03047098dcfb3cfa
+INFO [12-01|01:39:45.337] Updated payload                          id=0x03047098dcfb3cfa number=16 hash=612321..ebc0e3 txs=0   withdrawals=0 gas=0         fees=0              root=2544d9..b264e8 elapsed="349.087µs"
+INFO [12-01|01:39:46.093] Stopping work on payload                 id=0x03047098dcfb3cfa reason=delivery
+INFO [12-01|01:39:46.203] Imported new potential chain segment     number=16 hash=612321..ebc0e3 blocks=1 txs=0   mgas=0.000  elapsed=1.423ms     mgasps=0.000    snapdiffs=22.73KiB triediffs=159.28KiB triedirty=0.00B
+INFO [12-01|01:39:46.209] Chain head was updated                   number=16 hash=612321..ebc0e3 root=2544d9..b264e8 elapsed="176.743µs"
+ERROR[12-01|01:39:46.210] Nil finalized block cannot evict old blobs
+INFO [12-01|01:39:47.335] Starting work on payload                 id=0x037c0c879bff0e2d
+INFO [12-01|01:39:47.335] Updated payload                          id=0x037c0c879bff0e2d number=17 hash=4b4353..02ba9e txs=0   withdrawals=0 gas=0         fees=0              root=a40f37..1bd57b elapsed="256.265µs"
+INFO [12-01|01:39:48.003] Stopping work on payload                 id=0x037c0c879bff0e2d reason=delivery
+INFO [12-01|01:39:48.110] Imported new potential chain segment     number=17 hash=4b4353..02ba9e blocks=1 txs=0   mgas=0.000  elapsed=1.017ms     mgasps=0.000    snapdiffs=22.93KiB triediffs=161.60KiB triedirty=0.00B
+INFO [12-01|01:39:48.116] Chain head was updated                   number=17 hash=4b4353..02ba9e root=a40f37..1bd57b elapsed="230.915µs"
+ERROR[12-01|01:39:48.117] Nil finalized block cannot evict old blobs
+INFO [12-01|01:39:49.336] Starting work on payload                 id=0x03d45287b85f2b14
+INFO [12-01|01:39:49.337] Updated payload                          id=0x03d45287b85f2b14 number=18 hash=4ec086..90c4b1 txs=0   withdrawals=0 gas=0         fees=0              root=3fa232..c884e5 elapsed="336.637µs"
+INFO [12-01|01:39:50.086] Stopping work on payload                 id=0x03d45287b85f2b14 reason=delivery
+INFO [12-01|01:39:50.200] Imported new potential chain segment     number=18 hash=4ec086..90c4b1 blocks=1 txs=0   mgas=0.000  elapsed="462.37µs"  mgasps=0.000    snapdiffs=23.13KiB triediffs=164.06KiB triedirty=0.00B
+INFO [12-01|01:39:50.202] Chain head was updated                   number=18 hash=4ec086..90c4b1 root=3fa232..c884e5 elapsed="31.8µs"
+ERROR[12-01|01:39:50.202] Nil finalized block cannot evict old blobs
+INFO [12-01|01:39:52.207] Imported new potential chain segment     number=19 hash=8f8113..01e52d blocks=1 txs=0   mgas=0.000  elapsed="565.852µs" mgasps=0.000    snapdiffs=23.33KiB triediffs=166.49KiB triedirty=0.00B
+INFO [12-01|01:39:52.209] Chain head was updated                   number=19 hash=8f8113..01e52d root=050624..a6d0cb elapsed="30.441µs"
+ERROR[12-01|01:39:52.209] Nil finalized block cannot evict old blobs
+INFO [12-01|01:39:53.334] Starting work on payload                 id=0x03130901b158d1f3
+INFO [12-01|01:39:53.335] Updated payload                          id=0x03130901b158d1f3 number=20 hash=f4eba9..22d22c txs=0   withdrawals=0 gas=0         fees=0              root=80aae8..873df3 elapsed="196.604µs"
+INFO [12-01|01:39:54.003] Stopping work on payload                 id=0x03130901b158d1f3 reason=delivery
+INFO [12-01|01:39:54.103] Imported new potential chain segment     number=20 hash=f4eba9..22d22c blocks=1 txs=0   mgas=0.000  elapsed="517.401µs" mgasps=0.000    snapdiffs=23.53KiB triediffs=169.06KiB triedirty=0.00B
+INFO [12-01|01:39:54.104] Chain head was updated                   number=20 hash=f4eba9..22d22c root=80aae8..873df3 elapsed="35.161µs"
+ERROR[12-01|01:39:54.105] Nil finalized block cannot evict old blobs
+INFO [12-01|01:39:54.899] Looking for peers                        peercount=2 tried=6  static=0
+INFO [12-01|01:39:55.334] Starting work on payload                 id=0x039be3fd5253ec75
+INFO [12-01|01:39:55.334] Updated payload                          id=0x039be3fd5253ec75 number=21 hash=852c1c..1b2809 txs=0   withdrawals=0 gas=0         fees=0              root=b91b23..606117 elapsed="151.103µs"
+INFO [12-01|01:39:56.086] Stopping work on payload                 id=0x039be3fd5253ec75 reason=delivery
+INFO [12-01|01:39:56.201] Imported new potential chain segment     number=21 hash=852c1c..1b2809 blocks=1 txs=0   mgas=0.000  elapsed="922.339µs" mgasps=0.000    snapdiffs=23.73KiB triediffs=171.38KiB triedirty=0.00B
+INFO [12-01|01:39:56.203] Chain head was updated                   number=21 hash=852c1c..1b2809 root=b91b23..606117 elapsed="45.551µs"
+ERROR[12-01|01:39:56.203] Nil finalized block cannot evict old blobs
+INFO [12-01|01:39:58.220] Imported new potential chain segment     number=22 hash=771fe2..f5d177 blocks=1 txs=33  mgas=0.693  elapsed=5.309ms     mgasps=130.520  snapdiffs=25.47KiB triediffs=189.13KiB triedirty=0.00B
+INFO [12-01|01:39:58.222] Chain head was updated                   number=22 hash=771fe2..f5d177 root=a6d234..872422 elapsed="135.563µs"
+ERROR[12-01|01:39:58.227] Nil finalized block cannot evict old blobs
+INFO [12-01|01:40:00.240] Imported new potential chain segment     number=23 hash=e4fdd7..ee1f64 blocks=1 txs=167 mgas=3.507  elapsed=15.712ms    mgasps=223.197  snapdiffs=30.21KiB triediffs=221.43KiB triedirty=0.00B
+INFO [12-01|01:40:00.244] Chain head was updated                   number=23 hash=e4fdd7..ee1f64 root=94d480..ae38a1 elapsed="379.888µs"
+ERROR[12-01|01:40:00.255] Nil finalized block cannot evict old blobs
+INFO [12-01|01:40:01.335] Starting work on payload                 id=0x03e160f05a6583e4
+INFO [12-01|01:40:01.335] Updated payload                          id=0x03e160f05a6583e4 number=24 hash=004024..798e3a txs=4   withdrawals=0 gas=169,132   fees=0.0002541219384 root=76afab..3ebfda elapsed="314.466µs"
+INFO [12-01|01:40:02.004] Stopping work on payload                 id=0x03e160f05a6583e4 reason=delivery
+INFO [12-01|01:40:02.109] Imported new potential chain segment     number=24 hash=004024..798e3a blocks=1 txs=4   mgas=0.169  elapsed=2.286ms     mgasps=73.959   snapdiffs=30.64KiB triediffs=226.85KiB triedirty=0.00B
+INFO [12-01|01:40:02.114] Chain head was updated                   number=24 hash=004024..798e3a root=76afab..3ebfda elapsed="354.498µs"
+ERROR[12-01|01:40:02.116] Nil finalized block cannot evict old blobs
+INFO [12-01|01:40:04.292] Imported new potential chain segment     number=25 hash=ab91b1..8b5e75 blocks=1 txs=102 mgas=4.447  elapsed=51.875ms    mgasps=85.728   snapdiffs=35.11KiB triediffs=261.06KiB triedirty=0.00B
+INFO [12-01|01:40:04.309] Chain head was updated                   number=25 hash=ab91b1..8b5e75 root=591832..d156d1 elapsed=6.499596ms
+ERROR[12-01|01:40:04.317] Nil finalized block cannot evict old blobs
+INFO [12-01|01:40:04.908] Looking for peers                        peercount=2 tried=45 static=0
+INFO [12-01|01:40:05.336] Starting work on payload                 id=0x03235f2f0efee8fc
+INFO [12-01|01:40:05.337] Updated payload                          id=0x03235f2f0efee8fc number=26 hash=eaa956..64d31d txs=0   withdrawals=0 gas=0         fees=0               root=ff54da..c23993 elapsed="136.002µs"
+INFO [12-01|01:40:06.088] Stopping work on payload                 id=0x03235f2f0efee8fc reason=delivery
+INFO [12-01|01:40:06.205] Imported new potential chain segment     number=26 hash=eaa956..64d31d blocks=1 txs=0   mgas=0.000  elapsed=1.307ms     mgasps=0.000    snapdiffs=35.30KiB triediffs=263.45KiB triedirty=0.00B
+INFO [12-01|01:40:06.211] Chain head was updated                   number=26 hash=eaa956..64d31d root=ff54da..c23993 elapsed="108.593µs"
+ERROR[12-01|01:40:06.212] Nil finalized block cannot evict old blobs
+INFO [12-01|01:40:08.217] Imported new potential chain segment     number=27 hash=06ad29..ae9eca blocks=1 txs=0   mgas=0.000  elapsed="630.363µs" mgasps=0.000    snapdiffs=35.50KiB triediffs=266.14KiB triedirty=0.00B
+INFO [12-01|01:40:08.222] Chain head was updated                   number=27 hash=06ad29..ae9eca root=caed31..8543a9 elapsed="214.274µs"
+ERROR[12-01|01:40:08.223] Nil finalized block cannot evict old blobs
+INFO [12-01|01:40:10.216] Imported new potential chain segment     number=28 hash=f540ce..00025a blocks=1 txs=0   mgas=0.000  elapsed=1.043ms     mgasps=0.000    snapdiffs=35.70KiB triediffs=268.66KiB triedirty=0.00B
+INFO [12-01|01:40:10.221] Chain head was updated                   number=28 hash=f540ce..00025a root=3cdc55..144821 elapsed="176.883µs"
+ERROR[12-01|01:40:10.222] Nil finalized block cannot evict old blobs
+INFO [12-01|01:40:11.336] Starting work on payload                 id=0x0342a26cc36d7f06
+INFO [12-01|01:40:11.338] Updated payload                          id=0x0342a26cc36d7f06 number=29 hash=78e9ba..f1bcbf txs=0   withdrawals=0 gas=0         fees=0               root=f06c3c..5f0b47 elapsed="918.279µs"
+INFO [12-01|01:40:12.089] Stopping work on payload                 id=0x0342a26cc36d7f06 reason=delivery
+INFO [12-01|01:40:12.204] Imported new potential chain segment     number=29 hash=78e9ba..f1bcbf blocks=1 txs=0   mgas=0.000  elapsed=1.027ms     mgasps=0.000    snapdiffs=35.90KiB triediffs=271.04KiB triedirty=0.00B
+INFO [12-01|01:40:12.212] Chain head was updated                   number=29 hash=78e9ba..f1bcbf root=f06c3c..5f0b47 elapsed="236.005µs"
+ERROR[12-01|01:40:12.213] Nil finalized block cannot evict old blobs
+INFO [12-01|01:40:14.217] Imported new potential chain segment     number=30 hash=e41292..52c9e4 blocks=1 txs=2   mgas=0.042  elapsed=1.917ms     mgasps=21.902   snapdiffs=36.29KiB triediffs=275.41KiB triedirty=0.00B
+INFO [12-01|01:40:14.221] Chain head was updated                   number=30 hash=e41292..52c9e4 root=103563..ab0a04 elapsed="175.994µs"
+ERROR[12-01|01:40:14.222] Nil finalized block cannot evict old blobs
+INFO [12-01|01:40:15.057] Looking for peers                        peercount=3 tried=61 static=0
+INFO [12-01|01:40:15.336] Starting work on payload                 id=0x03f91f905069e72f
+INFO [12-01|01:40:15.349] Updated payload                          id=0x03f91f905069e72f number=31 hash=aa4130..e81955 txs=98  withdrawals=0 gas=2,058,000 fees=0.003099051684  root=b144bd..a09412 elapsed=11.817ms
+INFO [12-01|01:40:16.007] Stopping work on payload                 id=0x03f91f905069e72f reason=delivery
+INFO [12-01|01:40:16.131] Imported new potential chain segment     number=31 hash=aa4130..e81955 blocks=1 txs=98  mgas=2.058  elapsed=18.754ms    mgasps=109.733  snapdiffs=40.89KiB triediffs=307.94KiB triedirty=0.00B
+INFO [12-01|01:40:16.138] Chain head was updated                   number=31 hash=aa4130..e81955 root=b144bd..a09412 elapsed="639.324µs"
+ERROR[12-01|01:40:16.151] Nil finalized block cannot evict old blobs
+INFO [12-01|01:40:17.338] Starting work on payload                 id=0x031a1a7e3b0c3648
+INFO [12-01|01:40:17.339] Updated payload                          id=0x031a1a7e3b0c3648 number=32 hash=947b75..720a6f txs=30  withdrawals=0 gas=630,000   fees=0.0009466805382 root=7d39a0..d8a817 elapsed=1.668ms
+INFO [12-01|01:40:18.093] Stopping work on payload                 id=0x031a1a7e3b0c3648 reason=delivery
+INFO [12-01|01:40:18.134] Imported new potential chain segment     number=32 hash=947b75..720a6f blocks=1 txs=30  mgas=0.630  elapsed=9.330ms     mgasps=67.518   snapdiffs=42.50KiB triediffs=324.60KiB triedirty=0.00B
+INFO [12-01|01:40:18.180] Chain head was updated                   number=32 hash=947b75..720a6f root=7d39a0..d8a817 elapsed="334.037µs"
+ERROR[12-01|01:40:18.185] Nil finalized block cannot evict old blobs
+INFO [12-01|01:40:19.337] Starting work on payload                 id=0x0307a5ddbea663ad
+INFO [12-01|01:40:19.343] Updated payload                          id=0x0307a5ddbea663ad number=33 hash=ea2a8b..e9a704 txs=70  withdrawals=0 gas=1,470,000 fees=0.002213291529  root=c7d0cd..a79445 elapsed=5.530ms
+INFO [12-01|01:40:20.008] Stopping work on payload                 id=0x0307a5ddbea663ad reason=delivery
+INFO [12-01|01:40:20.127] Imported new potential chain segment     number=33 hash=ea2a8b..e9a704 blocks=1 txs=70  mgas=1.470  elapsed=9.570ms     mgasps=153.591  snapdiffs=45.88KiB triediffs=350.94KiB triedirty=0.00B
+INFO [12-01|01:40:20.129] Chain head was updated                   number=33 hash=ea2a8b..e9a704 root=c7d0cd..a79445 elapsed="197.114µs"
+ERROR[12-01|01:40:20.134] Nil finalized block cannot evict old blobs
+INFO [12-01|01:40:22.127] Imported new potential chain segment     number=34 hash=241312..cf3042 blocks=1 txs=16  mgas=0.591  elapsed=8.658ms     mgasps=68.295   snapdiffs=47.08KiB triediffs=366.11KiB triedirty=0.00B
+INFO [12-01|01:40:22.137] Chain head was updated                   number=34 hash=241312..cf3042 root=34c136..d1d286 elapsed=1.657624ms
+ERROR[12-01|01:40:22.140] Nil finalized block cannot evict old blobs
+INFO [12-01|01:40:23.336] Starting work on payload                 id=0x0387178d178add26
+INFO [12-01|01:40:23.346] Updated payload                          id=0x0387178d178add26 number=35 hash=eec143..091d77 txs=72  withdrawals=0 gas=3,809,438 fees=0.005740156991  root=1aab85..d362fd elapsed=9.904ms
+INFO [12-01|01:40:24.006] Stopping work on payload                 id=0x0387178d178add26 reason=delivery
+INFO [12-01|01:40:24.067] Imported new potential chain segment     number=35 hash=eec143..091d77 blocks=1 txs=72  mgas=3.809  elapsed=21.731ms    mgasps=175.293  snapdiffs=50.69KiB triediffs=396.27KiB triedirty=0.00B
+INFO [12-01|01:40:24.081] Chain head was updated                   number=35 hash=eec143..091d77 root=1aab85..d362fd elapsed=5.704008ms
+ERROR[12-01|01:40:24.087] Nil finalized block cannot evict old blobs
+INFO [12-01|01:40:25.213] Looking for peers                        peercount=2 tried=22 static=0
+INFO [12-01|01:40:26.117] Imported new potential chain segment     number=36 hash=d8b51e..e104e6 blocks=1 txs=0   mgas=0.000  elapsed="905.119µs" mgasps=0.000    snapdiffs=50.89KiB triediffs=399.26KiB triedirty=0.00B
+INFO [12-01|01:40:26.123] Chain head was updated                   number=36 hash=d8b51e..e104e6 root=7cc003..cd07f1 elapsed="71.881µs"
+ERROR[12-01|01:40:26.123] Nil finalized block cannot evict old blobs
+INFO [12-01|01:40:27.338] Starting work on payload                 id=0x031ea7f0cc6cb1af
+INFO [12-01|01:40:27.339] Updated payload                          id=0x031ea7f0cc6cb1af number=37 hash=36259d..344bbe txs=0   withdrawals=0 gas=0         fees=0               root=a6c0dd..4a6e2d elapsed="509.411µs"
+INFO [12-01|01:40:28.006] Stopping work on payload                 id=0x031ea7f0cc6cb1af reason=delivery
+INFO [12-01|01:40:28.111] Imported new potential chain segment     number=37 hash=36259d..344bbe blocks=1 txs=0   mgas=0.000  elapsed=1.570ms     mgasps=0.000    snapdiffs=51.09KiB triediffs=401.76KiB triedirty=0.00B
+INFO [12-01|01:40:28.116] Chain head was updated                   number=37 hash=36259d..344bbe root=a6c0dd..4a6e2d elapsed="43.131µs"
+ERROR[12-01|01:40:28.117] Nil finalized block cannot evict old blobs
+INFO [12-01|01:40:30.107] Imported new potential chain segment     number=38 hash=5c960a..7767ce blocks=1 txs=0   mgas=0.000  elapsed=1.905ms     mgasps=0.000    snapdiffs=51.29KiB triediffs=404.44KiB triedirty=0.00B
+INFO [12-01|01:40:30.114] Chain head was updated                   number=38 hash=5c960a..7767ce root=e0fb81..3192e3 elapsed="254.355µs"
+ERROR[12-01|01:40:30.117] Nil finalized block cannot evict old blobs
+INFO [12-01|01:40:32.138] Imported new potential chain segment     number=39 hash=8329d4..a896c7 blocks=1 txs=97  mgas=2.037  elapsed=11.666ms    mgasps=174.601  snapdiffs=55.85KiB triediffs=437.55KiB triedirty=0.00B
+INFO [12-01|01:40:32.142] Chain head was updated                   number=39 hash=8329d4..a896c7 root=c8b0e2..e91113 elapsed="252.655µs"
+ERROR[12-01|01:40:32.158] Nil finalized block cannot evict old blobs
+INFO [12-01|01:40:33.337] Starting work on payload                 id=0x0300304fd63c11c9
+INFO [12-01|01:40:33.337] Updated payload                          id=0x0300304fd63c11c9 number=40 hash=d77f00..99c8b4 txs=3   withdrawals=0 gas=63000     fees=9.49109432e-05  root=a219ac..05f06f elapsed="519.451µs"
+INFO [12-01|01:40:34.006] Stopping work on payload                 id=0x0300304fd63c11c9 reason=delivery
+INFO [12-01|01:40:34.043] Imported new potential chain segment     number=40 hash=d77f00..99c8b4 blocks=1 txs=3   mgas=0.063  elapsed=2.157ms     mgasps=29.205   snapdiffs=56.27KiB triediffs=442.87KiB triedirty=0.00B
+INFO [12-01|01:40:34.050] Chain head was updated                   number=40 hash=d77f00..99c8b4 root=a219ac..05f06f elapsed="177.184µs"
+ERROR[12-01|01:40:34.051] Nil finalized block cannot evict old blobs
+INFO [12-01|01:40:35.233] Looking for peers                        peercount=2 tried=81 static=0
+INFO [12-01|01:40:35.336] Starting work on payload                 id=0x0331ed6d54403453
+INFO [12-01|01:40:35.337] Updated payload                          id=0x0331ed6d54403453 number=41 hash=da96fc..2f8625 txs=0   withdrawals=0 gas=0         fees=0               root=7c03d5..d15502 elapsed="543.262µs"
+INFO [12-01|01:40:36.006] Stopping work on payload                 id=0x0331ed6d54403453 reason=delivery
+INFO [12-01|01:40:36.098] Imported new potential chain segment     number=41 hash=da96fc..2f8625 blocks=1 txs=0   mgas=0.000  elapsed=1.142ms     mgasps=0.000    snapdiffs=56.47KiB triediffs=445.40KiB triedirty=0.00B
+INFO [12-01|01:40:36.102] Chain head was updated                   number=41 hash=da96fc..2f8625 root=7c03d5..d15502 elapsed="55.661µs"
+ERROR[12-01|01:40:36.102] Nil finalized block cannot evict old blobs
+INFO [12-01|01:40:37.336] Starting work on payload                 id=0x0398af94060e6aca
+INFO [12-01|01:40:37.337] Updated payload                          id=0x0398af94060e6aca number=42 hash=57447e..cc0295 txs=14  withdrawals=0 gas=294,000   fees=0.0004428545546 root=effc63..d34456 elapsed=1.106ms
+INFO [12-01|01:40:38.006] Stopping work on payload                 id=0x0398af94060e6aca reason=delivery
+INFO [12-01|01:40:38.108] Imported new potential chain segment     number=42 hash=57447e..cc0295 blocks=1 txs=14  mgas=0.294  elapsed=1.792ms     mgasps=163.984  snapdiffs=57.39KiB triediffs=456.75KiB triedirty=0.00B
+INFO [12-01|01:40:38.109] Chain head was updated                   number=42 hash=57447e..cc0295 root=effc63..d34456 elapsed="66.521µs"
+ERROR[12-01|01:40:38.110] Nil finalized block cannot evict old blobs
+INFO [12-01|01:40:40.153] Imported new potential chain segment     number=43 hash=edf18e..fdbb38 blocks=1 txs=86  mgas=1.806  elapsed=21.850ms    mgasps=82.652   snapdiffs=61.46KiB triediffs=487.87KiB triedirty=0.00B
+INFO [12-01|01:40:40.163] Chain head was updated                   number=43 hash=edf18e..fdbb38 root=b7eab5..c1523f elapsed="854.588µs"
+ERROR[12-01|01:40:40.174] Nil finalized block cannot evict old blobs
+INFO [12-01|01:40:42.126] Imported new potential chain segment     number=44 hash=9abfbb..ec647a blocks=1 txs=8   mgas=0.358  elapsed=4.971ms     mgasps=71.941   snapdiffs=62.17KiB triediffs=496.91KiB triedirty=0.00B
+INFO [12-01|01:40:42.133] Chain head was updated                   number=44 hash=9abfbb..ec647a root=2cecf9..a88e9d elapsed="844.988µs"
+ERROR[12-01|01:40:42.137] Nil finalized block cannot evict old blobs
+INFO [12-01|01:40:43.336] Starting work on payload                 id=0x0393816adc79220b
+INFO [12-01|01:40:43.349] Updated payload                          id=0x0393816adc79220b number=45 hash=40b0af..0e4c07 txs=90  withdrawals=0 gas=3,987,591 fees=0.006005901422  root=ebeaaa..ab5669 elapsed=12.022ms
+INFO [12-01|01:40:44.007] Stopping work on payload                 id=0x0393816adc79220b reason=delivery
+INFO [12-01|01:40:44.129] Imported new potential chain segment     number=45 hash=40b0af..0e4c07 blocks=1 txs=90  mgas=3.988  elapsed=10.857ms    mgasps=367.253  snapdiffs=66.47KiB triediffs=531.71KiB triedirty=0.00B
+INFO [12-01|01:40:44.135] Chain head was updated                   number=45 hash=40b0af..0e4c07 root=ebeaaa..ab5669 elapsed=3.594836ms
+ERROR[12-01|01:40:44.139] Nil finalized block cannot evict old blobs
+INFO [12-01|01:40:45.329] Looking for peers                        peercount=2 tried=12 static=0
+INFO [12-01|01:40:46.126] Imported new potential chain segment     number=46 hash=651d9b..0830de blocks=1 txs=0   mgas=0.000  elapsed=1.465ms     mgasps=0.000    snapdiffs=66.67KiB triediffs=534.36KiB triedirty=0.00B
+INFO [12-01|01:40:46.133] Chain head was updated                   number=46 hash=651d9b..0830de root=da6bd8..cc6bb4 elapsed="46.181µs"
+ERROR[12-01|01:40:46.133] Nil finalized block cannot evict old blobs
+INFO [12-01|01:40:47.337] Starting work on payload                 id=0x0391417ae9838946
+INFO [12-01|01:40:47.338] Updated payload                          id=0x0391417ae9838946 number=47 hash=7784a3..768263 txs=0   withdrawals=0 gas=0         fees=0               root=0b1361..38344a elapsed=1.070ms
+INFO [12-01|01:40:48.005] Stopping work on payload                 id=0x0391417ae9838946 reason=delivery
+INFO [12-01|01:40:48.114] Imported new potential chain segment     number=47 hash=7784a3..768263 blocks=1 txs=0   mgas=0.000  elapsed=1.542ms     mgasps=0.000    snapdiffs=66.87KiB triediffs=536.68KiB triedirty=0.00B
+INFO [12-01|01:40:48.119] Chain head was updated                   number=47 hash=7784a3..768263 root=0b1361..38344a elapsed="161.463µs"
+ERROR[12-01|01:40:48.120] Nil finalized block cannot evict old blobs
+INFO [12-01|01:40:50.140] Imported new potential chain segment     number=48 hash=a257ca..9425e4 blocks=1 txs=100 mgas=2.100  elapsed=13.026ms    mgasps=161.205  snapdiffs=71.56KiB triediffs=570.86KiB triedirty=0.00B
+INFO [12-01|01:40:50.144] Chain head was updated                   number=48 hash=a257ca..9425e4 root=02d922..c6cb91 elapsed="266.025µs"
+ERROR[12-01|01:40:50.155] Nil finalized block cannot evict old blobs
+INFO [12-01|01:40:52.121] Imported new potential chain segment     number=49 hash=ea38e6..642446 blocks=1 txs=0   mgas=0.000  elapsed=1.177ms     mgasps=0.000    snapdiffs=71.76KiB triediffs=573.67KiB triedirty=0.00B
+INFO [12-01|01:40:52.129] Chain head was updated                   number=49 hash=ea38e6..642446 root=c7c953..d86e7d elapsed="164.713µs"
+ERROR[12-01|01:40:52.130] Nil finalized block cannot evict old blobs
+INFO [12-01|01:40:54.118] Imported new potential chain segment     number=50 hash=c538c8..b5f184 blocks=1 txs=0   mgas=0.000  elapsed=1.859ms     mgasps=0.000    snapdiffs=71.96KiB triediffs=576.39KiB triedirty=0.00B
+INFO [12-01|01:40:54.123] Chain head was updated                   number=50 hash=c538c8..b5f184 root=8ec3bf..1f4a80 elapsed="43.8µs"
+ERROR[12-01|01:40:54.124] Nil finalized block cannot evict old blobs
+INFO [12-01|01:40:55.435] Looking for peers                        peercount=2 tried=59 static=0
+INFO [12-01|01:40:56.110] Imported new potential chain segment     number=51 hash=a0dfd1..2f85e7 blocks=1 txs=0   mgas=0.000  elapsed="405.488µs" mgasps=0.000    snapdiffs=72.16KiB triediffs=578.95KiB triedirty=0.00B
+INFO [12-01|01:40:56.111] Chain head was updated                   number=51 hash=a0dfd1..2f85e7 root=b11d74..2aeb97 elapsed="24.68µs"
+ERROR[12-01|01:40:56.112] Nil finalized block cannot evict old blobs
+INFO [12-01|01:40:57.335] Starting work on payload                 id=0x03504a25b11ee153
+INFO [12-01|01:40:57.338] Updated payload                          id=0x03504a25b11ee153 number=52 hash=48c740..fc9051 txs=11  withdrawals=0 gas=231,000   fees=0.0003478360518 root=7a7b21..f8cc61 elapsed=2.795ms
+INFO [12-01|01:40:58.005] Stopping work on payload                 id=0x03504a25b11ee153 reason=delivery
+INFO [12-01|01:40:58.110] Imported new potential chain segment     number=52 hash=48c740..fc9051 blocks=1 txs=11  mgas=0.231  elapsed=4.978ms     mgasps=46.398   snapdiffs=72.94KiB triediffs=589.36KiB triedirty=0.00B
+INFO [12-01|01:40:58.116] Chain head was updated                   number=52 hash=48c740..fc9051 root=7a7b21..f8cc61 elapsed="171.733µs"
+ERROR[12-01|01:40:58.119] Nil finalized block cannot evict old blobs
+INFO [12-01|01:40:59.337] Starting work on payload                 id=0x035d5539c4292bb3
+INFO [12-01|01:40:59.345] Updated payload                          id=0x035d5539c4292bb3 number=53 hash=5ccefe..914a61 txs=89  withdrawals=0 gas=1,869,000 fees=0.002814517323  root=43c646..ad1495 elapsed=6.825ms
+INFO [12-01|01:41:00.010] Stopping work on payload                 id=0x035d5539c4292bb3 reason=delivery
+INFO [12-01|01:41:00.145] Imported new potential chain segment     number=53 hash=5ccefe..914a61 blocks=1 txs=89  mgas=1.869  elapsed=27.812ms    mgasps=67.201   snapdiffs=77.15KiB triediffs=622.19KiB triedirty=0.00B
+INFO [12-01|01:41:00.155] Chain head was updated                   number=53 hash=5ccefe..914a61 root=43c646..ad1495 elapsed=1.292497ms
+ERROR[12-01|01:41:00.169] Nil finalized block cannot evict old blobs
+INFO [12-01|01:41:01.335] Starting work on payload                 id=0x03f8f2fee8a1921a
+INFO [12-01|01:41:01.337] Updated payload                          id=0x03f8f2fee8a1921a number=54 hash=9d71d9..9b2413 txs=5   withdrawals=0 gas=269,132   fees=0.0004052297338 root=3e1d33..8cf962 elapsed=1.239ms
+INFO [12-01|01:41:02.006] Stopping work on payload                 id=0x03f8f2fee8a1921a reason=delivery
+INFO [12-01|01:41:02.106] Imported new potential chain segment     number=54 hash=9d71d9..9b2413 blocks=1 txs=5   mgas=0.269  elapsed=2.786ms     mgasps=96.597   snapdiffs=77.61KiB triediffs=628.82KiB triedirty=0.00B
+INFO [12-01|01:41:02.110] Chain head was updated                   number=54 hash=9d71d9..9b2413 root=3e1d33..8cf962 elapsed="241.445µs"
+ERROR[12-01|01:41:02.112] Nil finalized block cannot evict old blobs
+INFO [12-01|01:41:03.337] Starting work on payload                 id=0x035ab6d9a059166a
+INFO [12-01|01:41:03.349] Updated payload                          id=0x035ab6d9a059166a number=55 hash=3fb6aa..98fd41 txs=98  withdrawals=0 gas=4,234,870 fees=0.00637652625   root=82ef13..19d1d0 elapsed=11.658ms
+INFO [12-01|01:41:04.003] Stopping work on payload                 id=0x035ab6d9a059166a reason=delivery
+INFO [12-01|01:41:04.147] Imported new potential chain segment     number=55 hash=3fb6aa..98fd41 blocks=1 txs=98  mgas=4.235  elapsed=28.211ms    mgasps=150.113  snapdiffs=82.03KiB triediffs=664.57KiB triedirty=0.00B
+INFO [12-01|01:41:04.163] Chain head was updated                   number=55 hash=3fb6aa..98fd41 root=82ef13..19d1d0 elapsed=7.926025ms
+ERROR[12-01|01:41:04.172] Nil finalized block cannot evict old blobs
+INFO [12-01|01:41:05.336] Starting work on payload                 id=0x03014e3389a59e3c
+INFO [12-01|01:41:05.340] Updated payload                          id=0x03014e3389a59e3c number=56 hash=911f08..c571bd txs=71  withdrawals=0 gas=1,491,000 fees=0.002245188705  root=2bb856..4f5618 elapsed=4.195ms
+INFO [12-01|01:41:05.450] Looking for peers                        peercount=2 tried=53 static=0
+INFO [12-01|01:41:06.009] Stopping work on payload                 id=0x03014e3389a59e3c reason=delivery
+INFO [12-01|01:41:06.138] Imported new potential chain segment     number=56 hash=911f08..c571bd blocks=1 txs=71  mgas=1.491  elapsed=22.474ms    mgasps=66.343   snapdiffs=85.45KiB triediffs=693.47KiB triedirty=0.00B
+INFO [12-01|01:41:06.146] Chain head was updated                   number=56 hash=911f08..c571bd root=2bb856..4f5618 elapsed="448.279µs"
+ERROR[12-01|01:41:06.154] Nil finalized block cannot evict old blobs
+INFO [12-01|01:41:08.127] Imported new potential chain segment     number=57 hash=3c6007..7d0400 blocks=1 txs=29  mgas=0.609  elapsed=7.115ms     mgasps=85.583   snapdiffs=87.02KiB triediffs=710.06KiB triedirty=0.00B
+INFO [12-01|01:41:08.136] Chain head was updated                   number=57 hash=3c6007..7d0400 root=4d5f50..51227c elapsed="216.635µs"
+ERROR[12-01|01:41:08.140] Nil finalized block cannot evict old blobs
+INFO [12-01|01:41:10.035] Imported new potential chain segment     number=58 hash=88c00c..1199c0 blocks=1 txs=0   mgas=0.000  elapsed="595.062µs" mgasps=0.000    snapdiffs=87.22KiB triediffs=712.66KiB triedirty=0.00B
+INFO [12-01|01:41:10.037] Chain head was updated                   number=58 hash=88c00c..1199c0 root=f9c2a8..be432a elapsed="44.13µs"
+ERROR[12-01|01:41:10.037] Nil finalized block cannot evict old blobs
+INFO [12-01|01:41:11.335] Starting work on payload                 id=0x03be99372ae9f81c
+INFO [12-01|01:41:11.336] Updated payload                          id=0x03be99372ae9f81c number=59 hash=6b409f..5694ba txs=0   withdrawals=0 gas=0         fees=0               root=48d77d..a244b7 elapsed="287.416µs"
+INFO [12-01|01:41:12.002] Stopping work on payload                 id=0x03be99372ae9f81c reason=delivery
+INFO [12-01|01:41:12.025] Imported new potential chain segment     number=59 hash=6b409f..5694ba blocks=1 txs=0   mgas=0.000  elapsed="503.741µs" mgasps=0.000    snapdiffs=87.42KiB triediffs=715.44KiB triedirty=0.00B
+INFO [12-01|01:41:12.027] Chain head was updated                   number=59 hash=6b409f..5694ba root=48d77d..a244b7 elapsed="64.791µs"
+ERROR[12-01|01:41:12.027] Nil finalized block cannot evict old blobs
+INFO [12-01|01:41:13.335] Starting work on payload                 id=0x034d6001fc6162e9
+INFO [12-01|01:41:13.336] Updated payload                          id=0x034d6001fc6162e9 number=60 hash=49569a..60ff08 txs=0   withdrawals=0 gas=0         fees=0               root=b66cd9..39eae1 elapsed="288.346µs"
+INFO [12-01|01:41:14.003] Stopping work on payload                 id=0x034d6001fc6162e9 reason=delivery
+INFO [12-01|01:41:14.030] Imported new potential chain segment     number=60 hash=49569a..60ff08 blocks=1 txs=0   mgas=0.000  elapsed="451.519µs" mgasps=0.000    snapdiffs=87.62KiB triediffs=718.10KiB triedirty=0.00B
+INFO [12-01|01:41:14.031] Chain head was updated                   number=60 hash=49569a..60ff08 root=b66cd9..39eae1 elapsed="32.511µs"
+ERROR[12-01|01:41:14.032] Nil finalized block cannot evict old blobs
+INFO [12-01|01:41:15.687] Looking for peers                        peercount=2 tried=55 static=0
+INFO [12-01|01:41:16.115] Imported new potential chain segment     number=61 hash=85e07d..47c051 blocks=1 txs=0   mgas=0.000  elapsed="719.595µs" mgasps=0.000    snapdiffs=87.81KiB triediffs=720.91KiB triedirty=0.00B
+INFO [12-01|01:41:16.117] Chain head was updated                   number=61 hash=85e07d..47c051 root=03de4f..6156bf elapsed="42.171µs"
+ERROR[12-01|01:41:16.117] Nil finalized block cannot evict old blobs
+INFO [12-01|01:41:18.041] Imported new potential chain segment     number=62 hash=b04834..399a65 blocks=1 txs=16  mgas=0.336  elapsed=3.406ms     mgasps=98.622   snapdiffs=88.81KiB triediffs=733.16KiB triedirty=0.00B
+INFO [12-01|01:41:18.043] Chain head was updated                   number=62 hash=b04834..399a65 root=08326b..fc72e3 elapsed="108.842µs"
+ERROR[12-01|01:41:18.046] Nil finalized block cannot evict old blobs
+INFO [12-01|01:41:19.335] Starting work on payload                 id=0x03825fe725f72363
+INFO [12-01|01:41:19.340] Updated payload                          id=0x03825fe725f72363 number=63 hash=ab1a3e..9b1779 txs=84  withdrawals=0 gas=1,764,000 fees=0.002656416887  root=8e6656..4eb0c8 elapsed=4.975ms
+INFO [12-01|01:41:20.004] Stopping work on payload                 id=0x03825fe725f72363 reason=delivery
+INFO [12-01|01:41:20.125] Imported new potential chain segment     number=63 hash=ab1a3e..9b1779 blocks=1 txs=84  mgas=1.764  elapsed=12.290ms    mgasps=143.529  snapdiffs=92.80KiB triediffs=765.63KiB triedirty=0.00B
+INFO [12-01|01:41:20.129] Chain head was updated                   number=63 hash=ab1a3e..9b1779 root=8e6656..4eb0c8 elapsed="330.707µs"
+ERROR[12-01|01:41:20.138] Nil finalized block cannot evict old blobs
+INFO [12-01|01:41:23.335] Starting work on payload                 id=0x0381300425f9d939
+INFO [12-01|01:41:23.346] Updated payload                          id=0x0381300425f9d939 number=64 hash=55e347..ae6315 txs=202 withdrawals=0 gas=6,998,971 fees=0.01053967695   root=4eb371..92d11a elapsed=10.653ms
+INFO [12-01|01:41:24.004] Stopping work on payload                 id=0x0381300425f9d939 reason=delivery
+INFO [12-01|01:41:24.152] Imported new potential chain segment     number=64 hash=55e347..ae6315 blocks=1 txs=202 mgas=6.999  elapsed=29.540ms    mgasps=236.927  snapdiffs=98.98KiB triediffs=811.39KiB triedirty=0.00B
+INFO [12-01|01:41:24.166] Chain head was updated                   number=64 hash=55e347..ae6315 root=4eb371..92d11a elapsed=6.206758ms
+ERROR[12-01|01:41:24.179] Nil finalized block cannot evict old blobs
+INFO [12-01|01:41:25.336] Starting work on payload                 id=0x032131de5e485752
+INFO [12-01|01:41:25.336] Updated payload                          id=0x032131de5e485752 number=65 hash=a363d7..ff203a txs=0   withdrawals=0 gas=0         fees=0               root=6751e9..ff5c77 elapsed="303.956µs"
+INFO [12-01|01:41:25.701] Looking for peers                        peercount=2 tried=37 static=0
+INFO [12-01|01:41:26.004] Stopping work on payload                 id=0x032131de5e485752 reason=delivery
+INFO [12-01|01:41:26.024] Imported new potential chain segment     number=65 hash=a363d7..ff203a blocks=1 txs=0   mgas=0.000  elapsed="627.263µs" mgasps=0.000    snapdiffs=99.17KiB triediffs=814.11KiB triedirty=0.00B
+INFO [12-01|01:41:26.026] Chain head was updated                   number=65 hash=a363d7..ff203a root=6751e9..ff5c77 elapsed="62.421µs"
+ERROR[12-01|01:41:26.027] Nil finalized block cannot evict old blobs
+INFO [12-01|01:41:27.335] Starting work on payload                 id=0x03bd7c98eadeedb1
+INFO [12-01|01:41:27.335] Updated payload                          id=0x03bd7c98eadeedb1 number=66 hash=647e96..020922 txs=0   withdrawals=0 gas=0         fees=0               root=c67b3b..5d3fa0 elapsed="185.664µs"
+INFO [12-01|01:41:28.004] Stopping work on payload                 id=0x03bd7c98eadeedb1 reason=delivery
+INFO [12-01|01:41:28.030] Imported new potential chain segment     number=66 hash=647e96..020922 blocks=1 txs=0   mgas=0.000  elapsed="586.922µs" mgasps=0.000    snapdiffs=99.37KiB triediffs=817.04KiB triedirty=0.00B
+INFO [12-01|01:41:28.032] Chain head was updated                   number=66 hash=647e96..020922 root=c67b3b..5d3fa0 elapsed="46.621µs"
+ERROR[12-01|01:41:28.032] Nil finalized block cannot evict old blobs
+INFO [12-01|01:41:29.335] Starting work on payload                 id=0x03f43837c9c0c305
+INFO [12-01|01:41:29.335] Updated payload                          id=0x03f43837c9c0c305 number=67 hash=368058..a1de15 txs=0   withdrawals=0 gas=0         fees=0               root=ca2b45..8cde70 elapsed="148.563µs"
+INFO [12-01|01:41:30.004] Stopping work on payload                 id=0x03f43837c9c0c305 reason=delivery
+INFO [12-01|01:41:30.018] Imported new potential chain segment     number=67 hash=368058..a1de15 blocks=1 txs=0   mgas=0.000  elapsed="379.258µs" mgasps=0.000    snapdiffs=99.57KiB triediffs=819.66KiB triedirty=0.00B
+INFO [12-01|01:41:30.019] Chain head was updated                   number=67 hash=368058..a1de15 root=ca2b45..8cde70 elapsed="36.011µs"
+ERROR[12-01|01:41:30.019] Nil finalized block cannot evict old blobs
+INFO [12-01|01:41:31.336] Starting work on payload                 id=0x03559bd7ecfeb7c5
+INFO [12-01|01:41:31.340] Updated payload                          id=0x03559bd7ecfeb7c5 number=68 hash=40574a..feeb64 txs=0   withdrawals=0 gas=0         fees=0               root=44e4a5..5fb57f elapsed="826.247µs"
+INFO [12-01|01:41:32.006] Stopping work on payload                 id=0x03559bd7ecfeb7c5 reason=delivery
+INFO [12-01|01:41:32.096] Imported new potential chain segment     number=68 hash=40574a..feeb64 blocks=1 txs=0   mgas=0.000  elapsed="965.6µs"   mgasps=0.000    snapdiffs=99.77KiB triediffs=822.34KiB triedirty=0.00B
+INFO [12-01|01:41:32.102] Chain head was updated                   number=68 hash=40574a..feeb64 root=44e4a5..5fb57f elapsed="95.472µs"
+ERROR[12-01|01:41:32.103] Nil finalized block cannot evict old blobs
+INFO [12-01|01:41:34.120] Imported new potential chain segment     number=69 hash=dd9413..cf1056 blocks=1 txs=0   mgas=0.000  elapsed="931.43µs"  mgasps=0.000    snapdiffs=99.97KiB triediffs=825.09KiB triedirty=0.00B
+INFO [12-01|01:41:34.124] Chain head was updated                   number=69 hash=dd9413..cf1056 root=cd1b92..bcaed8 elapsed="116.682µs"
+ERROR[12-01|01:41:34.125] Nil finalized block cannot evict old blobs
+INFO [12-01|01:41:35.336] Starting work on payload                 id=0x03f0b836930f22e7
+INFO [12-01|01:41:35.337] Updated payload                          id=0x03f0b836930f22e7 number=70 hash=db37e7..f5debc txs=0   withdrawals=0 gas=0         fees=0               root=367e5e..622c92 elapsed="485.78µs"
+INFO [12-01|01:41:35.704] Looking for peers                        peercount=3 tried=94 static=0
+INFO [12-01|01:41:36.007] Stopping work on payload                 id=0x03f0b836930f22e7 reason=delivery
+INFO [12-01|01:41:36.105] Imported new potential chain segment     number=70 hash=db37e7..f5debc blocks=1 txs=0   mgas=0.000  elapsed=1.906ms     mgasps=0.000    snapdiffs=100.17KiB triediffs=827.96KiB triedirty=0.00B
+INFO [12-01|01:41:36.110] Chain head was updated                   number=70 hash=db37e7..f5debc root=367e5e..622c92 elapsed="167.053µs"
+ERROR[12-01|01:41:36.111] Nil finalized block cannot evict old blobs
+INFO [12-01|01:41:38.120] Imported new potential chain segment     number=71 hash=a9c501..a3c85e blocks=1 txs=0   mgas=0.000  elapsed="554.262µs" mgasps=0.000    snapdiffs=100.37KiB triediffs=831.16KiB triedirty=0.00B
+INFO [12-01|01:41:38.121] Chain head was updated                   number=71 hash=a9c501..a3c85e root=8dfa34..2b7c26 elapsed="34.391µs"
+ERROR[12-01|01:41:38.121] Nil finalized block cannot evict old blobs
+INFO [12-01|01:41:39.336] Starting work on payload                 id=0x03fd4481f33ed443
+INFO [12-01|01:41:39.339] Updated payload                          id=0x03fd4481f33ed443 number=72 hash=ee2039..34a9c4 txs=21  withdrawals=0 gas=441,000   fees=0.0006640899895 root=fa8b3e..b8469e elapsed=2.340ms
+INFO [12-01|01:41:40.005] Stopping work on payload                 id=0x03fd4481f33ed443 reason=delivery
+INFO [12-01|01:41:40.119] Imported new potential chain segment     number=72 hash=ee2039..34a9c4 blocks=1 txs=21  mgas=0.441  elapsed=7.148ms     mgasps=61.693   snapdiffs=101.24KiB triediffs=842.85KiB triedirty=0.00B
+INFO [12-01|01:41:40.127] Chain head was updated                   number=72 hash=ee2039..34a9c4 root=fa8b3e..b8469e elapsed="259.705µs"
+ERROR[12-01|01:41:40.133] Nil finalized block cannot evict old blobs
+INFO [12-01|01:41:41.334] Starting work on payload                 id=0x037118067c422e42
+INFO [12-01|01:41:41.338] Updated payload                          id=0x037118067c422e42 number=73 hash=43f6c8..7ea86e txs=179 withdrawals=0 gas=3,759,000 fees=0.005660608595  root=1302d5..515032 elapsed=4.018ms
+INFO [12-01|01:41:42.009] Stopping work on payload                 id=0x037118067c422e42 reason=delivery
+INFO [12-01|01:41:42.162] Imported new potential chain segment     number=73 hash=43f6c8..7ea86e blocks=1 txs=179 mgas=3.759  elapsed=39.394ms    mgasps=95.420   snapdiffs=105.59KiB triediffs=877.37KiB triedirty=0.00B
+INFO [12-01|01:41:42.179] Chain head was updated                   number=73 hash=43f6c8..7ea86e root=1302d5..515032 elapsed=1.599364ms
+ERROR[12-01|01:41:42.209] Nil finalized block cannot evict old blobs
+INFO [12-01|01:41:43.338] Starting work on payload                 id=0x031436237d9e173d
+INFO [12-01|01:41:43.339] Updated payload                          id=0x031436237d9e173d number=74 hash=4e467c..cf94c1 txs=5   withdrawals=0 gas=179,451   fees=0.0002702286051 root=f32726..82e145 elapsed="566.742µs"
+INFO [12-01|01:41:44.007] Stopping work on payload                 id=0x031436237d9e173d reason=delivery
+INFO [12-01|01:41:44.109] Imported new potential chain segment     number=74 hash=4e467c..cf94c1 blocks=1 txs=5   mgas=0.179  elapsed=2.080ms     mgasps=86.272   snapdiffs=106.13KiB triediffs=885.27KiB triedirty=0.00B
+INFO [12-01|01:41:44.113] Chain head was updated                   number=74 hash=4e467c..cf94c1 root=f32726..82e145 elapsed="481.36µs"
+ERROR[12-01|01:41:44.116] Nil finalized block cannot evict old blobs
+INFO [12-01|01:41:45.337] Starting work on payload                 id=0x0350e7b344d84146
+INFO [12-01|01:41:45.348] Updated payload                          id=0x0350e7b344d84146 number=75 hash=3df379..b1659f txs=112 withdrawals=0 gas=4,802,473 fees=0.007231900871  root=91521b..1399b7 elapsed=10.796ms
+INFO [12-01|01:41:46.007] Stopping work on payload                 id=0x0350e7b344d84146 reason=delivery
+INFO [12-01|01:41:46.146] Imported new potential chain segment     number=75 hash=3df379..b1659f blocks=1 txs=112 mgas=4.802  elapsed=25.642ms    mgasps=187.282  snapdiffs=110.74KiB triediffs=923.95KiB triedirty=0.00B
+INFO [12-01|01:41:46.161] Chain head was updated                   number=75 hash=3df379..b1659f root=91521b..1399b7 elapsed=6.809702ms
+ERROR[12-01|01:41:46.171] Nil finalized block cannot evict old blobs
+INFO [12-01|01:41:46.888] Looking for peers                        peercount=2 tried=56 static=0
+INFO [12-01|01:41:48.123] Imported new potential chain segment     number=76 hash=afc14d..76448b blocks=1 txs=0   mgas=0.000  elapsed=1.471ms     mgasps=0.000    snapdiffs=110.94KiB triediffs=926.88KiB triedirty=0.00B
+INFO [12-01|01:41:48.129] Chain head was updated                   number=76 hash=afc14d..76448b root=6536e0..2bb53a elapsed="175.464µs"
+ERROR[12-01|01:41:48.131] Nil finalized block cannot evict old blobs
+INFO [12-01|01:41:50.119] Imported new potential chain segment     number=77 hash=5a13b0..7afb92 blocks=1 txs=0   mgas=0.000  elapsed="798.627µs" mgasps=0.000    snapdiffs=111.14KiB triediffs=929.65KiB triedirty=0.00B
+INFO [12-01|01:41:50.124] Chain head was updated                   number=77 hash=5a13b0..7afb92 root=41188d..d84b92 elapsed="100.842µs"
+ERROR[12-01|01:41:50.124] Nil finalized block cannot evict old blobs
