@@ -1,7 +1,7 @@
 fetch https://dl-cdn.alpinelinux.org/alpine/v3.20/main/x86_64/APKINDEX.tar.gz
 fetch https://dl-cdn.alpinelinux.org/alpine/v3.20/community/x86_64/APKINDEX.tar.gz
-v3.20.3-372-gf76f8d196b6 [https://dl-cdn.alpinelinux.org/alpine/v3.20/main]
-v3.20.3-378-ge4d42640421 [https://dl-cdn.alpinelinux.org/alpine/v3.20/community]
+v3.20.3-388-g068b58b02cb [https://dl-cdn.alpinelinux.org/alpine/v3.20/main]
+v3.20.3-386-g5fa81045983 [https://dl-cdn.alpinelinux.org/alpine/v3.20/community]
 OK: 24171 distinct packages available
 (1/12) Installing ca-certificates (20240705-r0)
 (2/12) Installing brotli-libs (1.1.0-r2)
@@ -22,18 +22,24 @@ deneb
 sleep is over, starting to send blob transactions
 No seed provided, creating one
 Airdrop faucet is at e25583099ba105d9ec0a67f5ae86d90e50036425
-Spamming 2 transactions per account on 100 accounts with seed: 0x6a5bcc1c95360c3d
+Spamming 2 transactions per account on 100 accounts with seed: 0x-32712e722a36e4a5
 Airdrop faucet is at e25583099ba105d9ec0a67f5ae86d90e50036425
-Spamming 2 transactions per account on 100 accounts with seed: 0x6a5bcc1c95360c3d
+Spamming 2 transactions per account on 100 accounts with seed: 0x-32712e722a36e4a5
 Airdrop faucet is at e25583099ba105d9ec0a67f5ae86d90e50036425
-Spamming 2 transactions per account on 100 accounts with seed: 0x6a5bcc1c95360c3d
+Spamming 2 transactions per account on 100 accounts with seed: 0x-32712e722a36e4a5
 Airdrop faucet is at e25583099ba105d9ec0a67f5ae86d90e50036425
-Spamming 2 transactions per account on 100 accounts with seed: 0x6a5bcc1c95360c3d
+Spamming 2 transactions per account on 100 accounts with seed: 0x-32712e722a36e4a5
 Airdrop faucet is at e25583099ba105d9ec0a67f5ae86d90e50036425
-Spamming 2 transactions per account on 100 accounts with seed: 0x6a5bcc1c95360c3d
+Spamming 2 transactions per account on 100 accounts with seed: 0x-32712e722a36e4a5
 Airdrop faucet is at e25583099ba105d9ec0a67f5ae86d90e50036425
-Spamming 2 transactions per account on 100 accounts with seed: 0x6a5bcc1c95360c3d
+Spamming 2 transactions per account on 100 accounts with seed: 0x-32712e722a36e4a5
 Airdrop faucet is at e25583099ba105d9ec0a67f5ae86d90e50036425
-Spamming 2 transactions per account on 100 accounts with seed: 0x6a5bcc1c95360c3d
+Spamming 2 transactions per account on 100 accounts with seed: 0x-32712e722a36e4a5
 Airdrop faucet is at e25583099ba105d9ec0a67f5ae86d90e50036425
-Spamming 2 transactions per account on 100 accounts with seed: 0x6a5bcc1c95360c3d
+Spamming 2 transactions per account on 100 accounts with seed: 0x-32712e722a36e4a5
+Airdrop faucet is at e25583099ba105d9ec0a67f5ae86d90e50036425
+Spamming 2 transactions per account on 100 accounts with seed: 0x-32712e722a36e4a5
+Airdrop faucet is at e25583099ba105d9ec0a67f5ae86d90e50036425
+Spamming 2 transactions per account on 100 accounts with seed: 0x-32712e722a36e4a5
+Airdrop faucet is at e25583099ba105d9ec0a67f5ae86d90e50036425
+Spamming 2 transactions per account on 100 accounts with seed: 0x-32712e722a36e4a5

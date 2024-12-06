@@ -1,0 +1,483 @@
+Dec 06 21:01:14.845 INFO Logging to file                         path: "/data/lighthouse/beacon-data/beacon/logs/beacon.log"
+Dec 06 21:01:14.854 INFO Lighthouse started                      version: Lighthouse/v5.3.0-2e0eb6d
+Dec 06 21:01:14.854 INFO Configured for network                  name: custom (/network-configs/network-configs)
+Dec 06 21:01:14.854 INFO Data directory initialised              datadir: /data/lighthouse/beacon-data
+Dec 06 21:01:14.855 WARN Discv5 packet filter is disabled
+Dec 06 21:01:14.855 WARN Ignoring --http-allow-sync-stalled      info: this flag is deprecated and will be removed
+Dec 06 21:01:14.861 INFO Deposit contract                        address: 0x4242424242424242424242424242424242424242, deploy_block: 0
+Dec 06 21:01:14.890 INFO Blob DB initialized                     oldest_blob_slot: Some(Slot(0)), path: "/data/lighthouse/beacon-data/beacon/blobs_db", service: freezer_db
+Dec 06 21:01:14.901 INFO Starting from known genesis state       service: beacon
+Dec 06 21:01:15.016 INFO Block production enabled                method: json rpc via http, endpoint: Auth { endpoint: "http://172.16.4.13:8551/", jwt_path: "/jwt/jwtsecret", jwt_id: None, jwt_version: None }
+Dec 06 21:01:15.032 INFO Beacon chain initialized                head_slot: 0, head_block: 0x4b04…4842, head_state: 0x45e5…63c3, service: beacon
+Dec 06 21:01:15.032 INFO Timer service started                   service: node_timer
+Dec 06 21:01:15.034 INFO ENR Initialised                         quic6: None, quic4: Some(9001), udp6: None, tcp6: None, tcp4: Some(9000), udp4: Some(9000), ip4: Some(172.16.4.16), id: 0xd49a..2eb4, seq: 1, enr: enr:-MS4QA5moGQtkxWXgO8vZsd4dnZJIhUHI1Juk9TGU1Tif4tkYTwj9u8Dmlb5UfqIdYsOu_okVkCZ4ogSRhZ3nBsove8Bh2F0dG5ldHOIAAAAAAAAAACEZXRoMpDYTi7gUAAAOP__________gmlkgnY0gmlwhKwQBBCEcXVpY4IjKYlzZWNwMjU2azGhArbXvs183TQi34CxPHpjV5BBsEMj2CIJfjajSB910FqRiHN5bmNuZXRzAIN0Y3CCIyiDdWRwgiMo, service: libp2p
+Dec 06 21:01:15.034 ERRO Could not add peer to the local routing table, error: ENR banned by table filter, addr: enr:-MS4QP3tc-SuJ1Lhc-EV3UMhA-YlssDz_1o0wBB3gXTpomTmb92HBQHM9GJkItKQFYLy2t8jXPPe8WK2MI99fjfhPXUBh2F0dG5ldHOIAAAAAAAAAACEZXRoMpDYTi7gUAAAOP__________gmlkgnY0gmlwhKwQBA6EcXVpY4IjKYlzZWNwMjU2azGhAsj75BbwGfOqzQQGjIJDYfchHVyirLq_TwvRdakYEyoEiHN5bmNuZXRzAIN0Y3CCIyiDdWRwgiMo, service: libp2p
+Dec 06 21:01:15.034 ERRO Could not add peer to the local routing table, error: ENR banned by table filter, addr: enr:-MS4QCdZ1x5WO8RmK1I_HUtfRTAXJvSV_vazPISURrkg_aJkQAOwdHx0YKL1RP6gykFhyWo7D0tt0WryY3szX_69Fx1Fh2F0dG5ldHOI__________-EZXRoMpDYTi7gUAAAOP__________gmlkgnY0gmlwhKwQBA-EcXVpY4IjKYlzZWNwMjU2azGhAz2WIHXc3qRxei6ir1lO3iP6_k9WXxnLuQXcVZJusveKiHN5bmNuZXRzD4N0Y3CCIyiDdWRwgiMo, service: libp2p
+Dec 06 21:01:15.036 INFO Libp2p Starting                         bandwidth_config: 3-Average, peer_id: 16Uiu2HAm7jQzDNBrHadiy3QPYX4QmVGKRizscxAjQfxP42MGdQec, service: libp2p
+Dec 06 21:01:15.036 INFO Listening established                   address: /ip4/0.0.0.0/tcp/9000/p2p/16Uiu2HAm7jQzDNBrHadiy3QPYX4QmVGKRizscxAjQfxP42MGdQec, service: libp2p
+Dec 06 21:01:15.036 INFO Listening established                   address: /ip4/0.0.0.0/udp/9001/quic-v1/p2p/16Uiu2HAm7jQzDNBrHadiy3QPYX4QmVGKRizscxAjQfxP42MGdQec, service: libp2p
+Dec 06 21:01:15.037 INFO Subscribing to all subnets              service: attestation_service
+Dec 06 21:01:15.064 INFO HTTP API started                        listen_address: 0.0.0.0:4000
+Dec 06 21:01:15.064 INFO Metrics HTTP server started             listen_address: 0.0.0.0:5054
+Dec 06 21:01:15.065 INFO UPnP Attempting to initialise routes
+Dec 06 21:01:15.067 INFO Waiting for genesis                     wait_time: 0 mins, peers: 0, service: slot_notifier
+Dec 06 21:01:15.067 WARN Syncing deposit contract block cache    est_blocks_remaining: initializing deposits, service: slot_notifier
+Dec 06 21:01:15.067 WARN Not ready Bellatrix                     info: The execution endpoint is connected and configured, however it is not yet synced, service: slot_notifier
+Dec 06 21:01:15.076 INFO Execution enabled from genesis          genesis_payload_block_hash: 0x137d720e42202a779fe3d459491474c5bbf4e4ed44b2f517d0662d075622d4d6, service: slot_notifier
+Dec 06 21:01:15.076 INFO Sync state updated                      new_state: Synced, old_state: Stalled, service: sync
+Dec 06 21:01:15.087 INFO Subscribed to topics                    topics: ["/eth2/d84e2ee0/blob_sidecar_0/ssz_snappy", "/eth2/d84e2ee0/blob_sidecar_1/ssz_snappy", "/eth2/d84e2ee0/blob_sidecar_2/ssz_snappy", "/eth2/d84e2ee0/blob_sidecar_3/ssz_snappy", "/eth2/d84e2ee0/blob_sidecar_4/ssz_snappy", "/eth2/d84e2ee0/blob_sidecar_5/ssz_snappy", "/eth2/d84e2ee0/bls_to_execution_change/ssz_snappy", "/eth2/d84e2ee0/sync_committee_contribution_and_proof/ssz_snappy", "/eth2/d84e2ee0/beacon_block/ssz_snappy", "/eth2/d84e2ee0/beacon_aggregate_and_proof/ssz_snappy", "/eth2/d84e2ee0/voluntary_exit/ssz_snappy", "/eth2/d84e2ee0/proposer_slashing/ssz_snappy", "/eth2/d84e2ee0/attester_slashing/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_0/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_1/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_2/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_3/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_4/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_5/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_6/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_7/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_8/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_9/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_10/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_11/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_12/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_13/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_14/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_15/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_16/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_17/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_18/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_19/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_20/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_21/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_22/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_23/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_24/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_25/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_26/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_27/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_28/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_29/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_30/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_31/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_32/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_33/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_34/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_35/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_36/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_37/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_38/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_39/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_40/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_41/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_42/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_43/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_44/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_45/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_46/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_47/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_48/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_49/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_50/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_51/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_52/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_53/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_54/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_55/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_56/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_57/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_58/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_59/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_60/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_61/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_62/ssz_snappy", "/eth2/d84e2ee0/beacon_attestation_63/ssz_snappy", "/eth2/d84e2ee0/sync_committee_0/ssz_snappy", "/eth2/d84e2ee0/sync_committee_1/ssz_snappy", "/eth2/d84e2ee0/sync_committee_2/ssz_snappy", "/eth2/d84e2ee0/sync_committee_3/ssz_snappy"], service: network
+Dec 06 21:01:17.077 INFO Waiting for genesis                     wait_time: 0 mins, peers: 2, service: slot_notifier
+Dec 06 21:01:17.077 WARN Not ready Bellatrix                     info: The execution endpoint is connected and configured, however it is not yet synced, service: slot_notifier
+Dec 06 21:01:17.080 INFO Execution enabled from genesis          genesis_payload_block_hash: 0x137d720e42202a779fe3d459491474c5bbf4e4ed44b2f517d0662d075622d4d6, service: slot_notifier
+Dec 06 21:01:19.081 INFO Waiting for genesis                     wait_time: 0 mins, peers: 2, service: slot_notifier
+Dec 06 21:01:19.081 WARN Not ready Bellatrix                     info: The execution endpoint is connected and configured, however it is not yet synced, service: slot_notifier
+Dec 06 21:01:19.081 INFO Execution enabled from genesis          genesis_payload_block_hash: 0x137d720e42202a779fe3d459491474c5bbf4e4ed44b2f517d0662d075622d4d6, service: slot_notifier
+Dec 06 21:01:21.083 INFO Waiting for genesis                     wait_time: 0 mins, peers: 2, service: slot_notifier
+Dec 06 21:01:21.083 WARN Not ready Bellatrix                     info: The execution endpoint is connected and configured, however it is not yet synced, service: slot_notifier
+Dec 06 21:01:21.085 INFO Execution enabled from genesis          genesis_payload_block_hash: 0x137d720e42202a779fe3d459491474c5bbf4e4ed44b2f517d0662d075622d4d6, service: slot_notifier
+Dec 06 21:01:23.087 INFO Waiting for genesis                     wait_time: 0 mins, peers: 2, service: slot_notifier
+Dec 06 21:01:23.087 WARN Not ready Bellatrix                     info: The execution endpoint is connected and configured, however it is not yet synced, service: slot_notifier
+Dec 06 21:01:23.088 INFO Execution enabled from genesis          genesis_payload_block_hash: 0x137d720e42202a779fe3d459491474c5bbf4e4ed44b2f517d0662d075622d4d6, service: slot_notifier
+Dec 06 21:01:25.069 INFO UPnP not available                      service: libp2p
+Dec 06 21:01:25.069 INFO Could not UPnP map Discovery port       error: Gateway does not support UPnP
+Dec 06 21:01:25.090 INFO Waiting for genesis                     wait_time: 0 mins, peers: 2, service: slot_notifier
+Dec 06 21:01:25.090 WARN Not ready Bellatrix                     info: The execution endpoint is connected and configured, however it is not yet synced, service: slot_notifier
+Dec 06 21:01:25.093 INFO Execution enabled from genesis          genesis_payload_block_hash: 0x137d720e42202a779fe3d459491474c5bbf4e4ed44b2f517d0662d075622d4d6, service: slot_notifier
+Dec 06 21:01:27.095 INFO Waiting for genesis                     wait_time: 0 mins, peers: 2, service: slot_notifier
+Dec 06 21:01:27.095 WARN Not ready Bellatrix                     info: The execution endpoint is connected and configured, however it is not yet synced, service: slot_notifier
+Dec 06 21:01:27.098 INFO Execution enabled from genesis          genesis_payload_block_hash: 0x137d720e42202a779fe3d459491474c5bbf4e4ed44b2f517d0662d075622d4d6, service: slot_notifier
+Dec 06 21:01:29.099 INFO Waiting for genesis                     wait_time: 0 mins, peers: 2, service: slot_notifier
+Dec 06 21:01:29.099 WARN Not ready Bellatrix                     info: The execution endpoint is connected and configured, however it is not yet synced, service: slot_notifier
+Dec 06 21:01:29.102 INFO Execution enabled from genesis          genesis_payload_block_hash: 0x137d720e42202a779fe3d459491474c5bbf4e4ed44b2f517d0662d075622d4d6, service: slot_notifier
+Dec 06 21:01:31.103 INFO Waiting for genesis                     wait_time: 0 mins, peers: 2, service: slot_notifier
+Dec 06 21:01:31.104 WARN Not ready Bellatrix                     info: The execution endpoint is connected and configured, however it is not yet synced, service: slot_notifier
+Dec 06 21:01:31.108 INFO Execution enabled from genesis          genesis_payload_block_hash: 0x137d720e42202a779fe3d459491474c5bbf4e4ed44b2f517d0662d075622d4d6, service: slot_notifier
+Dec 06 21:01:33.109 INFO Waiting for genesis                     wait_time: 0 mins, peers: 2, service: slot_notifier
+Dec 06 21:01:33.109 WARN Not ready Bellatrix                     info: The execution endpoint is connected and configured, however it is not yet synced, service: slot_notifier
+Dec 06 21:01:33.113 INFO Execution enabled from genesis          genesis_payload_block_hash: 0x137d720e42202a779fe3d459491474c5bbf4e4ed44b2f517d0662d075622d4d6, service: slot_notifier
+Dec 06 21:01:35.114 INFO Waiting for genesis                     wait_time: 0 mins, peers: 2, service: slot_notifier
+Dec 06 21:01:35.114 WARN Not ready Bellatrix                     info: The execution endpoint is connected and configured, however it is not yet synced, service: slot_notifier
+Dec 06 21:01:35.116 INFO Execution enabled from genesis          genesis_payload_block_hash: 0x137d720e42202a779fe3d459491474c5bbf4e4ed44b2f517d0662d075622d4d6, service: slot_notifier
+Dec 06 21:01:37.118 INFO Waiting for genesis                     wait_time: 0 mins, peers: 2, service: slot_notifier
+Dec 06 21:01:37.118 WARN Not ready Bellatrix                     info: The execution endpoint is connected and configured, however it is not yet synced, service: slot_notifier
+Dec 06 21:01:37.121 INFO Execution enabled from genesis          genesis_payload_block_hash: 0x137d720e42202a779fe3d459491474c5bbf4e4ed44b2f517d0662d075622d4d6, service: slot_notifier
+Dec 06 21:01:39.122 INFO Waiting for genesis                     wait_time: 0 mins, peers: 2, service: slot_notifier
+Dec 06 21:01:39.122 WARN Not ready Bellatrix                     info: The execution endpoint is connected and configured, however it is not yet synced, service: slot_notifier
+Dec 06 21:01:39.124 INFO Execution enabled from genesis          genesis_payload_block_hash: 0x137d720e42202a779fe3d459491474c5bbf4e4ed44b2f517d0662d075622d4d6, service: slot_notifier
+Dec 06 21:01:41.126 INFO Waiting for genesis                     wait_time: 0 mins, peers: 2, service: slot_notifier
+Dec 06 21:01:41.126 WARN Not ready Bellatrix                     info: The execution endpoint is connected and configured, however it is not yet synced, service: slot_notifier
+Dec 06 21:01:41.126 INFO Execution enabled from genesis          genesis_payload_block_hash: 0x137d720e42202a779fe3d459491474c5bbf4e4ed44b2f517d0662d075622d4d6, service: slot_notifier
+Dec 06 21:01:43.127 INFO Waiting for genesis                     wait_time: 0 mins, peers: 2, service: slot_notifier
+Dec 06 21:01:43.127 WARN Not ready Bellatrix                     info: The execution endpoint is connected and configured, however it is not yet synced, service: slot_notifier
+Dec 06 21:01:43.128 INFO Execution enabled from genesis          genesis_payload_block_hash: 0x137d720e42202a779fe3d459491474c5bbf4e4ed44b2f517d0662d075622d4d6, service: slot_notifier
+Dec 06 21:01:45.129 INFO Waiting for genesis                     wait_time: 0 mins, peers: 2, service: slot_notifier
+Dec 06 21:01:45.129 WARN Not ready Bellatrix                     info: The execution endpoint is connected and configured, however it is not yet synced, service: slot_notifier
+Dec 06 21:01:45.129 INFO Execution enabled from genesis          genesis_payload_block_hash: 0x137d720e42202a779fe3d459491474c5bbf4e4ed44b2f517d0662d075622d4d6, service: slot_notifier
+Dec 06 21:01:47.130 INFO Waiting for genesis                     wait_time: 0 mins, peers: 2, service: slot_notifier
+Dec 06 21:01:47.130 WARN Not ready Bellatrix                     info: The execution endpoint is connected and configured, however it is not yet synced, service: slot_notifier
+Dec 06 21:01:47.131 INFO Execution enabled from genesis          genesis_payload_block_hash: 0x137d720e42202a779fe3d459491474c5bbf4e4ed44b2f517d0662d075622d4d6, service: slot_notifier
+Dec 06 21:01:50.501 WARN Unable to determine slot in state advance timer, error: UnableToReadSlot, service: state_advance
+Dec 06 21:01:51.002 INFO Prepared beacon proposer                parent_root: 0x4b0410f9b5e5d0038dedf093f689733736625fb9ff21f529faa6baaf0d274842, validator: 67, prepare_slot: 1, service: beacon
+Dec 06 21:01:51.003 INFO Found terminal block hash               block_hash: 0x137d720e42202a779fe3d459491474c5bbf4e4ed44b2f517d0662d075622d4d6, terminal_total_difficulty: 0, terminal_block_hash_override: 0x0000000000000000000000000000000000000000000000000000000000000000, service: exec
+Dec 06 21:01:51.003 INFO Prepared POS transition block proposer  slot: 1, service: beacon
+Dec 06 21:01:52.001 INFO Synced                                  slot: 0, block: 0x4b04…4842, epoch: 0, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: n/a, peers: 2, service: slot_notifier
+Dec 06 21:01:52.002 WARN Not ready Bellatrix                     info: The execution endpoint is connected and configured, however it is not yet synced, service: slot_notifier
+Dec 06 21:01:53.003 INFO Prepared beacon proposer                parent_root: 0x4b0410f9b5e5d0038dedf093f689733736625fb9ff21f529faa6baaf0d274842, validator: 117, prepare_slot: 2, service: beacon
+Dec 06 21:01:53.005 INFO Found terminal block hash               block_hash: 0x137d720e42202a779fe3d459491474c5bbf4e4ed44b2f517d0662d075622d4d6, terminal_total_difficulty: 0, terminal_block_hash_override: 0x0000000000000000000000000000000000000000000000000000000000000000, service: exec
+Dec 06 21:01:53.005 INFO Prepared POS transition block proposer  slot: 2, service: beacon
+Dec 06 21:01:53.110 INFO New block received                      root: 0xf13b760cf0f66f3fdf4b7f5d6efff4b3eb215f8c7e243ea163074a02acdb704e, slot: 1
+Dec 06 21:01:53.132 INFO Prepared beacon proposer                parent_root: 0xf13b760cf0f66f3fdf4b7f5d6efff4b3eb215f8c7e243ea163074a02acdb704e, validator: 117, prepare_slot: 2, service: beacon
+Dec 06 21:01:53.137 INFO Execution engine online                 service: exec
+Dec 06 21:01:53.137 INFO Issuing forkchoiceUpdated               forkchoice_state: ForkchoiceState { head_block_hash: 0xa3a0173e3d9fa69d29b1818bb80085d50a8a9e1988a10064126f3030129317f6, safe_block_hash: 0x0000000000000000000000000000000000000000000000000000000000000000, finalized_block_hash: 0x0000000000000000000000000000000000000000000000000000000000000000 }, service: exec
+Dec 06 21:01:54.001 INFO Synced                                  slot: 1, block: 0xf13b…704e, epoch: 0, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0xa3a0…17f6 (verified), peers: 2, service: slot_notifier
+Dec 06 21:01:55.002 INFO Prepared beacon proposer                parent_root: 0xf13b760cf0f66f3fdf4b7f5d6efff4b3eb215f8c7e243ea163074a02acdb704e, validator: 83, prepare_slot: 3, service: beacon
+Dec 06 21:01:55.198 INFO New block received                      root: 0x9d9372a17dc8bd06b1bb5075264dbbeb3123176e6be375a0b86cf2b1102727b2, slot: 2
+Dec 06 21:01:55.206 INFO Prepared beacon proposer                parent_root: 0x9d9372a17dc8bd06b1bb5075264dbbeb3123176e6be375a0b86cf2b1102727b2, validator: 83, prepare_slot: 3, service: beacon
+Dec 06 21:01:56.001 INFO Synced                                  slot: 2, block: 0x9d93…27b2, epoch: 0, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x4b6a…9a90 (verified), peers: 2, service: slot_notifier
+Dec 06 21:01:57.002 INFO Prepared beacon proposer                parent_root: 0x9d9372a17dc8bd06b1bb5075264dbbeb3123176e6be375a0b86cf2b1102727b2, validator: 33, prepare_slot: 4, service: beacon
+Dec 06 21:01:57.209 INFO New block received                      root: 0xc22b4d2b761c6daf642024dbf56582f5a8e4c29e495442577857c509286cba38, slot: 3
+Dec 06 21:01:57.227 INFO Prepared beacon proposer                parent_root: 0xc22b4d2b761c6daf642024dbf56582f5a8e4c29e495442577857c509286cba38, validator: 33, prepare_slot: 4, service: beacon
+Dec 06 21:01:58.001 INFO Synced                                  slot: 3, block: 0xc22b…ba38, epoch: 0, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x205c…21d8 (verified), peers: 2, service: slot_notifier
+Dec 06 21:01:59.001 INFO Prepared beacon proposer                parent_root: 0xc22b4d2b761c6daf642024dbf56582f5a8e4c29e495442577857c509286cba38, validator: 49, prepare_slot: 5, service: beacon
+Dec 06 21:01:59.216 INFO New block received                      root: 0x8a821b85ffcffd179cd216c20071253560350eadc1b4fe7c2723de59de5aa738, slot: 4
+Dec 06 21:01:59.263 INFO Prepared beacon proposer                parent_root: 0x8a821b85ffcffd179cd216c20071253560350eadc1b4fe7c2723de59de5aa738, validator: 49, prepare_slot: 5, service: beacon
+Dec 06 21:02:00.001 INFO Synced                                  slot: 4, block: 0x8a82…a738, epoch: 0, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0xace1…8ecd (verified), peers: 2, service: slot_notifier
+Dec 06 21:02:01.002 INFO Prepared beacon proposer                parent_root: 0x8a821b85ffcffd179cd216c20071253560350eadc1b4fe7c2723de59de5aa738, validator: 118, prepare_slot: 6, service: beacon
+Dec 06 21:02:01.207 INFO New block received                      root: 0xb83282898f937ef96c52464a846dfac3139e11c1f8928756a1b8f3305afa1913, slot: 5
+Dec 06 21:02:01.225 INFO Prepared beacon proposer                parent_root: 0xb83282898f937ef96c52464a846dfac3139e11c1f8928756a1b8f3305afa1913, validator: 118, prepare_slot: 6, service: beacon
+Dec 06 21:02:02.001 INFO Synced                                  slot: 5, block: 0xb832…1913, epoch: 0, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0xeff1…f43a (verified), peers: 2, service: slot_notifier
+Dec 06 21:02:03.002 INFO Prepared beacon proposer                parent_root: 0xb83282898f937ef96c52464a846dfac3139e11c1f8928756a1b8f3305afa1913, validator: 55, prepare_slot: 7, service: beacon
+Dec 06 21:02:03.209 INFO New block received                      root: 0x5fbac27ea35773a56dfcf3c7d039968ff50bd1177fdd7c62df1d1dae6b5ecb12, slot: 6
+Dec 06 21:02:03.229 INFO Prepared beacon proposer                parent_root: 0x5fbac27ea35773a56dfcf3c7d039968ff50bd1177fdd7c62df1d1dae6b5ecb12, validator: 55, prepare_slot: 7, service: beacon
+Dec 06 21:02:04.001 INFO Synced                                  slot: 6, block: 0x5fba…cb12, epoch: 0, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x996b…66a5 (verified), peers: 2, service: slot_notifier
+Dec 06 21:02:05.001 INFO Prepared beacon proposer                parent_root: 0x5fbac27ea35773a56dfcf3c7d039968ff50bd1177fdd7c62df1d1dae6b5ecb12, validator: 51, prepare_slot: 8, service: beacon
+Dec 06 21:02:05.213 INFO New block received                      root: 0x49ccd216e168eaa493da92fbe7c5d394a833a44394135fde511afe2da411e9d4, slot: 7
+Dec 06 21:02:05.229 INFO Prepared beacon proposer                parent_root: 0x49ccd216e168eaa493da92fbe7c5d394a833a44394135fde511afe2da411e9d4, validator: 51, prepare_slot: 8, service: beacon
+Dec 06 21:02:06.001 INFO Synced                                  slot: 7, block: 0x49cc…e9d4, epoch: 0, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x5974…8539 (verified), peers: 2, service: slot_notifier
+Dec 06 21:02:07.001 INFO Prepared beacon proposer                parent_root: 0x49ccd216e168eaa493da92fbe7c5d394a833a44394135fde511afe2da411e9d4, validator: 76, prepare_slot: 9, service: beacon
+Dec 06 21:02:07.206 INFO New block received                      root: 0x3320f10ade29e3a17dad4df9e3eb931f67314ce4275d7e3443b8ba9f10144134, slot: 8
+Dec 06 21:02:07.222 INFO Prepared beacon proposer                parent_root: 0x3320f10ade29e3a17dad4df9e3eb931f67314ce4275d7e3443b8ba9f10144134, validator: 76, prepare_slot: 9, service: beacon
+Dec 06 21:02:08.001 INFO Synced                                  slot: 8, block: 0x3320…4134, epoch: 0, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x53b3…5748 (verified), peers: 2, service: slot_notifier
+Dec 06 21:02:09.001 INFO Prepared beacon proposer                parent_root: 0x3320f10ade29e3a17dad4df9e3eb931f67314ce4275d7e3443b8ba9f10144134, validator: 123, prepare_slot: 10, service: beacon
+Dec 06 21:02:09.208 INFO New block received                      root: 0xeea483ced857aac2fb3c7b6f5d9031676ace3bdc8effd9e0828b58b814349d3d, slot: 9
+Dec 06 21:02:09.226 INFO Prepared beacon proposer                parent_root: 0xeea483ced857aac2fb3c7b6f5d9031676ace3bdc8effd9e0828b58b814349d3d, validator: 123, prepare_slot: 10, service: beacon
+Dec 06 21:02:10.001 INFO Synced                                  slot: 9, block: 0xeea4…9d3d, epoch: 0, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x2d1f…2954 (verified), peers: 2, service: slot_notifier
+Dec 06 21:02:11.002 INFO Prepared beacon proposer                parent_root: 0xeea483ced857aac2fb3c7b6f5d9031676ace3bdc8effd9e0828b58b814349d3d, validator: 122, prepare_slot: 11, service: beacon
+Dec 06 21:02:11.206 INFO New block received                      root: 0x1686b0c83b4e351de31a30e72115a9636b3aecdfd2a137643487ab0f3b3845ef, slot: 10
+Dec 06 21:02:11.228 INFO Prepared beacon proposer                parent_root: 0x1686b0c83b4e351de31a30e72115a9636b3aecdfd2a137643487ab0f3b3845ef, validator: 122, prepare_slot: 11, service: beacon
+Dec 06 21:02:12.001 INFO Synced                                  slot: 10, block: 0x1686…45ef, epoch: 0, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x4c85…82cb (verified), peers: 2, service: slot_notifier
+Dec 06 21:02:13.001 INFO Prepared beacon proposer                parent_root: 0x1686b0c83b4e351de31a30e72115a9636b3aecdfd2a137643487ab0f3b3845ef, validator: 39, prepare_slot: 12, service: beacon
+Dec 06 21:02:13.223 INFO New block received                      root: 0x8ae908bfca75a69ecb17202455b8a5e067fd9016b50de13ea3b4c4893373b4ee, slot: 11
+Dec 06 21:02:13.273 INFO Prepared beacon proposer                parent_root: 0x8ae908bfca75a69ecb17202455b8a5e067fd9016b50de13ea3b4c4893373b4ee, validator: 39, prepare_slot: 12, service: beacon
+Dec 06 21:02:14.001 INFO Synced                                  slot: 11, block: 0x8ae9…b4ee, epoch: 0, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x1a50…c48d (verified), peers: 2, service: slot_notifier
+Dec 06 21:02:15.002 INFO Prepared beacon proposer                parent_root: 0x8ae908bfca75a69ecb17202455b8a5e067fd9016b50de13ea3b4c4893373b4ee, validator: 56, prepare_slot: 13, service: beacon
+Dec 06 21:02:15.205 INFO New block received                      root: 0x6f08869aa7ea61dff067b455b9a07e8a6cee4bfc3125f32d126e1f229984e6a8, slot: 12
+Dec 06 21:02:15.221 INFO Prepared beacon proposer                parent_root: 0x6f08869aa7ea61dff067b455b9a07e8a6cee4bfc3125f32d126e1f229984e6a8, validator: 56, prepare_slot: 13, service: beacon
+Dec 06 21:02:16.001 INFO Synced                                  slot: 12, block: 0x6f08…e6a8, epoch: 0, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x59c9…5263 (verified), peers: 2, service: slot_notifier
+Dec 06 21:02:17.002 INFO Prepared beacon proposer                parent_root: 0x6f08869aa7ea61dff067b455b9a07e8a6cee4bfc3125f32d126e1f229984e6a8, validator: 61, prepare_slot: 14, service: beacon
+Dec 06 21:02:17.206 INFO New block received                      root: 0x0e0015fc338341313a51a86edfb0b627bf5b10e9620b2e811e029b569237ad07, slot: 13
+Dec 06 21:02:17.249 INFO Prepared beacon proposer                parent_root: 0x0e0015fc338341313a51a86edfb0b627bf5b10e9620b2e811e029b569237ad07, validator: 61, prepare_slot: 14, service: beacon
+Dec 06 21:02:18.001 INFO Synced                                  slot: 13, block: 0x0e00…ad07, epoch: 0, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x83a9…0777 (verified), peers: 2, service: slot_notifier
+Dec 06 21:02:19.001 INFO Prepared beacon proposer                parent_root: 0x0e0015fc338341313a51a86edfb0b627bf5b10e9620b2e811e029b569237ad07, validator: 123, prepare_slot: 15, service: beacon
+Dec 06 21:02:19.205 INFO New block received                      root: 0xf9c558f6ee7f48de36b6f2eb30bd35dc9a7f4f2856df9782627b9bb9796138bf, slot: 14
+Dec 06 21:02:19.232 INFO Prepared beacon proposer                parent_root: 0xf9c558f6ee7f48de36b6f2eb30bd35dc9a7f4f2856df9782627b9bb9796138bf, validator: 123, prepare_slot: 15, service: beacon
+Dec 06 21:02:20.001 INFO Synced                                  slot: 14, block: 0xf9c5…38bf, epoch: 0, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x4dae…3e19 (verified), peers: 2, service: slot_notifier
+Dec 06 21:02:21.002 INFO Prepared beacon proposer                parent_root: 0xf9c558f6ee7f48de36b6f2eb30bd35dc9a7f4f2856df9782627b9bb9796138bf, validator: 119, prepare_slot: 16, service: beacon
+Dec 06 21:02:21.211 INFO New block received                      root: 0xd783c6e85ab2ca82b388d4ed26282f3d60a04d37234dd53eb7570e4c97cc8073, slot: 15
+Dec 06 21:02:21.253 INFO Prepared beacon proposer                parent_root: 0xd783c6e85ab2ca82b388d4ed26282f3d60a04d37234dd53eb7570e4c97cc8073, validator: 119, prepare_slot: 16, service: beacon
+Dec 06 21:02:22.001 INFO Synced                                  slot: 15, block: 0xd783…8073, epoch: 0, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x2ba0…5f26 (verified), peers: 2, service: slot_notifier
+Dec 06 21:02:23.001 INFO Prepared beacon proposer                parent_root: 0xd783c6e85ab2ca82b388d4ed26282f3d60a04d37234dd53eb7570e4c97cc8073, validator: 90, prepare_slot: 17, service: beacon
+Dec 06 21:02:23.201 INFO New block received                      root: 0x5905ad1d21c1bd83f742a035ed2bab6dbd983f6625ef3bbb1730cec0411eef96, slot: 16
+Dec 06 21:02:23.224 INFO Prepared beacon proposer                parent_root: 0x5905ad1d21c1bd83f742a035ed2bab6dbd983f6625ef3bbb1730cec0411eef96, validator: 90, prepare_slot: 17, service: beacon
+Dec 06 21:02:24.001 INFO Synced                                  slot: 16, block: 0x5905…ef96, epoch: 0, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x8456…53bd (verified), peers: 2, service: slot_notifier
+Dec 06 21:02:25.001 INFO Prepared beacon proposer                parent_root: 0x5905ad1d21c1bd83f742a035ed2bab6dbd983f6625ef3bbb1730cec0411eef96, validator: 30, prepare_slot: 18, service: beacon
+Dec 06 21:02:25.201 INFO New block received                      root: 0xc15512b06e30bc0143ae4763751221de0e6dbebdd0ef2239b279bc882bb95ddf, slot: 17
+Dec 06 21:02:25.213 INFO Prepared beacon proposer                parent_root: 0xc15512b06e30bc0143ae4763751221de0e6dbebdd0ef2239b279bc882bb95ddf, validator: 30, prepare_slot: 18, service: beacon
+Dec 06 21:02:26.001 INFO Synced                                  slot: 17, block: 0xc155…5ddf, epoch: 0, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x57ff…8b18 (verified), peers: 2, service: slot_notifier
+Dec 06 21:02:27.001 INFO Prepared beacon proposer                parent_root: 0xc15512b06e30bc0143ae4763751221de0e6dbebdd0ef2239b279bc882bb95ddf, validator: 66, prepare_slot: 19, service: beacon
+Dec 06 21:02:27.203 INFO New block received                      root: 0xcf41a8664267f61547ef35f13bc018e8ca5d68ff708798b5a98794b08413b371, slot: 18
+Dec 06 21:02:27.215 INFO Prepared beacon proposer                parent_root: 0xcf41a8664267f61547ef35f13bc018e8ca5d68ff708798b5a98794b08413b371, validator: 66, prepare_slot: 19, service: beacon
+Dec 06 21:02:28.001 INFO Synced                                  slot: 18, block: 0xcf41…b371, epoch: 0, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0xe970…a5d8 (verified), peers: 2, service: slot_notifier
+Dec 06 21:02:29.002 INFO Prepared beacon proposer                parent_root: 0xcf41a8664267f61547ef35f13bc018e8ca5d68ff708798b5a98794b08413b371, validator: 73, prepare_slot: 20, service: beacon
+Dec 06 21:02:29.200 INFO New block received                      root: 0x0b5b4f9f8dae6933f804000668be5c02dd497f10f09fa3351c797d0013048cf4, slot: 19
+Dec 06 21:02:29.211 INFO Prepared beacon proposer                parent_root: 0x0b5b4f9f8dae6933f804000668be5c02dd497f10f09fa3351c797d0013048cf4, validator: 73, prepare_slot: 20, service: beacon
+Dec 06 21:02:30.001 INFO Synced                                  slot: 19, block: 0x0b5b…8cf4, epoch: 0, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0xed92…2a6e (verified), peers: 2, service: slot_notifier
+Dec 06 21:02:31.001 INFO Prepared beacon proposer                parent_root: 0x0b5b4f9f8dae6933f804000668be5c02dd497f10f09fa3351c797d0013048cf4, validator: 3, prepare_slot: 21, service: beacon
+Dec 06 21:02:31.205 INFO New block received                      root: 0xad057709acf317ebebe1b13759d85b6b8edf08c4a59d22c123b7ff22e276fa99, slot: 20
+Dec 06 21:02:31.216 INFO Prepared beacon proposer                parent_root: 0xad057709acf317ebebe1b13759d85b6b8edf08c4a59d22c123b7ff22e276fa99, validator: 3, prepare_slot: 21, service: beacon
+Dec 06 21:02:32.001 INFO Synced                                  slot: 20, block: 0xad05…fa99, epoch: 0, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x5d92…5439 (verified), peers: 2, service: slot_notifier
+Dec 06 21:02:33.001 INFO Prepared beacon proposer                parent_root: 0xad057709acf317ebebe1b13759d85b6b8edf08c4a59d22c123b7ff22e276fa99, validator: 99, prepare_slot: 22, service: beacon
+Dec 06 21:02:33.202 INFO New block received                      root: 0xfe3ad275767b5232973cb20901796cddc1b85a78c0e7b46c258b6392703edf02, slot: 21
+Dec 06 21:02:33.215 INFO Prepared beacon proposer                parent_root: 0xfe3ad275767b5232973cb20901796cddc1b85a78c0e7b46c258b6392703edf02, validator: 99, prepare_slot: 22, service: beacon
+Dec 06 21:02:34.001 INFO Synced                                  slot: 21, block: 0xfe3a…df02, epoch: 0, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x9b38…c577 (verified), peers: 2, service: slot_notifier
+Dec 06 21:02:35.002 INFO Prepared beacon proposer                parent_root: 0xfe3ad275767b5232973cb20901796cddc1b85a78c0e7b46c258b6392703edf02, validator: 32, prepare_slot: 23, service: beacon
+Dec 06 21:02:35.199 INFO New block received                      root: 0x4be5af046c2a3d2508840c296c03c3d228d9bd40d925368ef3f04bd801d0307d, slot: 22
+Dec 06 21:02:35.210 INFO Prepared beacon proposer                parent_root: 0x4be5af046c2a3d2508840c296c03c3d228d9bd40d925368ef3f04bd801d0307d, validator: 32, prepare_slot: 23, service: beacon
+Dec 06 21:02:36.001 INFO Synced                                  slot: 22, block: 0x4be5…307d, epoch: 0, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0xafcf…be75 (verified), peers: 2, service: slot_notifier
+Dec 06 21:02:37.001 INFO Prepared beacon proposer                parent_root: 0x4be5af046c2a3d2508840c296c03c3d228d9bd40d925368ef3f04bd801d0307d, validator: 31, prepare_slot: 24, service: beacon
+Dec 06 21:02:37.214 INFO New block received                      root: 0xa0ad74e43d600dc13ca6b68043a25c60d9d3ec0d47e58521190cc85f3b0c02e6, slot: 23
+Dec 06 21:02:37.252 INFO Prepared beacon proposer                parent_root: 0xa0ad74e43d600dc13ca6b68043a25c60d9d3ec0d47e58521190cc85f3b0c02e6, validator: 31, prepare_slot: 24, service: beacon
+Dec 06 21:02:38.001 INFO Synced                                  slot: 23, block: 0xa0ad…02e6, epoch: 0, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0xb6ac…5727 (verified), peers: 2, service: slot_notifier
+Dec 06 21:02:39.002 INFO Prepared beacon proposer                parent_root: 0xa0ad74e43d600dc13ca6b68043a25c60d9d3ec0d47e58521190cc85f3b0c02e6, validator: 99, prepare_slot: 25, service: beacon
+Dec 06 21:02:39.205 INFO New block received                      root: 0x424a28825d7586cb569aa07c7e4346e27ae20c9f7fee207dcfb02e643b9d83c8, slot: 24
+Dec 06 21:02:39.223 INFO Prepared beacon proposer                parent_root: 0x424a28825d7586cb569aa07c7e4346e27ae20c9f7fee207dcfb02e643b9d83c8, validator: 99, prepare_slot: 25, service: beacon
+Dec 06 21:02:40.001 INFO Synced                                  slot: 24, block: 0x424a…83c8, epoch: 0, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x1ba8…b393 (verified), peers: 2, service: slot_notifier
+Dec 06 21:02:41.002 INFO Prepared beacon proposer                parent_root: 0x424a28825d7586cb569aa07c7e4346e27ae20c9f7fee207dcfb02e643b9d83c8, validator: 48, prepare_slot: 26, service: beacon
+Dec 06 21:02:41.210 INFO New block received                      root: 0x9c3905304c5e00b008b74f68162bb7980326b4589f4d329b562eda27cfa8d9e4, slot: 25
+Dec 06 21:02:41.239 INFO Prepared beacon proposer                parent_root: 0x9c3905304c5e00b008b74f68162bb7980326b4589f4d329b562eda27cfa8d9e4, validator: 48, prepare_slot: 26, service: beacon
+Dec 06 21:02:42.001 INFO Synced                                  slot: 25, block: 0x9c39…d9e4, epoch: 0, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x98c7…8e38 (verified), peers: 2, service: slot_notifier
+Dec 06 21:02:43.001 INFO Prepared beacon proposer                parent_root: 0x9c3905304c5e00b008b74f68162bb7980326b4589f4d329b562eda27cfa8d9e4, validator: 76, prepare_slot: 27, service: beacon
+Dec 06 21:02:43.208 INFO New block received                      root: 0xe364e00d05762d929f80746e97a08f7024a5adda2d4649c2a31b174aa356fab9, slot: 26
+Dec 06 21:02:43.231 INFO Prepared beacon proposer                parent_root: 0xe364e00d05762d929f80746e97a08f7024a5adda2d4649c2a31b174aa356fab9, validator: 76, prepare_slot: 27, service: beacon
+Dec 06 21:02:44.001 INFO Synced                                  slot: 26, block: 0xe364…fab9, epoch: 0, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0xadb1…5d62 (verified), peers: 2, service: slot_notifier
+Dec 06 21:02:45.001 INFO Prepared beacon proposer                parent_root: 0xe364e00d05762d929f80746e97a08f7024a5adda2d4649c2a31b174aa356fab9, validator: 34, prepare_slot: 28, service: beacon
+Dec 06 21:02:45.203 INFO New block received                      root: 0x8b8b35efe5d029569fe24a92ee2f6f5c161599d784a5b8b49b1e41098815683d, slot: 27
+Dec 06 21:02:45.213 INFO Prepared beacon proposer                parent_root: 0x8b8b35efe5d029569fe24a92ee2f6f5c161599d784a5b8b49b1e41098815683d, validator: 34, prepare_slot: 28, service: beacon
+Dec 06 21:02:46.001 INFO Synced                                  slot: 27, block: 0x8b8b…683d, epoch: 0, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0xde9b…011c (verified), peers: 2, service: slot_notifier
+Dec 06 21:02:47.002 INFO Prepared beacon proposer                parent_root: 0x8b8b35efe5d029569fe24a92ee2f6f5c161599d784a5b8b49b1e41098815683d, validator: 109, prepare_slot: 29, service: beacon
+Dec 06 21:02:47.202 INFO New block received                      root: 0x80fff2f70996b4759ed308b2d954d755a5b95ad8d917075ae9d04e50e7f5de35, slot: 28
+Dec 06 21:02:47.213 INFO Prepared beacon proposer                parent_root: 0x80fff2f70996b4759ed308b2d954d755a5b95ad8d917075ae9d04e50e7f5de35, validator: 109, prepare_slot: 29, service: beacon
+Dec 06 21:02:48.001 INFO Synced                                  slot: 28, block: 0x80ff…de35, epoch: 0, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0xf47b…0544 (verified), peers: 2, service: slot_notifier
+Dec 06 21:02:49.001 INFO Prepared beacon proposer                parent_root: 0x80fff2f70996b4759ed308b2d954d755a5b95ad8d917075ae9d04e50e7f5de35, validator: 39, prepare_slot: 30, service: beacon
+Dec 06 21:02:49.193 INFO New block received                      root: 0x0f3f5866bdbb204512321765fe1afba17840ed4c1521b0a3bc1aecd8739cf114, slot: 29
+Dec 06 21:02:49.205 INFO Prepared beacon proposer                parent_root: 0x0f3f5866bdbb204512321765fe1afba17840ed4c1521b0a3bc1aecd8739cf114, validator: 39, prepare_slot: 30, service: beacon
+Dec 06 21:02:50.001 INFO Synced                                  slot: 29, block: 0x0f3f…f114, epoch: 0, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x6b8d…d19e (verified), peers: 2, service: slot_notifier
+Dec 06 21:02:51.001 INFO Prepared beacon proposer                parent_root: 0x0f3f5866bdbb204512321765fe1afba17840ed4c1521b0a3bc1aecd8739cf114, validator: 57, prepare_slot: 31, service: beacon
+Dec 06 21:02:51.204 INFO New block received                      root: 0x5edb5b09f34d10844c8f1c5729bd4d6c3a010819236179beed1fbd3e1d49ec57, slot: 30
+Dec 06 21:02:51.217 INFO Prepared beacon proposer                parent_root: 0x5edb5b09f34d10844c8f1c5729bd4d6c3a010819236179beed1fbd3e1d49ec57, validator: 57, prepare_slot: 31, service: beacon
+Dec 06 21:02:52.001 INFO Synced                                  slot: 30, block: 0x5edb…ec57, epoch: 0, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x568d…5786 (verified), peers: 2, service: slot_notifier
+Dec 06 21:02:53.003 INFO Prepared beacon proposer                parent_root: 0x5edb5b09f34d10844c8f1c5729bd4d6c3a010819236179beed1fbd3e1d49ec57, validator: 93, prepare_slot: 32, service: beacon
+Dec 06 21:02:53.101 INFO New block received                      root: 0x6ea60ad733761df2764691223fb36f432d0f6c2bd8cd1ea3bffb229b911185f8, slot: 31
+Dec 06 21:02:53.131 INFO Prepared beacon proposer                parent_root: 0x6ea60ad733761df2764691223fb36f432d0f6c2bd8cd1ea3bffb229b911185f8, validator: 93, prepare_slot: 32, service: beacon
+Dec 06 21:02:54.001 INFO Synced                                  slot: 31, block: 0x6ea6…85f8, epoch: 0, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x14fe…7599 (verified), peers: 2, service: slot_notifier
+Dec 06 21:02:55.002 INFO Prepared beacon proposer                parent_root: 0x6ea60ad733761df2764691223fb36f432d0f6c2bd8cd1ea3bffb229b911185f8, validator: 16, prepare_slot: 33, service: beacon
+Dec 06 21:02:55.035 INFO New block received                      root: 0x92345359a532f50417429f35173bf17446812fe290c0bc703cac99fd8c6289e0, slot: 32
+Dec 06 21:02:55.063 INFO Prepared beacon proposer                parent_root: 0x92345359a532f50417429f35173bf17446812fe290c0bc703cac99fd8c6289e0, validator: 16, prepare_slot: 33, service: beacon
+Dec 06 21:02:56.001 INFO Synced                                  slot: 32, block: 0x9234…89e0, epoch: 1, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x8a2e…c6e0 (verified), peers: 2, service: slot_notifier
+Dec 06 21:02:57.001 INFO Prepared beacon proposer                parent_root: 0x92345359a532f50417429f35173bf17446812fe290c0bc703cac99fd8c6289e0, validator: 91, prepare_slot: 34, service: beacon
+Dec 06 21:02:57.109 INFO New block received                      root: 0xf448089c9161a5c21889bf5e0483be262c3286678ea440095e5ef9974d90e9df, slot: 33
+Dec 06 21:02:57.137 INFO Prepared beacon proposer                parent_root: 0xf448089c9161a5c21889bf5e0483be262c3286678ea440095e5ef9974d90e9df, validator: 91, prepare_slot: 34, service: beacon
+Dec 06 21:02:58.001 INFO Synced                                  slot: 33, block: 0xf448…e9df, epoch: 1, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x4211…ac43 (verified), peers: 2, service: slot_notifier
+Dec 06 21:02:59.001 INFO Prepared beacon proposer                parent_root: 0xf448089c9161a5c21889bf5e0483be262c3286678ea440095e5ef9974d90e9df, validator: 11, prepare_slot: 35, service: beacon
+Dec 06 21:02:59.031 INFO New block received                      root: 0x0f809ab50a0c0720591fbdff05fbe50259383f9351ea3621b837c7349f03c557, slot: 34
+Dec 06 21:02:59.050 INFO Prepared beacon proposer                parent_root: 0x0f809ab50a0c0720591fbdff05fbe50259383f9351ea3621b837c7349f03c557, validator: 11, prepare_slot: 35, service: beacon
+Dec 06 21:03:00.001 INFO Synced                                  slot: 34, block: 0x0f80…c557, epoch: 1, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0xe753…bfe3 (verified), peers: 2, service: slot_notifier
+Dec 06 21:03:01.001 INFO Prepared beacon proposer                parent_root: 0x0f809ab50a0c0720591fbdff05fbe50259383f9351ea3621b837c7349f03c557, validator: 127, prepare_slot: 36, service: beacon
+Dec 06 21:03:01.033 INFO New block received                      root: 0x563878b3543ac154f72cc37863cf835af4cc13b481af87f7dab6b45c7db1e6c9, slot: 35
+Dec 06 21:03:01.059 INFO Prepared beacon proposer                parent_root: 0x563878b3543ac154f72cc37863cf835af4cc13b481af87f7dab6b45c7db1e6c9, validator: 127, prepare_slot: 36, service: beacon
+Dec 06 21:03:02.001 INFO Synced                                  slot: 35, block: 0x5638…e6c9, epoch: 1, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x457e…e211 (verified), peers: 2, service: slot_notifier
+Dec 06 21:03:03.001 INFO Prepared beacon proposer                parent_root: 0x563878b3543ac154f72cc37863cf835af4cc13b481af87f7dab6b45c7db1e6c9, validator: 31, prepare_slot: 37, service: beacon
+Dec 06 21:03:03.107 INFO New block received                      root: 0x0809da01843d40735761cab81ba3322d516e0cd8d44a7cac44b853df019a62a6, slot: 36
+Dec 06 21:03:03.132 INFO Prepared beacon proposer                parent_root: 0x0809da01843d40735761cab81ba3322d516e0cd8d44a7cac44b853df019a62a6, validator: 31, prepare_slot: 37, service: beacon
+Dec 06 21:03:04.001 INFO Synced                                  slot: 36, block: 0x0809…62a6, epoch: 1, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x4b78…788e (verified), peers: 2, service: slot_notifier
+Dec 06 21:03:05.002 INFO Prepared beacon proposer                parent_root: 0x0809da01843d40735761cab81ba3322d516e0cd8d44a7cac44b853df019a62a6, validator: 48, prepare_slot: 38, service: beacon
+Dec 06 21:03:05.024 INFO New block received                      root: 0xff25633cc1e6927bd2cbf8c67f47642b9ef4c4ddf69a06beff5a844ff8b12b76, slot: 37
+Dec 06 21:03:05.036 INFO Prepared beacon proposer                parent_root: 0xff25633cc1e6927bd2cbf8c67f47642b9ef4c4ddf69a06beff5a844ff8b12b76, validator: 48, prepare_slot: 38, service: beacon
+Dec 06 21:03:06.001 INFO Synced                                  slot: 37, block: 0xff25…2b76, epoch: 1, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x9775…590c (verified), peers: 2, service: slot_notifier
+Dec 06 21:03:07.001 INFO Prepared beacon proposer                parent_root: 0xff25633cc1e6927bd2cbf8c67f47642b9ef4c4ddf69a06beff5a844ff8b12b76, validator: 74, prepare_slot: 39, service: beacon
+Dec 06 21:03:07.106 INFO New block received                      root: 0x2bbce89675925763bb0fc99d027ac68bae4c7434d29ff6fe7d4ad8da6cf7b606, slot: 38
+Dec 06 21:03:07.134 INFO Prepared beacon proposer                parent_root: 0x2bbce89675925763bb0fc99d027ac68bae4c7434d29ff6fe7d4ad8da6cf7b606, validator: 74, prepare_slot: 39, service: beacon
+Dec 06 21:03:08.001 INFO Synced                                  slot: 38, block: 0x2bbc…b606, epoch: 1, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x3960…a415 (verified), peers: 2, service: slot_notifier
+Dec 06 21:03:09.002 INFO Prepared beacon proposer                parent_root: 0x2bbce89675925763bb0fc99d027ac68bae4c7434d29ff6fe7d4ad8da6cf7b606, validator: 104, prepare_slot: 40, service: beacon
+Dec 06 21:03:09.107 INFO New block received                      root: 0x0eec699e66954244e4a9367924b2c44b52df53495b3b4b10f78ce73b3fb954a2, slot: 39
+Dec 06 21:03:09.150 INFO Prepared beacon proposer                parent_root: 0x0eec699e66954244e4a9367924b2c44b52df53495b3b4b10f78ce73b3fb954a2, validator: 104, prepare_slot: 40, service: beacon
+Dec 06 21:03:10.001 INFO Synced                                  slot: 39, block: 0x0eec…54a2, epoch: 1, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x5a6d…3389 (verified), peers: 2, service: slot_notifier
+Dec 06 21:03:11.002 INFO Prepared beacon proposer                parent_root: 0x0eec699e66954244e4a9367924b2c44b52df53495b3b4b10f78ce73b3fb954a2, validator: 61, prepare_slot: 41, service: beacon
+Dec 06 21:03:11.108 INFO New block received                      root: 0xdad9b4c90e0b26d72c27e2b8475788e23e02508a9f32d57743eb08767c2d3ff7, slot: 40
+Dec 06 21:03:11.127 INFO Prepared beacon proposer                parent_root: 0xdad9b4c90e0b26d72c27e2b8475788e23e02508a9f32d57743eb08767c2d3ff7, validator: 61, prepare_slot: 41, service: beacon
+Dec 06 21:03:12.001 INFO Synced                                  slot: 40, block: 0xdad9…3ff7, epoch: 1, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x404b…c845 (verified), peers: 2, service: slot_notifier
+Dec 06 21:03:13.002 INFO Prepared beacon proposer                parent_root: 0xdad9b4c90e0b26d72c27e2b8475788e23e02508a9f32d57743eb08767c2d3ff7, validator: 84, prepare_slot: 42, service: beacon
+Dec 06 21:03:13.108 INFO New block received                      root: 0x4cd42c64cf5a1bc616c0f74ac0dab9c21a6ca5cc30767c7e532367f2034d3356, slot: 41
+Dec 06 21:03:13.124 INFO Prepared beacon proposer                parent_root: 0x4cd42c64cf5a1bc616c0f74ac0dab9c21a6ca5cc30767c7e532367f2034d3356, validator: 84, prepare_slot: 42, service: beacon
+Dec 06 21:03:14.001 INFO Synced                                  slot: 41, block: 0x4cd4…3356, epoch: 1, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x0450…783a (verified), peers: 2, service: slot_notifier
+Dec 06 21:03:15.001 INFO Prepared beacon proposer                parent_root: 0x4cd42c64cf5a1bc616c0f74ac0dab9c21a6ca5cc30767c7e532367f2034d3356, validator: 98, prepare_slot: 43, service: beacon
+Dec 06 21:03:15.107 INFO New block received                      root: 0x230d60407b968f44b0111b3edef3a3a4f491775366c69076dbc3267e9f7fafd6, slot: 42
+Dec 06 21:03:15.125 INFO Prepared beacon proposer                parent_root: 0x230d60407b968f44b0111b3edef3a3a4f491775366c69076dbc3267e9f7fafd6, validator: 98, prepare_slot: 43, service: beacon
+Dec 06 21:03:16.001 INFO Synced                                  slot: 42, block: 0x230d…afd6, epoch: 1, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x1f04…7aa6 (verified), peers: 2, service: slot_notifier
+Dec 06 21:03:17.002 INFO Prepared beacon proposer                parent_root: 0x230d60407b968f44b0111b3edef3a3a4f491775366c69076dbc3267e9f7fafd6, validator: 73, prepare_slot: 44, service: beacon
+Dec 06 21:03:17.109 INFO New block received                      root: 0x36546cbc1804570bd38664174c014154d199f15a3bf7fa728cf4def1e4e92b2d, slot: 43
+Dec 06 21:03:17.144 INFO Prepared beacon proposer                parent_root: 0x36546cbc1804570bd38664174c014154d199f15a3bf7fa728cf4def1e4e92b2d, validator: 73, prepare_slot: 44, service: beacon
+Dec 06 21:03:18.001 INFO Synced                                  slot: 43, block: 0x3654…2b2d, epoch: 1, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x9087…f1e9 (verified), peers: 2, service: slot_notifier
+Dec 06 21:03:19.001 INFO Prepared beacon proposer                parent_root: 0x36546cbc1804570bd38664174c014154d199f15a3bf7fa728cf4def1e4e92b2d, validator: 58, prepare_slot: 45, service: beacon
+Dec 06 21:03:19.039 INFO New block received                      root: 0x13c021d8cb2bf00559ef601e2cb96a87b6529d67c4de5e1d12c06acea90bc55c, slot: 44
+Dec 06 21:03:19.071 INFO Prepared beacon proposer                parent_root: 0x13c021d8cb2bf00559ef601e2cb96a87b6529d67c4de5e1d12c06acea90bc55c, validator: 58, prepare_slot: 45, service: beacon
+Dec 06 21:03:20.001 INFO Synced                                  slot: 44, block: 0x13c0…c55c, epoch: 1, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x9160…9c51 (verified), peers: 2, service: slot_notifier
+Dec 06 21:03:21.002 INFO Prepared beacon proposer                parent_root: 0x13c021d8cb2bf00559ef601e2cb96a87b6529d67c4de5e1d12c06acea90bc55c, validator: 8, prepare_slot: 46, service: beacon
+Dec 06 21:03:21.118 INFO New block received                      root: 0x190ac8eb88cf8e5d221b7e1c4700b3d9941573c28079e39b54acfd2167ee15ef, slot: 45
+Dec 06 21:03:21.167 INFO Prepared beacon proposer                parent_root: 0x190ac8eb88cf8e5d221b7e1c4700b3d9941573c28079e39b54acfd2167ee15ef, validator: 8, prepare_slot: 46, service: beacon
+Dec 06 21:03:22.001 INFO Synced                                  slot: 45, block: 0x190a…15ef, epoch: 1, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x4ad3…a554 (verified), peers: 2, service: slot_notifier
+Dec 06 21:03:23.001 INFO Prepared beacon proposer                parent_root: 0x190ac8eb88cf8e5d221b7e1c4700b3d9941573c28079e39b54acfd2167ee15ef, validator: 1, prepare_slot: 47, service: beacon
+Dec 06 21:03:23.111 INFO New block received                      root: 0x570050be782f62d5bfab9799d0cacc3b7588abb64b74ad1f797e863b0d10e678, slot: 46
+Dec 06 21:03:23.133 INFO Prepared beacon proposer                parent_root: 0x570050be782f62d5bfab9799d0cacc3b7588abb64b74ad1f797e863b0d10e678, validator: 1, prepare_slot: 47, service: beacon
+Dec 06 21:03:24.001 INFO Synced                                  slot: 46, block: 0x5700…e678, epoch: 1, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x0e57…8a05 (verified), peers: 2, service: slot_notifier
+Dec 06 21:03:25.001 INFO Prepared beacon proposer                parent_root: 0x570050be782f62d5bfab9799d0cacc3b7588abb64b74ad1f797e863b0d10e678, validator: 60, prepare_slot: 48, service: beacon
+Dec 06 21:03:25.116 INFO New block received                      root: 0x58d84ceef725aa905e921625a0e232399824972fd74b46be0ffdeb14b65e7fad, slot: 47
+Dec 06 21:03:25.166 INFO Prepared beacon proposer                parent_root: 0x58d84ceef725aa905e921625a0e232399824972fd74b46be0ffdeb14b65e7fad, validator: 60, prepare_slot: 48, service: beacon
+Dec 06 21:03:26.004 INFO Synced                                  slot: 47, block: 0x58d8…7fad, epoch: 1, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x6acb…ae80 (verified), peers: 2, service: slot_notifier
+Dec 06 21:03:27.001 INFO Prepared beacon proposer                parent_root: 0x58d84ceef725aa905e921625a0e232399824972fd74b46be0ffdeb14b65e7fad, validator: 126, prepare_slot: 49, service: beacon
+Dec 06 21:03:27.112 INFO New block received                      root: 0x2492359752bacb6bd290974ebddcb37574d9dc0bd5a509b6f2093dd1b4362f8e, slot: 48
+Dec 06 21:03:27.133 INFO Prepared beacon proposer                parent_root: 0x2492359752bacb6bd290974ebddcb37574d9dc0bd5a509b6f2093dd1b4362f8e, validator: 126, prepare_slot: 49, service: beacon
+Dec 06 21:03:28.001 INFO Synced                                  slot: 48, block: 0x2492…2f8e, epoch: 1, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x3c63…b385 (verified), peers: 2, service: slot_notifier
+Dec 06 21:03:29.002 INFO Prepared beacon proposer                parent_root: 0x2492359752bacb6bd290974ebddcb37574d9dc0bd5a509b6f2093dd1b4362f8e, validator: 44, prepare_slot: 50, service: beacon
+Dec 06 21:03:29.039 INFO New block received                      root: 0x16d6368e13948b35d69b033b8a3323c8ac3f7f587b4fd2856b586f203d4b7e46, slot: 49
+Dec 06 21:03:29.057 INFO Prepared beacon proposer                parent_root: 0x16d6368e13948b35d69b033b8a3323c8ac3f7f587b4fd2856b586f203d4b7e46, validator: 44, prepare_slot: 50, service: beacon
+Dec 06 21:03:30.001 INFO Synced                                  slot: 49, block: 0x16d6…7e46, epoch: 1, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0xbb3e…014c (verified), peers: 2, service: slot_notifier
+Dec 06 21:03:31.002 INFO Prepared beacon proposer                parent_root: 0x16d6368e13948b35d69b033b8a3323c8ac3f7f587b4fd2856b586f203d4b7e46, validator: 96, prepare_slot: 51, service: beacon
+Dec 06 21:03:31.101 INFO New block received                      root: 0xb341ffba52d51f0ff2a6d544ac498f738aaec5a728a956539f66b6f594a5a684, slot: 50
+Dec 06 21:03:31.115 INFO Prepared beacon proposer                parent_root: 0xb341ffba52d51f0ff2a6d544ac498f738aaec5a728a956539f66b6f594a5a684, validator: 96, prepare_slot: 51, service: beacon
+Dec 06 21:03:32.001 INFO Synced                                  slot: 50, block: 0xb341…a684, epoch: 1, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0xc9ca…af33 (verified), peers: 2, service: slot_notifier
+Dec 06 21:03:33.001 INFO Prepared beacon proposer                parent_root: 0xb341ffba52d51f0ff2a6d544ac498f738aaec5a728a956539f66b6f594a5a684, validator: 5, prepare_slot: 52, service: beacon
+Dec 06 21:03:33.038 INFO New block received                      root: 0x55e46c3ac20b84ee690b96c8377fe82bd266fed954e5db91cca94f4d8bdb3e97, slot: 51
+Dec 06 21:03:33.056 INFO Prepared beacon proposer                parent_root: 0x55e46c3ac20b84ee690b96c8377fe82bd266fed954e5db91cca94f4d8bdb3e97, validator: 5, prepare_slot: 52, service: beacon
+Dec 06 21:03:34.001 INFO Synced                                  slot: 51, block: 0x55e4…3e97, epoch: 1, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x8419…7eb5 (verified), peers: 2, service: slot_notifier
+Dec 06 21:03:35.003 INFO Prepared beacon proposer                parent_root: 0x55e46c3ac20b84ee690b96c8377fe82bd266fed954e5db91cca94f4d8bdb3e97, validator: 100, prepare_slot: 53, service: beacon
+Dec 06 21:03:35.104 INFO New block received                      root: 0x2d353c6e3cc3a71be0a283d48101bb8fa91b75f428a646305dce8aa07284e3d5, slot: 52
+Dec 06 21:03:35.116 INFO Prepared beacon proposer                parent_root: 0x2d353c6e3cc3a71be0a283d48101bb8fa91b75f428a646305dce8aa07284e3d5, validator: 100, prepare_slot: 53, service: beacon
+Dec 06 21:03:36.001 INFO Synced                                  slot: 52, block: 0x2d35…e3d5, epoch: 1, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x5765…4d2a (verified), peers: 2, service: slot_notifier
+Dec 06 21:03:37.002 INFO Prepared beacon proposer                parent_root: 0x2d353c6e3cc3a71be0a283d48101bb8fa91b75f428a646305dce8aa07284e3d5, validator: 95, prepare_slot: 54, service: beacon
+Dec 06 21:03:37.120 INFO New block received                      root: 0x17b49befd2c99b6173624d0ce4afd0eb92810bb0764da373b492b869f74471d2, slot: 53
+Dec 06 21:03:37.165 INFO Prepared beacon proposer                parent_root: 0x17b49befd2c99b6173624d0ce4afd0eb92810bb0764da373b492b869f74471d2, validator: 95, prepare_slot: 54, service: beacon
+Dec 06 21:03:38.001 INFO Synced                                  slot: 53, block: 0x17b4…71d2, epoch: 1, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x2c51…99f4 (verified), peers: 2, service: slot_notifier
+Dec 06 21:03:39.001 INFO Prepared beacon proposer                parent_root: 0x17b49befd2c99b6173624d0ce4afd0eb92810bb0764da373b492b869f74471d2, validator: 93, prepare_slot: 55, service: beacon
+Dec 06 21:03:39.112 INFO New block received                      root: 0xbc686df608fde187c4d2742842640c4a5ae106ddb1619858e25f6955a7a8c7c9, slot: 54
+Dec 06 21:03:39.145 INFO Prepared beacon proposer                parent_root: 0xbc686df608fde187c4d2742842640c4a5ae106ddb1619858e25f6955a7a8c7c9, validator: 93, prepare_slot: 55, service: beacon
+Dec 06 21:03:40.001 INFO Synced                                  slot: 54, block: 0xbc68…c7c9, epoch: 1, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x0f0b…18e5 (verified), peers: 2, service: slot_notifier
+Dec 06 21:03:41.001 INFO Prepared beacon proposer                parent_root: 0xbc686df608fde187c4d2742842640c4a5ae106ddb1619858e25f6955a7a8c7c9, validator: 15, prepare_slot: 56, service: beacon
+Dec 06 21:03:41.038 INFO New block received                      root: 0x1020c679ec0f8b61a4aa8473fd1ec851b5a1e59d9dbbedd7b22d23fe44d3d3d3, slot: 55
+Dec 06 21:03:41.077 INFO Prepared beacon proposer                parent_root: 0x1020c679ec0f8b61a4aa8473fd1ec851b5a1e59d9dbbedd7b22d23fe44d3d3d3, validator: 15, prepare_slot: 56, service: beacon
+Dec 06 21:03:42.001 INFO Synced                                  slot: 55, block: 0x1020…d3d3, epoch: 1, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x0782…82c1 (verified), peers: 2, service: slot_notifier
+Dec 06 21:03:43.001 INFO Prepared beacon proposer                parent_root: 0x1020c679ec0f8b61a4aa8473fd1ec851b5a1e59d9dbbedd7b22d23fe44d3d3d3, validator: 47, prepare_slot: 57, service: beacon
+Dec 06 21:03:43.032 INFO New block received                      root: 0x4963a330ae723578336b7db0523de1e8d4711254ebb32dfc976fee45bff1acfb, slot: 56
+Dec 06 21:03:43.046 INFO Prepared beacon proposer                parent_root: 0x4963a330ae723578336b7db0523de1e8d4711254ebb32dfc976fee45bff1acfb, validator: 47, prepare_slot: 57, service: beacon
+Dec 06 21:03:44.001 INFO Synced                                  slot: 56, block: 0x4963…acfb, epoch: 1, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x90ad…b005 (verified), peers: 2, service: slot_notifier
+Dec 06 21:03:45.001 INFO Prepared beacon proposer                parent_root: 0x4963a330ae723578336b7db0523de1e8d4711254ebb32dfc976fee45bff1acfb, validator: 108, prepare_slot: 58, service: beacon
+Dec 06 21:03:45.029 INFO New block received                      root: 0xe254aaa15040ba50af52d9024cc1d0e74d56eac9b61699ca2077590b2a1e2b61, slot: 57
+Dec 06 21:03:45.042 INFO Prepared beacon proposer                parent_root: 0xe254aaa15040ba50af52d9024cc1d0e74d56eac9b61699ca2077590b2a1e2b61, validator: 108, prepare_slot: 58, service: beacon
+Dec 06 21:03:46.001 INFO Synced                                  slot: 57, block: 0xe254…2b61, epoch: 1, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x79de…9b21 (verified), peers: 2, service: slot_notifier
+Dec 06 21:03:47.001 INFO Prepared beacon proposer                parent_root: 0xe254aaa15040ba50af52d9024cc1d0e74d56eac9b61699ca2077590b2a1e2b61, validator: 106, prepare_slot: 59, service: beacon
+Dec 06 21:03:47.025 INFO New block received                      root: 0xf2819b6acda063d96a067c249990e7238cf609272dca7c4243662671109fc274, slot: 58
+Dec 06 21:03:47.037 INFO Prepared beacon proposer                parent_root: 0xf2819b6acda063d96a067c249990e7238cf609272dca7c4243662671109fc274, validator: 106, prepare_slot: 59, service: beacon
+Dec 06 21:03:48.001 INFO Synced                                  slot: 58, block: 0xf281…c274, epoch: 1, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x4b81…15a3 (verified), peers: 2, service: slot_notifier
+Dec 06 21:03:49.001 INFO Prepared beacon proposer                parent_root: 0xf2819b6acda063d96a067c249990e7238cf609272dca7c4243662671109fc274, validator: 93, prepare_slot: 60, service: beacon
+Dec 06 21:03:49.030 INFO New block received                      root: 0xf9ec327d7228dd3ed65426363871bc97daf035d33aae42dfc04930cbcd612736, slot: 59
+Dec 06 21:03:49.040 INFO Prepared beacon proposer                parent_root: 0xf9ec327d7228dd3ed65426363871bc97daf035d33aae42dfc04930cbcd612736, validator: 93, prepare_slot: 60, service: beacon
+Dec 06 21:03:50.001 INFO Synced                                  slot: 59, block: 0xf9ec…2736, epoch: 1, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0xfb9b…0b52 (verified), peers: 2, service: slot_notifier
+Dec 06 21:03:51.001 INFO Prepared beacon proposer                parent_root: 0xf9ec327d7228dd3ed65426363871bc97daf035d33aae42dfc04930cbcd612736, validator: 33, prepare_slot: 61, service: beacon
+Dec 06 21:03:51.029 INFO New block received                      root: 0x6267a28ec1c2ecc8ed01090fc4d85361e69a558aea06db2d582979bb0e95ff97, slot: 60
+Dec 06 21:03:51.041 INFO Prepared beacon proposer                parent_root: 0x6267a28ec1c2ecc8ed01090fc4d85361e69a558aea06db2d582979bb0e95ff97, validator: 33, prepare_slot: 61, service: beacon
+Dec 06 21:03:52.001 INFO Synced                                  slot: 60, block: 0x6267…ff97, epoch: 1, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0xdb1b…8e70 (verified), peers: 2, service: slot_notifier
+Dec 06 21:03:53.002 INFO Prepared beacon proposer                parent_root: 0x6267a28ec1c2ecc8ed01090fc4d85361e69a558aea06db2d582979bb0e95ff97, validator: 4, prepare_slot: 62, service: beacon
+Dec 06 21:03:53.107 INFO New block received                      root: 0xadda98325367dd957f12c58ca3637796f4175bca3c5bb21514b074c2c4c16ee1, slot: 61
+Dec 06 21:03:53.125 INFO Prepared beacon proposer                parent_root: 0xadda98325367dd957f12c58ca3637796f4175bca3c5bb21514b074c2c4c16ee1, validator: 4, prepare_slot: 62, service: beacon
+Dec 06 21:03:54.001 INFO Synced                                  slot: 61, block: 0xadda…6ee1, epoch: 1, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x47f3…802b (verified), peers: 2, service: slot_notifier
+Dec 06 21:03:55.001 INFO Prepared beacon proposer                parent_root: 0xadda98325367dd957f12c58ca3637796f4175bca3c5bb21514b074c2c4c16ee1, validator: 108, prepare_slot: 63, service: beacon
+Dec 06 21:03:55.116 INFO New block received                      root: 0xd6a47c4872c607926c25c5e572422ab3115306d25dc0f07552fb518ef62666aa, slot: 62
+Dec 06 21:03:55.149 INFO Prepared beacon proposer                parent_root: 0xd6a47c4872c607926c25c5e572422ab3115306d25dc0f07552fb518ef62666aa, validator: 108, prepare_slot: 63, service: beacon
+Dec 06 21:03:56.001 INFO Synced                                  slot: 62, block: 0xd6a4…66aa, epoch: 1, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0xce4f…d564 (verified), peers: 2, service: slot_notifier
+Dec 06 21:03:57.005 INFO Prepared beacon proposer                parent_root: 0xd6a47c4872c607926c25c5e572422ab3115306d25dc0f07552fb518ef62666aa, validator: 66, prepare_slot: 64, service: beacon
+Dec 06 21:03:57.107 INFO New block received                      root: 0xe241731f92c118c59d772b072f704abb10fc39cc69f64b0e4e17e88ddc02be98, slot: 63
+Dec 06 21:03:57.198 INFO Prepared beacon proposer                parent_root: 0xe241731f92c118c59d772b072f704abb10fc39cc69f64b0e4e17e88ddc02be98, validator: 66, prepare_slot: 64, service: beacon
+Dec 06 21:03:58.002 INFO Synced                                  slot: 63, block: 0xe241…be98, epoch: 1, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x5bfa…0d75 (verified), peers: 2, service: slot_notifier
+Dec 06 21:03:59.002 INFO Prepared beacon proposer                parent_root: 0xe241731f92c118c59d772b072f704abb10fc39cc69f64b0e4e17e88ddc02be98, validator: 25, prepare_slot: 65, service: beacon
+Dec 06 21:03:59.151 INFO Signed block published to network via HTTP API, publish_delay_ms: 12, slot: 64
+Dec 06 21:03:59.233 INFO Valid block from HTTP API               slot: 64, proposer_index: 66, root: 0x8524…94ee, block_delay: 138.610902ms
+Dec 06 21:03:59.249 INFO Prepared beacon proposer                parent_root: 0x8524596e4eca04a0791cbe644a6d0132146faee5e2d6a8c638f3b57044c494ee, validator: 25, prepare_slot: 65, service: beacon
+Dec 06 21:04:00.001 INFO Synced                                  slot: 64, block: 0x8524…94ee, epoch: 2, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0xed08…d554 (verified), peers: 2, service: slot_notifier
+Dec 06 21:04:01.001 INFO Prepared beacon proposer                parent_root: 0x8524596e4eca04a0791cbe644a6d0132146faee5e2d6a8c638f3b57044c494ee, validator: 84, prepare_slot: 66, service: beacon
+Dec 06 21:04:01.113 INFO New block received                      root: 0xab8da9529364c3568d0e3104a4d8011ebaf62537d21ecb8395f68a022188d0c6, slot: 65
+Dec 06 21:04:01.131 INFO Prepared beacon proposer                parent_root: 0xab8da9529364c3568d0e3104a4d8011ebaf62537d21ecb8395f68a022188d0c6, validator: 84, prepare_slot: 66, service: beacon
+Dec 06 21:04:02.001 INFO Synced                                  slot: 65, block: 0xab8d…d0c6, epoch: 2, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x256b…3858 (verified), peers: 2, service: slot_notifier
+Dec 06 21:04:03.002 INFO Prepared beacon proposer                parent_root: 0xab8da9529364c3568d0e3104a4d8011ebaf62537d21ecb8395f68a022188d0c6, validator: 30, prepare_slot: 67, service: beacon
+Dec 06 21:04:03.106 INFO New block received                      root: 0xfc9db247e8910e07fdc61e2cc07bd2182e9ee50087bffc6a9d9168c6f3fd3445, slot: 66
+Dec 06 21:04:03.124 INFO Prepared beacon proposer                parent_root: 0xfc9db247e8910e07fdc61e2cc07bd2182e9ee50087bffc6a9d9168c6f3fd3445, validator: 30, prepare_slot: 67, service: beacon
+Dec 06 21:04:04.001 INFO Synced                                  slot: 66, block: 0xfc9d…3445, epoch: 2, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x57d7…a533 (verified), peers: 2, service: slot_notifier
+Dec 06 21:04:05.002 INFO Prepared beacon proposer                parent_root: 0xfc9db247e8910e07fdc61e2cc07bd2182e9ee50087bffc6a9d9168c6f3fd3445, validator: 117, prepare_slot: 68, service: beacon
+Dec 06 21:04:05.107 INFO New block received                      root: 0xe9277849760651e493199be1db6e5c9dab3c9373c91a8d220560854cc2d2d2f5, slot: 67
+Dec 06 21:04:05.127 INFO Prepared beacon proposer                parent_root: 0xe9277849760651e493199be1db6e5c9dab3c9373c91a8d220560854cc2d2d2f5, validator: 117, prepare_slot: 68, service: beacon
+Dec 06 21:04:06.002 INFO Synced                                  slot: 67, block: 0xe927…d2f5, epoch: 2, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x2fb6…a4d1 (verified), peers: 2, service: slot_notifier
+Dec 06 21:04:07.002 INFO Prepared beacon proposer                parent_root: 0xe9277849760651e493199be1db6e5c9dab3c9373c91a8d220560854cc2d2d2f5, validator: 45, prepare_slot: 69, service: beacon
+Dec 06 21:04:07.110 INFO New block received                      root: 0x147c34974b841d0e7bc5893ac96751526e4f6b5a5075cc95d581233ae1a0845a, slot: 68
+Dec 06 21:04:07.130 INFO Prepared beacon proposer                parent_root: 0x147c34974b841d0e7bc5893ac96751526e4f6b5a5075cc95d581233ae1a0845a, validator: 45, prepare_slot: 69, service: beacon
+Dec 06 21:04:08.001 INFO Synced                                  slot: 68, block: 0x147c…845a, epoch: 2, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x2aec…2b00 (verified), peers: 2, service: slot_notifier
+Dec 06 21:04:09.002 INFO Prepared beacon proposer                parent_root: 0x147c34974b841d0e7bc5893ac96751526e4f6b5a5075cc95d581233ae1a0845a, validator: 36, prepare_slot: 70, service: beacon
+Dec 06 21:04:09.107 INFO New block received                      root: 0xfb934003324ee0edbf2443285d7cc3bb13d7562fb198fd4f621856e9db818eb4, slot: 69
+Dec 06 21:04:09.119 INFO Prepared beacon proposer                parent_root: 0xfb934003324ee0edbf2443285d7cc3bb13d7562fb198fd4f621856e9db818eb4, validator: 36, prepare_slot: 70, service: beacon
+Dec 06 21:04:10.001 INFO Synced                                  slot: 69, block: 0xfb93…8eb4, epoch: 2, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0xceea…e647 (verified), peers: 2, service: slot_notifier
+Dec 06 21:04:11.001 INFO Prepared beacon proposer                parent_root: 0xfb934003324ee0edbf2443285d7cc3bb13d7562fb198fd4f621856e9db818eb4, validator: 95, prepare_slot: 71, service: beacon
+Dec 06 21:04:11.127 INFO Signed block published to network via HTTP API, publish_delay_ms: 7, slot: 70
+Dec 06 21:04:11.142 INFO Valid block from HTTP API               slot: 70, proposer_index: 36, root: 0x4603…d865, block_delay: 119.455605ms
+Dec 06 21:04:11.149 INFO Prepared beacon proposer                parent_root: 0x460311d4e44c8926f07114b0ad5e69a1d39cd6dd65addb0ee8c2394954d0d865, validator: 95, prepare_slot: 71, service: beacon
+Dec 06 21:04:12.001 INFO Synced                                  slot: 70, block: 0x4603…d865, epoch: 2, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x5aa5…48a2 (verified), peers: 2, service: slot_notifier
+Dec 06 21:04:13.002 INFO Prepared beacon proposer                parent_root: 0x460311d4e44c8926f07114b0ad5e69a1d39cd6dd65addb0ee8c2394954d0d865, validator: 108, prepare_slot: 72, service: beacon
+Dec 06 21:04:13.227 INFO Signed block published to network via HTTP API, publish_delay_ms: 11, slot: 71
+Dec 06 21:04:13.268 INFO Valid block from HTTP API               slot: 71, proposer_index: 95, root: 0x43e0…93b3, block_delay: 216.006048ms
+Dec 06 21:04:13.270 INFO Prepared beacon proposer                parent_root: 0x43e0cf572f5d3a7e7f01e2d74be09b169094204cbed08df558a06fd81b5693b3, validator: 108, prepare_slot: 72, service: beacon
+Dec 06 21:04:14.001 INFO Synced                                  slot: 71, block: 0x43e0…93b3, epoch: 2, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0xf60d…1c1e (verified), peers: 2, service: slot_notifier
+Dec 06 21:04:15.001 INFO Prepared beacon proposer                parent_root: 0x43e0cf572f5d3a7e7f01e2d74be09b169094204cbed08df558a06fd81b5693b3, validator: 67, prepare_slot: 73, service: beacon
+Dec 06 21:04:15.114 INFO New block received                      root: 0x7138021e8c5a590e27585e058e734561f6a70fdb4aa1c0a842fa0a0257323495, slot: 72
+Dec 06 21:04:15.155 INFO Prepared beacon proposer                parent_root: 0x7138021e8c5a590e27585e058e734561f6a70fdb4aa1c0a842fa0a0257323495, validator: 67, prepare_slot: 73, service: beacon
+Dec 06 21:04:16.001 INFO Synced                                  slot: 72, block: 0x7138…3495, epoch: 2, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x15c1…c81d (verified), peers: 2, service: slot_notifier
+Dec 06 21:04:17.001 INFO Prepared beacon proposer                parent_root: 0x7138021e8c5a590e27585e058e734561f6a70fdb4aa1c0a842fa0a0257323495, validator: 45, prepare_slot: 74, service: beacon
+Dec 06 21:04:17.107 INFO New block received                      root: 0x83db26c92dc32599b69be75de5b48253b304c4d9eb9c737bcaec29b4b66eff52, slot: 73
+Dec 06 21:04:17.119 INFO Prepared beacon proposer                parent_root: 0x83db26c92dc32599b69be75de5b48253b304c4d9eb9c737bcaec29b4b66eff52, validator: 45, prepare_slot: 74, service: beacon
+Dec 06 21:04:18.001 INFO Synced                                  slot: 73, block: 0x83db…ff52, epoch: 2, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x3390…0f8f (verified), peers: 2, service: slot_notifier
+Dec 06 21:04:19.002 INFO Prepared beacon proposer                parent_root: 0x83db26c92dc32599b69be75de5b48253b304c4d9eb9c737bcaec29b4b66eff52, validator: 58, prepare_slot: 75, service: beacon
+Dec 06 21:04:19.129 INFO Signed block published to network via HTTP API, publish_delay_ms: 11, slot: 74
+Dec 06 21:04:19.167 INFO Valid block from HTTP API               slot: 74, proposer_index: 45, root: 0x2efe…4c7e, block_delay: 118.188834ms
+Dec 06 21:04:19.182 INFO Prepared beacon proposer                parent_root: 0x2efe5e8a6c0f57cea165a5f6fc8d74155a5090c1f8593080d07eb20317e54c7e, validator: 58, prepare_slot: 75, service: beacon
+Dec 06 21:04:20.001 INFO Synced                                  slot: 74, block: 0x2efe…4c7e, epoch: 2, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0xfa79…6db9 (verified), peers: 2, service: slot_notifier
+Dec 06 21:04:21.001 INFO Prepared beacon proposer                parent_root: 0x2efe5e8a6c0f57cea165a5f6fc8d74155a5090c1f8593080d07eb20317e54c7e, validator: 8, prepare_slot: 76, service: beacon
+Dec 06 21:04:21.107 INFO New block received                      root: 0x494a0a785244f57e017d98cae33bb55c6dfb4860dc533136f52b580d12de1235, slot: 75
+Dec 06 21:04:21.127 INFO Prepared beacon proposer                parent_root: 0x494a0a785244f57e017d98cae33bb55c6dfb4860dc533136f52b580d12de1235, validator: 8, prepare_slot: 76, service: beacon
+Dec 06 21:04:22.001 INFO Synced                                  slot: 75, block: 0x494a…1235, epoch: 2, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x9764…bb25 (verified), peers: 2, service: slot_notifier
+Dec 06 21:04:23.002 INFO Prepared beacon proposer                parent_root: 0x494a0a785244f57e017d98cae33bb55c6dfb4860dc533136f52b580d12de1235, validator: 84, prepare_slot: 77, service: beacon
+Dec 06 21:04:23.113 INFO New block received                      root: 0x33fd1f47797ee3915f1798c332bd130e4c741749e6a75f63d6cd4187f5ca132b, slot: 76
+Dec 06 21:04:23.131 INFO Prepared beacon proposer                parent_root: 0x33fd1f47797ee3915f1798c332bd130e4c741749e6a75f63d6cd4187f5ca132b, validator: 84, prepare_slot: 77, service: beacon
+Dec 06 21:04:24.001 INFO Synced                                  slot: 76, block: 0x33fd…132b, epoch: 2, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0xe261…9069 (verified), peers: 2, service: slot_notifier
+Dec 06 21:04:25.002 INFO Prepared beacon proposer                parent_root: 0x33fd1f47797ee3915f1798c332bd130e4c741749e6a75f63d6cd4187f5ca132b, validator: 117, prepare_slot: 78, service: beacon
+Dec 06 21:04:25.113 INFO New block received                      root: 0x1d15cd053cc4b2689b6c8b8f400f57e17497fde79706fb67f63a22ccc6d25b13, slot: 77
+Dec 06 21:04:25.133 INFO Prepared beacon proposer                parent_root: 0x1d15cd053cc4b2689b6c8b8f400f57e17497fde79706fb67f63a22ccc6d25b13, validator: 117, prepare_slot: 78, service: beacon
+Dec 06 21:04:26.001 INFO Synced                                  slot: 77, block: 0x1d15…5b13, epoch: 2, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x011a…9c69 (verified), peers: 2, service: slot_notifier
+Dec 06 21:04:27.002 INFO Prepared beacon proposer                parent_root: 0x1d15cd053cc4b2689b6c8b8f400f57e17497fde79706fb67f63a22ccc6d25b13, validator: 13, prepare_slot: 79, service: beacon
+Dec 06 21:04:27.108 INFO New block received                      root: 0x97a035654285350635f0721431935f2b4c97be50f86982f02874cf868d2033c9, slot: 78
+Dec 06 21:04:27.129 INFO Prepared beacon proposer                parent_root: 0x97a035654285350635f0721431935f2b4c97be50f86982f02874cf868d2033c9, validator: 13, prepare_slot: 79, service: beacon
+Dec 06 21:04:28.001 INFO Synced                                  slot: 78, block: 0x97a0…33c9, epoch: 2, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0xefbd…caa2 (verified), peers: 2, service: slot_notifier
+Dec 06 21:04:29.001 INFO Prepared beacon proposer                parent_root: 0x97a035654285350635f0721431935f2b4c97be50f86982f02874cf868d2033c9, validator: 6, prepare_slot: 80, service: beacon
+Dec 06 21:04:29.129 INFO Signed block published to network via HTTP API, publish_delay_ms: 10, slot: 79
+Dec 06 21:04:29.159 INFO Valid block from HTTP API               slot: 79, proposer_index: 13, root: 0xe468…c138, block_delay: 118.473806ms
+Dec 06 21:04:29.166 INFO Prepared beacon proposer                parent_root: 0xe468f90644267e078401b60dbd8c6d3649eba87fa818d9c9982fe97e73c7c138, validator: 6, prepare_slot: 80, service: beacon
+Dec 06 21:04:30.001 INFO Synced                                  slot: 79, block: 0xe468…c138, epoch: 2, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x8eeb…cd85 (verified), peers: 2, service: slot_notifier
+Dec 06 21:04:31.002 INFO Prepared beacon proposer                parent_root: 0xe468f90644267e078401b60dbd8c6d3649eba87fa818d9c9982fe97e73c7c138, validator: 65, prepare_slot: 81, service: beacon
+Dec 06 21:04:31.111 INFO New block received                      root: 0x49a1f3784d5353c608bd7dbb2a714de02abec00d48e1a75b6ea2019ecc7bedb4, slot: 80
+Dec 06 21:04:31.130 INFO Prepared beacon proposer                parent_root: 0x49a1f3784d5353c608bd7dbb2a714de02abec00d48e1a75b6ea2019ecc7bedb4, validator: 65, prepare_slot: 81, service: beacon
+Dec 06 21:04:32.001 INFO Synced                                  slot: 80, block: 0x49a1…edb4, epoch: 2, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x56a6…89a6 (verified), peers: 2, service: slot_notifier
+Dec 06 21:04:33.002 INFO Prepared beacon proposer                parent_root: 0x49a1f3784d5353c608bd7dbb2a714de02abec00d48e1a75b6ea2019ecc7bedb4, validator: 99, prepare_slot: 82, service: beacon
+Dec 06 21:04:33.035 INFO New block received                      root: 0xb98b8c18c605534bac506c77b562e1ed467d1a1996657f398a521a126b6654ae, slot: 81
+Dec 06 21:04:33.054 INFO Prepared beacon proposer                parent_root: 0xb98b8c18c605534bac506c77b562e1ed467d1a1996657f398a521a126b6654ae, validator: 99, prepare_slot: 82, service: beacon
+Dec 06 21:04:34.001 INFO Synced                                  slot: 81, block: 0xb98b…54ae, epoch: 2, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x09e7…7cf2 (verified), peers: 2, service: slot_notifier
+Dec 06 21:04:35.002 INFO Prepared beacon proposer                parent_root: 0xb98b8c18c605534bac506c77b562e1ed467d1a1996657f398a521a126b6654ae, validator: 119, prepare_slot: 83, service: beacon
+Dec 06 21:04:35.130 INFO Signed block published to network via HTTP API, publish_delay_ms: 10, slot: 82
+Dec 06 21:04:35.170 INFO Valid block from HTTP API               slot: 82, proposer_index: 99, root: 0xdedb…68f5, block_delay: 120.110527ms
+Dec 06 21:04:35.177 INFO Prepared beacon proposer                parent_root: 0xdedb37d8f56f31d86c7b1e9744ca6d712d235ccfb11aaaada7133fea806668f5, validator: 119, prepare_slot: 83, service: beacon
+Dec 06 21:04:36.001 INFO Synced                                  slot: 82, block: 0xdedb…68f5, epoch: 2, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x4768…9564 (verified), peers: 2, service: slot_notifier
+Dec 06 21:04:37.002 INFO Prepared beacon proposer                parent_root: 0xdedb37d8f56f31d86c7b1e9744ca6d712d235ccfb11aaaada7133fea806668f5, validator: 70, prepare_slot: 84, service: beacon
+Dec 06 21:04:37.114 INFO New block received                      root: 0xaf55ab0597dbc7494e44f037156b33a309cd85d1bd9505194cb4da523c266028, slot: 83
+Dec 06 21:04:37.128 INFO Prepared beacon proposer                parent_root: 0xaf55ab0597dbc7494e44f037156b33a309cd85d1bd9505194cb4da523c266028, validator: 70, prepare_slot: 84, service: beacon
+Dec 06 21:04:38.001 INFO Synced                                  slot: 83, block: 0xaf55…6028, epoch: 2, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x8692…1d16 (verified), peers: 2, service: slot_notifier
+Dec 06 21:04:39.002 INFO Prepared beacon proposer                parent_root: 0xaf55ab0597dbc7494e44f037156b33a309cd85d1bd9505194cb4da523c266028, validator: 107, prepare_slot: 85, service: beacon
+Dec 06 21:04:39.139 INFO Signed block published to network via HTTP API, publish_delay_ms: 12, slot: 84
+Dec 06 21:04:39.172 INFO Valid block from HTTP API               slot: 84, proposer_index: 70, root: 0x4efc…19b6, block_delay: 127.056679ms
+Dec 06 21:04:39.186 INFO Prepared beacon proposer                parent_root: 0x4efca249408132490b58534bc09018099e47e69d2420bd75d85fd9ae313019b6, validator: 107, prepare_slot: 85, service: beacon
+Dec 06 21:04:40.001 INFO Synced                                  slot: 84, block: 0x4efc…19b6, epoch: 2, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x6f38…ad60 (verified), peers: 2, service: slot_notifier
+Dec 06 21:04:41.001 INFO Prepared beacon proposer                parent_root: 0x4efca249408132490b58534bc09018099e47e69d2420bd75d85fd9ae313019b6, validator: 35, prepare_slot: 86, service: beacon
+Dec 06 21:04:41.030 INFO New block received                      root: 0x24cbfb61a5f154e12ec2372f760088856e27a7d00168cf4c789e15ae7ddf2e42, slot: 85
+Dec 06 21:04:41.043 INFO Prepared beacon proposer                parent_root: 0x24cbfb61a5f154e12ec2372f760088856e27a7d00168cf4c789e15ae7ddf2e42, validator: 35, prepare_slot: 86, service: beacon
+Dec 06 21:04:42.001 INFO Synced                                  slot: 85, block: 0x24cb…2e42, epoch: 2, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x1760…f1a1 (verified), peers: 2, service: slot_notifier
+Dec 06 21:04:43.001 INFO Prepared beacon proposer                parent_root: 0x24cbfb61a5f154e12ec2372f760088856e27a7d00168cf4c789e15ae7ddf2e42, validator: 62, prepare_slot: 87, service: beacon
+Dec 06 21:04:43.025 INFO New block received                      root: 0x5bfb7859e5b09e8afa7b0be2b865f74370b787c8f750788696dbd5363fa1d702, slot: 86
+Dec 06 21:04:43.037 INFO Prepared beacon proposer                parent_root: 0x5bfb7859e5b09e8afa7b0be2b865f74370b787c8f750788696dbd5363fa1d702, validator: 62, prepare_slot: 87, service: beacon
+Dec 06 21:04:44.001 INFO Synced                                  slot: 86, block: 0x5bfb…d702, epoch: 2, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x8b05…c449 (verified), peers: 2, service: slot_notifier
+Dec 06 21:04:45.002 INFO Prepared beacon proposer                parent_root: 0x5bfb7859e5b09e8afa7b0be2b865f74370b787c8f750788696dbd5363fa1d702, validator: 103, prepare_slot: 88, service: beacon
+Dec 06 21:04:45.113 INFO Signed block published to network via HTTP API, publish_delay_ms: 7, slot: 87
+Dec 06 21:04:45.128 INFO Valid block from HTTP API               slot: 87, proposer_index: 62, root: 0xc972…95a5, block_delay: 105.431415ms
+Dec 06 21:04:45.132 INFO Prepared beacon proposer                parent_root: 0xc972298ddf1ae0d55b1052270f6a7ceb19f3291c2c8935133f588afb6ca395a5, validator: 103, prepare_slot: 88, service: beacon
+Dec 06 21:04:46.001 INFO Synced                                  slot: 87, block: 0xc972…95a5, epoch: 2, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0xa99e…cdec (verified), peers: 2, service: slot_notifier
+Dec 06 21:04:47.002 INFO Prepared beacon proposer                parent_root: 0xc972298ddf1ae0d55b1052270f6a7ceb19f3291c2c8935133f588afb6ca395a5, validator: 85, prepare_slot: 89, service: beacon
+Dec 06 21:04:47.114 INFO New block received                      root: 0x913ea32cefd164877ee3978a8099cfc1e06f3a49e1177f2736986761cdf8fb1e, slot: 88
+Dec 06 21:04:47.138 INFO Prepared beacon proposer                parent_root: 0x913ea32cefd164877ee3978a8099cfc1e06f3a49e1177f2736986761cdf8fb1e, validator: 85, prepare_slot: 89, service: beacon
+Dec 06 21:04:48.001 INFO Synced                                  slot: 88, block: 0x913e…fb1e, epoch: 2, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x47ab…a196 (verified), peers: 2, service: slot_notifier
+Dec 06 21:04:49.001 INFO Prepared beacon proposer                parent_root: 0x913ea32cefd164877ee3978a8099cfc1e06f3a49e1177f2736986761cdf8fb1e, validator: 79, prepare_slot: 90, service: beacon
+Dec 06 21:04:49.104 INFO New block received                      root: 0x1c1a04641f1082d1902a80ea5f818d5bba4a0e3584bbceafe2b8e3fedaaf91e7, slot: 89
+Dec 06 21:04:49.117 INFO Prepared beacon proposer                parent_root: 0x1c1a04641f1082d1902a80ea5f818d5bba4a0e3584bbceafe2b8e3fedaaf91e7, validator: 79, prepare_slot: 90, service: beacon
+Dec 06 21:04:50.001 INFO Synced                                  slot: 89, block: 0x1c1a…91e7, epoch: 2, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x2efe…b2c5 (verified), peers: 2, service: slot_notifier
+Dec 06 21:04:51.001 INFO Prepared beacon proposer                parent_root: 0x1c1a04641f1082d1902a80ea5f818d5bba4a0e3584bbceafe2b8e3fedaaf91e7, validator: 91, prepare_slot: 91, service: beacon
+Dec 06 21:04:51.105 INFO New block received                      root: 0xddc9647ebd641f7a2938740c71471ae80f744f5fd12aa942a3f7c3de2573e873, slot: 90
+Dec 06 21:04:51.117 INFO Prepared beacon proposer                parent_root: 0xddc9647ebd641f7a2938740c71471ae80f744f5fd12aa942a3f7c3de2573e873, validator: 91, prepare_slot: 91, service: beacon
+Dec 06 21:04:52.001 INFO Synced                                  slot: 90, block: 0xddc9…e873, epoch: 2, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x5d36…79e8 (verified), peers: 2, service: slot_notifier
+Dec 06 21:04:53.002 INFO Prepared beacon proposer                parent_root: 0xddc9647ebd641f7a2938740c71471ae80f744f5fd12aa942a3f7c3de2573e873, validator: 26, prepare_slot: 92, service: beacon
+Dec 06 21:04:53.070 INFO Signed block published to network via HTTP API, publish_delay_ms: 11, slot: 91
+Dec 06 21:04:53.087 INFO Valid block from HTTP API               slot: 91, proposer_index: 91, root: 0xe6f6…c27b, block_delay: 59.547883ms
+Dec 06 21:04:53.091 INFO Prepared beacon proposer                parent_root: 0xe6f6a0512c17b217e7235bd3f171e759b61077a06098034c22e3253c86cac27b, validator: 26, prepare_slot: 92, service: beacon
+Dec 06 21:04:54.001 INFO Synced                                  slot: 91, block: 0xe6f6…c27b, epoch: 2, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0x703d…8fa1 (verified), peers: 2, service: slot_notifier
+Dec 06 21:04:55.001 INFO Prepared beacon proposer                parent_root: 0xe6f6a0512c17b217e7235bd3f171e759b61077a06098034c22e3253c86cac27b, validator: 108, prepare_slot: 93, service: beacon
+Dec 06 21:04:55.101 INFO New block received                      root: 0xd03892b97d12f28274f257c15f1d45b7d626f94be4e5358c23ec14c2dbbbd872, slot: 92
+Dec 06 21:04:55.115 INFO Prepared beacon proposer                parent_root: 0xd03892b97d12f28274f257c15f1d45b7d626f94be4e5358c23ec14c2dbbbd872, validator: 108, prepare_slot: 93, service: beacon
+Dec 06 21:04:56.001 INFO Synced                                  slot: 92, block: 0xd038…d872, epoch: 2, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0xa9f7…71fe (verified), peers: 2, service: slot_notifier
+Dec 06 21:04:57.001 INFO Prepared beacon proposer                parent_root: 0xd03892b97d12f28274f257c15f1d45b7d626f94be4e5358c23ec14c2dbbbd872, validator: 74, prepare_slot: 94, service: beacon
+Dec 06 21:04:57.038 INFO New block received                      root: 0x6cf83c469c5a9a2ced6f5148237035c6bd70157dd48c4d4d8d650f4cf3a899ad, slot: 93
+Dec 06 21:04:57.070 INFO Prepared beacon proposer                parent_root: 0x6cf83c469c5a9a2ced6f5148237035c6bd70157dd48c4d4d8d650f4cf3a899ad, validator: 74, prepare_slot: 94, service: beacon
+Dec 06 21:04:58.001 INFO Synced                                  slot: 93, block: 0x6cf8…99ad, epoch: 2, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0xe5ac…6a1f (verified), peers: 2, service: slot_notifier
+Dec 06 21:04:59.001 INFO Prepared beacon proposer                parent_root: 0x6cf83c469c5a9a2ced6f5148237035c6bd70157dd48c4d4d8d650f4cf3a899ad, validator: 24, prepare_slot: 95, service: beacon
+Dec 06 21:04:59.060 INFO Signed block published to network via HTTP API, publish_delay_ms: 8, slot: 94
+Dec 06 21:04:59.070 INFO Valid block from HTTP API               slot: 94, proposer_index: 74, root: 0x47ec…6dc5, block_delay: 52.345219ms
+Dec 06 21:04:59.075 INFO Prepared beacon proposer                parent_root: 0x47ec0406f9ba811523fc2244ea8019733d1ecb0f79de70321277b13255bb6dc5, validator: 24, prepare_slot: 95, service: beacon
+Dec 06 21:05:00.001 INFO Synced                                  slot: 94, block: 0x47ec…6dc5, epoch: 2, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0xb2e9…6c3e (verified), peers: 2, service: slot_notifier
+Dec 06 21:05:01.002 INFO Prepared beacon proposer                parent_root: 0x47ec0406f9ba811523fc2244ea8019733d1ecb0f79de70321277b13255bb6dc5, validator: 70, prepare_slot: 96, service: beacon
+Dec 06 21:05:01.029 INFO New block received                      root: 0xf0ee93a807dc1ade458a76a641411a5dc6a98e186efe28dc21a73626d83c5d5f, slot: 95
+Dec 06 21:05:01.041 INFO Prepared beacon proposer                parent_root: 0xf0ee93a807dc1ade458a76a641411a5dc6a98e186efe28dc21a73626d83c5d5f, validator: 70, prepare_slot: 96, service: beacon
+Dec 06 21:05:02.001 INFO Synced                                  slot: 95, block: 0xf0ee…5d5f, epoch: 2, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0xafc7…f81e (verified), peers: 2, service: slot_notifier
+Dec 06 21:05:03.003 INFO Prepared beacon proposer                parent_root: 0xf0ee93a807dc1ade458a76a641411a5dc6a98e186efe28dc21a73626d83c5d5f, validator: 7, prepare_slot: 97, service: beacon
+Dec 06 21:05:03.129 INFO Signed block published to network via HTTP API, publish_delay_ms: 10, slot: 96
+Dec 06 21:05:03.212 INFO Valid block from HTTP API               slot: 96, proposer_index: 70, root: 0xaad2…523d, block_delay: 118.948786ms
+Dec 06 21:05:03.226 INFO Prepared beacon proposer                parent_root: 0xaad203aa854cfd073072e555cc6478cc4c2b20cf6da5a58b064e8427a142523d, validator: 7, prepare_slot: 97, service: beacon
+Dec 06 21:05:04.001 INFO Synced                                  slot: 96, block: 0xaad2…523d, epoch: 3, finalized_epoch: 0, finalized_root: 0x4b04…4842, exec_hash: 0xd443…e447 (verified), peers: 2, service: slot_notifier

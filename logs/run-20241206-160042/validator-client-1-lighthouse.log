@@ -1,0 +1,1055 @@
+Dec 06 21:02:04.585 INFO Successfully published attestation      type: aggregated, slot: 6, committee_index: 0, head_block: 0x5fbac27ea35773a56dfcf3c7d039968ff50bd1177fdd7c62df1d1dae6b5ecb12, signatures: 4, aggregator: 61, service: attestation
+Dec 06 21:02:04.585 INFO Successfully published attestation      type: aggregated, slot: 6, committee_index: 0, head_block: 0x5fbac27ea35773a56dfcf3c7d039968ff50bd1177fdd7c62df1d1dae6b5ecb12, signatures: 4, aggregator: 28, service: attestation
+Dec 06 21:02:04.585 INFO Successfully published sync contributions, slot: 6, num_signers: 78, beacon_block_root: 0x5fba…cb12, subnet: 0, service: sync_committee
+Dec 06 21:02:05.086 INFO Requesting unsigned block               slot: 7, service: block
+Dec 06 21:02:05.185 INFO Received unsigned block                 slot: 7, service: block
+Dec 06 21:02:05.196 INFO Publishing signed block                 signing_time_ms: 10, slot: 7, service: block
+Dec 06 21:02:05.285 INFO Successfully published block            slot: 7, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:02:06.084 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:02:06.084 INFO All validators active                   slot: 7, epoch: 0, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:02:06.385 INFO Successfully published sync committee messages, slot: 7, head_block: 0x49ccd216e168eaa493da92fbe7c5d394a833a44394135fde511afe2da411e9d4, count: 64, service: sync_committee
+Dec 06 21:02:06.385 INFO Successfully published attestations     type: unaggregated, slot: 7, committee_index: 0, head_block: 0x49ccd216e168eaa493da92fbe7c5d394a833a44394135fde511afe2da411e9d4, validator_indices: [36, 1], count: 2, service: attestation
+Dec 06 21:02:06.485 INFO Successfully published sync contributions, slot: 7, num_signers: 68, beacon_block_root: 0x49cc…e9d4, subnet: 3, service: sync_committee
+Dec 06 21:02:06.584 INFO Successfully published sync contributions, slot: 7, num_signers: 68, beacon_block_root: 0x49cc…e9d4, subnet: 0, service: sync_committee
+Dec 06 21:02:06.584 INFO Successfully published sync contributions, slot: 7, num_signers: 68, beacon_block_root: 0x49cc…e9d4, subnet: 2, service: sync_committee
+Dec 06 21:02:06.585 INFO Successfully published attestation      type: aggregated, slot: 7, committee_index: 0, head_block: 0x49ccd216e168eaa493da92fbe7c5d394a833a44394135fde511afe2da411e9d4, signatures: 4, aggregator: 36, service: attestation
+Dec 06 21:02:06.585 INFO Successfully published attestation      type: aggregated, slot: 7, committee_index: 0, head_block: 0x49ccd216e168eaa493da92fbe7c5d394a833a44394135fde511afe2da411e9d4, signatures: 4, aggregator: 1, service: attestation
+Dec 06 21:02:06.585 INFO Successfully published sync contributions, slot: 7, num_signers: 68, beacon_block_root: 0x49cc…e9d4, subnet: 1, service: sync_committee
+Dec 06 21:02:07.087 INFO Requesting unsigned block               slot: 8, service: block
+Dec 06 21:02:07.185 INFO Received unsigned block                 slot: 8, service: block
+Dec 06 21:02:07.195 INFO Publishing signed block                 signing_time_ms: 9, slot: 8, service: block
+Dec 06 21:02:07.285 INFO Successfully published block            slot: 8, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:02:07.891 INFO Successfully published attestations     type: unaggregated, slot: 8, committee_index: 0, head_block: 0x3320f10ade29e3a17dad4df9e3eb931f67314ce4275d7e3443b8ba9f10144134, validator_indices: [62, 59], count: 2, service: attestation
+Dec 06 21:02:08.084 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:02:08.084 INFO All validators active                   slot: 8, epoch: 0, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:02:08.484 INFO Successfully published sync committee messages, slot: 8, head_block: 0x3320f10ade29e3a17dad4df9e3eb931f67314ce4275d7e3443b8ba9f10144134, count: 64, service: sync_committee
+Dec 06 21:02:08.594 INFO Successfully published attestation      type: aggregated, slot: 8, committee_index: 0, head_block: 0x3320f10ade29e3a17dad4df9e3eb931f67314ce4275d7e3443b8ba9f10144134, signatures: 4, aggregator: 62, service: attestation
+Dec 06 21:02:08.594 INFO Successfully published attestation      type: aggregated, slot: 8, committee_index: 0, head_block: 0x3320f10ade29e3a17dad4df9e3eb931f67314ce4275d7e3443b8ba9f10144134, signatures: 4, aggregator: 59, service: attestation
+Dec 06 21:02:08.684 INFO Successfully published sync contributions, slot: 8, num_signers: 64, beacon_block_root: 0x3320…4134, subnet: 2, service: sync_committee
+Dec 06 21:02:08.684 INFO Successfully published sync contributions, slot: 8, num_signers: 64, beacon_block_root: 0x3320…4134, subnet: 1, service: sync_committee
+Dec 06 21:02:08.684 INFO Successfully published sync contributions, slot: 8, num_signers: 64, beacon_block_root: 0x3320…4134, subnet: 0, service: sync_committee
+Dec 06 21:02:08.684 INFO Successfully published sync contributions, slot: 8, num_signers: 64, beacon_block_root: 0x3320…4134, subnet: 3, service: sync_committee
+Dec 06 21:02:09.823 INFO Successfully published attestations     type: unaggregated, slot: 9, committee_index: 0, head_block: 0xeea483ced857aac2fb3c7b6f5d9031676ace3bdc8effd9e0828b58b814349d3d, validator_indices: [3, 24, 7, 52], count: 4, service: attestation
+Dec 06 21:02:10.084 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:02:10.085 INFO All validators active                   slot: 9, epoch: 0, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:02:10.384 INFO Successfully published sync committee messages, slot: 9, head_block: 0xeea483ced857aac2fb3c7b6f5d9031676ace3bdc8effd9e0828b58b814349d3d, count: 64, service: sync_committee
+Dec 06 21:02:10.484 INFO Successfully published attestation      type: aggregated, slot: 9, committee_index: 0, head_block: 0xeea483ced857aac2fb3c7b6f5d9031676ace3bdc8effd9e0828b58b814349d3d, signatures: 4, aggregator: 3, service: attestation
+Dec 06 21:02:10.484 INFO Successfully published attestation      type: aggregated, slot: 9, committee_index: 0, head_block: 0xeea483ced857aac2fb3c7b6f5d9031676ace3bdc8effd9e0828b58b814349d3d, signatures: 4, aggregator: 24, service: attestation
+Dec 06 21:02:10.484 INFO Successfully published attestation      type: aggregated, slot: 9, committee_index: 0, head_block: 0xeea483ced857aac2fb3c7b6f5d9031676ace3bdc8effd9e0828b58b814349d3d, signatures: 4, aggregator: 7, service: attestation
+Dec 06 21:02:10.484 INFO Successfully published attestation      type: aggregated, slot: 9, committee_index: 0, head_block: 0xeea483ced857aac2fb3c7b6f5d9031676ace3bdc8effd9e0828b58b814349d3d, signatures: 4, aggregator: 52, service: attestation
+Dec 06 21:02:10.484 INFO Successfully published sync contributions, slot: 9, num_signers: 75, beacon_block_root: 0xeea4…9d3d, subnet: 3, service: sync_committee
+Dec 06 21:02:10.484 INFO Successfully published sync contributions, slot: 9, num_signers: 75, beacon_block_root: 0xeea4…9d3d, subnet: 1, service: sync_committee
+Dec 06 21:02:10.489 INFO Successfully published sync contributions, slot: 9, num_signers: 75, beacon_block_root: 0xeea4…9d3d, subnet: 0, service: sync_committee
+Dec 06 21:02:10.584 INFO Successfully published sync contributions, slot: 9, num_signers: 75, beacon_block_root: 0xeea4…9d3d, subnet: 2, service: sync_committee
+Dec 06 21:02:11.884 INFO Successfully published attestations     type: unaggregated, slot: 10, committee_index: 0, head_block: 0x1686b0c83b4e351de31a30e72115a9636b3aecdfd2a137643487ab0f3b3845ef, validator_indices: [4, 37, 38], count: 3, service: attestation
+Dec 06 21:02:12.084 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:02:12.085 INFO All validators active                   slot: 10, epoch: 0, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:02:12.485 INFO Successfully published sync committee messages, slot: 10, head_block: 0x1686b0c83b4e351de31a30e72115a9636b3aecdfd2a137643487ab0f3b3845ef, count: 64, service: sync_committee
+Dec 06 21:02:12.496 INFO Successfully published attestation      type: aggregated, slot: 10, committee_index: 0, head_block: 0x1686b0c83b4e351de31a30e72115a9636b3aecdfd2a137643487ab0f3b3845ef, signatures: 4, aggregator: 4, service: attestation
+Dec 06 21:02:12.496 INFO Successfully published attestation      type: aggregated, slot: 10, committee_index: 0, head_block: 0x1686b0c83b4e351de31a30e72115a9636b3aecdfd2a137643487ab0f3b3845ef, signatures: 4, aggregator: 37, service: attestation
+Dec 06 21:02:12.496 INFO Successfully published attestation      type: aggregated, slot: 10, committee_index: 0, head_block: 0x1686b0c83b4e351de31a30e72115a9636b3aecdfd2a137643487ab0f3b3845ef, signatures: 4, aggregator: 38, service: attestation
+Dec 06 21:02:12.584 INFO Successfully published sync contributions, slot: 10, num_signers: 64, beacon_block_root: 0x1686…45ef, subnet: 3, service: sync_committee
+Dec 06 21:02:12.584 INFO Successfully published sync contributions, slot: 10, num_signers: 64, beacon_block_root: 0x1686…45ef, subnet: 0, service: sync_committee
+Dec 06 21:02:12.584 INFO Successfully published sync contributions, slot: 10, num_signers: 64, beacon_block_root: 0x1686…45ef, subnet: 2, service: sync_committee
+Dec 06 21:02:12.584 INFO Successfully published sync contributions, slot: 10, num_signers: 64, beacon_block_root: 0x1686…45ef, subnet: 1, service: sync_committee
+Dec 06 21:02:14.084 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:02:14.084 INFO All validators active                   slot: 11, epoch: 0, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:02:14.384 INFO Successfully published sync committee messages, slot: 11, head_block: 0x8ae908bfca75a69ecb17202455b8a5e067fd9016b50de13ea3b4c4893373b4ee, count: 64, service: sync_committee
+Dec 06 21:02:14.384 INFO Successfully published attestations     type: unaggregated, slot: 11, committee_index: 0, head_block: 0x8ae908bfca75a69ecb17202455b8a5e067fd9016b50de13ea3b4c4893373b4ee, validator_indices: [49, 17], count: 2, service: attestation
+Dec 06 21:02:14.484 INFO Successfully published attestation      type: aggregated, slot: 11, committee_index: 0, head_block: 0x8ae908bfca75a69ecb17202455b8a5e067fd9016b50de13ea3b4c4893373b4ee, signatures: 4, aggregator: 49, service: attestation
+Dec 06 21:02:14.485 INFO Successfully published attestation      type: aggregated, slot: 11, committee_index: 0, head_block: 0x8ae908bfca75a69ecb17202455b8a5e067fd9016b50de13ea3b4c4893373b4ee, signatures: 4, aggregator: 17, service: attestation
+Dec 06 21:02:14.485 INFO Successfully published sync contributions, slot: 11, num_signers: 72, beacon_block_root: 0x8ae9…b4ee, subnet: 1, service: sync_committee
+Dec 06 21:02:14.584 INFO Successfully published sync contributions, slot: 11, num_signers: 72, beacon_block_root: 0x8ae9…b4ee, subnet: 3, service: sync_committee
+Dec 06 21:02:14.584 INFO Successfully published sync contributions, slot: 11, num_signers: 72, beacon_block_root: 0x8ae9…b4ee, subnet: 0, service: sync_committee
+Dec 06 21:02:14.586 INFO Successfully published sync contributions, slot: 11, num_signers: 72, beacon_block_root: 0x8ae9…b4ee, subnet: 2, service: sync_committee
+Dec 06 21:02:15.087 INFO Requesting unsigned block               slot: 12, service: block
+Dec 06 21:02:15.186 INFO Received unsigned block                 slot: 12, service: block
+Dec 06 21:02:15.192 INFO Publishing signed block                 signing_time_ms: 6, slot: 12, service: block
+Dec 06 21:02:15.285 INFO Successfully published block            slot: 12, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:02:16.084 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:02:16.084 INFO All validators active                   slot: 12, epoch: 0, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:02:16.385 INFO Successfully published sync committee messages, slot: 12, head_block: 0x6f08869aa7ea61dff067b455b9a07e8a6cee4bfc3125f32d126e1f229984e6a8, count: 64, service: sync_committee
+Dec 06 21:02:16.385 INFO Successfully published attestations     type: unaggregated, slot: 12, committee_index: 0, head_block: 0x6f08869aa7ea61dff067b455b9a07e8a6cee4bfc3125f32d126e1f229984e6a8, validator_indices: [15], count: 1, service: attestation
+Dec 06 21:02:16.484 INFO Successfully published sync contributions, slot: 12, num_signers: 74, beacon_block_root: 0x6f08…e6a8, subnet: 0, service: sync_committee
+Dec 06 21:02:16.484 INFO Successfully published sync contributions, slot: 12, num_signers: 74, beacon_block_root: 0x6f08…e6a8, subnet: 3, service: sync_committee
+Dec 06 21:02:16.484 INFO Successfully published attestation      type: aggregated, slot: 12, committee_index: 0, head_block: 0x6f08869aa7ea61dff067b455b9a07e8a6cee4bfc3125f32d126e1f229984e6a8, signatures: 4, aggregator: 15, service: attestation
+Dec 06 21:02:16.485 INFO Successfully published sync contributions, slot: 12, num_signers: 74, beacon_block_root: 0x6f08…e6a8, subnet: 2, service: sync_committee
+Dec 06 21:02:16.494 INFO Successfully published sync contributions, slot: 12, num_signers: 74, beacon_block_root: 0x6f08…e6a8, subnet: 1, service: sync_committee
+Dec 06 21:02:17.085 INFO Requesting unsigned block               slot: 13, service: block
+Dec 06 21:02:17.184 INFO Received unsigned block                 slot: 13, service: block
+Dec 06 21:02:17.195 INFO Publishing signed block                 signing_time_ms: 11, slot: 13, service: block
+Dec 06 21:02:17.285 INFO Successfully published block            slot: 13, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:02:18.084 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:02:18.084 INFO All validators active                   slot: 13, epoch: 0, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:02:18.446 INFO Successfully published sync committee messages, slot: 13, head_block: 0x0e0015fc338341313a51a86edfb0b627bf5b10e9620b2e811e029b569237ad07, count: 64, service: sync_committee
+Dec 06 21:02:18.490 INFO Successfully published attestations     type: unaggregated, slot: 13, committee_index: 0, head_block: 0x0e0015fc338341313a51a86edfb0b627bf5b10e9620b2e811e029b569237ad07, validator_indices: [33, 55, 25, 30], count: 4, service: attestation
+Dec 06 21:02:18.585 INFO Successfully published sync contributions, slot: 13, num_signers: 72, beacon_block_root: 0x0e00…ad07, subnet: 0, service: sync_committee
+Dec 06 21:02:18.585 INFO Successfully published sync contributions, slot: 13, num_signers: 72, beacon_block_root: 0x0e00…ad07, subnet: 3, service: sync_committee
+Dec 06 21:02:18.585 INFO Successfully published attestation      type: aggregated, slot: 13, committee_index: 0, head_block: 0x0e0015fc338341313a51a86edfb0b627bf5b10e9620b2e811e029b569237ad07, signatures: 4, aggregator: 33, service: attestation
+Dec 06 21:02:18.585 INFO Successfully published attestation      type: aggregated, slot: 13, committee_index: 0, head_block: 0x0e0015fc338341313a51a86edfb0b627bf5b10e9620b2e811e029b569237ad07, signatures: 4, aggregator: 55, service: attestation
+Dec 06 21:02:18.585 INFO Successfully published attestation      type: aggregated, slot: 13, committee_index: 0, head_block: 0x0e0015fc338341313a51a86edfb0b627bf5b10e9620b2e811e029b569237ad07, signatures: 4, aggregator: 25, service: attestation
+Dec 06 21:02:18.585 INFO Successfully published attestation      type: aggregated, slot: 13, committee_index: 0, head_block: 0x0e0015fc338341313a51a86edfb0b627bf5b10e9620b2e811e029b569237ad07, signatures: 4, aggregator: 30, service: attestation
+Dec 06 21:02:18.593 INFO Successfully published sync contributions, slot: 13, num_signers: 72, beacon_block_root: 0x0e00…ad07, subnet: 1, service: sync_committee
+Dec 06 21:02:18.686 INFO Successfully published sync contributions, slot: 13, num_signers: 72, beacon_block_root: 0x0e00…ad07, subnet: 2, service: sync_committee
+Dec 06 21:02:19.084 INFO Requesting unsigned block               slot: 14, service: block
+Dec 06 21:02:19.091 INFO Received unsigned block                 slot: 14, service: block
+Dec 06 21:02:19.191 INFO Publishing signed block                 signing_time_ms: 100, slot: 14, service: block
+Dec 06 21:02:19.284 INFO Successfully published block            slot: 14, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:02:19.884 INFO Successfully published attestations     type: unaggregated, slot: 14, committee_index: 0, head_block: 0xf9c558f6ee7f48de36b6f2eb30bd35dc9a7f4f2856df9782627b9bb9796138bf, validator_indices: [19, 12], count: 2, service: attestation
+Dec 06 21:02:20.084 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:02:20.084 INFO All validators active                   slot: 14, epoch: 0, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:02:20.384 INFO Successfully published sync committee messages, slot: 14, head_block: 0xf9c558f6ee7f48de36b6f2eb30bd35dc9a7f4f2856df9782627b9bb9796138bf, count: 64, service: sync_committee
+Dec 06 21:02:20.484 INFO Successfully published sync contributions, slot: 14, num_signers: 70, beacon_block_root: 0xf9c5…38bf, subnet: 1, service: sync_committee
+Dec 06 21:02:20.484 INFO Successfully published attestation      type: aggregated, slot: 14, committee_index: 0, head_block: 0xf9c558f6ee7f48de36b6f2eb30bd35dc9a7f4f2856df9782627b9bb9796138bf, signatures: 4, aggregator: 19, service: attestation
+Dec 06 21:02:20.484 INFO Successfully published attestation      type: aggregated, slot: 14, committee_index: 0, head_block: 0xf9c558f6ee7f48de36b6f2eb30bd35dc9a7f4f2856df9782627b9bb9796138bf, signatures: 4, aggregator: 12, service: attestation
+Dec 06 21:02:20.584 INFO Successfully published sync contributions, slot: 14, num_signers: 70, beacon_block_root: 0xf9c5…38bf, subnet: 3, service: sync_committee
+Dec 06 21:02:20.585 INFO Successfully published sync contributions, slot: 14, num_signers: 70, beacon_block_root: 0xf9c5…38bf, subnet: 2, service: sync_committee
+Dec 06 21:02:20.585 INFO Successfully published sync contributions, slot: 14, num_signers: 70, beacon_block_root: 0xf9c5…38bf, subnet: 0, service: sync_committee
+Dec 06 21:02:22.084 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:02:22.084 INFO All validators active                   slot: 15, epoch: 0, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:02:22.121 INFO Successfully published sync committee messages, slot: 15, head_block: 0xd783c6e85ab2ca82b388d4ed26282f3d60a04d37234dd53eb7570e4c97cc8073, count: 64, service: sync_committee
+Dec 06 21:02:22.125 INFO Successfully published attestations     type: unaggregated, slot: 15, committee_index: 0, head_block: 0xd783c6e85ab2ca82b388d4ed26282f3d60a04d37234dd53eb7570e4c97cc8073, validator_indices: [20, 51, 26], count: 3, service: attestation
+Dec 06 21:02:22.484 INFO Successfully published sync contributions, slot: 15, num_signers: 93, beacon_block_root: 0xd783…8073, subnet: 2, service: sync_committee
+Dec 06 21:02:22.484 INFO Successfully published sync contributions, slot: 15, num_signers: 93, beacon_block_root: 0xd783…8073, subnet: 1, service: sync_committee
+Dec 06 21:02:22.584 INFO Successfully published attestation      type: aggregated, slot: 15, committee_index: 0, head_block: 0xd783c6e85ab2ca82b388d4ed26282f3d60a04d37234dd53eb7570e4c97cc8073, signatures: 4, aggregator: 20, service: attestation
+Dec 06 21:02:22.584 INFO Successfully published attestation      type: aggregated, slot: 15, committee_index: 0, head_block: 0xd783c6e85ab2ca82b388d4ed26282f3d60a04d37234dd53eb7570e4c97cc8073, signatures: 4, aggregator: 51, service: attestation
+Dec 06 21:02:22.584 INFO Successfully published attestation      type: aggregated, slot: 15, committee_index: 0, head_block: 0xd783c6e85ab2ca82b388d4ed26282f3d60a04d37234dd53eb7570e4c97cc8073, signatures: 4, aggregator: 26, service: attestation
+Dec 06 21:02:22.592 INFO Successfully published sync contributions, slot: 15, num_signers: 93, beacon_block_root: 0xd783…8073, subnet: 0, service: sync_committee
+Dec 06 21:02:22.684 INFO Successfully published sync contributions, slot: 15, num_signers: 93, beacon_block_root: 0xd783…8073, subnet: 3, service: sync_committee
+Dec 06 21:02:23.784 INFO Successfully published attestations     type: unaggregated, slot: 16, committee_index: 0, head_block: 0x5905ad1d21c1bd83f742a035ed2bab6dbd983f6625ef3bbb1730cec0411eef96, validator_indices: [63, 6], count: 2, service: attestation
+Dec 06 21:02:24.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:02:24.000 INFO All validators active                   slot: 16, epoch: 0, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:02:24.384 INFO Successfully published sync committee messages, slot: 16, head_block: 0x5905ad1d21c1bd83f742a035ed2bab6dbd983f6625ef3bbb1730cec0411eef96, count: 64, service: sync_committee
+Dec 06 21:02:24.393 INFO Successfully published attestation      type: aggregated, slot: 16, committee_index: 0, head_block: 0x5905ad1d21c1bd83f742a035ed2bab6dbd983f6625ef3bbb1730cec0411eef96, signatures: 4, aggregator: 63, service: attestation
+Dec 06 21:02:24.393 INFO Successfully published attestation      type: aggregated, slot: 16, committee_index: 0, head_block: 0x5905ad1d21c1bd83f742a035ed2bab6dbd983f6625ef3bbb1730cec0411eef96, signatures: 4, aggregator: 6, service: attestation
+Dec 06 21:02:24.397 INFO Successfully published sync contributions, slot: 16, num_signers: 84, beacon_block_root: 0x5905…ef96, subnet: 2, service: sync_committee
+Dec 06 21:02:24.400 INFO Successfully published sync contributions, slot: 16, num_signers: 84, beacon_block_root: 0x5905…ef96, subnet: 3, service: sync_committee
+Dec 06 21:02:24.404 INFO Successfully published sync contributions, slot: 16, num_signers: 84, beacon_block_root: 0x5905…ef96, subnet: 1, service: sync_committee
+Dec 06 21:02:24.406 INFO Successfully published sync contributions, slot: 16, num_signers: 84, beacon_block_root: 0x5905…ef96, subnet: 0, service: sync_committee
+Dec 06 21:02:26.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:02:26.001 INFO All validators active                   slot: 17, epoch: 0, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:02:26.307 INFO Successfully published sync committee messages, slot: 17, head_block: 0xc15512b06e30bc0143ae4763751221de0e6dbebdd0ef2239b279bc882bb95ddf, count: 64, service: sync_committee
+Dec 06 21:02:26.311 INFO Successfully published attestations     type: unaggregated, slot: 17, committee_index: 0, head_block: 0xc15512b06e30bc0143ae4763751221de0e6dbebdd0ef2239b279bc882bb95ddf, validator_indices: [21, 0, 56], count: 3, service: attestation
+Dec 06 21:02:26.494 INFO Successfully published sync contributions, slot: 17, num_signers: 90, beacon_block_root: 0xc155…5ddf, subnet: 3, service: sync_committee
+Dec 06 21:02:26.497 INFO Successfully published sync contributions, slot: 17, num_signers: 90, beacon_block_root: 0xc155…5ddf, subnet: 2, service: sync_committee
+Dec 06 21:02:26.501 INFO Successfully published sync contributions, slot: 17, num_signers: 90, beacon_block_root: 0xc155…5ddf, subnet: 0, service: sync_committee
+Dec 06 21:02:26.505 INFO Successfully published sync contributions, slot: 17, num_signers: 90, beacon_block_root: 0xc155…5ddf, subnet: 1, service: sync_committee
+Dec 06 21:02:26.585 INFO Successfully published attestation      type: aggregated, slot: 17, committee_index: 0, head_block: 0xc15512b06e30bc0143ae4763751221de0e6dbebdd0ef2239b279bc882bb95ddf, signatures: 4, aggregator: 21, service: attestation
+Dec 06 21:02:26.585 INFO Successfully published attestation      type: aggregated, slot: 17, committee_index: 0, head_block: 0xc15512b06e30bc0143ae4763751221de0e6dbebdd0ef2239b279bc882bb95ddf, signatures: 4, aggregator: 0, service: attestation
+Dec 06 21:02:26.585 INFO Successfully published attestation      type: aggregated, slot: 17, committee_index: 0, head_block: 0xc15512b06e30bc0143ae4763751221de0e6dbebdd0ef2239b279bc882bb95ddf, signatures: 4, aggregator: 56, service: attestation
+Dec 06 21:02:27.084 INFO Requesting unsigned block               slot: 18, service: block
+Dec 06 21:02:27.184 INFO Received unsigned block                 slot: 18, service: block
+Dec 06 21:02:27.191 INFO Publishing signed block                 signing_time_ms: 7, slot: 18, service: block
+Dec 06 21:02:27.203 INFO Successfully published block            slot: 18, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:02:27.784 INFO Successfully published attestations     type: unaggregated, slot: 18, committee_index: 0, head_block: 0xcf41a8664267f61547ef35f13bc018e8ca5d68ff708798b5a98794b08413b371, validator_indices: [10], count: 1, service: attestation
+Dec 06 21:02:28.084 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:02:28.084 INFO All validators active                   slot: 18, epoch: 0, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:02:28.284 INFO Successfully published sync committee messages, slot: 18, head_block: 0xcf41a8664267f61547ef35f13bc018e8ca5d68ff708798b5a98794b08413b371, count: 64, service: sync_committee
+Dec 06 21:02:28.484 INFO Successfully published attestation      type: aggregated, slot: 18, committee_index: 0, head_block: 0xcf41a8664267f61547ef35f13bc018e8ca5d68ff708798b5a98794b08413b371, signatures: 2, aggregator: 10, service: attestation
+Dec 06 21:02:28.484 INFO Successfully published sync contributions, slot: 18, num_signers: 80, beacon_block_root: 0xcf41…b371, subnet: 3, service: sync_committee
+Dec 06 21:02:28.493 INFO Successfully published sync contributions, slot: 18, num_signers: 80, beacon_block_root: 0xcf41…b371, subnet: 1, service: sync_committee
+Dec 06 21:02:28.496 INFO Successfully published sync contributions, slot: 18, num_signers: 80, beacon_block_root: 0xcf41…b371, subnet: 2, service: sync_committee
+Dec 06 21:02:28.500 INFO Successfully published sync contributions, slot: 18, num_signers: 80, beacon_block_root: 0xcf41…b371, subnet: 0, service: sync_committee
+Dec 06 21:02:30.085 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:02:30.085 INFO All validators active                   slot: 19, epoch: 0, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:02:30.213 INFO Successfully published sync committee messages, slot: 19, head_block: 0x0b5b4f9f8dae6933f804000668be5c02dd497f10f09fa3351c797d0013048cf4, count: 64, service: sync_committee
+Dec 06 21:02:30.215 INFO Successfully published attestations     type: unaggregated, slot: 19, committee_index: 0, head_block: 0x0b5b4f9f8dae6933f804000668be5c02dd497f10f09fa3351c797d0013048cf4, validator_indices: [35], count: 1, service: attestation
+Dec 06 21:02:30.484 INFO Successfully published attestation      type: aggregated, slot: 19, committee_index: 0, head_block: 0x0b5b4f9f8dae6933f804000668be5c02dd497f10f09fa3351c797d0013048cf4, signatures: 4, aggregator: 35, service: attestation
+Dec 06 21:02:30.484 INFO Successfully published sync contributions, slot: 19, num_signers: 88, beacon_block_root: 0x0b5b…8cf4, subnet: 1, service: sync_committee
+Dec 06 21:02:30.584 INFO Successfully published sync contributions, slot: 19, num_signers: 88, beacon_block_root: 0x0b5b…8cf4, subnet: 3, service: sync_committee
+Dec 06 21:02:30.584 INFO Successfully published sync contributions, slot: 19, num_signers: 88, beacon_block_root: 0x0b5b…8cf4, subnet: 2, service: sync_committee
+Dec 06 21:02:30.584 INFO Successfully published sync contributions, slot: 19, num_signers: 88, beacon_block_root: 0x0b5b…8cf4, subnet: 0, service: sync_committee
+Dec 06 21:02:31.784 INFO Successfully published attestations     type: unaggregated, slot: 20, committee_index: 0, head_block: 0xad057709acf317ebebe1b13759d85b6b8edf08c4a59d22c123b7ff22e276fa99, validator_indices: [58, 46], count: 2, service: attestation
+Dec 06 21:02:32.084 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:02:32.084 INFO All validators active                   slot: 20, epoch: 0, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:02:32.384 INFO Successfully published sync committee messages, slot: 20, head_block: 0xad057709acf317ebebe1b13759d85b6b8edf08c4a59d22c123b7ff22e276fa99, count: 64, service: sync_committee
+Dec 06 21:02:32.484 INFO Successfully published attestation      type: aggregated, slot: 20, committee_index: 0, head_block: 0xad057709acf317ebebe1b13759d85b6b8edf08c4a59d22c123b7ff22e276fa99, signatures: 4, aggregator: 58, service: attestation
+Dec 06 21:02:32.484 INFO Successfully published attestation      type: aggregated, slot: 20, committee_index: 0, head_block: 0xad057709acf317ebebe1b13759d85b6b8edf08c4a59d22c123b7ff22e276fa99, signatures: 4, aggregator: 46, service: attestation
+Dec 06 21:02:32.493 INFO Successfully published sync contributions, slot: 20, num_signers: 84, beacon_block_root: 0xad05…fa99, subnet: 2, service: sync_committee
+Dec 06 21:02:32.496 INFO Successfully published sync contributions, slot: 20, num_signers: 84, beacon_block_root: 0xad05…fa99, subnet: 0, service: sync_committee
+Dec 06 21:02:32.499 INFO Successfully published sync contributions, slot: 20, num_signers: 84, beacon_block_root: 0xad05…fa99, subnet: 3, service: sync_committee
+Dec 06 21:02:32.503 INFO Successfully published sync contributions, slot: 20, num_signers: 84, beacon_block_root: 0xad05…fa99, subnet: 1, service: sync_committee
+Dec 06 21:02:33.084 INFO Requesting unsigned block               slot: 21, service: block
+Dec 06 21:02:33.090 INFO Received unsigned block                 slot: 21, service: block
+Dec 06 21:02:33.191 INFO Publishing signed block                 signing_time_ms: 100, slot: 21, service: block
+Dec 06 21:02:33.202 INFO Successfully published block            slot: 21, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:02:33.784 INFO Successfully published attestations     type: unaggregated, slot: 21, committee_index: 0, head_block: 0xfe3ad275767b5232973cb20901796cddc1b85a78c0e7b46c258b6392703edf02, validator_indices: [31], count: 1, service: attestation
+Dec 06 21:02:34.084 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:02:34.084 INFO All validators active                   slot: 21, epoch: 0, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:02:34.284 INFO Successfully published sync committee messages, slot: 21, head_block: 0xfe3ad275767b5232973cb20901796cddc1b85a78c0e7b46c258b6392703edf02, count: 64, service: sync_committee
+Dec 06 21:02:34.484 INFO Successfully published attestation      type: aggregated, slot: 21, committee_index: 0, head_block: 0xfe3ad275767b5232973cb20901796cddc1b85a78c0e7b46c258b6392703edf02, signatures: 4, aggregator: 31, service: attestation
+Dec 06 21:02:34.484 INFO Successfully published sync contributions, slot: 21, num_signers: 105, beacon_block_root: 0xfe3a…df02, subnet: 3, service: sync_committee
+Dec 06 21:02:34.492 INFO Successfully published sync contributions, slot: 21, num_signers: 105, beacon_block_root: 0xfe3a…df02, subnet: 2, service: sync_committee
+Dec 06 21:02:34.496 INFO Successfully published sync contributions, slot: 21, num_signers: 105, beacon_block_root: 0xfe3a…df02, subnet: 0, service: sync_committee
+Dec 06 21:02:34.500 INFO Successfully published sync contributions, slot: 21, num_signers: 105, beacon_block_root: 0xfe3a…df02, subnet: 1, service: sync_committee
+Dec 06 21:02:35.705 INFO Successfully published attestations     type: unaggregated, slot: 22, committee_index: 0, head_block: 0x4be5af046c2a3d2508840c296c03c3d228d9bd40d925368ef3f04bd801d0307d, validator_indices: [47, 16], count: 2, service: attestation
+Dec 06 21:02:36.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:02:36.001 INFO All validators active                   slot: 22, epoch: 0, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:02:36.284 INFO Successfully published sync committee messages, slot: 22, head_block: 0x4be5af046c2a3d2508840c296c03c3d228d9bd40d925368ef3f04bd801d0307d, count: 64, service: sync_committee
+Dec 06 21:02:36.392 INFO Successfully published sync contributions, slot: 22, num_signers: 74, beacon_block_root: 0x4be5…307d, subnet: 2, service: sync_committee
+Dec 06 21:02:36.395 INFO Successfully published sync contributions, slot: 22, num_signers: 74, beacon_block_root: 0x4be5…307d, subnet: 1, service: sync_committee
+Dec 06 21:02:36.397 INFO Successfully published sync contributions, slot: 22, num_signers: 74, beacon_block_root: 0x4be5…307d, subnet: 0, service: sync_committee
+Dec 06 21:02:36.400 INFO Successfully published attestation      type: aggregated, slot: 22, committee_index: 0, head_block: 0x4be5af046c2a3d2508840c296c03c3d228d9bd40d925368ef3f04bd801d0307d, signatures: 4, aggregator: 47, service: attestation
+Dec 06 21:02:36.400 INFO Successfully published attestation      type: aggregated, slot: 22, committee_index: 0, head_block: 0x4be5af046c2a3d2508840c296c03c3d228d9bd40d925368ef3f04bd801d0307d, signatures: 4, aggregator: 16, service: attestation
+Dec 06 21:02:36.484 INFO Successfully published sync contributions, slot: 22, num_signers: 74, beacon_block_root: 0x4be5…307d, subnet: 3, service: sync_committee
+Dec 06 21:02:37.086 INFO Requesting unsigned block               slot: 23, service: block
+Dec 06 21:02:37.095 INFO Received unsigned block                 slot: 23, service: block
+Dec 06 21:02:37.193 INFO Publishing signed block                 signing_time_ms: 98, slot: 23, service: block
+Dec 06 21:02:37.285 INFO Successfully published block            slot: 23, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:02:38.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:02:38.000 INFO All validators active                   slot: 23, epoch: 0, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:02:38.484 INFO Successfully published sync committee messages, slot: 23, head_block: 0xa0ad74e43d600dc13ca6b68043a25c60d9d3ec0d47e58521190cc85f3b0c02e6, count: 64, service: sync_committee
+Dec 06 21:02:38.484 INFO Successfully published attestations     type: unaggregated, slot: 23, committee_index: 0, head_block: 0xa0ad74e43d600dc13ca6b68043a25c60d9d3ec0d47e58521190cc85f3b0c02e6, validator_indices: [8, 53], count: 2, service: attestation
+Dec 06 21:02:38.497 INFO Successfully published sync contributions, slot: 23, num_signers: 80, beacon_block_root: 0xa0ad…02e6, subnet: 0, service: sync_committee
+Dec 06 21:02:38.500 INFO Successfully published attestation      type: aggregated, slot: 23, committee_index: 0, head_block: 0xa0ad74e43d600dc13ca6b68043a25c60d9d3ec0d47e58521190cc85f3b0c02e6, signatures: 4, aggregator: 8, service: attestation
+Dec 06 21:02:38.500 INFO Successfully published attestation      type: aggregated, slot: 23, committee_index: 0, head_block: 0xa0ad74e43d600dc13ca6b68043a25c60d9d3ec0d47e58521190cc85f3b0c02e6, signatures: 4, aggregator: 53, service: attestation
+Dec 06 21:02:38.504 INFO Successfully published sync contributions, slot: 23, num_signers: 80, beacon_block_root: 0xa0ad…02e6, subnet: 3, service: sync_committee
+Dec 06 21:02:38.584 INFO Successfully published sync contributions, slot: 23, num_signers: 80, beacon_block_root: 0xa0ad…02e6, subnet: 1, service: sync_committee
+Dec 06 21:02:38.591 INFO Successfully published sync contributions, slot: 23, num_signers: 80, beacon_block_root: 0xa0ad…02e6, subnet: 2, service: sync_committee
+Dec 06 21:02:39.084 INFO Requesting unsigned block               slot: 24, service: block
+Dec 06 21:02:39.184 INFO Received unsigned block                 slot: 24, service: block
+Dec 06 21:02:39.193 INFO Publishing signed block                 signing_time_ms: 8, slot: 24, service: block
+Dec 06 21:02:39.211 INFO Successfully published block            slot: 24, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:02:39.884 INFO Successfully published attestations     type: unaggregated, slot: 24, committee_index: 0, head_block: 0x424a28825d7586cb569aa07c7e4346e27ae20c9f7fee207dcfb02e643b9d83c8, validator_indices: [41, 29], count: 2, service: attestation
+Dec 06 21:02:40.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:02:40.000 INFO All validators active                   slot: 24, epoch: 0, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:02:40.284 INFO Successfully published sync committee messages, slot: 24, head_block: 0x424a28825d7586cb569aa07c7e4346e27ae20c9f7fee207dcfb02e643b9d83c8, count: 64, service: sync_committee
+Dec 06 21:02:40.496 INFO Successfully published sync contributions, slot: 24, num_signers: 85, beacon_block_root: 0x424a…83c8, subnet: 1, service: sync_committee
+Dec 06 21:02:40.496 INFO Successfully published attestation      type: aggregated, slot: 24, committee_index: 0, head_block: 0x424a28825d7586cb569aa07c7e4346e27ae20c9f7fee207dcfb02e643b9d83c8, signatures: 4, aggregator: 41, service: attestation
+Dec 06 21:02:40.497 INFO Successfully published attestation      type: aggregated, slot: 24, committee_index: 0, head_block: 0x424a28825d7586cb569aa07c7e4346e27ae20c9f7fee207dcfb02e643b9d83c8, signatures: 4, aggregator: 29, service: attestation
+Dec 06 21:02:40.500 INFO Successfully published sync contributions, slot: 24, num_signers: 85, beacon_block_root: 0x424a…83c8, subnet: 2, service: sync_committee
+Dec 06 21:02:40.584 INFO Successfully published sync contributions, slot: 24, num_signers: 85, beacon_block_root: 0x424a…83c8, subnet: 3, service: sync_committee
+Dec 06 21:02:40.584 INFO Successfully published sync contributions, slot: 24, num_signers: 85, beacon_block_root: 0x424a…83c8, subnet: 0, service: sync_committee
+Dec 06 21:02:42.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:02:42.000 INFO All validators active                   slot: 25, epoch: 0, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:02:42.194 INFO Successfully published sync committee messages, slot: 25, head_block: 0x9c3905304c5e00b008b74f68162bb7980326b4589f4d329b562eda27cfa8d9e4, count: 64, service: sync_committee
+Dec 06 21:02:42.196 INFO Successfully published attestations     type: unaggregated, slot: 25, committee_index: 0, head_block: 0x9c3905304c5e00b008b74f68162bb7980326b4589f4d329b562eda27cfa8d9e4, validator_indices: [27, 34], count: 2, service: attestation
+Dec 06 21:02:42.390 INFO Successfully published sync contributions, slot: 25, num_signers: 85, beacon_block_root: 0x9c39…d9e4, subnet: 0, service: sync_committee
+Dec 06 21:02:42.484 INFO Successfully published sync contributions, slot: 25, num_signers: 85, beacon_block_root: 0x9c39…d9e4, subnet: 2, service: sync_committee
+Dec 06 21:02:42.484 INFO Successfully published sync contributions, slot: 25, num_signers: 85, beacon_block_root: 0x9c39…d9e4, subnet: 3, service: sync_committee
+Dec 06 21:02:42.484 INFO Successfully published attestation      type: aggregated, slot: 25, committee_index: 0, head_block: 0x9c3905304c5e00b008b74f68162bb7980326b4589f4d329b562eda27cfa8d9e4, signatures: 4, aggregator: 27, service: attestation
+Dec 06 21:02:42.484 INFO Successfully published attestation      type: aggregated, slot: 25, committee_index: 0, head_block: 0x9c3905304c5e00b008b74f68162bb7980326b4589f4d329b562eda27cfa8d9e4, signatures: 4, aggregator: 34, service: attestation
+Dec 06 21:02:42.484 INFO Successfully published sync contributions, slot: 25, num_signers: 85, beacon_block_root: 0x9c39…d9e4, subnet: 1, service: sync_committee
+Dec 06 21:02:43.085 INFO Requesting unsigned block               slot: 26, service: block
+Dec 06 21:02:43.185 INFO Received unsigned block                 slot: 26, service: block
+Dec 06 21:02:43.195 INFO Publishing signed block                 signing_time_ms: 10, slot: 26, service: block
+Dec 06 21:02:43.284 INFO Successfully published block            slot: 26, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:02:44.084 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:02:44.084 INFO All validators active                   slot: 26, epoch: 0, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:02:44.184 INFO Successfully published sync committee messages, slot: 26, head_block: 0xe364e00d05762d929f80746e97a08f7024a5adda2d4649c2a31b174aa356fab9, count: 64, service: sync_committee
+Dec 06 21:02:44.184 INFO Successfully published attestations     type: unaggregated, slot: 26, committee_index: 0, head_block: 0xe364e00d05762d929f80746e97a08f7024a5adda2d4649c2a31b174aa356fab9, validator_indices: [18], count: 1, service: attestation
+Dec 06 21:02:44.484 INFO Successfully published sync contributions, slot: 26, num_signers: 90, beacon_block_root: 0xe364…fab9, subnet: 2, service: sync_committee
+Dec 06 21:02:44.484 INFO Successfully published sync contributions, slot: 26, num_signers: 90, beacon_block_root: 0xe364…fab9, subnet: 0, service: sync_committee
+Dec 06 21:02:44.484 INFO Successfully published attestation      type: aggregated, slot: 26, committee_index: 0, head_block: 0xe364e00d05762d929f80746e97a08f7024a5adda2d4649c2a31b174aa356fab9, signatures: 4, aggregator: 18, service: attestation
+Dec 06 21:02:44.484 INFO Successfully published sync contributions, slot: 26, num_signers: 90, beacon_block_root: 0xe364…fab9, subnet: 3, service: sync_committee
+Dec 06 21:02:44.484 INFO Successfully published sync contributions, slot: 26, num_signers: 90, beacon_block_root: 0xe364…fab9, subnet: 1, service: sync_committee
+Dec 06 21:02:46.084 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:02:46.084 INFO All validators active                   slot: 27, epoch: 0, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:02:46.111 INFO Successfully published sync committee messages, slot: 27, head_block: 0x8b8b35efe5d029569fe24a92ee2f6f5c161599d784a5b8b49b1e41098815683d, count: 64, service: sync_committee
+Dec 06 21:02:46.116 INFO Successfully published attestations     type: unaggregated, slot: 27, committee_index: 0, head_block: 0x8b8b35efe5d029569fe24a92ee2f6f5c161599d784a5b8b49b1e41098815683d, validator_indices: [48, 60, 2], count: 3, service: attestation
+Dec 06 21:02:46.488 INFO Successfully published attestation      type: aggregated, slot: 27, committee_index: 0, head_block: 0x8b8b35efe5d029569fe24a92ee2f6f5c161599d784a5b8b49b1e41098815683d, signatures: 4, aggregator: 48, service: attestation
+Dec 06 21:02:46.488 INFO Successfully published attestation      type: aggregated, slot: 27, committee_index: 0, head_block: 0x8b8b35efe5d029569fe24a92ee2f6f5c161599d784a5b8b49b1e41098815683d, signatures: 4, aggregator: 60, service: attestation
+Dec 06 21:02:46.488 INFO Successfully published attestation      type: aggregated, slot: 27, committee_index: 0, head_block: 0x8b8b35efe5d029569fe24a92ee2f6f5c161599d784a5b8b49b1e41098815683d, signatures: 4, aggregator: 2, service: attestation
+Dec 06 21:02:46.492 INFO Successfully published sync contributions, slot: 27, num_signers: 97, beacon_block_root: 0x8b8b…683d, subnet: 1, service: sync_committee
+Dec 06 21:02:46.495 INFO Successfully published sync contributions, slot: 27, num_signers: 97, beacon_block_root: 0x8b8b…683d, subnet: 3, service: sync_committee
+Dec 06 21:02:46.499 INFO Successfully published sync contributions, slot: 27, num_signers: 97, beacon_block_root: 0x8b8b…683d, subnet: 0, service: sync_committee
+Dec 06 21:02:46.588 INFO Successfully published sync contributions, slot: 27, num_signers: 97, beacon_block_root: 0x8b8b…683d, subnet: 2, service: sync_committee
+Dec 06 21:02:47.084 INFO Requesting unsigned block               slot: 28, service: block
+Dec 06 21:02:47.184 INFO Received unsigned block                 slot: 28, service: block
+Dec 06 21:02:47.191 INFO Publishing signed block                 signing_time_ms: 7, slot: 28, service: block
+Dec 06 21:02:47.284 INFO Successfully published block            slot: 28, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:02:47.784 INFO Successfully published attestations     type: unaggregated, slot: 28, committee_index: 0, head_block: 0x80fff2f70996b4759ed308b2d954d755a5b95ad8d917075ae9d04e50e7f5de35, validator_indices: [40, 57, 45], count: 3, service: attestation
+Dec 06 21:02:48.084 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:02:48.084 INFO All validators active                   slot: 28, epoch: 0, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:02:48.302 INFO Successfully published sync committee messages, slot: 28, head_block: 0x80fff2f70996b4759ed308b2d954d755a5b95ad8d917075ae9d04e50e7f5de35, count: 64, service: sync_committee
+Dec 06 21:02:48.593 INFO Successfully published sync contributions, slot: 28, num_signers: 76, beacon_block_root: 0x80ff…de35, subnet: 0, service: sync_committee
+Dec 06 21:02:48.593 INFO Successfully published attestation      type: aggregated, slot: 28, committee_index: 0, head_block: 0x80fff2f70996b4759ed308b2d954d755a5b95ad8d917075ae9d04e50e7f5de35, signatures: 4, aggregator: 40, service: attestation
+Dec 06 21:02:48.593 INFO Successfully published attestation      type: aggregated, slot: 28, committee_index: 0, head_block: 0x80fff2f70996b4759ed308b2d954d755a5b95ad8d917075ae9d04e50e7f5de35, signatures: 4, aggregator: 57, service: attestation
+Dec 06 21:02:48.593 INFO Successfully published attestation      type: aggregated, slot: 28, committee_index: 0, head_block: 0x80fff2f70996b4759ed308b2d954d755a5b95ad8d917075ae9d04e50e7f5de35, signatures: 4, aggregator: 45, service: attestation
+Dec 06 21:02:48.597 INFO Successfully published sync contributions, slot: 28, num_signers: 76, beacon_block_root: 0x80ff…de35, subnet: 2, service: sync_committee
+Dec 06 21:02:48.601 INFO Successfully published sync contributions, slot: 28, num_signers: 76, beacon_block_root: 0x80ff…de35, subnet: 3, service: sync_committee
+Dec 06 21:02:48.605 INFO Successfully published sync contributions, slot: 28, num_signers: 76, beacon_block_root: 0x80ff…de35, subnet: 1, service: sync_committee
+Dec 06 21:02:49.890 INFO Successfully published attestations     type: unaggregated, slot: 29, committee_index: 0, head_block: 0x0f3f5866bdbb204512321765fe1afba17840ed4c1521b0a3bc1aecd8739cf114, validator_indices: [42], count: 1, service: attestation
+Dec 06 21:02:50.084 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:02:50.084 INFO All validators active                   slot: 29, epoch: 0, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:02:50.389 INFO Successfully published sync committee messages, slot: 29, head_block: 0x0f3f5866bdbb204512321765fe1afba17840ed4c1521b0a3bc1aecd8739cf114, count: 64, service: sync_committee
+Dec 06 21:02:50.491 INFO Successfully published sync contributions, slot: 29, num_signers: 83, beacon_block_root: 0x0f3f…f114, subnet: 1, service: sync_committee
+Dec 06 21:02:50.584 INFO Successfully published sync contributions, slot: 29, num_signers: 83, beacon_block_root: 0x0f3f…f114, subnet: 2, service: sync_committee
+Dec 06 21:02:50.584 INFO Successfully published attestation      type: aggregated, slot: 29, committee_index: 0, head_block: 0x0f3f5866bdbb204512321765fe1afba17840ed4c1521b0a3bc1aecd8739cf114, signatures: 1, aggregator: 42, service: attestation
+Dec 06 21:02:50.584 INFO Successfully published sync contributions, slot: 29, num_signers: 83, beacon_block_root: 0x0f3f…f114, subnet: 3, service: sync_committee
+Dec 06 21:02:50.584 INFO Successfully published sync contributions, slot: 29, num_signers: 83, beacon_block_root: 0x0f3f…f114, subnet: 0, service: sync_committee
+Dec 06 21:02:51.084 INFO Requesting unsigned block               slot: 30, service: block
+Dec 06 21:02:51.090 INFO Received unsigned block                 slot: 30, service: block
+Dec 06 21:02:51.192 INFO Publishing signed block                 signing_time_ms: 102, slot: 30, service: block
+Dec 06 21:02:51.206 INFO Successfully published block            slot: 30, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:02:52.084 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:02:52.084 INFO All validators active                   slot: 30, epoch: 0, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:02:52.384 INFO Successfully published sync committee messages, slot: 30, head_block: 0x5edb5b09f34d10844c8f1c5729bd4d6c3a010819236179beed1fbd3e1d49ec57, count: 64, service: sync_committee
+Dec 06 21:02:52.384 INFO Successfully published attestations     type: unaggregated, slot: 30, committee_index: 0, head_block: 0x5edb5b09f34d10844c8f1c5729bd4d6c3a010819236179beed1fbd3e1d49ec57, validator_indices: [32, 39], count: 2, service: attestation
+Dec 06 21:02:52.484 INFO Successfully published sync contributions, slot: 30, num_signers: 69, beacon_block_root: 0x5edb…ec57, subnet: 0, service: sync_committee
+Dec 06 21:02:52.484 INFO Successfully published attestation      type: aggregated, slot: 30, committee_index: 0, head_block: 0x5edb5b09f34d10844c8f1c5729bd4d6c3a010819236179beed1fbd3e1d49ec57, signatures: 4, aggregator: 32, service: attestation
+Dec 06 21:02:52.484 INFO Successfully published attestation      type: aggregated, slot: 30, committee_index: 0, head_block: 0x5edb5b09f34d10844c8f1c5729bd4d6c3a010819236179beed1fbd3e1d49ec57, signatures: 4, aggregator: 39, service: attestation
+Dec 06 21:02:52.584 INFO Successfully published sync contributions, slot: 30, num_signers: 70, beacon_block_root: 0x5edb…ec57, subnet: 3, service: sync_committee
+Dec 06 21:02:52.584 INFO Successfully published sync contributions, slot: 30, num_signers: 70, beacon_block_root: 0x5edb…ec57, subnet: 2, service: sync_committee
+Dec 06 21:02:52.584 INFO Successfully published sync contributions, slot: 30, num_signers: 70, beacon_block_root: 0x5edb…ec57, subnet: 1, service: sync_committee
+Dec 06 21:02:53.084 INFO Requesting unsigned block               slot: 31, service: block
+Dec 06 21:02:53.084 INFO Received unsigned block                 slot: 31, service: block
+Dec 06 21:02:53.084 INFO Publishing signed block                 signing_time_ms: 74, slot: 31, service: block
+Dec 06 21:02:53.116 INFO Successfully published block            slot: 31, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:02:54.084 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:02:54.084 INFO All validators active                   slot: 31, epoch: 0, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:02:54.384 INFO Successfully published sync committee messages, slot: 31, head_block: 0x6ea60ad733761df2764691223fb36f432d0f6c2bd8cd1ea3bffb229b911185f8, count: 64, service: sync_committee
+Dec 06 21:02:54.484 INFO Successfully published sync contributions, slot: 31, num_signers: 99, beacon_block_root: 0x6ea6…85f8, subnet: 3, service: sync_committee
+Dec 06 21:02:54.484 INFO Successfully published sync contributions, slot: 31, num_signers: 99, beacon_block_root: 0x6ea6…85f8, subnet: 0, service: sync_committee
+Dec 06 21:02:54.484 INFO Successfully published sync contributions, slot: 31, num_signers: 99, beacon_block_root: 0x6ea6…85f8, subnet: 1, service: sync_committee
+Dec 06 21:02:54.490 INFO Successfully published sync contributions, slot: 31, num_signers: 99, beacon_block_root: 0x6ea6…85f8, subnet: 2, service: sync_committee
+Dec 06 21:02:55.307 INFO Published validator registrations to the builder network, count: 64, service: preparation
+Dec 06 21:02:56.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:02:56.001 INFO All validators active                   slot: 32, epoch: 1, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:02:56.118 INFO Successfully published sync committee messages, slot: 32, head_block: 0x92345359a532f50417429f35173bf17446812fe290c0bc703cac99fd8c6289e0, count: 64, service: sync_committee
+Dec 06 21:02:56.119 INFO Successfully published attestations     type: unaggregated, slot: 32, committee_index: 0, head_block: 0x92345359a532f50417429f35173bf17446812fe290c0bc703cac99fd8c6289e0, validator_indices: [55], count: 1, service: attestation
+Dec 06 21:02:56.349 INFO Successfully published sync contributions, slot: 32, num_signers: 95, beacon_block_root: 0x9234…89e0, subnet: 0, service: sync_committee
+Dec 06 21:02:56.352 INFO Successfully published attestation      type: aggregated, slot: 32, committee_index: 0, head_block: 0x92345359a532f50417429f35173bf17446812fe290c0bc703cac99fd8c6289e0, signatures: 4, aggregator: 55, service: attestation
+Dec 06 21:02:56.387 INFO Successfully published sync contributions, slot: 32, num_signers: 95, beacon_block_root: 0x9234…89e0, subnet: 2, service: sync_committee
+Dec 06 21:02:56.391 INFO Successfully published sync contributions, slot: 32, num_signers: 95, beacon_block_root: 0x9234…89e0, subnet: 3, service: sync_committee
+Dec 06 21:02:56.395 INFO Successfully published sync contributions, slot: 32, num_signers: 95, beacon_block_root: 0x9234…89e0, subnet: 1, service: sync_committee
+Dec 06 21:02:57.002 INFO Requesting unsigned block               slot: 33, service: block
+Dec 06 21:02:57.010 INFO Received unsigned block                 slot: 33, service: block
+Dec 06 21:02:57.094 INFO Publishing signed block                 signing_time_ms: 83, slot: 33, service: block
+Dec 06 21:02:57.184 INFO Successfully published block            slot: 33, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:02:58.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:02:58.000 INFO All validators active                   slot: 33, epoch: 1, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:02:58.111 INFO Successfully published sync committee messages, slot: 33, head_block: 0xf448089c9161a5c21889bf5e0483be262c3286678ea440095e5ef9974d90e9df, count: 64, service: sync_committee
+Dec 06 21:02:58.114 INFO Successfully published attestations     type: unaggregated, slot: 33, committee_index: 0, head_block: 0xf448089c9161a5c21889bf5e0483be262c3286678ea440095e5ef9974d90e9df, validator_indices: [11, 13], count: 2, service: attestation
+Dec 06 21:02:58.341 INFO Successfully published sync contributions, slot: 33, num_signers: 105, beacon_block_root: 0xf448…e9df, subnet: 2, service: sync_committee
+Dec 06 21:02:58.345 INFO Successfully published sync contributions, slot: 33, num_signers: 105, beacon_block_root: 0xf448…e9df, subnet: 1, service: sync_committee
+Dec 06 21:02:58.349 INFO Successfully published sync contributions, slot: 33, num_signers: 105, beacon_block_root: 0xf448…e9df, subnet: 0, service: sync_committee
+Dec 06 21:02:58.352 INFO Successfully published attestation      type: aggregated, slot: 33, committee_index: 0, head_block: 0xf448089c9161a5c21889bf5e0483be262c3286678ea440095e5ef9974d90e9df, signatures: 4, aggregator: 11, service: attestation
+Dec 06 21:02:58.352 INFO Successfully published attestation      type: aggregated, slot: 33, committee_index: 0, head_block: 0xf448089c9161a5c21889bf5e0483be262c3286678ea440095e5ef9974d90e9df, signatures: 4, aggregator: 13, service: attestation
+Dec 06 21:02:58.357 INFO Successfully published sync contributions, slot: 33, num_signers: 105, beacon_block_root: 0xf448…e9df, subnet: 3, service: sync_committee
+Dec 06 21:03:00.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:03:00.000 INFO All validators active                   slot: 34, epoch: 1, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:03:00.219 INFO Successfully published sync committee messages, slot: 34, head_block: 0x0f809ab50a0c0720591fbdff05fbe50259383f9351ea3621b837c7349f03c557, count: 64, service: sync_committee
+Dec 06 21:03:00.224 INFO Successfully published attestations     type: unaggregated, slot: 34, committee_index: 0, head_block: 0x0f809ab50a0c0720591fbdff05fbe50259383f9351ea3621b837c7349f03c557, validator_indices: [63, 38, 54], count: 3, service: attestation
+Dec 06 21:03:00.347 INFO Successfully published sync contributions, slot: 34, num_signers: 95, beacon_block_root: 0x0f80…c557, subnet: 1, service: sync_committee
+Dec 06 21:03:00.350 INFO Successfully published sync contributions, slot: 34, num_signers: 95, beacon_block_root: 0x0f80…c557, subnet: 0, service: sync_committee
+Dec 06 21:03:00.353 INFO Successfully published sync contributions, slot: 34, num_signers: 95, beacon_block_root: 0x0f80…c557, subnet: 3, service: sync_committee
+Dec 06 21:03:00.356 INFO Successfully published attestation      type: aggregated, slot: 34, committee_index: 0, head_block: 0x0f809ab50a0c0720591fbdff05fbe50259383f9351ea3621b837c7349f03c557, signatures: 4, aggregator: 63, service: attestation
+Dec 06 21:03:00.356 INFO Successfully published attestation      type: aggregated, slot: 34, committee_index: 0, head_block: 0x0f809ab50a0c0720591fbdff05fbe50259383f9351ea3621b837c7349f03c557, signatures: 4, aggregator: 38, service: attestation
+Dec 06 21:03:00.357 INFO Successfully published attestation      type: aggregated, slot: 34, committee_index: 0, head_block: 0x0f809ab50a0c0720591fbdff05fbe50259383f9351ea3621b837c7349f03c557, signatures: 4, aggregator: 54, service: attestation
+Dec 06 21:03:00.389 INFO Successfully published sync contributions, slot: 34, num_signers: 95, beacon_block_root: 0x0f80…c557, subnet: 2, service: sync_committee
+Dec 06 21:03:01.001 INFO Requesting unsigned block               slot: 35, service: block
+Dec 06 21:03:01.008 INFO Received unsigned block                 slot: 35, service: block
+Dec 06 21:03:01.019 INFO Publishing signed block                 signing_time_ms: 11, slot: 35, service: block
+Dec 06 21:03:01.052 INFO Successfully published block            slot: 35, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:03:01.689 INFO Successfully published attestations     type: unaggregated, slot: 35, committee_index: 0, head_block: 0x563878b3543ac154f72cc37863cf835af4cc13b481af87f7dab6b45c7db1e6c9, validator_indices: [31, 28], count: 2, service: attestation
+Dec 06 21:03:02.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:03:02.000 INFO All validators active                   slot: 35, epoch: 1, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:03:02.125 INFO Successfully published sync committee messages, slot: 35, head_block: 0x563878b3543ac154f72cc37863cf835af4cc13b481af87f7dab6b45c7db1e6c9, count: 64, service: sync_committee
+Dec 06 21:03:02.394 INFO Successfully published sync contributions, slot: 35, num_signers: 94, beacon_block_root: 0x5638…e6c9, subnet: 2, service: sync_committee
+Dec 06 21:03:02.398 INFO Successfully published sync contributions, slot: 35, num_signers: 94, beacon_block_root: 0x5638…e6c9, subnet: 1, service: sync_committee
+Dec 06 21:03:02.398 INFO Successfully published attestation      type: aggregated, slot: 35, committee_index: 0, head_block: 0x563878b3543ac154f72cc37863cf835af4cc13b481af87f7dab6b45c7db1e6c9, signatures: 4, aggregator: 31, service: attestation
+Dec 06 21:03:02.398 INFO Successfully published attestation      type: aggregated, slot: 35, committee_index: 0, head_block: 0x563878b3543ac154f72cc37863cf835af4cc13b481af87f7dab6b45c7db1e6c9, signatures: 4, aggregator: 28, service: attestation
+Dec 06 21:03:02.402 INFO Successfully published sync contributions, slot: 35, num_signers: 94, beacon_block_root: 0x5638…e6c9, subnet: 3, service: sync_committee
+Dec 06 21:03:02.406 INFO Successfully published sync contributions, slot: 35, num_signers: 94, beacon_block_root: 0x5638…e6c9, subnet: 0, service: sync_committee
+Dec 06 21:03:04.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:03:04.000 INFO All validators active                   slot: 36, epoch: 1, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:03:04.141 INFO Successfully published sync committee messages, slot: 36, head_block: 0x0809da01843d40735761cab81ba3322d516e0cd8d44a7cac44b853df019a62a6, count: 64, service: sync_committee
+Dec 06 21:03:04.347 INFO Successfully published sync contributions, slot: 36, num_signers: 89, beacon_block_root: 0x0809…62a6, subnet: 1, service: sync_committee
+Dec 06 21:03:04.350 INFO Successfully published sync contributions, slot: 36, num_signers: 89, beacon_block_root: 0x0809…62a6, subnet: 3, service: sync_committee
+Dec 06 21:03:04.384 INFO Successfully published sync contributions, slot: 36, num_signers: 89, beacon_block_root: 0x0809…62a6, subnet: 0, service: sync_committee
+Dec 06 21:03:04.388 INFO Successfully published sync contributions, slot: 36, num_signers: 89, beacon_block_root: 0x0809…62a6, subnet: 2, service: sync_committee
+Dec 06 21:03:05.001 INFO Requesting unsigned block               slot: 37, service: block
+Dec 06 21:03:05.005 INFO Received unsigned block                 slot: 37, service: block
+Dec 06 21:03:05.016 INFO Publishing signed block                 signing_time_ms: 11, slot: 37, service: block
+Dec 06 21:03:05.024 INFO Successfully published block            slot: 37, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:03:06.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:03:06.000 INFO All validators active                   slot: 37, epoch: 1, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:03:06.106 INFO Successfully published sync committee messages, slot: 37, head_block: 0xff25633cc1e6927bd2cbf8c67f47642b9ef4c4ddf69a06beff5a844ff8b12b76, count: 64, service: sync_committee
+Dec 06 21:03:06.348 INFO Successfully published sync contributions, slot: 37, num_signers: 95, beacon_block_root: 0xff25…2b76, subnet: 0, service: sync_committee
+Dec 06 21:03:06.352 INFO Successfully published sync contributions, slot: 37, num_signers: 95, beacon_block_root: 0xff25…2b76, subnet: 2, service: sync_committee
+Dec 06 21:03:06.388 INFO Successfully published sync contributions, slot: 37, num_signers: 95, beacon_block_root: 0xff25…2b76, subnet: 1, service: sync_committee
+Dec 06 21:03:06.393 INFO Successfully published sync contributions, slot: 37, num_signers: 95, beacon_block_root: 0xff25…2b76, subnet: 3, service: sync_committee
+Dec 06 21:03:07.001 INFO Requesting unsigned block               slot: 38, service: block
+Dec 06 21:03:07.011 INFO Received unsigned block                 slot: 38, service: block
+Dec 06 21:03:07.091 INFO Publishing signed block                 signing_time_ms: 79, slot: 38, service: block
+Dec 06 21:03:07.117 INFO Successfully published block            slot: 38, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:03:08.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:03:08.000 INFO All validators active                   slot: 38, epoch: 1, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:03:08.211 INFO Successfully published sync committee messages, slot: 38, head_block: 0x2bbce89675925763bb0fc99d027ac68bae4c7434d29ff6fe7d4ad8da6cf7b606, count: 64, service: sync_committee
+Dec 06 21:03:08.214 INFO Successfully published attestations     type: unaggregated, slot: 38, committee_index: 0, head_block: 0x2bbce89675925763bb0fc99d027ac68bae4c7434d29ff6fe7d4ad8da6cf7b606, validator_indices: [47, 34], count: 2, service: attestation
+Dec 06 21:03:08.345 INFO Successfully published sync contributions, slot: 38, num_signers: 82, beacon_block_root: 0x2bbc…b606, subnet: 1, service: sync_committee
+Dec 06 21:03:08.348 INFO Successfully published attestation      type: aggregated, slot: 38, committee_index: 0, head_block: 0x2bbce89675925763bb0fc99d027ac68bae4c7434d29ff6fe7d4ad8da6cf7b606, signatures: 4, aggregator: 47, service: attestation
+Dec 06 21:03:08.348 INFO Successfully published attestation      type: aggregated, slot: 38, committee_index: 0, head_block: 0x2bbce89675925763bb0fc99d027ac68bae4c7434d29ff6fe7d4ad8da6cf7b606, signatures: 4, aggregator: 34, service: attestation
+Dec 06 21:03:08.386 INFO Successfully published sync contributions, slot: 38, num_signers: 82, beacon_block_root: 0x2bbc…b606, subnet: 0, service: sync_committee
+Dec 06 21:03:08.391 INFO Successfully published sync contributions, slot: 38, num_signers: 82, beacon_block_root: 0x2bbc…b606, subnet: 3, service: sync_committee
+Dec 06 21:03:08.395 INFO Successfully published sync contributions, slot: 38, num_signers: 82, beacon_block_root: 0x2bbc…b606, subnet: 2, service: sync_committee
+Dec 06 21:03:10.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:03:10.001 INFO All validators active                   slot: 39, epoch: 1, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:03:10.186 INFO Successfully published sync committee messages, slot: 39, head_block: 0x0eec699e66954244e4a9367924b2c44b52df53495b3b4b10f78ce73b3fb954a2, count: 64, service: sync_committee
+Dec 06 21:03:10.187 INFO Successfully published attestations     type: unaggregated, slot: 39, committee_index: 0, head_block: 0x0eec699e66954244e4a9367924b2c44b52df53495b3b4b10f78ce73b3fb954a2, validator_indices: [7], count: 1, service: attestation
+Dec 06 21:03:10.347 INFO Successfully published attestation      type: aggregated, slot: 39, committee_index: 0, head_block: 0x0eec699e66954244e4a9367924b2c44b52df53495b3b4b10f78ce73b3fb954a2, signatures: 4, aggregator: 7, service: attestation
+Dec 06 21:03:10.351 INFO Successfully published sync contributions, slot: 39, num_signers: 87, beacon_block_root: 0x0eec…54a2, subnet: 1, service: sync_committee
+Dec 06 21:03:10.388 INFO Successfully published sync contributions, slot: 39, num_signers: 87, beacon_block_root: 0x0eec…54a2, subnet: 3, service: sync_committee
+Dec 06 21:03:10.393 INFO Successfully published sync contributions, slot: 39, num_signers: 87, beacon_block_root: 0x0eec…54a2, subnet: 2, service: sync_committee
+Dec 06 21:03:10.396 INFO Successfully published sync contributions, slot: 39, num_signers: 87, beacon_block_root: 0x0eec…54a2, subnet: 0, service: sync_committee
+Dec 06 21:03:12.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:03:12.000 INFO All validators active                   slot: 40, epoch: 1, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:03:12.189 INFO Successfully published sync committee messages, slot: 40, head_block: 0xdad9b4c90e0b26d72c27e2b8475788e23e02508a9f32d57743eb08767c2d3ff7, count: 64, service: sync_committee
+Dec 06 21:03:12.193 INFO Successfully published attestations     type: unaggregated, slot: 40, committee_index: 0, head_block: 0xdad9b4c90e0b26d72c27e2b8475788e23e02508a9f32d57743eb08767c2d3ff7, validator_indices: [44, 62, 59], count: 3, service: attestation
+Dec 06 21:03:12.349 INFO Successfully published sync contributions, slot: 40, num_signers: 87, beacon_block_root: 0xdad9…3ff7, subnet: 1, service: sync_committee
+Dec 06 21:03:12.385 INFO Successfully published sync contributions, slot: 40, num_signers: 87, beacon_block_root: 0xdad9…3ff7, subnet: 0, service: sync_committee
+Dec 06 21:03:12.389 INFO Successfully published sync contributions, slot: 40, num_signers: 87, beacon_block_root: 0xdad9…3ff7, subnet: 3, service: sync_committee
+Dec 06 21:03:12.393 INFO Successfully published attestation      type: aggregated, slot: 40, committee_index: 0, head_block: 0xdad9b4c90e0b26d72c27e2b8475788e23e02508a9f32d57743eb08767c2d3ff7, signatures: 4, aggregator: 44, service: attestation
+Dec 06 21:03:12.394 INFO Successfully published attestation      type: aggregated, slot: 40, committee_index: 0, head_block: 0xdad9b4c90e0b26d72c27e2b8475788e23e02508a9f32d57743eb08767c2d3ff7, signatures: 4, aggregator: 62, service: attestation
+Dec 06 21:03:12.394 INFO Successfully published attestation      type: aggregated, slot: 40, committee_index: 0, head_block: 0xdad9b4c90e0b26d72c27e2b8475788e23e02508a9f32d57743eb08767c2d3ff7, signatures: 4, aggregator: 59, service: attestation
+Dec 06 21:03:12.397 INFO Successfully published sync contributions, slot: 40, num_signers: 87, beacon_block_root: 0xdad9…3ff7, subnet: 2, service: sync_committee
+Dec 06 21:03:13.002 INFO Requesting unsigned block               slot: 41, service: block
+Dec 06 21:03:13.010 INFO Received unsigned block                 slot: 41, service: block
+Dec 06 21:03:13.095 INFO Publishing signed block                 signing_time_ms: 85, slot: 41, service: block
+Dec 06 21:03:13.185 INFO Successfully published block            slot: 41, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:03:13.689 INFO Successfully published attestations     type: unaggregated, slot: 41, committee_index: 0, head_block: 0x4cd42c64cf5a1bc616c0f74ac0dab9c21a6ca5cc30767c7e532367f2034d3356, validator_indices: [37], count: 1, service: attestation
+Dec 06 21:03:14.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:03:14.001 INFO All validators active                   slot: 41, epoch: 1, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:03:14.190 INFO Successfully published sync committee messages, slot: 41, head_block: 0x4cd42c64cf5a1bc616c0f74ac0dab9c21a6ca5cc30767c7e532367f2034d3356, count: 64, service: sync_committee
+Dec 06 21:03:14.350 INFO Successfully published sync contributions, slot: 41, num_signers: 89, beacon_block_root: 0x4cd4…3356, subnet: 1, service: sync_committee
+Dec 06 21:03:14.385 INFO Successfully published sync contributions, slot: 41, num_signers: 89, beacon_block_root: 0x4cd4…3356, subnet: 2, service: sync_committee
+Dec 06 21:03:14.390 INFO Successfully published attestation      type: aggregated, slot: 41, committee_index: 0, head_block: 0x4cd42c64cf5a1bc616c0f74ac0dab9c21a6ca5cc30767c7e532367f2034d3356, signatures: 4, aggregator: 37, service: attestation
+Dec 06 21:03:14.395 INFO Successfully published sync contributions, slot: 41, num_signers: 89, beacon_block_root: 0x4cd4…3356, subnet: 0, service: sync_committee
+Dec 06 21:03:14.399 INFO Successfully published sync contributions, slot: 41, num_signers: 89, beacon_block_root: 0x4cd4…3356, subnet: 3, service: sync_committee
+Dec 06 21:03:16.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:03:16.000 INFO All validators active                   slot: 42, epoch: 1, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:03:16.140 INFO Successfully published sync committee messages, slot: 42, head_block: 0x230d60407b968f44b0111b3edef3a3a4f491775366c69076dbc3267e9f7fafd6, count: 64, service: sync_committee
+Dec 06 21:03:16.186 INFO Successfully published attestations     type: unaggregated, slot: 42, committee_index: 0, head_block: 0x230d60407b968f44b0111b3edef3a3a4f491775366c69076dbc3267e9f7fafd6, validator_indices: [9, 57, 45], count: 3, service: attestation
+Dec 06 21:03:16.347 INFO Successfully published sync contributions, slot: 42, num_signers: 90, beacon_block_root: 0x230d…afd6, subnet: 3, service: sync_committee
+Dec 06 21:03:16.351 INFO Successfully published attestation      type: aggregated, slot: 42, committee_index: 0, head_block: 0x230d60407b968f44b0111b3edef3a3a4f491775366c69076dbc3267e9f7fafd6, signatures: 4, aggregator: 9, service: attestation
+Dec 06 21:03:16.351 INFO Successfully published attestation      type: aggregated, slot: 42, committee_index: 0, head_block: 0x230d60407b968f44b0111b3edef3a3a4f491775366c69076dbc3267e9f7fafd6, signatures: 4, aggregator: 57, service: attestation
+Dec 06 21:03:16.351 INFO Successfully published attestation      type: aggregated, slot: 42, committee_index: 0, head_block: 0x230d60407b968f44b0111b3edef3a3a4f491775366c69076dbc3267e9f7fafd6, signatures: 4, aggregator: 45, service: attestation
+Dec 06 21:03:16.355 INFO Successfully published sync contributions, slot: 42, num_signers: 90, beacon_block_root: 0x230d…afd6, subnet: 1, service: sync_committee
+Dec 06 21:03:16.388 INFO Successfully published sync contributions, slot: 42, num_signers: 90, beacon_block_root: 0x230d…afd6, subnet: 0, service: sync_committee
+Dec 06 21:03:16.392 INFO Successfully published sync contributions, slot: 42, num_signers: 90, beacon_block_root: 0x230d…afd6, subnet: 2, service: sync_committee
+Dec 06 21:03:18.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:03:18.001 INFO All validators active                   slot: 43, epoch: 1, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:03:18.096 INFO Successfully published sync committee messages, slot: 43, head_block: 0x36546cbc1804570bd38664174c014154d199f15a3bf7fa728cf4def1e4e92b2d, count: 64, service: sync_committee
+Dec 06 21:03:18.099 INFO Successfully published attestations     type: unaggregated, slot: 43, committee_index: 0, head_block: 0x36546cbc1804570bd38664174c014154d199f15a3bf7fa728cf4def1e4e92b2d, validator_indices: [39, 48], count: 2, service: attestation
+Dec 06 21:03:18.348 INFO Successfully published sync contributions, slot: 43, num_signers: 104, beacon_block_root: 0x3654…2b2d, subnet: 2, service: sync_committee
+Dec 06 21:03:18.384 INFO Successfully published sync contributions, slot: 43, num_signers: 104, beacon_block_root: 0x3654…2b2d, subnet: 0, service: sync_committee
+Dec 06 21:03:18.388 INFO Successfully published sync contributions, slot: 43, num_signers: 104, beacon_block_root: 0x3654…2b2d, subnet: 3, service: sync_committee
+Dec 06 21:03:18.392 INFO Successfully published sync contributions, slot: 43, num_signers: 104, beacon_block_root: 0x3654…2b2d, subnet: 1, service: sync_committee
+Dec 06 21:03:18.396 INFO Successfully published attestation      type: aggregated, slot: 43, committee_index: 0, head_block: 0x36546cbc1804570bd38664174c014154d199f15a3bf7fa728cf4def1e4e92b2d, signatures: 4, aggregator: 39, service: attestation
+Dec 06 21:03:18.396 INFO Successfully published attestation      type: aggregated, slot: 43, committee_index: 0, head_block: 0x36546cbc1804570bd38664174c014154d199f15a3bf7fa728cf4def1e4e92b2d, signatures: 4, aggregator: 48, service: attestation
+Dec 06 21:03:19.709 INFO Successfully published attestations     type: unaggregated, slot: 44, committee_index: 0, head_block: 0x13c021d8cb2bf00559ef601e2cb96a87b6529d67c4de5e1d12c06acea90bc55c, validator_indices: [32, 29, 12], count: 3, service: attestation
+Dec 06 21:03:20.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:03:20.000 INFO All validators active                   slot: 44, epoch: 1, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:03:20.141 INFO Successfully published sync committee messages, slot: 44, head_block: 0x13c021d8cb2bf00559ef601e2cb96a87b6529d67c4de5e1d12c06acea90bc55c, count: 64, service: sync_committee
+Dec 06 21:03:20.386 INFO Successfully published sync contributions, slot: 44, num_signers: 91, beacon_block_root: 0x13c0…c55c, subnet: 1, service: sync_committee
+Dec 06 21:03:20.389 INFO Successfully published sync contributions, slot: 44, num_signers: 91, beacon_block_root: 0x13c0…c55c, subnet: 0, service: sync_committee
+Dec 06 21:03:20.394 INFO Successfully published attestation      type: aggregated, slot: 44, committee_index: 0, head_block: 0x13c021d8cb2bf00559ef601e2cb96a87b6529d67c4de5e1d12c06acea90bc55c, signatures: 4, aggregator: 32, service: attestation
+Dec 06 21:03:20.394 INFO Successfully published attestation      type: aggregated, slot: 44, committee_index: 0, head_block: 0x13c021d8cb2bf00559ef601e2cb96a87b6529d67c4de5e1d12c06acea90bc55c, signatures: 4, aggregator: 29, service: attestation
+Dec 06 21:03:20.394 INFO Successfully published attestation      type: aggregated, slot: 44, committee_index: 0, head_block: 0x13c021d8cb2bf00559ef601e2cb96a87b6529d67c4de5e1d12c06acea90bc55c, signatures: 4, aggregator: 12, service: attestation
+Dec 06 21:03:20.397 INFO Successfully published sync contributions, slot: 44, num_signers: 91, beacon_block_root: 0x13c0…c55c, subnet: 3, service: sync_committee
+Dec 06 21:03:20.402 INFO Successfully published sync contributions, slot: 44, num_signers: 91, beacon_block_root: 0x13c0…c55c, subnet: 2, service: sync_committee
+Dec 06 21:03:21.005 INFO Requesting unsigned block               slot: 45, service: block
+Dec 06 21:03:21.084 INFO Received unsigned block                 slot: 45, service: block
+Dec 06 21:03:21.096 INFO Publishing signed block                 signing_time_ms: 11, slot: 45, service: block
+Dec 06 21:03:21.185 INFO Successfully published block            slot: 45, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:03:22.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:03:22.001 INFO All validators active                   slot: 45, epoch: 1, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:03:22.203 INFO Successfully published sync committee messages, slot: 45, head_block: 0x190ac8eb88cf8e5d221b7e1c4700b3d9941573c28079e39b54acfd2167ee15ef, count: 64, service: sync_committee
+Dec 06 21:03:22.207 INFO Successfully published attestations     type: unaggregated, slot: 45, committee_index: 0, head_block: 0x190ac8eb88cf8e5d221b7e1c4700b3d9941573c28079e39b54acfd2167ee15ef, validator_indices: [19, 53], count: 2, service: attestation
+Dec 06 21:03:22.341 INFO Successfully published sync contributions, slot: 45, num_signers: 81, beacon_block_root: 0x190a…15ef, subnet: 1, service: sync_committee
+Dec 06 21:03:22.345 INFO Successfully published sync contributions, slot: 45, num_signers: 81, beacon_block_root: 0x190a…15ef, subnet: 3, service: sync_committee
+Dec 06 21:03:22.352 INFO Successfully published attestation      type: aggregated, slot: 45, committee_index: 0, head_block: 0x190ac8eb88cf8e5d221b7e1c4700b3d9941573c28079e39b54acfd2167ee15ef, signatures: 4, aggregator: 19, service: attestation
+Dec 06 21:03:22.352 INFO Successfully published attestation      type: aggregated, slot: 45, committee_index: 0, head_block: 0x190ac8eb88cf8e5d221b7e1c4700b3d9941573c28079e39b54acfd2167ee15ef, signatures: 4, aggregator: 53, service: attestation
+Dec 06 21:03:22.387 INFO Successfully published sync contributions, slot: 45, num_signers: 81, beacon_block_root: 0x190a…15ef, subnet: 0, service: sync_committee
+Dec 06 21:03:22.391 INFO Successfully published sync contributions, slot: 45, num_signers: 81, beacon_block_root: 0x190a…15ef, subnet: 2, service: sync_committee
+Dec 06 21:03:23.003 INFO Requesting unsigned block               slot: 46, service: block
+Dec 06 21:03:23.013 INFO Received unsigned block                 slot: 46, service: block
+Dec 06 21:03:23.096 INFO Publishing signed block                 signing_time_ms: 82, slot: 46, service: block
+Dec 06 21:03:23.185 INFO Successfully published block            slot: 46, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:03:24.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:03:24.001 INFO All validators active                   slot: 46, epoch: 1, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:03:24.196 INFO Successfully published sync committee messages, slot: 46, head_block: 0x570050be782f62d5bfab9799d0cacc3b7588abb64b74ad1f797e863b0d10e678, count: 64, service: sync_committee
+Dec 06 21:03:24.200 INFO Successfully published attestations     type: unaggregated, slot: 46, committee_index: 0, head_block: 0x570050be782f62d5bfab9799d0cacc3b7588abb64b74ad1f797e863b0d10e678, validator_indices: [6, 23], count: 2, service: attestation
+Dec 06 21:03:24.344 INFO Successfully published sync contributions, slot: 46, num_signers: 81, beacon_block_root: 0x5700…e678, subnet: 0, service: sync_committee
+Dec 06 21:03:24.348 INFO Successfully published sync contributions, slot: 46, num_signers: 81, beacon_block_root: 0x5700…e678, subnet: 2, service: sync_committee
+Dec 06 21:03:24.353 INFO Successfully published sync contributions, slot: 46, num_signers: 81, beacon_block_root: 0x5700…e678, subnet: 3, service: sync_committee
+Dec 06 21:03:24.386 INFO Successfully published attestation      type: aggregated, slot: 46, committee_index: 0, head_block: 0x570050be782f62d5bfab9799d0cacc3b7588abb64b74ad1f797e863b0d10e678, signatures: 4, aggregator: 6, service: attestation
+Dec 06 21:03:24.386 INFO Successfully published attestation      type: aggregated, slot: 46, committee_index: 0, head_block: 0x570050be782f62d5bfab9799d0cacc3b7588abb64b74ad1f797e863b0d10e678, signatures: 4, aggregator: 23, service: attestation
+Dec 06 21:03:24.389 INFO Successfully published sync contributions, slot: 46, num_signers: 81, beacon_block_root: 0x5700…e678, subnet: 1, service: sync_committee
+Dec 06 21:03:25.001 INFO Requesting unsigned block               slot: 47, service: block
+Dec 06 21:03:25.084 INFO Received unsigned block                 slot: 47, service: block
+Dec 06 21:03:25.099 INFO Publishing signed block                 signing_time_ms: 14, slot: 47, service: block
+Dec 06 21:03:25.185 INFO Successfully published block            slot: 47, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:03:26.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:03:26.001 INFO All validators active                   slot: 47, epoch: 1, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:03:26.214 INFO Successfully published sync committee messages, slot: 47, head_block: 0x58d84ceef725aa905e921625a0e232399824972fd74b46be0ffdeb14b65e7fad, count: 64, service: sync_committee
+Dec 06 21:03:26.219 INFO Successfully published attestations     type: unaggregated, slot: 47, committee_index: 0, head_block: 0x58d84ceef725aa905e921625a0e232399824972fd74b46be0ffdeb14b65e7fad, validator_indices: [24, 61, 1], count: 3, service: attestation
+Dec 06 21:03:26.344 INFO Successfully published sync contributions, slot: 47, num_signers: 81, beacon_block_root: 0x58d8…7fad, subnet: 1, service: sync_committee
+Dec 06 21:03:26.347 INFO Successfully published sync contributions, slot: 47, num_signers: 81, beacon_block_root: 0x58d8…7fad, subnet: 0, service: sync_committee
+Dec 06 21:03:26.352 INFO Successfully published sync contributions, slot: 47, num_signers: 81, beacon_block_root: 0x58d8…7fad, subnet: 2, service: sync_committee
+Dec 06 21:03:26.356 INFO Successfully published attestation      type: aggregated, slot: 47, committee_index: 0, head_block: 0x58d84ceef725aa905e921625a0e232399824972fd74b46be0ffdeb14b65e7fad, signatures: 4, aggregator: 24, service: attestation
+Dec 06 21:03:26.356 INFO Successfully published attestation      type: aggregated, slot: 47, committee_index: 0, head_block: 0x58d84ceef725aa905e921625a0e232399824972fd74b46be0ffdeb14b65e7fad, signatures: 4, aggregator: 61, service: attestation
+Dec 06 21:03:26.356 INFO Successfully published attestation      type: aggregated, slot: 47, committee_index: 0, head_block: 0x58d84ceef725aa905e921625a0e232399824972fd74b46be0ffdeb14b65e7fad, signatures: 4, aggregator: 1, service: attestation
+Dec 06 21:03:26.360 INFO Successfully published sync contributions, slot: 47, num_signers: 81, beacon_block_root: 0x58d8…7fad, subnet: 3, service: sync_committee
+Dec 06 21:03:27.002 INFO Requesting unsigned block               slot: 48, service: block
+Dec 06 21:03:27.084 INFO Received unsigned block                 slot: 48, service: block
+Dec 06 21:03:27.097 INFO Publishing signed block                 signing_time_ms: 13, slot: 48, service: block
+Dec 06 21:03:27.186 INFO Successfully published block            slot: 48, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:03:27.690 INFO Successfully published attestations     type: unaggregated, slot: 48, committee_index: 0, head_block: 0x2492359752bacb6bd290974ebddcb37574d9dc0bd5a509b6f2093dd1b4362f8e, validator_indices: [35], count: 1, service: attestation
+Dec 06 21:03:28.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:03:28.000 INFO All validators active                   slot: 48, epoch: 1, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:03:28.121 INFO Successfully published sync committee messages, slot: 48, head_block: 0x2492359752bacb6bd290974ebddcb37574d9dc0bd5a509b6f2093dd1b4362f8e, count: 64, service: sync_committee
+Dec 06 21:03:28.349 INFO Successfully published sync contributions, slot: 48, num_signers: 95, beacon_block_root: 0x2492…2f8e, subnet: 3, service: sync_committee
+Dec 06 21:03:28.354 INFO Successfully published attestation      type: aggregated, slot: 48, committee_index: 0, head_block: 0x2492359752bacb6bd290974ebddcb37574d9dc0bd5a509b6f2093dd1b4362f8e, signatures: 4, aggregator: 35, service: attestation
+Dec 06 21:03:28.386 INFO Successfully published sync contributions, slot: 48, num_signers: 95, beacon_block_root: 0x2492…2f8e, subnet: 2, service: sync_committee
+Dec 06 21:03:28.391 INFO Successfully published sync contributions, slot: 48, num_signers: 95, beacon_block_root: 0x2492…2f8e, subnet: 1, service: sync_committee
+Dec 06 21:03:28.397 INFO Successfully published sync contributions, slot: 48, num_signers: 95, beacon_block_root: 0x2492…2f8e, subnet: 0, service: sync_committee
+Dec 06 21:03:30.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:03:30.001 INFO All validators active                   slot: 49, epoch: 1, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:03:30.140 INFO Successfully published sync committee messages, slot: 49, head_block: 0x16d6368e13948b35d69b033b8a3323c8ac3f7f587b4fd2856b586f203d4b7e46, count: 64, service: sync_committee
+Dec 06 21:03:30.188 INFO Successfully published attestations     type: unaggregated, slot: 49, committee_index: 0, head_block: 0x16d6368e13948b35d69b033b8a3323c8ac3f7f587b4fd2856b586f203d4b7e46, validator_indices: [50, 20, 56], count: 3, service: attestation
+Dec 06 21:03:30.345 INFO Successfully published attestation      type: aggregated, slot: 49, committee_index: 0, head_block: 0x16d6368e13948b35d69b033b8a3323c8ac3f7f587b4fd2856b586f203d4b7e46, signatures: 4, aggregator: 50, service: attestation
+Dec 06 21:03:30.345 INFO Successfully published attestation      type: aggregated, slot: 49, committee_index: 0, head_block: 0x16d6368e13948b35d69b033b8a3323c8ac3f7f587b4fd2856b586f203d4b7e46, signatures: 4, aggregator: 20, service: attestation
+Dec 06 21:03:30.345 INFO Successfully published attestation      type: aggregated, slot: 49, committee_index: 0, head_block: 0x16d6368e13948b35d69b033b8a3323c8ac3f7f587b4fd2856b586f203d4b7e46, signatures: 4, aggregator: 56, service: attestation
+Dec 06 21:03:30.350 INFO Successfully published sync contributions, slot: 49, num_signers: 86, beacon_block_root: 0x16d6…7e46, subnet: 1, service: sync_committee
+Dec 06 21:03:30.353 INFO Successfully published sync contributions, slot: 49, num_signers: 86, beacon_block_root: 0x16d6…7e46, subnet: 2, service: sync_committee
+Dec 06 21:03:30.387 INFO Successfully published sync contributions, slot: 49, num_signers: 86, beacon_block_root: 0x16d6…7e46, subnet: 0, service: sync_committee
+Dec 06 21:03:30.391 INFO Successfully published sync contributions, slot: 49, num_signers: 86, beacon_block_root: 0x16d6…7e46, subnet: 3, service: sync_committee
+Dec 06 21:03:31.002 INFO Requesting unsigned block               slot: 50, service: block
+Dec 06 21:03:31.013 INFO Received unsigned block                 slot: 50, service: block
+Dec 06 21:03:31.091 INFO Publishing signed block                 signing_time_ms: 77, slot: 50, service: block
+Dec 06 21:03:31.102 INFO Successfully published block            slot: 50, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:03:31.692 INFO Successfully published attestations     type: unaggregated, slot: 50, committee_index: 0, head_block: 0xb341ffba52d51f0ff2a6d544ac498f738aaec5a728a956539f66b6f594a5a684, validator_indices: [41], count: 1, service: attestation
+Dec 06 21:03:32.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:03:32.001 INFO All validators active                   slot: 50, epoch: 1, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:03:32.213 INFO Successfully published sync committee messages, slot: 50, head_block: 0xb341ffba52d51f0ff2a6d544ac498f738aaec5a728a956539f66b6f594a5a684, count: 64, service: sync_committee
+Dec 06 21:03:32.349 INFO Successfully published sync contributions, slot: 50, num_signers: 94, beacon_block_root: 0xb341…a684, subnet: 2, service: sync_committee
+Dec 06 21:03:32.353 INFO Successfully published sync contributions, slot: 50, num_signers: 94, beacon_block_root: 0xb341…a684, subnet: 3, service: sync_committee
+Dec 06 21:03:32.385 INFO Successfully published sync contributions, slot: 50, num_signers: 94, beacon_block_root: 0xb341…a684, subnet: 1, service: sync_committee
+Dec 06 21:03:32.390 INFO Successfully published sync contributions, slot: 50, num_signers: 94, beacon_block_root: 0xb341…a684, subnet: 0, service: sync_committee
+Dec 06 21:03:32.394 INFO Successfully published attestation      type: aggregated, slot: 50, committee_index: 0, head_block: 0xb341ffba52d51f0ff2a6d544ac498f738aaec5a728a956539f66b6f594a5a684, signatures: 4, aggregator: 41, service: attestation
+Dec 06 21:03:34.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:03:34.000 INFO All validators active                   slot: 51, epoch: 1, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:03:34.225 INFO Successfully published sync committee messages, slot: 51, head_block: 0x55e46c3ac20b84ee690b96c8377fe82bd266fed954e5db91cca94f4d8bdb3e97, count: 64, service: sync_committee
+Dec 06 21:03:34.227 INFO Successfully published attestations     type: unaggregated, slot: 51, committee_index: 0, head_block: 0x55e46c3ac20b84ee690b96c8377fe82bd266fed954e5db91cca94f4d8bdb3e97, validator_indices: [8, 16], count: 2, service: attestation
+Dec 06 21:03:34.352 INFO Successfully published sync contributions, slot: 51, num_signers: 78, beacon_block_root: 0x55e4…3e97, subnet: 0, service: sync_committee
+Dec 06 21:03:34.384 INFO Successfully published sync contributions, slot: 51, num_signers: 78, beacon_block_root: 0x55e4…3e97, subnet: 1, service: sync_committee
+Dec 06 21:03:34.389 INFO Successfully published attestation      type: aggregated, slot: 51, committee_index: 0, head_block: 0x55e46c3ac20b84ee690b96c8377fe82bd266fed954e5db91cca94f4d8bdb3e97, signatures: 4, aggregator: 8, service: attestation
+Dec 06 21:03:34.389 INFO Successfully published attestation      type: aggregated, slot: 51, committee_index: 0, head_block: 0x55e46c3ac20b84ee690b96c8377fe82bd266fed954e5db91cca94f4d8bdb3e97, signatures: 4, aggregator: 16, service: attestation
+Dec 06 21:03:34.393 INFO Successfully published sync contributions, slot: 51, num_signers: 78, beacon_block_root: 0x55e4…3e97, subnet: 3, service: sync_committee
+Dec 06 21:03:34.398 INFO Successfully published sync contributions, slot: 51, num_signers: 78, beacon_block_root: 0x55e4…3e97, subnet: 2, service: sync_committee
+Dec 06 21:03:35.002 INFO Requesting unsigned block               slot: 52, service: block
+Dec 06 21:03:35.084 INFO Received unsigned block                 slot: 52, service: block
+Dec 06 21:03:35.092 INFO Publishing signed block                 signing_time_ms: 78, slot: 52, service: block
+Dec 06 21:03:35.107 INFO Successfully published block            slot: 52, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:03:36.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:03:36.001 INFO All validators active                   slot: 52, epoch: 1, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:03:36.187 INFO Successfully published sync committee messages, slot: 52, head_block: 0x2d353c6e3cc3a71be0a283d48101bb8fa91b75f428a646305dce8aa07284e3d5, count: 64, service: sync_committee
+Dec 06 21:03:36.190 INFO Successfully published attestations     type: unaggregated, slot: 52, committee_index: 0, head_block: 0x2d353c6e3cc3a71be0a283d48101bb8fa91b75f428a646305dce8aa07284e3d5, validator_indices: [26, 46], count: 2, service: attestation
+Dec 06 21:03:36.348 INFO Successfully published attestation      type: aggregated, slot: 52, committee_index: 0, head_block: 0x2d353c6e3cc3a71be0a283d48101bb8fa91b75f428a646305dce8aa07284e3d5, signatures: 4, aggregator: 26, service: attestation
+Dec 06 21:03:36.348 INFO Successfully published attestation      type: aggregated, slot: 52, committee_index: 0, head_block: 0x2d353c6e3cc3a71be0a283d48101bb8fa91b75f428a646305dce8aa07284e3d5, signatures: 4, aggregator: 46, service: attestation
+Dec 06 21:03:36.352 INFO Successfully published sync contributions, slot: 52, num_signers: 87, beacon_block_root: 0x2d35…e3d5, subnet: 2, service: sync_committee
+Dec 06 21:03:36.356 INFO Successfully published sync contributions, slot: 52, num_signers: 87, beacon_block_root: 0x2d35…e3d5, subnet: 1, service: sync_committee
+Dec 06 21:03:36.360 INFO Successfully published sync contributions, slot: 52, num_signers: 87, beacon_block_root: 0x2d35…e3d5, subnet: 3, service: sync_committee
+Dec 06 21:03:36.389 INFO Successfully published sync contributions, slot: 52, num_signers: 87, beacon_block_root: 0x2d35…e3d5, subnet: 0, service: sync_committee
+Dec 06 21:03:38.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:03:38.001 INFO All validators active                   slot: 53, epoch: 1, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:03:38.200 INFO Successfully published sync committee messages, slot: 53, head_block: 0x17b49befd2c99b6173624d0ce4afd0eb92810bb0764da373b492b869f74471d2, count: 64, service: sync_committee
+Dec 06 21:03:38.205 INFO Successfully published attestations     type: unaggregated, slot: 53, committee_index: 0, head_block: 0x17b49befd2c99b6173624d0ce4afd0eb92810bb0764da373b492b869f74471d2, validator_indices: [58, 15, 42], count: 3, service: attestation
+Dec 06 21:03:38.395 INFO Successfully published sync contributions, slot: 53, num_signers: 86, beacon_block_root: 0x17b4…71d2, subnet: 0, service: sync_committee
+Dec 06 21:03:38.395 INFO Successfully published attestation      type: aggregated, slot: 53, committee_index: 0, head_block: 0x17b49befd2c99b6173624d0ce4afd0eb92810bb0764da373b492b869f74471d2, signatures: 4, aggregator: 58, service: attestation
+Dec 06 21:03:38.396 INFO Successfully published attestation      type: aggregated, slot: 53, committee_index: 0, head_block: 0x17b49befd2c99b6173624d0ce4afd0eb92810bb0764da373b492b869f74471d2, signatures: 4, aggregator: 15, service: attestation
+Dec 06 21:03:38.396 INFO Successfully published attestation      type: aggregated, slot: 53, committee_index: 0, head_block: 0x17b49befd2c99b6173624d0ce4afd0eb92810bb0764da373b492b869f74471d2, signatures: 4, aggregator: 42, service: attestation
+Dec 06 21:03:38.399 INFO Successfully published sync contributions, slot: 53, num_signers: 86, beacon_block_root: 0x17b4…71d2, subnet: 3, service: sync_committee
+Dec 06 21:03:38.403 INFO Successfully published sync contributions, slot: 53, num_signers: 86, beacon_block_root: 0x17b4…71d2, subnet: 2, service: sync_committee
+Dec 06 21:03:38.407 INFO Successfully published sync contributions, slot: 53, num_signers: 86, beacon_block_root: 0x17b4…71d2, subnet: 1, service: sync_committee
+Dec 06 21:03:40.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:03:40.001 INFO All validators active                   slot: 54, epoch: 1, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:03:40.130 INFO Successfully published sync committee messages, slot: 54, head_block: 0xbc686df608fde187c4d2742842640c4a5ae106ddb1619858e25f6955a7a8c7c9, count: 64, service: sync_committee
+Dec 06 21:03:40.132 INFO Successfully published attestations     type: unaggregated, slot: 54, committee_index: 0, head_block: 0xbc686df608fde187c4d2742842640c4a5ae106ddb1619858e25f6955a7a8c7c9, validator_indices: [22, 51], count: 2, service: attestation
+Dec 06 21:03:40.340 INFO Successfully published sync contributions, slot: 54, num_signers: 90, beacon_block_root: 0xbc68…c7c9, subnet: 3, service: sync_committee
+Dec 06 21:03:40.344 INFO Successfully published sync contributions, slot: 54, num_signers: 90, beacon_block_root: 0xbc68…c7c9, subnet: 0, service: sync_committee
+Dec 06 21:03:40.348 INFO Successfully published attestation      type: aggregated, slot: 54, committee_index: 0, head_block: 0xbc686df608fde187c4d2742842640c4a5ae106ddb1619858e25f6955a7a8c7c9, signatures: 4, aggregator: 22, service: attestation
+Dec 06 21:03:40.348 INFO Successfully published attestation      type: aggregated, slot: 54, committee_index: 0, head_block: 0xbc686df608fde187c4d2742842640c4a5ae106ddb1619858e25f6955a7a8c7c9, signatures: 4, aggregator: 51, service: attestation
+Dec 06 21:03:40.351 INFO Successfully published sync contributions, slot: 54, num_signers: 90, beacon_block_root: 0xbc68…c7c9, subnet: 1, service: sync_committee
+Dec 06 21:03:40.355 INFO Successfully published sync contributions, slot: 54, num_signers: 90, beacon_block_root: 0xbc68…c7c9, subnet: 2, service: sync_committee
+Dec 06 21:03:42.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:03:42.000 INFO All validators active                   slot: 55, epoch: 1, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:03:42.136 INFO Successfully published sync committee messages, slot: 55, head_block: 0x1020c679ec0f8b61a4aa8473fd1ec851b5a1e59d9dbbedd7b22d23fe44d3d3d3, count: 64, service: sync_committee
+Dec 06 21:03:42.138 INFO Successfully published attestations     type: unaggregated, slot: 55, committee_index: 0, head_block: 0x1020c679ec0f8b61a4aa8473fd1ec851b5a1e59d9dbbedd7b22d23fe44d3d3d3, validator_indices: [33, 30], count: 2, service: attestation
+Dec 06 21:03:42.386 INFO Successfully published attestation      type: aggregated, slot: 55, committee_index: 0, head_block: 0x1020c679ec0f8b61a4aa8473fd1ec851b5a1e59d9dbbedd7b22d23fe44d3d3d3, signatures: 4, aggregator: 33, service: attestation
+Dec 06 21:03:42.386 INFO Successfully published attestation      type: aggregated, slot: 55, committee_index: 0, head_block: 0x1020c679ec0f8b61a4aa8473fd1ec851b5a1e59d9dbbedd7b22d23fe44d3d3d3, signatures: 4, aggregator: 30, service: attestation
+Dec 06 21:03:42.391 INFO Successfully published sync contributions, slot: 55, num_signers: 91, beacon_block_root: 0x1020…d3d3, subnet: 1, service: sync_committee
+Dec 06 21:03:42.395 INFO Successfully published sync contributions, slot: 55, num_signers: 91, beacon_block_root: 0x1020…d3d3, subnet: 0, service: sync_committee
+Dec 06 21:03:42.399 INFO Successfully published sync contributions, slot: 55, num_signers: 91, beacon_block_root: 0x1020…d3d3, subnet: 3, service: sync_committee
+Dec 06 21:03:42.403 INFO Successfully published sync contributions, slot: 55, num_signers: 91, beacon_block_root: 0x1020…d3d3, subnet: 2, service: sync_committee
+Dec 06 21:03:43.001 INFO Requesting unsigned block               slot: 56, service: block
+Dec 06 21:03:43.008 INFO Received unsigned block                 slot: 56, service: block
+Dec 06 21:03:43.019 INFO Publishing signed block                 signing_time_ms: 11, slot: 56, service: block
+Dec 06 21:03:43.033 INFO Successfully published block            slot: 56, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:03:44.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:03:44.000 INFO All validators active                   slot: 56, epoch: 1, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:03:44.130 INFO Successfully published sync committee messages, slot: 56, head_block: 0x4963a330ae723578336b7db0523de1e8d4711254ebb32dfc976fee45bff1acfb, count: 64, service: sync_committee
+Dec 06 21:03:44.133 INFO Successfully published attestations     type: unaggregated, slot: 56, committee_index: 0, head_block: 0x4963a330ae723578336b7db0523de1e8d4711254ebb32dfc976fee45bff1acfb, validator_indices: [5, 10], count: 2, service: attestation
+Dec 06 21:03:44.346 INFO Successfully published sync contributions, slot: 56, num_signers: 93, beacon_block_root: 0x4963…acfb, subnet: 3, service: sync_committee
+Dec 06 21:03:44.349 INFO Successfully published sync contributions, slot: 56, num_signers: 93, beacon_block_root: 0x4963…acfb, subnet: 1, service: sync_committee
+Dec 06 21:03:44.353 INFO Successfully published sync contributions, slot: 56, num_signers: 93, beacon_block_root: 0x4963…acfb, subnet: 2, service: sync_committee
+Dec 06 21:03:44.357 INFO Successfully published attestation      type: aggregated, slot: 56, committee_index: 0, head_block: 0x4963a330ae723578336b7db0523de1e8d4711254ebb32dfc976fee45bff1acfb, signatures: 4, aggregator: 5, service: attestation
+Dec 06 21:03:44.357 INFO Successfully published attestation      type: aggregated, slot: 56, committee_index: 0, head_block: 0x4963a330ae723578336b7db0523de1e8d4711254ebb32dfc976fee45bff1acfb, signatures: 4, aggregator: 10, service: attestation
+Dec 06 21:03:44.387 INFO Successfully published sync contributions, slot: 56, num_signers: 93, beacon_block_root: 0x4963…acfb, subnet: 0, service: sync_committee
+Dec 06 21:03:45.001 INFO Requesting unsigned block               slot: 57, service: block
+Dec 06 21:03:45.007 INFO Received unsigned block                 slot: 57, service: block
+Dec 06 21:03:45.018 INFO Publishing signed block                 signing_time_ms: 11, slot: 57, service: block
+Dec 06 21:03:45.084 INFO Successfully published block            slot: 57, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:03:46.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:03:46.001 INFO All validators active                   slot: 57, epoch: 1, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:03:46.116 INFO Successfully published sync committee messages, slot: 57, head_block: 0xe254aaa15040ba50af52d9024cc1d0e74d56eac9b61699ca2077590b2a1e2b61, count: 64, service: sync_committee
+Dec 06 21:03:46.121 INFO Successfully published attestations     type: unaggregated, slot: 57, committee_index: 0, head_block: 0xe254aaa15040ba50af52d9024cc1d0e74d56eac9b61699ca2077590b2a1e2b61, validator_indices: [14, 3, 25], count: 3, service: attestation
+Dec 06 21:03:46.393 INFO Successfully published sync contributions, slot: 57, num_signers: 90, beacon_block_root: 0xe254…2b61, subnet: 1, service: sync_committee
+Dec 06 21:03:46.397 INFO Successfully published sync contributions, slot: 57, num_signers: 90, beacon_block_root: 0xe254…2b61, subnet: 2, service: sync_committee
+Dec 06 21:03:46.397 INFO Successfully published attestation      type: aggregated, slot: 57, committee_index: 0, head_block: 0xe254aaa15040ba50af52d9024cc1d0e74d56eac9b61699ca2077590b2a1e2b61, signatures: 4, aggregator: 14, service: attestation
+Dec 06 21:03:46.397 INFO Successfully published attestation      type: aggregated, slot: 57, committee_index: 0, head_block: 0xe254aaa15040ba50af52d9024cc1d0e74d56eac9b61699ca2077590b2a1e2b61, signatures: 4, aggregator: 3, service: attestation
+Dec 06 21:03:46.397 INFO Successfully published attestation      type: aggregated, slot: 57, committee_index: 0, head_block: 0xe254aaa15040ba50af52d9024cc1d0e74d56eac9b61699ca2077590b2a1e2b61, signatures: 4, aggregator: 25, service: attestation
+Dec 06 21:03:46.401 INFO Successfully published sync contributions, slot: 57, num_signers: 90, beacon_block_root: 0xe254…2b61, subnet: 3, service: sync_committee
+Dec 06 21:03:46.406 INFO Successfully published sync contributions, slot: 57, num_signers: 90, beacon_block_root: 0xe254…2b61, subnet: 0, service: sync_committee
+Dec 06 21:03:48.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:03:48.000 INFO All validators active                   slot: 58, epoch: 1, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:03:48.029 INFO Successfully published sync committee messages, slot: 58, head_block: 0xf2819b6acda063d96a067c249990e7238cf609272dca7c4243662671109fc274, count: 64, service: sync_committee
+Dec 06 21:03:48.034 INFO Successfully published attestations     type: unaggregated, slot: 58, committee_index: 0, head_block: 0xf2819b6acda063d96a067c249990e7238cf609272dca7c4243662671109fc274, validator_indices: [27, 21, 60, 2], count: 4, service: attestation
+Dec 06 21:03:48.340 INFO Successfully published attestation      type: aggregated, slot: 58, committee_index: 0, head_block: 0xf2819b6acda063d96a067c249990e7238cf609272dca7c4243662671109fc274, signatures: 4, aggregator: 27, service: attestation
+Dec 06 21:03:48.340 INFO Successfully published attestation      type: aggregated, slot: 58, committee_index: 0, head_block: 0xf2819b6acda063d96a067c249990e7238cf609272dca7c4243662671109fc274, signatures: 4, aggregator: 21, service: attestation
+Dec 06 21:03:48.340 INFO Successfully published attestation      type: aggregated, slot: 58, committee_index: 0, head_block: 0xf2819b6acda063d96a067c249990e7238cf609272dca7c4243662671109fc274, signatures: 4, aggregator: 60, service: attestation
+Dec 06 21:03:48.340 INFO Successfully published attestation      type: aggregated, slot: 58, committee_index: 0, head_block: 0xf2819b6acda063d96a067c249990e7238cf609272dca7c4243662671109fc274, signatures: 4, aggregator: 2, service: attestation
+Dec 06 21:03:48.346 INFO Successfully published sync contributions, slot: 58, num_signers: 112, beacon_block_root: 0xf281…c274, subnet: 2, service: sync_committee
+Dec 06 21:03:48.351 INFO Successfully published sync contributions, slot: 58, num_signers: 112, beacon_block_root: 0xf281…c274, subnet: 1, service: sync_committee
+Dec 06 21:03:48.355 INFO Successfully published sync contributions, slot: 58, num_signers: 112, beacon_block_root: 0xf281…c274, subnet: 3, service: sync_committee
+Dec 06 21:03:48.385 INFO Successfully published sync contributions, slot: 58, num_signers: 112, beacon_block_root: 0xf281…c274, subnet: 0, service: sync_committee
+Dec 06 21:03:50.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:03:50.000 INFO All validators active                   slot: 59, epoch: 1, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:03:50.041 INFO Successfully published sync committee messages, slot: 59, head_block: 0xf9ec327d7228dd3ed65426363871bc97daf035d33aae42dfc04930cbcd612736, count: 64, service: sync_committee
+Dec 06 21:03:50.085 INFO Successfully published attestations     type: unaggregated, slot: 59, committee_index: 0, head_block: 0xf9ec327d7228dd3ed65426363871bc97daf035d33aae42dfc04930cbcd612736, validator_indices: [40, 4], count: 2, service: attestation
+Dec 06 21:03:50.346 INFO Successfully published sync contributions, slot: 59, num_signers: 107, beacon_block_root: 0xf9ec…2736, subnet: 2, service: sync_committee
+Dec 06 21:03:50.349 INFO Successfully published sync contributions, slot: 59, num_signers: 107, beacon_block_root: 0xf9ec…2736, subnet: 3, service: sync_committee
+Dec 06 21:03:50.352 INFO Successfully published attestation      type: aggregated, slot: 59, committee_index: 0, head_block: 0xf9ec327d7228dd3ed65426363871bc97daf035d33aae42dfc04930cbcd612736, signatures: 4, aggregator: 40, service: attestation
+Dec 06 21:03:50.352 INFO Successfully published attestation      type: aggregated, slot: 59, committee_index: 0, head_block: 0xf9ec327d7228dd3ed65426363871bc97daf035d33aae42dfc04930cbcd612736, signatures: 4, aggregator: 4, service: attestation
+Dec 06 21:03:50.356 INFO Successfully published sync contributions, slot: 59, num_signers: 107, beacon_block_root: 0xf9ec…2736, subnet: 1, service: sync_committee
+Dec 06 21:03:50.384 INFO Successfully published sync contributions, slot: 59, num_signers: 107, beacon_block_root: 0xf9ec…2736, subnet: 0, service: sync_committee
+Dec 06 21:03:52.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:03:52.000 INFO All validators active                   slot: 60, epoch: 1, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:03:52.193 INFO Successfully published sync committee messages, slot: 60, head_block: 0x6267a28ec1c2ecc8ed01090fc4d85361e69a558aea06db2d582979bb0e95ff97, count: 64, service: sync_committee
+Dec 06 21:03:52.196 INFO Successfully published attestations     type: unaggregated, slot: 60, committee_index: 0, head_block: 0x6267a28ec1c2ecc8ed01090fc4d85361e69a558aea06db2d582979bb0e95ff97, validator_indices: [18, 49], count: 2, service: attestation
+Dec 06 21:03:52.343 INFO Successfully published sync contributions, slot: 60, num_signers: 85, beacon_block_root: 0x6267…ff97, subnet: 2, service: sync_committee
+Dec 06 21:03:52.346 INFO Successfully published sync contributions, slot: 60, num_signers: 85, beacon_block_root: 0x6267…ff97, subnet: 0, service: sync_committee
+Dec 06 21:03:52.349 INFO Successfully published attestation      type: aggregated, slot: 60, committee_index: 0, head_block: 0x6267a28ec1c2ecc8ed01090fc4d85361e69a558aea06db2d582979bb0e95ff97, signatures: 4, aggregator: 18, service: attestation
+Dec 06 21:03:52.349 INFO Successfully published attestation      type: aggregated, slot: 60, committee_index: 0, head_block: 0x6267a28ec1c2ecc8ed01090fc4d85361e69a558aea06db2d582979bb0e95ff97, signatures: 4, aggregator: 49, service: attestation
+Dec 06 21:03:52.352 INFO Successfully published sync contributions, slot: 60, num_signers: 85, beacon_block_root: 0x6267…ff97, subnet: 3, service: sync_committee
+Dec 06 21:03:52.357 INFO Successfully published sync contributions, slot: 60, num_signers: 85, beacon_block_root: 0x6267…ff97, subnet: 1, service: sync_committee
+Dec 06 21:03:53.002 INFO Requesting unsigned block               slot: 61, service: block
+Dec 06 21:03:53.084 INFO Received unsigned block                 slot: 61, service: block
+Dec 06 21:03:53.093 INFO Publishing signed block                 signing_time_ms: 79, slot: 61, service: block
+Dec 06 21:03:53.114 INFO Successfully published block            slot: 61, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:03:53.690 INFO Successfully published attestations     type: unaggregated, slot: 61, committee_index: 0, head_block: 0xadda98325367dd957f12c58ca3637796f4175bca3c5bb21514b074c2c4c16ee1, validator_indices: [52], count: 1, service: attestation
+Dec 06 21:03:54.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:03:54.001 INFO All validators active                   slot: 61, epoch: 1, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:03:54.192 INFO Successfully published sync committee messages, slot: 61, head_block: 0xadda98325367dd957f12c58ca3637796f4175bca3c5bb21514b074c2c4c16ee1, count: 64, service: sync_committee
+Dec 06 21:03:54.348 INFO Successfully published sync contributions, slot: 61, num_signers: 88, beacon_block_root: 0xadda…6ee1, subnet: 2, service: sync_committee
+Dec 06 21:03:54.353 INFO Successfully published attestation      type: aggregated, slot: 61, committee_index: 0, head_block: 0xadda98325367dd957f12c58ca3637796f4175bca3c5bb21514b074c2c4c16ee1, signatures: 4, aggregator: 52, service: attestation
+Dec 06 21:03:54.357 INFO Successfully published sync contributions, slot: 61, num_signers: 88, beacon_block_root: 0xadda…6ee1, subnet: 0, service: sync_committee
+Dec 06 21:03:54.388 INFO Successfully published sync contributions, slot: 61, num_signers: 88, beacon_block_root: 0xadda…6ee1, subnet: 1, service: sync_committee
+Dec 06 21:03:54.393 INFO Successfully published sync contributions, slot: 61, num_signers: 88, beacon_block_root: 0xadda…6ee1, subnet: 3, service: sync_committee
+Dec 06 21:03:55.003 INFO Requesting unsigned block               slot: 62, service: block
+Dec 06 21:03:55.085 INFO Received unsigned block                 slot: 62, service: block
+Dec 06 21:03:55.099 INFO Publishing signed block                 signing_time_ms: 13, slot: 62, service: block
+Dec 06 21:03:55.134 INFO Successfully published block            slot: 62, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:03:56.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:03:56.000 INFO All validators active                   slot: 62, epoch: 1, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:03:56.124 INFO Successfully published sync committee messages, slot: 62, head_block: 0xd6a47c4872c607926c25c5e572422ab3115306d25dc0f07552fb518ef62666aa, count: 64, service: sync_committee
+Dec 06 21:03:56.126 INFO Successfully published attestations     type: unaggregated, slot: 62, committee_index: 0, head_block: 0xd6a47c4872c607926c25c5e572422ab3115306d25dc0f07552fb518ef62666aa, validator_indices: [36, 0], count: 2, service: attestation
+Dec 06 21:03:56.350 INFO Successfully published attestation      type: aggregated, slot: 62, committee_index: 0, head_block: 0xd6a47c4872c607926c25c5e572422ab3115306d25dc0f07552fb518ef62666aa, signatures: 4, aggregator: 36, service: attestation
+Dec 06 21:03:56.350 INFO Successfully published attestation      type: aggregated, slot: 62, committee_index: 0, head_block: 0xd6a47c4872c607926c25c5e572422ab3115306d25dc0f07552fb518ef62666aa, signatures: 4, aggregator: 0, service: attestation
+Dec 06 21:03:56.386 INFO Successfully published sync contributions, slot: 62, num_signers: 87, beacon_block_root: 0xd6a4…66aa, subnet: 2, service: sync_committee
+Dec 06 21:03:56.391 INFO Successfully published sync contributions, slot: 62, num_signers: 87, beacon_block_root: 0xd6a4…66aa, subnet: 1, service: sync_committee
+Dec 06 21:03:56.395 INFO Successfully published sync contributions, slot: 62, num_signers: 87, beacon_block_root: 0xd6a4…66aa, subnet: 0, service: sync_committee
+Dec 06 21:03:56.400 INFO Successfully published sync contributions, slot: 62, num_signers: 87, beacon_block_root: 0xd6a4…66aa, subnet: 3, service: sync_committee
+Dec 06 21:03:58.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:03:58.000 INFO All validators active                   slot: 63, epoch: 1, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier
+Dec 06 21:03:58.221 INFO Successfully published sync committee messages, slot: 63, head_block: 0xe241731f92c118c59d772b072f704abb10fc39cc69f64b0e4e17e88ddc02be98, count: 64, service: sync_committee
+Dec 06 21:03:58.224 INFO Successfully published attestations     type: unaggregated, slot: 63, committee_index: 0, head_block: 0xe241731f92c118c59d772b072f704abb10fc39cc69f64b0e4e17e88ddc02be98, validator_indices: [43, 17], count: 2, service: attestation
+Dec 06 21:03:58.348 INFO Successfully published sync contributions, slot: 63, num_signers: 76, beacon_block_root: 0xe241…be98, subnet: 3, service: sync_committee
+Dec 06 21:03:58.352 INFO Successfully published sync contributions, slot: 63, num_signers: 76, beacon_block_root: 0xe241…be98, subnet: 0, service: sync_committee
+Dec 06 21:03:58.355 INFO Successfully published attestation      type: aggregated, slot: 63, committee_index: 0, head_block: 0xe241731f92c118c59d772b072f704abb10fc39cc69f64b0e4e17e88ddc02be98, signatures: 4, aggregator: 43, service: attestation
+Dec 06 21:03:58.356 INFO Successfully published attestation      type: aggregated, slot: 63, committee_index: 0, head_block: 0xe241731f92c118c59d772b072f704abb10fc39cc69f64b0e4e17e88ddc02be98, signatures: 4, aggregator: 17, service: attestation
+Dec 06 21:03:58.384 INFO Successfully published sync contributions, slot: 63, num_signers: 76, beacon_block_root: 0xe241…be98, subnet: 2, service: sync_committee
+Dec 06 21:03:58.388 INFO Successfully published sync contributions, slot: 63, num_signers: 76, beacon_block_root: 0xe241…be98, subnet: 1, service: sync_committee
+Dec 06 21:03:59.084 INFO Published validator registrations to the builder network, count: 64, service: preparation
+Dec 06 21:03:59.711 INFO Successfully published attestations     type: unaggregated, slot: 64, committee_index: 0, head_block: 0x8524596e4eca04a0791cbe644a6d0132146faee5e2d6a8c638f3b57044c494ee, validator_indices: [33, 24, 4], count: 3, service: attestation
+Dec 06 21:04:00.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:04:00.001 INFO All validators active                   slot: 64, epoch: 2, total_validators: 64, active_validators: 64, current_epoch_proposers: 13, service: notifier
+Dec 06 21:04:00.194 INFO Successfully published sync committee messages, slot: 64, head_block: 0x8524596e4eca04a0791cbe644a6d0132146faee5e2d6a8c638f3b57044c494ee, count: 64, service: sync_committee
+Dec 06 21:04:00.384 INFO Successfully published attestation      type: aggregated, slot: 64, committee_index: 0, head_block: 0x8524596e4eca04a0791cbe644a6d0132146faee5e2d6a8c638f3b57044c494ee, signatures: 3, aggregator: 33, service: attestation
+Dec 06 21:04:00.384 INFO Successfully published attestation      type: aggregated, slot: 64, committee_index: 0, head_block: 0x8524596e4eca04a0791cbe644a6d0132146faee5e2d6a8c638f3b57044c494ee, signatures: 3, aggregator: 24, service: attestation
+Dec 06 21:04:00.384 INFO Successfully published attestation      type: aggregated, slot: 64, committee_index: 0, head_block: 0x8524596e4eca04a0791cbe644a6d0132146faee5e2d6a8c638f3b57044c494ee, signatures: 3, aggregator: 4, service: attestation
+Dec 06 21:04:00.393 INFO Successfully published sync contributions, slot: 64, num_signers: 64, beacon_block_root: 0x8524…94ee, subnet: 0, service: sync_committee
+Dec 06 21:04:00.397 INFO Successfully published sync contributions, slot: 64, num_signers: 64, beacon_block_root: 0x8524…94ee, subnet: 3, service: sync_committee
+Dec 06 21:04:00.401 INFO Successfully published sync contributions, slot: 64, num_signers: 64, beacon_block_root: 0x8524…94ee, subnet: 1, service: sync_committee
+Dec 06 21:04:00.406 INFO Successfully published sync contributions, slot: 64, num_signers: 64, beacon_block_root: 0x8524…94ee, subnet: 2, service: sync_committee
+Dec 06 21:04:01.002 INFO Requesting unsigned block               slot: 65, service: block
+Dec 06 21:04:01.084 INFO Received unsigned block                 slot: 65, service: block
+Dec 06 21:04:01.098 INFO Publishing signed block                 signing_time_ms: 13, slot: 65, service: block
+Dec 06 21:04:01.117 INFO Successfully published block            slot: 65, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:04:02.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:04:02.001 INFO All validators active                   slot: 65, epoch: 2, total_validators: 64, active_validators: 64, current_epoch_proposers: 13, service: notifier
+Dec 06 21:04:02.201 INFO Successfully published sync committee messages, slot: 65, head_block: 0xab8da9529364c3568d0e3104a4d8011ebaf62537d21ecb8395f68a022188d0c6, count: 64, service: sync_committee
+Dec 06 21:04:02.202 INFO Successfully published attestations     type: unaggregated, slot: 65, committee_index: 0, head_block: 0xab8da9529364c3568d0e3104a4d8011ebaf62537d21ecb8395f68a022188d0c6, validator_indices: [34], count: 1, service: attestation
+Dec 06 21:04:02.349 INFO Successfully published sync contributions, slot: 65, num_signers: 82, beacon_block_root: 0xab8d…d0c6, subnet: 2, service: sync_committee
+Dec 06 21:04:02.355 INFO Successfully published attestation      type: aggregated, slot: 65, committee_index: 0, head_block: 0xab8da9529364c3568d0e3104a4d8011ebaf62537d21ecb8395f68a022188d0c6, signatures: 4, aggregator: 34, service: attestation
+Dec 06 21:04:02.384 INFO Successfully published sync contributions, slot: 65, num_signers: 82, beacon_block_root: 0xab8d…d0c6, subnet: 0, service: sync_committee
+Dec 06 21:04:02.389 INFO Successfully published sync contributions, slot: 65, num_signers: 82, beacon_block_root: 0xab8d…d0c6, subnet: 1, service: sync_committee
+Dec 06 21:04:02.395 INFO Successfully published sync contributions, slot: 65, num_signers: 82, beacon_block_root: 0xab8d…d0c6, subnet: 3, service: sync_committee
+Dec 06 21:04:04.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:04:04.000 INFO All validators active                   slot: 66, epoch: 2, total_validators: 64, active_validators: 64, current_epoch_proposers: 13, service: notifier
+Dec 06 21:04:04.124 INFO Successfully published sync committee messages, slot: 66, head_block: 0xfc9db247e8910e07fdc61e2cc07bd2182e9ee50087bffc6a9d9168c6f3fd3445, count: 64, service: sync_committee
+Dec 06 21:04:04.127 INFO Successfully published attestations     type: unaggregated, slot: 66, committee_index: 0, head_block: 0xfc9db247e8910e07fdc61e2cc07bd2182e9ee50087bffc6a9d9168c6f3fd3445, validator_indices: [40, 16], count: 2, service: attestation
+Dec 06 21:04:04.347 INFO Successfully published attestation      type: aggregated, slot: 66, committee_index: 0, head_block: 0xfc9db247e8910e07fdc61e2cc07bd2182e9ee50087bffc6a9d9168c6f3fd3445, signatures: 4, aggregator: 40, service: attestation
+Dec 06 21:04:04.347 INFO Successfully published attestation      type: aggregated, slot: 66, committee_index: 0, head_block: 0xfc9db247e8910e07fdc61e2cc07bd2182e9ee50087bffc6a9d9168c6f3fd3445, signatures: 4, aggregator: 16, service: attestation
+Dec 06 21:04:04.351 INFO Successfully published sync contributions, slot: 66, num_signers: 90, beacon_block_root: 0xfc9d…3445, subnet: 3, service: sync_committee
+Dec 06 21:04:04.388 INFO Successfully published sync contributions, slot: 66, num_signers: 90, beacon_block_root: 0xfc9d…3445, subnet: 1, service: sync_committee
+Dec 06 21:04:04.392 INFO Successfully published sync contributions, slot: 66, num_signers: 90, beacon_block_root: 0xfc9d…3445, subnet: 0, service: sync_committee
+Dec 06 21:04:04.396 INFO Successfully published sync contributions, slot: 66, num_signers: 90, beacon_block_root: 0xfc9d…3445, subnet: 2, service: sync_committee
+Dec 06 21:04:05.003 INFO Requesting unsigned block               slot: 67, service: block
+Dec 06 21:04:05.014 INFO Received unsigned block                 slot: 67, service: block
+Dec 06 21:04:05.093 INFO Publishing signed block                 signing_time_ms: 78, slot: 67, service: block
+Dec 06 21:04:05.113 INFO Successfully published block            slot: 67, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:04:06.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:04:06.002 INFO All validators active                   slot: 67, epoch: 2, total_validators: 64, active_validators: 64, current_epoch_proposers: 13, service: notifier
+Dec 06 21:04:06.196 INFO Successfully published sync committee messages, slot: 67, head_block: 0xe9277849760651e493199be1db6e5c9dab3c9373c91a8d220560854cc2d2d2f5, count: 64, service: sync_committee
+Dec 06 21:04:06.200 INFO Successfully published attestations     type: unaggregated, slot: 67, committee_index: 0, head_block: 0xe9277849760651e493199be1db6e5c9dab3c9373c91a8d220560854cc2d2d2f5, validator_indices: [36, 61, 18], count: 3, service: attestation
+Dec 06 21:04:06.348 INFO Successfully published sync contributions, slot: 67, num_signers: 86, beacon_block_root: 0xe927…d2f5, subnet: 1, service: sync_committee
+Dec 06 21:04:06.352 INFO Successfully published attestation      type: aggregated, slot: 67, committee_index: 0, head_block: 0xe9277849760651e493199be1db6e5c9dab3c9373c91a8d220560854cc2d2d2f5, signatures: 4, aggregator: 36, service: attestation
+Dec 06 21:04:06.352 INFO Successfully published attestation      type: aggregated, slot: 67, committee_index: 0, head_block: 0xe9277849760651e493199be1db6e5c9dab3c9373c91a8d220560854cc2d2d2f5, signatures: 4, aggregator: 61, service: attestation
+Dec 06 21:04:06.352 INFO Successfully published attestation      type: aggregated, slot: 67, committee_index: 0, head_block: 0xe9277849760651e493199be1db6e5c9dab3c9373c91a8d220560854cc2d2d2f5, signatures: 4, aggregator: 18, service: attestation
+Dec 06 21:04:06.388 INFO Successfully published sync contributions, slot: 67, num_signers: 86, beacon_block_root: 0xe927…d2f5, subnet: 2, service: sync_committee
+Dec 06 21:04:06.392 INFO Successfully published sync contributions, slot: 67, num_signers: 86, beacon_block_root: 0xe927…d2f5, subnet: 3, service: sync_committee
+Dec 06 21:04:06.397 INFO Successfully published sync contributions, slot: 67, num_signers: 86, beacon_block_root: 0xe927…d2f5, subnet: 0, service: sync_committee
+Dec 06 21:04:08.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:04:08.001 INFO All validators active                   slot: 68, epoch: 2, total_validators: 64, active_validators: 64, current_epoch_proposers: 13, service: notifier
+Dec 06 21:04:08.205 INFO Successfully published sync committee messages, slot: 68, head_block: 0x147c34974b841d0e7bc5893ac96751526e4f6b5a5075cc95d581233ae1a0845a, count: 64, service: sync_committee
+Dec 06 21:04:08.208 INFO Successfully published attestations     type: unaggregated, slot: 68, committee_index: 0, head_block: 0x147c34974b841d0e7bc5893ac96751526e4f6b5a5075cc95d581233ae1a0845a, validator_indices: [20, 58, 32], count: 3, service: attestation
+Dec 06 21:04:08.387 INFO Successfully published sync contributions, slot: 68, num_signers: 84, beacon_block_root: 0x147c…845a, subnet: 0, service: sync_committee
+Dec 06 21:04:08.391 INFO Successfully published attestation      type: aggregated, slot: 68, committee_index: 0, head_block: 0x147c34974b841d0e7bc5893ac96751526e4f6b5a5075cc95d581233ae1a0845a, signatures: 4, aggregator: 20, service: attestation
+Dec 06 21:04:08.392 INFO Successfully published attestation      type: aggregated, slot: 68, committee_index: 0, head_block: 0x147c34974b841d0e7bc5893ac96751526e4f6b5a5075cc95d581233ae1a0845a, signatures: 4, aggregator: 58, service: attestation
+Dec 06 21:04:08.392 INFO Successfully published attestation      type: aggregated, slot: 68, committee_index: 0, head_block: 0x147c34974b841d0e7bc5893ac96751526e4f6b5a5075cc95d581233ae1a0845a, signatures: 4, aggregator: 32, service: attestation
+Dec 06 21:04:08.396 INFO Successfully published sync contributions, slot: 68, num_signers: 84, beacon_block_root: 0x147c…845a, subnet: 1, service: sync_committee
+Dec 06 21:04:08.400 INFO Successfully published sync contributions, slot: 68, num_signers: 84, beacon_block_root: 0x147c…845a, subnet: 3, service: sync_committee
+Dec 06 21:04:08.405 INFO Successfully published sync contributions, slot: 68, num_signers: 84, beacon_block_root: 0x147c…845a, subnet: 2, service: sync_committee
+Dec 06 21:04:09.002 INFO Requesting unsigned block               slot: 69, service: block
+Dec 06 21:04:09.084 INFO Received unsigned block                 slot: 69, service: block
+Dec 06 21:04:09.093 INFO Publishing signed block                 signing_time_ms: 78, slot: 69, service: block
+Dec 06 21:04:09.185 INFO Successfully published block            slot: 69, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:04:10.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:04:10.001 INFO All validators active                   slot: 69, epoch: 2, total_validators: 64, active_validators: 64, current_epoch_proposers: 13, service: notifier
+Dec 06 21:04:10.195 INFO Successfully published sync committee messages, slot: 69, head_block: 0xfb934003324ee0edbf2443285d7cc3bb13d7562fb198fd4f621856e9db818eb4, count: 64, service: sync_committee
+Dec 06 21:04:10.200 INFO Successfully published attestations     type: unaggregated, slot: 69, committee_index: 0, head_block: 0xfb934003324ee0edbf2443285d7cc3bb13d7562fb198fd4f621856e9db818eb4, validator_indices: [39, 54, 35], count: 3, service: attestation
+Dec 06 21:04:10.348 INFO Successfully published attestation      type: aggregated, slot: 69, committee_index: 0, head_block: 0xfb934003324ee0edbf2443285d7cc3bb13d7562fb198fd4f621856e9db818eb4, signatures: 4, aggregator: 39, service: attestation
+Dec 06 21:04:10.348 INFO Successfully published attestation      type: aggregated, slot: 69, committee_index: 0, head_block: 0xfb934003324ee0edbf2443285d7cc3bb13d7562fb198fd4f621856e9db818eb4, signatures: 4, aggregator: 54, service: attestation
+Dec 06 21:04:10.348 INFO Successfully published attestation      type: aggregated, slot: 69, committee_index: 0, head_block: 0xfb934003324ee0edbf2443285d7cc3bb13d7562fb198fd4f621856e9db818eb4, signatures: 4, aggregator: 35, service: attestation
+Dec 06 21:04:10.353 INFO Successfully published sync contributions, slot: 69, num_signers: 85, beacon_block_root: 0xfb93…8eb4, subnet: 0, service: sync_committee
+Dec 06 21:04:10.385 INFO Successfully published sync contributions, slot: 69, num_signers: 85, beacon_block_root: 0xfb93…8eb4, subnet: 1, service: sync_committee
+Dec 06 21:04:10.388 INFO Successfully published sync contributions, slot: 69, num_signers: 85, beacon_block_root: 0xfb93…8eb4, subnet: 3, service: sync_committee
+Dec 06 21:04:10.392 INFO Successfully published sync contributions, slot: 69, num_signers: 85, beacon_block_root: 0xfb93…8eb4, subnet: 2, service: sync_committee
+Dec 06 21:04:11.002 INFO Requesting unsigned block               slot: 70, service: block
+Dec 06 21:04:11.085 INFO Received unsigned block                 slot: 70, service: block
+Dec 06 21:04:11.100 INFO Publishing signed block                 signing_time_ms: 15, slot: 70, service: block
+Dec 06 21:04:12.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:04:12.000 INFO All validators active                   slot: 70, epoch: 2, total_validators: 64, active_validators: 64, current_epoch_proposers: 13, service: notifier
+Dec 06 21:04:12.191 INFO Successfully published block            slot: 70, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Blinded, service: block
+Dec 06 21:04:12.733 INFO Successfully published sync committee messages, slot: 70, head_block: 0x460311d4e44c8926f07114b0ad5e69a1d39cd6dd65addb0ee8c2394954d0d865, count: 64, service: sync_committee
+Dec 06 21:04:12.787 INFO Successfully published sync contributions, slot: 70, num_signers: 75, beacon_block_root: 0x4603…d865, subnet: 2, service: sync_committee
+Dec 06 21:04:12.791 INFO Successfully published sync contributions, slot: 70, num_signers: 75, beacon_block_root: 0x4603…d865, subnet: 1, service: sync_committee
+Dec 06 21:04:12.795 INFO Successfully published sync contributions, slot: 70, num_signers: 75, beacon_block_root: 0x4603…d865, subnet: 3, service: sync_committee
+Dec 06 21:04:12.800 INFO Successfully published sync contributions, slot: 70, num_signers: 75, beacon_block_root: 0x4603…d865, subnet: 0, service: sync_committee
+Dec 06 21:04:14.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:04:14.001 INFO All validators active                   slot: 71, epoch: 2, total_validators: 64, active_validators: 64, current_epoch_proposers: 13, service: notifier
+Dec 06 21:04:14.107 INFO Successfully published sync committee messages, slot: 71, head_block: 0x43e0cf572f5d3a7e7f01e2d74be09b169094204cbed08df558a06fd81b5693b3, count: 64, service: sync_committee
+Dec 06 21:04:14.112 INFO Successfully published attestations     type: unaggregated, slot: 71, committee_index: 0, head_block: 0x43e0cf572f5d3a7e7f01e2d74be09b169094204cbed08df558a06fd81b5693b3, validator_indices: [31, 7, 45], count: 3, service: attestation
+Dec 06 21:04:14.344 INFO Successfully published attestation      type: aggregated, slot: 71, committee_index: 0, head_block: 0x43e0cf572f5d3a7e7f01e2d74be09b169094204cbed08df558a06fd81b5693b3, signatures: 3, aggregator: 31, service: attestation
+Dec 06 21:04:14.344 INFO Successfully published attestation      type: aggregated, slot: 71, committee_index: 0, head_block: 0x43e0cf572f5d3a7e7f01e2d74be09b169094204cbed08df558a06fd81b5693b3, signatures: 3, aggregator: 7, service: attestation
+Dec 06 21:04:14.344 INFO Successfully published attestation      type: aggregated, slot: 71, committee_index: 0, head_block: 0x43e0cf572f5d3a7e7f01e2d74be09b169094204cbed08df558a06fd81b5693b3, signatures: 3, aggregator: 45, service: attestation
+Dec 06 21:04:14.349 INFO Successfully published sync contributions, slot: 71, num_signers: 64, beacon_block_root: 0x43e0…93b3, subnet: 0, service: sync_committee
+Dec 06 21:04:14.353 INFO Successfully published sync contributions, slot: 71, num_signers: 64, beacon_block_root: 0x43e0…93b3, subnet: 1, service: sync_committee
+Dec 06 21:04:14.357 INFO Successfully published sync contributions, slot: 71, num_signers: 64, beacon_block_root: 0x43e0…93b3, subnet: 2, service: sync_committee
+Dec 06 21:04:14.385 INFO Successfully published sync contributions, slot: 71, num_signers: 64, beacon_block_root: 0x43e0…93b3, subnet: 3, service: sync_committee
+Dec 06 21:04:15.690 INFO Successfully published attestations     type: unaggregated, slot: 72, committee_index: 0, head_block: 0x7138021e8c5a590e27585e058e734561f6a70fdb4aa1c0a842fa0a0257323495, validator_indices: [62], count: 1, service: attestation
+Dec 06 21:04:16.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:04:16.002 INFO All validators active                   slot: 72, epoch: 2, total_validators: 64, active_validators: 64, current_epoch_proposers: 13, service: notifier
+Dec 06 21:04:16.201 INFO Successfully published sync committee messages, slot: 72, head_block: 0x7138021e8c5a590e27585e058e734561f6a70fdb4aa1c0a842fa0a0257323495, count: 64, service: sync_committee
+Dec 06 21:04:16.345 INFO Successfully published attestation      type: aggregated, slot: 72, committee_index: 0, head_block: 0x7138021e8c5a590e27585e058e734561f6a70fdb4aa1c0a842fa0a0257323495, signatures: 4, aggregator: 62, service: attestation
+Dec 06 21:04:16.349 INFO Successfully published sync contributions, slot: 72, num_signers: 82, beacon_block_root: 0x7138…3495, subnet: 1, service: sync_committee
+Dec 06 21:04:16.352 INFO Successfully published sync contributions, slot: 72, num_signers: 82, beacon_block_root: 0x7138…3495, subnet: 3, service: sync_committee
+Dec 06 21:04:16.355 INFO Successfully published sync contributions, slot: 72, num_signers: 82, beacon_block_root: 0x7138…3495, subnet: 0, service: sync_committee
+Dec 06 21:04:16.389 INFO Successfully published sync contributions, slot: 72, num_signers: 82, beacon_block_root: 0x7138…3495, subnet: 2, service: sync_committee
+Dec 06 21:04:17.709 INFO Successfully published attestations     type: unaggregated, slot: 73, committee_index: 0, head_block: 0x83db26c92dc32599b69be75de5b48253b304c4d9eb9c737bcaec29b4b66eff52, validator_indices: [13, 28], count: 2, service: attestation
+Dec 06 21:04:18.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:04:18.001 INFO All validators active                   slot: 73, epoch: 2, total_validators: 64, active_validators: 64, current_epoch_proposers: 13, service: notifier
+Dec 06 21:04:18.194 INFO Successfully published sync committee messages, slot: 73, head_block: 0x83db26c92dc32599b69be75de5b48253b304c4d9eb9c737bcaec29b4b66eff52, count: 64, service: sync_committee
+Dec 06 21:04:18.346 INFO Successfully published sync contributions, slot: 73, num_signers: 88, beacon_block_root: 0x83db…ff52, subnet: 0, service: sync_committee
+Dec 06 21:04:18.350 INFO Successfully published attestation      type: aggregated, slot: 73, committee_index: 0, head_block: 0x83db26c92dc32599b69be75de5b48253b304c4d9eb9c737bcaec29b4b66eff52, signatures: 4, aggregator: 13, service: attestation
+Dec 06 21:04:18.350 INFO Successfully published attestation      type: aggregated, slot: 73, committee_index: 0, head_block: 0x83db26c92dc32599b69be75de5b48253b304c4d9eb9c737bcaec29b4b66eff52, signatures: 4, aggregator: 28, service: attestation
+Dec 06 21:04:18.385 INFO Successfully published sync contributions, slot: 73, num_signers: 88, beacon_block_root: 0x83db…ff52, subnet: 2, service: sync_committee
+Dec 06 21:04:18.388 INFO Successfully published sync contributions, slot: 73, num_signers: 88, beacon_block_root: 0x83db…ff52, subnet: 3, service: sync_committee
+Dec 06 21:04:18.390 INFO Successfully published sync contributions, slot: 73, num_signers: 88, beacon_block_root: 0x83db…ff52, subnet: 1, service: sync_committee
+Dec 06 21:04:19.003 INFO Requesting unsigned block               slot: 74, service: block
+Dec 06 21:04:19.057 INFO Received unsigned block                 slot: 74, service: block
+Dec 06 21:04:19.093 INFO Publishing signed block                 signing_time_ms: 35, slot: 74, service: block
+Dec 06 21:04:20.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:04:20.000 INFO All validators active                   slot: 74, epoch: 2, total_validators: 64, active_validators: 64, current_epoch_proposers: 13, service: notifier
+Dec 06 21:04:20.253 INFO Successfully published block            slot: 74, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Blinded, service: block
+Dec 06 21:04:20.284 INFO Successfully published attestations     type: unaggregated, slot: 74, committee_index: 0, head_block: 0x2efe5e8a6c0f57cea165a5f6fc8d74155a5090c1f8593080d07eb20317e54c7e, validator_indices: [26, 56], count: 2, service: attestation
+Dec 06 21:04:20.705 INFO Successfully published sync committee messages, slot: 74, head_block: 0x2efe5e8a6c0f57cea165a5f6fc8d74155a5090c1f8593080d07eb20317e54c7e, count: 64, service: sync_committee
+Dec 06 21:04:20.716 INFO Successfully published sync contributions, slot: 74, num_signers: 68, beacon_block_root: 0x2efe…4c7e, subnet: 1, service: sync_committee
+Dec 06 21:04:20.721 INFO Successfully published sync contributions, slot: 74, num_signers: 68, beacon_block_root: 0x2efe…4c7e, subnet: 2, service: sync_committee
+Dec 06 21:04:20.721 INFO Successfully published attestation      type: aggregated, slot: 74, committee_index: 0, head_block: 0x2efe5e8a6c0f57cea165a5f6fc8d74155a5090c1f8593080d07eb20317e54c7e, signatures: 4, aggregator: 26, service: attestation
+Dec 06 21:04:20.721 INFO Successfully published attestation      type: aggregated, slot: 74, committee_index: 0, head_block: 0x2efe5e8a6c0f57cea165a5f6fc8d74155a5090c1f8593080d07eb20317e54c7e, signatures: 4, aggregator: 56, service: attestation
+Dec 06 21:04:20.726 INFO Successfully published sync contributions, slot: 74, num_signers: 68, beacon_block_root: 0x2efe…4c7e, subnet: 0, service: sync_committee
+Dec 06 21:04:20.730 INFO Successfully published sync contributions, slot: 74, num_signers: 68, beacon_block_root: 0x2efe…4c7e, subnet: 3, service: sync_committee
+Dec 06 21:04:21.003 INFO Requesting unsigned block               slot: 75, service: block
+Dec 06 21:04:21.024 INFO Received unsigned block                 slot: 75, service: block
+Dec 06 21:04:21.094 INFO Publishing signed block                 signing_time_ms: 69, slot: 75, service: block
+Dec 06 21:04:21.113 INFO Successfully published block            slot: 75, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:04:22.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:04:22.001 INFO All validators active                   slot: 75, epoch: 2, total_validators: 64, active_validators: 64, current_epoch_proposers: 13, service: notifier
+Dec 06 21:04:22.214 INFO Successfully published sync committee messages, slot: 75, head_block: 0x494a0a785244f57e017d98cae33bb55c6dfb4860dc533136f52b580d12de1235, count: 64, service: sync_committee
+Dec 06 21:04:22.218 INFO Successfully published attestations     type: unaggregated, slot: 75, committee_index: 0, head_block: 0x494a0a785244f57e017d98cae33bb55c6dfb4860dc533136f52b580d12de1235, validator_indices: [3, 27, 52], count: 3, service: attestation
+Dec 06 21:04:22.386 INFO Successfully published sync contributions, slot: 75, num_signers: 82, beacon_block_root: 0x494a…1235, subnet: 2, service: sync_committee
+Dec 06 21:04:22.390 INFO Successfully published attestation      type: aggregated, slot: 75, committee_index: 0, head_block: 0x494a0a785244f57e017d98cae33bb55c6dfb4860dc533136f52b580d12de1235, signatures: 4, aggregator: 3, service: attestation
+Dec 06 21:04:22.390 INFO Successfully published attestation      type: aggregated, slot: 75, committee_index: 0, head_block: 0x494a0a785244f57e017d98cae33bb55c6dfb4860dc533136f52b580d12de1235, signatures: 4, aggregator: 27, service: attestation
+Dec 06 21:04:22.390 INFO Successfully published attestation      type: aggregated, slot: 75, committee_index: 0, head_block: 0x494a0a785244f57e017d98cae33bb55c6dfb4860dc533136f52b580d12de1235, signatures: 4, aggregator: 52, service: attestation
+Dec 06 21:04:22.394 INFO Successfully published sync contributions, slot: 75, num_signers: 82, beacon_block_root: 0x494a…1235, subnet: 0, service: sync_committee
+Dec 06 21:04:22.398 INFO Successfully published sync contributions, slot: 75, num_signers: 82, beacon_block_root: 0x494a…1235, subnet: 1, service: sync_committee
+Dec 06 21:04:22.403 INFO Successfully published sync contributions, slot: 75, num_signers: 82, beacon_block_root: 0x494a…1235, subnet: 3, service: sync_committee
+Dec 06 21:04:23.003 INFO Requesting unsigned block               slot: 76, service: block
+Dec 06 21:04:23.085 INFO Received unsigned block                 slot: 76, service: block
+Dec 06 21:04:23.099 INFO Publishing signed block                 signing_time_ms: 13, slot: 76, service: block
+Dec 06 21:04:23.118 INFO Successfully published block            slot: 76, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:04:24.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:04:24.001 INFO All validators active                   slot: 76, epoch: 2, total_validators: 64, active_validators: 64, current_epoch_proposers: 13, service: notifier
+Dec 06 21:04:24.129 INFO Successfully published sync committee messages, slot: 76, head_block: 0x33fd1f47797ee3915f1798c332bd130e4c741749e6a75f63d6cd4187f5ca132b, count: 64, service: sync_committee
+Dec 06 21:04:24.347 INFO Successfully published sync contributions, slot: 76, num_signers: 89, beacon_block_root: 0x33fd…132b, subnet: 3, service: sync_committee
+Dec 06 21:04:24.351 INFO Successfully published sync contributions, slot: 76, num_signers: 89, beacon_block_root: 0x33fd…132b, subnet: 2, service: sync_committee
+Dec 06 21:04:24.388 INFO Successfully published sync contributions, slot: 76, num_signers: 89, beacon_block_root: 0x33fd…132b, subnet: 1, service: sync_committee
+Dec 06 21:04:24.392 INFO Successfully published sync contributions, slot: 76, num_signers: 89, beacon_block_root: 0x33fd…132b, subnet: 0, service: sync_committee
+Dec 06 21:04:26.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:04:26.000 INFO All validators active                   slot: 77, epoch: 2, total_validators: 64, active_validators: 64, current_epoch_proposers: 13, service: notifier
+Dec 06 21:04:26.227 INFO Successfully published sync committee messages, slot: 77, head_block: 0x1d15cd053cc4b2689b6c8b8f400f57e17497fde79706fb67f63a22ccc6d25b13, count: 64, service: sync_committee
+Dec 06 21:04:26.230 INFO Successfully published attestations     type: unaggregated, slot: 77, committee_index: 0, head_block: 0x1d15cd053cc4b2689b6c8b8f400f57e17497fde79706fb67f63a22ccc6d25b13, validator_indices: [8, 57, 60], count: 3, service: attestation
+Dec 06 21:04:26.346 INFO Successfully published attestation      type: aggregated, slot: 77, committee_index: 0, head_block: 0x1d15cd053cc4b2689b6c8b8f400f57e17497fde79706fb67f63a22ccc6d25b13, signatures: 4, aggregator: 8, service: attestation
+Dec 06 21:04:26.346 INFO Successfully published attestation      type: aggregated, slot: 77, committee_index: 0, head_block: 0x1d15cd053cc4b2689b6c8b8f400f57e17497fde79706fb67f63a22ccc6d25b13, signatures: 4, aggregator: 57, service: attestation
+Dec 06 21:04:26.346 INFO Successfully published attestation      type: aggregated, slot: 77, committee_index: 0, head_block: 0x1d15cd053cc4b2689b6c8b8f400f57e17497fde79706fb67f63a22ccc6d25b13, signatures: 4, aggregator: 60, service: attestation
+Dec 06 21:04:26.350 INFO Successfully published sync contributions, slot: 77, num_signers: 82, beacon_block_root: 0x1d15…5b13, subnet: 0, service: sync_committee
+Dec 06 21:04:26.386 INFO Successfully published sync contributions, slot: 77, num_signers: 82, beacon_block_root: 0x1d15…5b13, subnet: 1, service: sync_committee
+Dec 06 21:04:26.391 INFO Successfully published sync contributions, slot: 77, num_signers: 82, beacon_block_root: 0x1d15…5b13, subnet: 2, service: sync_committee
+Dec 06 21:04:26.396 INFO Successfully published sync contributions, slot: 77, num_signers: 82, beacon_block_root: 0x1d15…5b13, subnet: 3, service: sync_committee
+Dec 06 21:04:28.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:04:28.001 INFO All validators active                   slot: 78, epoch: 2, total_validators: 64, active_validators: 64, current_epoch_proposers: 13, service: notifier
+Dec 06 21:04:28.194 INFO Successfully published sync committee messages, slot: 78, head_block: 0x97a035654285350635f0721431935f2b4c97be50f86982f02874cf868d2033c9, count: 64, service: sync_committee
+Dec 06 21:04:28.197 INFO Successfully published attestations     type: unaggregated, slot: 78, committee_index: 0, head_block: 0x97a035654285350635f0721431935f2b4c97be50f86982f02874cf868d2033c9, validator_indices: [25, 29], count: 2, service: attestation
+Dec 06 21:04:28.345 INFO Successfully published sync contributions, slot: 78, num_signers: 82, beacon_block_root: 0x97a0…33c9, subnet: 1, service: sync_committee
+Dec 06 21:04:28.386 INFO Successfully published sync contributions, slot: 78, num_signers: 82, beacon_block_root: 0x97a0…33c9, subnet: 2, service: sync_committee
+Dec 06 21:04:28.391 INFO Successfully published attestation      type: aggregated, slot: 78, committee_index: 0, head_block: 0x97a035654285350635f0721431935f2b4c97be50f86982f02874cf868d2033c9, signatures: 4, aggregator: 25, service: attestation
+Dec 06 21:04:28.391 INFO Successfully published attestation      type: aggregated, slot: 78, committee_index: 0, head_block: 0x97a035654285350635f0721431935f2b4c97be50f86982f02874cf868d2033c9, signatures: 4, aggregator: 29, service: attestation
+Dec 06 21:04:28.395 INFO Successfully published sync contributions, slot: 78, num_signers: 82, beacon_block_root: 0x97a0…33c9, subnet: 0, service: sync_committee
+Dec 06 21:04:28.400 INFO Successfully published sync contributions, slot: 78, num_signers: 82, beacon_block_root: 0x97a0…33c9, subnet: 3, service: sync_committee
+Dec 06 21:04:29.002 INFO Requesting unsigned block               slot: 79, service: block
+Dec 06 21:04:29.084 INFO Received unsigned block                 slot: 79, service: block
+Dec 06 21:04:29.093 INFO Publishing signed block                 signing_time_ms: 26, slot: 79, service: block
+Dec 06 21:04:30.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:04:30.000 INFO All validators active                   slot: 79, epoch: 2, total_validators: 64, active_validators: 64, current_epoch_proposers: 13, service: notifier
+Dec 06 21:04:30.230 INFO Successfully published block            slot: 79, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Blinded, service: block
+Dec 06 21:04:30.292 INFO Successfully published attestations     type: unaggregated, slot: 79, committee_index: 0, head_block: 0xe468f90644267e078401b60dbd8c6d3649eba87fa818d9c9982fe97e73c7c138, validator_indices: [19, 22, 12], count: 3, service: attestation
+Dec 06 21:04:30.797 INFO Successfully published sync committee messages, slot: 79, head_block: 0xe468f90644267e078401b60dbd8c6d3649eba87fa818d9c9982fe97e73c7c138, count: 64, service: sync_committee
+Dec 06 21:04:30.803 INFO Successfully published attestation      type: aggregated, slot: 79, committee_index: 0, head_block: 0xe468f90644267e078401b60dbd8c6d3649eba87fa818d9c9982fe97e73c7c138, signatures: 4, aggregator: 19, service: attestation
+Dec 06 21:04:30.803 INFO Successfully published attestation      type: aggregated, slot: 79, committee_index: 0, head_block: 0xe468f90644267e078401b60dbd8c6d3649eba87fa818d9c9982fe97e73c7c138, signatures: 4, aggregator: 22, service: attestation
+Dec 06 21:04:30.803 INFO Successfully published attestation      type: aggregated, slot: 79, committee_index: 0, head_block: 0xe468f90644267e078401b60dbd8c6d3649eba87fa818d9c9982fe97e73c7c138, signatures: 4, aggregator: 12, service: attestation
+Dec 06 21:04:30.808 INFO Successfully published sync contributions, slot: 79, num_signers: 74, beacon_block_root: 0xe468…c138, subnet: 3, service: sync_committee
+Dec 06 21:04:30.813 INFO Successfully published sync contributions, slot: 79, num_signers: 74, beacon_block_root: 0xe468…c138, subnet: 2, service: sync_committee
+Dec 06 21:04:30.818 INFO Successfully published sync contributions, slot: 79, num_signers: 74, beacon_block_root: 0xe468…c138, subnet: 1, service: sync_committee
+Dec 06 21:04:30.823 INFO Successfully published sync contributions, slot: 79, num_signers: 74, beacon_block_root: 0xe468…c138, subnet: 0, service: sync_committee
+Dec 06 21:04:31.003 INFO Requesting unsigned block               slot: 80, service: block
+Dec 06 21:04:31.012 INFO Received unsigned block                 slot: 80, service: block
+Dec 06 21:04:31.097 INFO Publishing signed block                 signing_time_ms: 12, slot: 80, service: block
+Dec 06 21:04:31.185 INFO Successfully published block            slot: 80, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:04:32.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:04:32.001 INFO All validators active                   slot: 80, epoch: 2, total_validators: 64, active_validators: 64, current_epoch_proposers: 13, service: notifier
+Dec 06 21:04:32.192 INFO Successfully published sync committee messages, slot: 80, head_block: 0x49a1f3784d5353c608bd7dbb2a714de02abec00d48e1a75b6ea2019ecc7bedb4, count: 64, service: sync_committee
+Dec 06 21:04:32.346 INFO Successfully published sync contributions, slot: 80, num_signers: 85, beacon_block_root: 0x49a1…edb4, subnet: 2, service: sync_committee
+Dec 06 21:04:32.350 INFO Successfully published sync contributions, slot: 80, num_signers: 85, beacon_block_root: 0x49a1…edb4, subnet: 3, service: sync_committee
+Dec 06 21:04:32.387 INFO Successfully published sync contributions, slot: 80, num_signers: 85, beacon_block_root: 0x49a1…edb4, subnet: 1, service: sync_committee
+Dec 06 21:04:32.392 INFO Successfully published sync contributions, slot: 80, num_signers: 85, beacon_block_root: 0x49a1…edb4, subnet: 0, service: sync_committee
+Dec 06 21:04:33.717 INFO Successfully published attestations     type: unaggregated, slot: 81, committee_index: 0, head_block: 0xb98b8c18c605534bac506c77b562e1ed467d1a1996657f398a521a126b6654ae, validator_indices: [50, 30, 46], count: 3, service: attestation
+Dec 06 21:04:34.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:04:34.000 INFO All validators active                   slot: 81, epoch: 2, total_validators: 64, active_validators: 64, current_epoch_proposers: 13, service: notifier
+Dec 06 21:04:34.220 INFO Successfully published sync committee messages, slot: 81, head_block: 0xb98b8c18c605534bac506c77b562e1ed467d1a1996657f398a521a126b6654ae, count: 64, service: sync_committee
+Dec 06 21:04:34.347 INFO Successfully published sync contributions, slot: 81, num_signers: 81, beacon_block_root: 0xb98b…54ae, subnet: 2, service: sync_committee
+Dec 06 21:04:34.352 INFO Successfully published attestation      type: aggregated, slot: 81, committee_index: 0, head_block: 0xb98b8c18c605534bac506c77b562e1ed467d1a1996657f398a521a126b6654ae, signatures: 4, aggregator: 50, service: attestation
+Dec 06 21:04:34.352 INFO Successfully published attestation      type: aggregated, slot: 81, committee_index: 0, head_block: 0xb98b8c18c605534bac506c77b562e1ed467d1a1996657f398a521a126b6654ae, signatures: 4, aggregator: 30, service: attestation
+Dec 06 21:04:34.352 INFO Successfully published attestation      type: aggregated, slot: 81, committee_index: 0, head_block: 0xb98b8c18c605534bac506c77b562e1ed467d1a1996657f398a521a126b6654ae, signatures: 4, aggregator: 46, service: attestation
+Dec 06 21:04:34.385 INFO Successfully published sync contributions, slot: 81, num_signers: 81, beacon_block_root: 0xb98b…54ae, subnet: 3, service: sync_committee
+Dec 06 21:04:34.389 INFO Successfully published sync contributions, slot: 81, num_signers: 81, beacon_block_root: 0xb98b…54ae, subnet: 0, service: sync_committee
+Dec 06 21:04:34.394 INFO Successfully published sync contributions, slot: 81, num_signers: 81, beacon_block_root: 0xb98b…54ae, subnet: 1, service: sync_committee
+Dec 06 21:04:36.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:04:36.001 INFO All validators active                   slot: 82, epoch: 2, total_validators: 64, active_validators: 64, current_epoch_proposers: 13, service: notifier
+Dec 06 21:04:36.134 INFO Successfully published sync committee messages, slot: 82, head_block: 0xdedb37d8f56f31d86c7b1e9744ca6d712d235ccfb11aaaada7133fea806668f5, count: 64, service: sync_committee
+Dec 06 21:04:36.136 INFO Successfully published attestations     type: unaggregated, slot: 82, committee_index: 0, head_block: 0xdedb37d8f56f31d86c7b1e9744ca6d712d235ccfb11aaaada7133fea806668f5, validator_indices: [5, 1], count: 2, service: attestation
+Dec 06 21:04:36.351 INFO Successfully published sync contributions, slot: 82, num_signers: 74, beacon_block_root: 0xdedb…68f5, subnet: 0, service: sync_committee
+Dec 06 21:04:36.356 INFO Successfully published sync contributions, slot: 82, num_signers: 74, beacon_block_root: 0xdedb…68f5, subnet: 2, service: sync_committee
+Dec 06 21:04:36.360 INFO Successfully published attestation      type: aggregated, slot: 82, committee_index: 0, head_block: 0xdedb37d8f56f31d86c7b1e9744ca6d712d235ccfb11aaaada7133fea806668f5, signatures: 4, aggregator: 5, service: attestation
+Dec 06 21:04:36.360 INFO Successfully published attestation      type: aggregated, slot: 82, committee_index: 0, head_block: 0xdedb37d8f56f31d86c7b1e9744ca6d712d235ccfb11aaaada7133fea806668f5, signatures: 4, aggregator: 1, service: attestation
+Dec 06 21:04:36.388 INFO Successfully published sync contributions, slot: 82, num_signers: 74, beacon_block_root: 0xdedb…68f5, subnet: 1, service: sync_committee
+Dec 06 21:04:36.392 INFO Successfully published sync contributions, slot: 82, num_signers: 74, beacon_block_root: 0xdedb…68f5, subnet: 3, service: sync_committee
+Dec 06 21:04:38.004 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:04:38.004 INFO All validators active                   slot: 83, epoch: 2, total_validators: 64, active_validators: 64, current_epoch_proposers: 13, service: notifier
+Dec 06 21:04:38.226 INFO Successfully published sync committee messages, slot: 83, head_block: 0xaf55ab0597dbc7494e44f037156b33a309cd85d1bd9505194cb4da523c266028, count: 64, service: sync_committee
+Dec 06 21:04:38.230 INFO Successfully published attestations     type: unaggregated, slot: 83, committee_index: 0, head_block: 0xaf55ab0597dbc7494e44f037156b33a309cd85d1bd9505194cb4da523c266028, validator_indices: [41, 23], count: 2, service: attestation
+Dec 06 21:04:38.348 INFO Successfully published attestation      type: aggregated, slot: 83, committee_index: 0, head_block: 0xaf55ab0597dbc7494e44f037156b33a309cd85d1bd9505194cb4da523c266028, signatures: 4, aggregator: 41, service: attestation
+Dec 06 21:04:38.348 INFO Successfully published attestation      type: aggregated, slot: 83, committee_index: 0, head_block: 0xaf55ab0597dbc7494e44f037156b33a309cd85d1bd9505194cb4da523c266028, signatures: 4, aggregator: 23, service: attestation
+Dec 06 21:04:38.352 INFO Successfully published sync contributions, slot: 83, num_signers: 74, beacon_block_root: 0xaf55…6028, subnet: 1, service: sync_committee
+Dec 06 21:04:38.356 INFO Successfully published sync contributions, slot: 83, num_signers: 74, beacon_block_root: 0xaf55…6028, subnet: 0, service: sync_committee
+Dec 06 21:04:38.389 INFO Successfully published sync contributions, slot: 83, num_signers: 74, beacon_block_root: 0xaf55…6028, subnet: 3, service: sync_committee
+Dec 06 21:04:38.394 INFO Successfully published sync contributions, slot: 83, num_signers: 74, beacon_block_root: 0xaf55…6028, subnet: 2, service: sync_committee
+Dec 06 21:04:40.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:04:40.000 INFO All validators active                   slot: 84, epoch: 2, total_validators: 64, active_validators: 64, current_epoch_proposers: 13, service: notifier
+Dec 06 21:04:40.104 INFO Successfully published sync committee messages, slot: 84, head_block: 0x4efca249408132490b58534bc09018099e47e69d2420bd75d85fd9ae313019b6, count: 64, service: sync_committee
+Dec 06 21:04:40.109 INFO Successfully published attestations     type: unaggregated, slot: 84, committee_index: 0, head_block: 0x4efca249408132490b58534bc09018099e47e69d2420bd75d85fd9ae313019b6, validator_indices: [9, 51, 10], count: 3, service: attestation
+Dec 06 21:04:40.344 INFO Successfully published sync contributions, slot: 84, num_signers: 72, beacon_block_root: 0x4efc…19b6, subnet: 3, service: sync_committee
+Dec 06 21:04:40.347 INFO Successfully published sync contributions, slot: 84, num_signers: 72, beacon_block_root: 0x4efc…19b6, subnet: 1, service: sync_committee
+Dec 06 21:04:40.349 INFO Successfully published attestation      type: aggregated, slot: 84, committee_index: 0, head_block: 0x4efca249408132490b58534bc09018099e47e69d2420bd75d85fd9ae313019b6, signatures: 4, aggregator: 9, service: attestation
+Dec 06 21:04:40.349 INFO Successfully published attestation      type: aggregated, slot: 84, committee_index: 0, head_block: 0x4efca249408132490b58534bc09018099e47e69d2420bd75d85fd9ae313019b6, signatures: 4, aggregator: 51, service: attestation
+Dec 06 21:04:40.349 INFO Successfully published attestation      type: aggregated, slot: 84, committee_index: 0, head_block: 0x4efca249408132490b58534bc09018099e47e69d2420bd75d85fd9ae313019b6, signatures: 4, aggregator: 10, service: attestation
+Dec 06 21:04:40.352 INFO Successfully published sync contributions, slot: 84, num_signers: 72, beacon_block_root: 0x4efc…19b6, subnet: 0, service: sync_committee
+Dec 06 21:04:40.356 INFO Successfully published sync contributions, slot: 84, num_signers: 72, beacon_block_root: 0x4efc…19b6, subnet: 2, service: sync_committee
+Dec 06 21:04:42.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:04:42.000 INFO All validators active                   slot: 85, epoch: 2, total_validators: 64, active_validators: 64, current_epoch_proposers: 13, service: notifier
+Dec 06 21:04:42.212 INFO Successfully published sync committee messages, slot: 85, head_block: 0x24cbfb61a5f154e12ec2372f760088856e27a7d00168cf4c789e15ae7ddf2e42, count: 64, service: sync_committee
+Dec 06 21:04:42.344 INFO Successfully published sync contributions, slot: 85, num_signers: 81, beacon_block_root: 0x24cb…2e42, subnet: 0, service: sync_committee
+Dec 06 21:04:42.348 INFO Successfully published sync contributions, slot: 85, num_signers: 81, beacon_block_root: 0x24cb…2e42, subnet: 3, service: sync_committee
+Dec 06 21:04:42.352 INFO Successfully published sync contributions, slot: 85, num_signers: 81, beacon_block_root: 0x24cb…2e42, subnet: 2, service: sync_committee
+Dec 06 21:04:42.356 INFO Successfully published sync contributions, slot: 85, num_signers: 81, beacon_block_root: 0x24cb…2e42, subnet: 1, service: sync_committee
+Dec 06 21:04:43.001 INFO Requesting unsigned block               slot: 86, service: block
+Dec 06 21:04:43.008 INFO Received unsigned block                 slot: 86, service: block
+Dec 06 21:04:43.015 INFO Publishing signed block                 signing_time_ms: 7, slot: 86, service: block
+Dec 06 21:04:43.026 INFO Successfully published block            slot: 86, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:04:43.788 INFO Successfully published attestations     type: unaggregated, slot: 86, committee_index: 0, head_block: 0x5bfb7859e5b09e8afa7b0be2b865f74370b787c8f750788696dbd5363fa1d702, validator_indices: [42], count: 1, service: attestation
+Dec 06 21:04:44.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:04:44.000 INFO All validators active                   slot: 86, epoch: 2, total_validators: 64, active_validators: 64, current_epoch_proposers: 13, service: notifier
+Dec 06 21:04:44.220 INFO Successfully published sync committee messages, slot: 86, head_block: 0x5bfb7859e5b09e8afa7b0be2b865f74370b787c8f750788696dbd5363fa1d702, count: 64, service: sync_committee
+Dec 06 21:04:44.345 INFO Successfully published attestation      type: aggregated, slot: 86, committee_index: 0, head_block: 0x5bfb7859e5b09e8afa7b0be2b865f74370b787c8f750788696dbd5363fa1d702, signatures: 4, aggregator: 42, service: attestation
+Dec 06 21:04:44.348 INFO Successfully published sync contributions, slot: 86, num_signers: 80, beacon_block_root: 0x5bfb…d702, subnet: 3, service: sync_committee
+Dec 06 21:04:44.352 INFO Successfully published sync contributions, slot: 86, num_signers: 80, beacon_block_root: 0x5bfb…d702, subnet: 1, service: sync_committee
+Dec 06 21:04:44.356 INFO Successfully published sync contributions, slot: 86, num_signers: 80, beacon_block_root: 0x5bfb…d702, subnet: 0, service: sync_committee
+Dec 06 21:04:44.360 INFO Successfully published sync contributions, slot: 86, num_signers: 80, beacon_block_root: 0x5bfb…d702, subnet: 2, service: sync_committee
+Dec 06 21:04:45.001 INFO Requesting unsigned block               slot: 87, service: block
+Dec 06 21:04:45.031 INFO Received unsigned block                 slot: 87, service: block
+Dec 06 21:04:45.093 INFO Publishing signed block                 signing_time_ms: 61, slot: 87, service: block
+Dec 06 21:04:46.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:04:46.001 INFO All validators active                   slot: 87, epoch: 2, total_validators: 64, active_validators: 64, current_epoch_proposers: 13, service: notifier
+Dec 06 21:04:46.157 INFO Successfully published block            slot: 87, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Blinded, service: block
+Dec 06 21:04:46.191 INFO Successfully published attestations     type: unaggregated, slot: 87, committee_index: 0, head_block: 0xc972298ddf1ae0d55b1052270f6a7ceb19f3291c2c8935133f588afb6ca395a5, validator_indices: [55, 48, 49, 2], count: 4, service: attestation
+Dec 06 21:04:46.602 INFO Successfully published sync committee messages, slot: 87, head_block: 0xc972298ddf1ae0d55b1052270f6a7ceb19f3291c2c8935133f588afb6ca395a5, count: 64, service: sync_committee
+Dec 06 21:04:46.684 INFO Successfully published sync contributions, slot: 87, num_signers: 70, beacon_block_root: 0xc972…95a5, subnet: 3, service: sync_committee
+Dec 06 21:04:46.684 INFO Successfully published sync contributions, slot: 87, num_signers: 70, beacon_block_root: 0xc972…95a5, subnet: 1, service: sync_committee
+Dec 06 21:04:46.684 INFO Successfully published sync contributions, slot: 87, num_signers: 70, beacon_block_root: 0xc972…95a5, subnet: 0, service: sync_committee
+Dec 06 21:04:46.684 INFO Successfully published attestation      type: aggregated, slot: 87, committee_index: 0, head_block: 0xc972298ddf1ae0d55b1052270f6a7ceb19f3291c2c8935133f588afb6ca395a5, signatures: 4, aggregator: 55, service: attestation
+Dec 06 21:04:46.684 INFO Successfully published attestation      type: aggregated, slot: 87, committee_index: 0, head_block: 0xc972298ddf1ae0d55b1052270f6a7ceb19f3291c2c8935133f588afb6ca395a5, signatures: 4, aggregator: 48, service: attestation
+Dec 06 21:04:46.684 INFO Successfully published attestation      type: aggregated, slot: 87, committee_index: 0, head_block: 0xc972298ddf1ae0d55b1052270f6a7ceb19f3291c2c8935133f588afb6ca395a5, signatures: 4, aggregator: 49, service: attestation
+Dec 06 21:04:46.684 INFO Successfully published attestation      type: aggregated, slot: 87, committee_index: 0, head_block: 0xc972298ddf1ae0d55b1052270f6a7ceb19f3291c2c8935133f588afb6ca395a5, signatures: 4, aggregator: 2, service: attestation
+Dec 06 21:04:46.684 INFO Successfully published sync contributions, slot: 87, num_signers: 70, beacon_block_root: 0xc972…95a5, subnet: 2, service: sync_committee
+Dec 06 21:04:48.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:04:48.000 INFO All validators active                   slot: 88, epoch: 2, total_validators: 64, active_validators: 64, current_epoch_proposers: 13, service: notifier
+Dec 06 21:04:48.144 INFO Successfully published sync committee messages, slot: 88, head_block: 0x913ea32cefd164877ee3978a8099cfc1e06f3a49e1177f2736986761cdf8fb1e, count: 64, service: sync_committee
+Dec 06 21:04:48.187 INFO Successfully published attestations     type: unaggregated, slot: 88, committee_index: 0, head_block: 0x913ea32cefd164877ee3978a8099cfc1e06f3a49e1177f2736986761cdf8fb1e, validator_indices: [11, 53], count: 2, service: attestation
+Dec 06 21:04:48.392 INFO Successfully published sync contributions, slot: 88, num_signers: 86, beacon_block_root: 0x913e…fb1e, subnet: 2, service: sync_committee
+Dec 06 21:04:48.396 INFO Successfully published sync contributions, slot: 88, num_signers: 86, beacon_block_root: 0x913e…fb1e, subnet: 0, service: sync_committee
+Dec 06 21:04:48.399 INFO Successfully published sync contributions, slot: 88, num_signers: 86, beacon_block_root: 0x913e…fb1e, subnet: 3, service: sync_committee
+Dec 06 21:04:48.403 INFO Successfully published sync contributions, slot: 88, num_signers: 86, beacon_block_root: 0x913e…fb1e, subnet: 1, service: sync_committee
+Dec 06 21:04:48.406 INFO Successfully published attestation      type: aggregated, slot: 88, committee_index: 0, head_block: 0x913ea32cefd164877ee3978a8099cfc1e06f3a49e1177f2736986761cdf8fb1e, signatures: 4, aggregator: 11, service: attestation
+Dec 06 21:04:48.406 INFO Successfully published attestation      type: aggregated, slot: 88, committee_index: 0, head_block: 0x913ea32cefd164877ee3978a8099cfc1e06f3a49e1177f2736986761cdf8fb1e, signatures: 4, aggregator: 53, service: attestation
+Dec 06 21:04:50.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:04:50.000 INFO All validators active                   slot: 89, epoch: 2, total_validators: 64, active_validators: 64, current_epoch_proposers: 13, service: notifier
+Dec 06 21:04:50.243 INFO Successfully published sync committee messages, slot: 89, head_block: 0x1c1a04641f1082d1902a80ea5f818d5bba4a0e3584bbceafe2b8e3fedaaf91e7, count: 64, service: sync_committee
+Dec 06 21:04:50.246 INFO Successfully published attestations     type: unaggregated, slot: 89, committee_index: 0, head_block: 0x1c1a04641f1082d1902a80ea5f818d5bba4a0e3584bbceafe2b8e3fedaaf91e7, validator_indices: [63, 6, 47], count: 3, service: attestation
+Dec 06 21:04:50.391 INFO Successfully published sync contributions, slot: 89, num_signers: 95, beacon_block_root: 0x1c1a…91e7, subnet: 2, service: sync_committee
+Dec 06 21:04:50.395 INFO Successfully published attestation      type: aggregated, slot: 89, committee_index: 0, head_block: 0x1c1a04641f1082d1902a80ea5f818d5bba4a0e3584bbceafe2b8e3fedaaf91e7, signatures: 4, aggregator: 63, service: attestation
+Dec 06 21:04:50.395 INFO Successfully published attestation      type: aggregated, slot: 89, committee_index: 0, head_block: 0x1c1a04641f1082d1902a80ea5f818d5bba4a0e3584bbceafe2b8e3fedaaf91e7, signatures: 4, aggregator: 6, service: attestation
+Dec 06 21:04:50.395 INFO Successfully published attestation      type: aggregated, slot: 89, committee_index: 0, head_block: 0x1c1a04641f1082d1902a80ea5f818d5bba4a0e3584bbceafe2b8e3fedaaf91e7, signatures: 4, aggregator: 47, service: attestation
+Dec 06 21:04:50.398 INFO Successfully published sync contributions, slot: 89, num_signers: 95, beacon_block_root: 0x1c1a…91e7, subnet: 1, service: sync_committee
+Dec 06 21:04:50.402 INFO Successfully published sync contributions, slot: 89, num_signers: 95, beacon_block_root: 0x1c1a…91e7, subnet: 0, service: sync_committee
+Dec 06 21:04:50.406 INFO Successfully published sync contributions, slot: 89, num_signers: 95, beacon_block_root: 0x1c1a…91e7, subnet: 3, service: sync_committee
+Dec 06 21:04:51.792 INFO Successfully published attestations     type: unaggregated, slot: 90, committee_index: 0, head_block: 0xddc9647ebd641f7a2938740c71471ae80f744f5fd12aa942a3f7c3de2573e873, validator_indices: [15, 21, 38, 0], count: 4, service: attestation
+Dec 06 21:04:52.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:04:52.000 INFO All validators active                   slot: 90, epoch: 2, total_validators: 64, active_validators: 64, current_epoch_proposers: 13, service: notifier
+Dec 06 21:04:52.241 INFO Successfully published sync committee messages, slot: 90, head_block: 0xddc9647ebd641f7a2938740c71471ae80f744f5fd12aa942a3f7c3de2573e873, count: 64, service: sync_committee
+Dec 06 21:04:52.384 INFO Successfully published attestation      type: aggregated, slot: 90, committee_index: 0, head_block: 0xddc9647ebd641f7a2938740c71471ae80f744f5fd12aa942a3f7c3de2573e873, signatures: 4, aggregator: 15, service: attestation
+Dec 06 21:04:52.384 INFO Successfully published attestation      type: aggregated, slot: 90, committee_index: 0, head_block: 0xddc9647ebd641f7a2938740c71471ae80f744f5fd12aa942a3f7c3de2573e873, signatures: 4, aggregator: 21, service: attestation
+Dec 06 21:04:52.384 INFO Successfully published attestation      type: aggregated, slot: 90, committee_index: 0, head_block: 0xddc9647ebd641f7a2938740c71471ae80f744f5fd12aa942a3f7c3de2573e873, signatures: 4, aggregator: 38, service: attestation
+Dec 06 21:04:52.384 INFO Successfully published attestation      type: aggregated, slot: 90, committee_index: 0, head_block: 0xddc9647ebd641f7a2938740c71471ae80f744f5fd12aa942a3f7c3de2573e873, signatures: 4, aggregator: 0, service: attestation
+Dec 06 21:04:52.392 INFO Successfully published sync contributions, slot: 90, num_signers: 79, beacon_block_root: 0xddc9…e873, subnet: 2, service: sync_committee
+Dec 06 21:04:52.396 INFO Successfully published sync contributions, slot: 90, num_signers: 79, beacon_block_root: 0xddc9…e873, subnet: 3, service: sync_committee
+Dec 06 21:04:52.399 INFO Successfully published sync contributions, slot: 90, num_signers: 79, beacon_block_root: 0xddc9…e873, subnet: 1, service: sync_committee
+Dec 06 21:04:52.403 INFO Successfully published sync contributions, slot: 90, num_signers: 79, beacon_block_root: 0xddc9…e873, subnet: 0, service: sync_committee
+Dec 06 21:04:54.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:04:54.001 INFO All validators active                   slot: 91, epoch: 2, total_validators: 64, active_validators: 64, current_epoch_proposers: 13, service: notifier
+Dec 06 21:04:54.110 INFO Successfully published sync committee messages, slot: 91, head_block: 0xe6f6a0512c17b217e7235bd3f171e759b61077a06098034c22e3253c86cac27b, count: 64, service: sync_committee
+Dec 06 21:04:54.346 INFO Successfully published sync contributions, slot: 91, num_signers: 95, beacon_block_root: 0xe6f6…c27b, subnet: 0, service: sync_committee
+Dec 06 21:04:54.384 INFO Successfully published sync contributions, slot: 91, num_signers: 95, beacon_block_root: 0xe6f6…c27b, subnet: 3, service: sync_committee
+Dec 06 21:04:54.387 INFO Successfully published sync contributions, slot: 91, num_signers: 95, beacon_block_root: 0xe6f6…c27b, subnet: 1, service: sync_committee
+Dec 06 21:04:54.391 INFO Successfully published sync contributions, slot: 91, num_signers: 95, beacon_block_root: 0xe6f6…c27b, subnet: 2, service: sync_committee
+Dec 06 21:04:55.002 INFO Requesting unsigned block               slot: 92, service: block
+Dec 06 21:04:55.011 INFO Received unsigned block                 slot: 92, service: block
+Dec 06 21:04:55.091 INFO Publishing signed block                 signing_time_ms: 80, slot: 92, service: block
+Dec 06 21:04:55.184 INFO Successfully published block            slot: 92, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:04:56.001 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:04:56.001 INFO All validators active                   slot: 92, epoch: 2, total_validators: 64, active_validators: 64, current_epoch_proposers: 13, service: notifier
+Dec 06 21:04:56.106 INFO Successfully published sync committee messages, slot: 92, head_block: 0xd03892b97d12f28274f257c15f1d45b7d626f94be4e5358c23ec14c2dbbbd872, count: 64, service: sync_committee
+Dec 06 21:04:56.108 INFO Successfully published attestations     type: unaggregated, slot: 92, committee_index: 0, head_block: 0xd03892b97d12f28274f257c15f1d45b7d626f94be4e5358c23ec14c2dbbbd872, validator_indices: [44], count: 1, service: attestation
+Dec 06 21:04:56.384 INFO Successfully published sync contributions, slot: 92, num_signers: 96, beacon_block_root: 0xd038…d872, subnet: 0, service: sync_committee
+Dec 06 21:04:56.385 INFO Successfully published attestation      type: aggregated, slot: 92, committee_index: 0, head_block: 0xd03892b97d12f28274f257c15f1d45b7d626f94be4e5358c23ec14c2dbbbd872, signatures: 4, aggregator: 44, service: attestation
+Dec 06 21:04:56.386 INFO Successfully published sync contributions, slot: 92, num_signers: 96, beacon_block_root: 0xd038…d872, subnet: 2, service: sync_committee
+Dec 06 21:04:56.386 INFO Successfully published sync contributions, slot: 92, num_signers: 96, beacon_block_root: 0xd038…d872, subnet: 1, service: sync_committee
+Dec 06 21:04:56.392 INFO Successfully published sync contributions, slot: 92, num_signers: 96, beacon_block_root: 0xd038…d872, subnet: 3, service: sync_committee
+Dec 06 21:04:58.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:04:58.000 INFO All validators active                   slot: 93, epoch: 2, total_validators: 64, active_validators: 64, current_epoch_proposers: 13, service: notifier
+Dec 06 21:04:58.113 INFO Successfully published sync committee messages, slot: 93, head_block: 0x6cf83c469c5a9a2ced6f5148237035c6bd70157dd48c4d4d8d650f4cf3a899ad, count: 64, service: sync_committee
+Dec 06 21:04:58.116 INFO Successfully published attestations     type: unaggregated, slot: 93, committee_index: 0, head_block: 0x6cf83c469c5a9a2ced6f5148237035c6bd70157dd48c4d4d8d650f4cf3a899ad, validator_indices: [14, 37], count: 2, service: attestation
+Dec 06 21:04:58.341 INFO Successfully published attestation      type: aggregated, slot: 93, committee_index: 0, head_block: 0x6cf83c469c5a9a2ced6f5148237035c6bd70157dd48c4d4d8d650f4cf3a899ad, signatures: 4, aggregator: 14, service: attestation
+Dec 06 21:04:58.341 INFO Successfully published attestation      type: aggregated, slot: 93, committee_index: 0, head_block: 0x6cf83c469c5a9a2ced6f5148237035c6bd70157dd48c4d4d8d650f4cf3a899ad, signatures: 4, aggregator: 37, service: attestation
+Dec 06 21:04:58.349 INFO Successfully published sync contributions, slot: 93, num_signers: 95, beacon_block_root: 0x6cf8…99ad, subnet: 1, service: sync_committee
+Dec 06 21:04:58.353 INFO Successfully published sync contributions, slot: 93, num_signers: 95, beacon_block_root: 0x6cf8…99ad, subnet: 3, service: sync_committee
+Dec 06 21:04:58.358 INFO Successfully published sync contributions, slot: 93, num_signers: 95, beacon_block_root: 0x6cf8…99ad, subnet: 0, service: sync_committee
+Dec 06 21:04:58.386 INFO Successfully published sync contributions, slot: 93, num_signers: 95, beacon_block_root: 0x6cf8…99ad, subnet: 2, service: sync_committee
+Dec 06 21:05:00.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:05:00.000 INFO All validators active                   slot: 94, epoch: 2, total_validators: 64, active_validators: 64, current_epoch_proposers: 13, service: notifier
+Dec 06 21:05:00.009 INFO Successfully published sync committee messages, slot: 94, head_block: 0x47ec0406f9ba811523fc2244ea8019733d1ecb0f79de70321277b13255bb6dc5, count: 64, service: sync_committee
+Dec 06 21:05:00.012 INFO Successfully published attestations     type: unaggregated, slot: 94, committee_index: 0, head_block: 0x47ec0406f9ba811523fc2244ea8019733d1ecb0f79de70321277b13255bb6dc5, validator_indices: [17, 59], count: 2, service: attestation
+Dec 06 21:05:00.343 INFO Successfully published sync contributions, slot: 94, num_signers: 90, beacon_block_root: 0x47ec…6dc5, subnet: 3, service: sync_committee
+Dec 06 21:05:00.347 INFO Successfully published sync contributions, slot: 94, num_signers: 90, beacon_block_root: 0x47ec…6dc5, subnet: 1, service: sync_committee
+Dec 06 21:05:00.387 INFO Successfully published attestation      type: aggregated, slot: 94, committee_index: 0, head_block: 0x47ec0406f9ba811523fc2244ea8019733d1ecb0f79de70321277b13255bb6dc5, signatures: 4, aggregator: 17, service: attestation
+Dec 06 21:05:00.387 INFO Successfully published attestation      type: aggregated, slot: 94, committee_index: 0, head_block: 0x47ec0406f9ba811523fc2244ea8019733d1ecb0f79de70321277b13255bb6dc5, signatures: 4, aggregator: 59, service: attestation
+Dec 06 21:05:00.391 INFO Successfully published sync contributions, slot: 94, num_signers: 90, beacon_block_root: 0x47ec…6dc5, subnet: 0, service: sync_committee
+Dec 06 21:05:00.394 INFO Successfully published sync contributions, slot: 94, num_signers: 90, beacon_block_root: 0x47ec…6dc5, subnet: 2, service: sync_committee
+Dec 06 21:05:01.002 INFO Requesting unsigned block               slot: 95, service: block
+Dec 06 21:05:01.007 INFO Received unsigned block                 slot: 95, service: block
+Dec 06 21:05:01.018 INFO Publishing signed block                 signing_time_ms: 10, slot: 95, service: block
+Dec 06 21:05:01.084 INFO Successfully published block            slot: 95, graffiti: Some("lighthouse-geth"), attestations: 1, deposits: 0, block_type: Full, service: block
+Dec 06 21:05:02.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:05:02.000 INFO All validators active                   slot: 95, epoch: 2, total_validators: 64, active_validators: 64, current_epoch_proposers: 13, service: notifier
+Dec 06 21:05:02.203 INFO Successfully published sync committee messages, slot: 95, head_block: 0xf0ee93a807dc1ade458a76a641411a5dc6a98e186efe28dc21a73626d83c5d5f, count: 64, service: sync_committee
+Dec 06 21:05:02.205 INFO Successfully published attestations     type: unaggregated, slot: 95, committee_index: 0, head_block: 0xf0ee93a807dc1ade458a76a641411a5dc6a98e186efe28dc21a73626d83c5d5f, validator_indices: [43], count: 1, service: attestation
+Dec 06 21:05:02.349 INFO Successfully published sync contributions, slot: 95, num_signers: 81, beacon_block_root: 0xf0ee…5d5f, subnet: 1, service: sync_committee
+Dec 06 21:05:02.352 INFO Successfully published sync contributions, slot: 95, num_signers: 81, beacon_block_root: 0xf0ee…5d5f, subnet: 0, service: sync_committee
+Dec 06 21:05:02.387 INFO Successfully published sync contributions, slot: 95, num_signers: 81, beacon_block_root: 0xf0ee…5d5f, subnet: 3, service: sync_committee
+Dec 06 21:05:02.391 INFO Successfully published attestation      type: aggregated, slot: 95, committee_index: 0, head_block: 0xf0ee93a807dc1ade458a76a641411a5dc6a98e186efe28dc21a73626d83c5d5f, signatures: 4, aggregator: 43, service: attestation
+Dec 06 21:05:02.395 INFO Successfully published sync contributions, slot: 95, num_signers: 81, beacon_block_root: 0xf0ee…5d5f, subnet: 2, service: sync_committee
+Dec 06 21:05:03.084 INFO Published validator registrations to the builder network, count: 64, service: preparation
+Dec 06 21:05:04.000 INFO Connected to beacon node(s)             synced: 1, available: 1, total: 1, service: notifier
+Dec 06 21:05:04.000 INFO All validators active                   slot: 96, epoch: 3, total_validators: 64, active_validators: 64, current_epoch_proposers: 15, service: notifier

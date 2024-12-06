@@ -1,4 +1,0 @@
-[Sun Dec  1 01:39:24 2024] PHP 7.4.26 Development Server (http://[::]:8080) started
-[Sun Dec  1 01:39:24 2024] [::ffff:172.16.4.4]:35262 Accepted
-[Sun Dec  1 01:39:24 2024] [::ffff:172.16.4.4]:35262 Closed without sending a request; it was probably just an unused speculative preconnection
-[Sun Dec  1 01:39:24 2024] [::ffff:172.16.4.4]:35262 Closing

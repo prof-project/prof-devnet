@@ -1,0 +1,54 @@
+WARNING: proto: file "internal/internal.proto" is already registered
+	previously from: "github.com/influxdata/influxql/internal"
+	currently from:  "github.com/influxdata/influxdb/query/internal"
+See https://developers.google.com/protocol-buffers/docs/reference/go/faq#namespace-conflict
+
+INFO [12-06|21:02:18.084] Client configured                        name=el-1-geth-lighthouse
+INFO [12-06|21:02:18.084] Client configured                        name=el-2-geth-lighthouse
+INFO [12-06|21:02:18.084] Client configured                        name=el-3-geth-builder-lighthouse
+INFO [12-06|21:02:18.084] Checking health                          node=el-1-geth-lighthouse
+INFO [12-06|21:02:18.088] RemoteNode OK                            version=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3
+INFO [12-06|21:02:18.088] Checking health                          node=el-2-geth-lighthouse
+INFO [12-06|21:02:18.092] RemoteNode OK                            version=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3
+INFO [12-06|21:02:18.092] Checking health                          node=el-3-geth-builder-lighthouse
+INFO [12-06|21:02:18.096] RemoteNode OK                            version=Geth/v1.13.14-stable/linux-amd64/go1.21.13
+INFO [12-06|21:02:18.185] Latest                                   0-num=13 0-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 1-num=13 1-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 2-num=13 2-name=Geth/v1.13.14-stable/linux-amd64/go1.21.13
+INFO [12-06|21:02:18.185] Update complete                          head-update="180.314µs" forkcheck="337.377µs"
+INFO [12-06|21:02:18.591] Cleaned hashes                           files=0
+INFO [12-06|21:02:18.686] Starting web server                      address=0.0.0.0:8080
+INFO [12-06|21:02:28.687] Latest                                   0-num=18 0-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 1-num=18 1-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 2-num=18 2-name=Geth/v1.13.14-stable/linux-amd64/go1.21.13
+INFO [12-06|21:02:28.687] Update complete                          head-update="58.271µs"  forkcheck="72.682µs"
+INFO [12-06|21:02:38.845] Latest                                   0-num=23 0-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 1-num=23 1-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 2-num=23 2-name=Geth/v1.13.14-stable/linux-amd64/go1.21.13
+INFO [12-06|21:02:38.845] Update complete                          head-update="39.61µs"   forkcheck="59.212µs"
+INFO [12-06|21:02:49.042] Latest                                   0-num=28 0-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 1-num=28 1-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 2-num=28 2-name=Geth/v1.13.14-stable/linux-amd64/go1.21.13
+INFO [12-06|21:02:49.042] Update complete                          head-update="27.921µs"  forkcheck="40.631µs"
+INFO [12-06|21:02:59.114] Latest                                   0-num=34 0-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 1-num=34 1-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 2-num=34 2-name=Geth/v1.13.14-stable/linux-amd64/go1.21.13
+INFO [12-06|21:02:59.114] Update complete                          head-update="34.67µs"   forkcheck="70.282µs"
+INFO [12-06|21:03:09.188] Latest                                   0-num=39 0-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 1-num=39 1-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 2-num=39 2-name=Geth/v1.13.14-stable/linux-amd64/go1.21.13
+INFO [12-06|21:03:09.188] Update complete                          head-update="74.491µs"  forkcheck="67.752µs"
+INFO [12-06|21:03:19.265] Latest                                   0-num=44 0-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 1-num=44 1-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 2-num=44 2-name=Geth/v1.13.14-stable/linux-amd64/go1.21.13
+INFO [12-06|21:03:19.265] Update complete                          head-update="36.641µs"  forkcheck="57.431µs"
+INFO [12-06|21:03:29.346] Latest                                   0-num=49 0-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 1-num=49 1-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 2-num=49 2-name=Geth/v1.13.14-stable/linux-amd64/go1.21.13
+INFO [12-06|21:03:29.347] Update complete                          head-update="54.161µs"  forkcheck="81.992µs"
+INFO [12-06|21:03:39.419] Latest                                   0-num=54 0-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 1-num=54 1-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 2-num=54 2-name=Geth/v1.13.14-stable/linux-amd64/go1.21.13
+INFO [12-06|21:03:39.420] Update complete                          head-update="29.101µs"  forkcheck="33.891µs"
+INFO [12-06|21:03:49.493] Latest                                   0-num=59 0-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 1-num=59 1-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 2-num=59 2-name=Geth/v1.13.14-stable/linux-amd64/go1.21.13
+INFO [12-06|21:03:49.493] Update complete                          head-update="38.061µs"  forkcheck="73.742µs"
+INFO [12-06|21:03:59.582] Latest                                   0-num=64 0-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 1-num=63 1-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 2-num=64 2-name=Geth/v1.13.14-stable/linux-amd64/go1.21.13
+INFO [12-06|21:03:59.582] Cross-checking                           a=el-1-geth-lighthouse b=el-2-geth-lighthouse
+INFO [12-06|21:03:59.585] Update complete                          head-update="39.581µs"  forkcheck=3.074174ms
+INFO [12-06|21:04:09.667] Latest                                   0-num=69 0-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 1-num=69 1-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 2-num=69 2-name=Geth/v1.13.14-stable/linux-amd64/go1.21.13
+INFO [12-06|21:04:09.667] Update complete                          head-update="123.603µs" forkcheck="235.255µs"
+INFO [12-06|21:04:19.751] Latest                                   0-num=73 0-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 1-num=74 1-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 2-num=74 2-name=Geth/v1.13.14-stable/linux-amd64/go1.21.13
+INFO [12-06|21:04:19.751] Cross-checking                           a=el-1-geth-lighthouse b=el-2-geth-lighthouse
+INFO [12-06|21:04:19.754] Update complete                          head-update="58.941µs"  forkcheck=2.613415ms
+INFO [12-06|21:04:30.031] Latest                                   0-num=78 0-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 1-num=79 1-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 2-num=79 2-name=Geth/v1.13.14-stable/linux-amd64/go1.21.13
+INFO [12-06|21:04:30.084] Cross-checking                           a=el-1-geth-lighthouse b=el-2-geth-lighthouse
+INFO [12-06|21:04:30.087] Update complete                          head-update="61.411µs"  forkcheck=55.474407ms
+INFO [12-06|21:04:40.162] Latest                                   0-num=84 0-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 1-num=83 1-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 2-num=84 2-name=Geth/v1.13.14-stable/linux-amd64/go1.21.13
+INFO [12-06|21:04:40.162] Cross-checking                           a=el-1-geth-lighthouse b=el-2-geth-lighthouse
+INFO [12-06|21:04:40.163] Update complete                          head-update="51.091µs"  forkcheck="873.298µs"
+INFO [12-06|21:04:50.236] Latest                                   0-num=89 0-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 1-num=89 1-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 2-num=89 2-name=Geth/v1.13.14-stable/linux-amd64/go1.21.13
+INFO [12-06|21:04:50.236] Update complete                          head-update="26.36µs"   forkcheck="63.832µs"
+INFO [12-06|21:05:00.309] Latest                                   0-num=94 0-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 1-num=94 1-name=Geth/v1.14.12-unstable-4bac6e66-20241107/linux-amd64/go1.23.3 2-num=94 2-name=Geth/v1.13.14-stable/linux-amd64/go1.21.13
+INFO [12-06|21:05:00.309] Update complete                          head-update="37.391µs"  forkcheck="48.191µs"

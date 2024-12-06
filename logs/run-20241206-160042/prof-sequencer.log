@@ -1,0 +1,1201 @@
+2024/12/06 21:02:07 Using gRPC URL: 172.16.4.20:50051
+2024/12/06 21:02:07 Server is running on port 80...
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+2024/12/06 21:02:07 Attempting to connect to gRPC server at 172.16.4.20:50051...
+
+[GIN-debug] POST   /sequencer/eth_sendBundle --> main.main.handleBundleRequest.func4 (4 handlers)
+[GIN-debug] POST   /sequencer/eth_cancelBundle --> main.main.handleCancelBundleRequest.func5 (4 handlers)
+[GIN-debug] GET    /sequencer/health         --> main.healthHandler (3 handlers)
+[GIN-debug] POST   /sequencer/login          --> main.jwtLoginHandler (3 handlers)
+[GIN-debug] Listening and serving HTTP on :80
+2024/12/06 21:02:07 Connected to gRPC server at 172.16.4.20:50051
+time="2024-12-06T21:02:07Z" level=info msg="Request details" client_ip=172.16.4.4 error= latency_time="116.472µs" method=GET path=/sequencer/health status_code=200 user_agent=Go-http-client/1.1
+time="2024-12-06T21:02:07Z" level=info msg="Request details" client_ip=172.16.4.4 error= latency_time=360ns method=GET path=/nonexistent status_code=404 user_agent=Go-http-client/1.1
+2024/12/06 21:02:12 Cleanup job took 560ns
+time="2024-12-06T21:02:12Z" level=info msg="Request details" client_ip=172.16.4.4 error= latency_time="1.84µs" method=GET path=/nonexistent status_code=404 user_agent=Go-http-client/1.1
+2024/12/06 21:02:15 Generated new UUID for bundle: 23a0bb05-50a4-40a9-ac9f-ef13e8182039
+2024/12/06 21:02:15 Valid transaction: &{inner:0xc0006ae080 time:{wall:13964808630183646002 ext:8507408344 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003c6200} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:15 Transaction nonce: 18
+2024/12/06 21:02:15 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=18)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:15 Bundle with UUID 23a0bb05-50a4-40a9-ac9f-ef13e8182039 received and added to the pool
+time="2024-12-06T21:02:15Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time=2.40559ms method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:16 Generated new UUID for bundle: d0a5135d-bdf8-4666-9a97-045ca46fb269
+2024/12/06 21:02:16 Valid transaction: &{inner:0xc0004d6180 time:{wall:13964808631189136137 ext:9439156655 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000154140} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:16 Transaction nonce: 19
+2024/12/06 21:02:16 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=19)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:16 Bundle with UUID d0a5135d-bdf8-4666-9a97-045ca46fb269 received and added to the pool
+time="2024-12-06T21:02:16Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="929.41µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:17 Cleanup job took 17.801µs
+2024/12/06 21:02:17 Bundle 1: ReplacementUuid: 23a0bb05-50a4-40a9-ac9f-ef13e8182039, Status: Bundle processed successfully, Success: true
+2024/12/06 21:02:17 Bundle with UUID 23a0bb05-50a4-40a9-ac9f-ef13e8182039 marked for deletion
+2024/12/06 21:02:17 Bundle 23a0bb05-50a4-40a9-ac9f-ef13e8182039 processed successfully: Bundle processed successfully
+2024/12/06 21:02:17 1 bundles sent via gRPC
+2024/12/06 21:02:17 Generated new UUID for bundle: 25695f1d-ca6f-44be-a8b5-67dace5b39f9
+2024/12/06 21:02:17 Valid transaction: &{inner:0xc00039ab80 time:{wall:13964808632262309446 ext:10438588120 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6280} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:17 Transaction nonce: 20
+2024/12/06 21:02:17 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=20)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:17 Bundle with UUID 25695f1d-ca6f-44be-a8b5-67dace5b39f9 received and added to the pool
+time="2024-12-06T21:02:17Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="546.262µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:18 Generated new UUID for bundle: 89d01b19-1161-40a1-90f9-6f074eac5962
+2024/12/06 21:02:18 Valid transaction: &{inner:0xc00039ae00 time:{wall:13964808633327218703 ext:11429755553 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b62e0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:18 Transaction nonce: 21
+2024/12/06 21:02:18 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=21)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:18 Bundle with UUID 89d01b19-1161-40a1-90f9-6f074eac5962 received and added to the pool
+time="2024-12-06T21:02:18Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="150.953µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:19 Generated new UUID for bundle: 93a0053e-2ea4-4edd-baa4-ddc73ef42a44
+2024/12/06 21:02:19 Valid transaction: &{inner:0xc00039b000 time:{wall:13964808634356403342 ext:12385198378 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6360} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:19 Transaction nonce: 22
+2024/12/06 21:02:19 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=22)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:19 Bundle with UUID 93a0053e-2ea4-4edd-baa4-ddc73ef42a44 received and added to the pool
+time="2024-12-06T21:02:19Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="186.854µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:20 Generated new UUID for bundle: 3cd1f107-4ae2-48af-a6a4-7f4d69733211
+2024/12/06 21:02:20 Valid transaction: &{inner:0xc00039b200 time:{wall:13964808635427145311 ext:13382198523 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b63c0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:20 Transaction nonce: 23
+2024/12/06 21:02:20 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=23)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:20 Bundle with UUID 3cd1f107-4ae2-48af-a6a4-7f4d69733211 received and added to the pool
+time="2024-12-06T21:02:20Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="207.254µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:21 Generated new UUID for bundle: 9447a79b-8ac9-4fba-8700-7b60d6b31d13
+2024/12/06 21:02:21 Valid transaction: &{inner:0xc00039b400 time:{wall:13964808636511232679 ext:14392544077 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6420} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:21 Transaction nonce: 24
+2024/12/06 21:02:21 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=24)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:21 Bundle with UUID 9447a79b-8ac9-4fba-8700-7b60d6b31d13 received and added to the pool
+time="2024-12-06T21:02:21Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="226.265µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:22 Cleanup job took 4.95µs
+2024/12/06 21:02:22 Bundle 1: ReplacementUuid: d0a5135d-bdf8-4666-9a97-045ca46fb269, Status: Bundle processed successfully, Success: true
+2024/12/06 21:02:22 Bundle with UUID d0a5135d-bdf8-4666-9a97-045ca46fb269 marked for deletion
+2024/12/06 21:02:22 Bundle d0a5135d-bdf8-4666-9a97-045ca46fb269 processed successfully: Bundle processed successfully
+2024/12/06 21:02:22 1 bundles sent via gRPC
+2024/12/06 21:02:22 Generated new UUID for bundle: 6633335e-4581-426f-8af7-00038ca9f8db
+2024/12/06 21:02:22 Valid transaction: &{inner:0xc00039b680 time:{wall:13964808637580222011 ext:15387791585 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6480} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:22 Transaction nonce: 25
+2024/12/06 21:02:22 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=25)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:22 Bundle with UUID 6633335e-4581-426f-8af7-00038ca9f8db received and added to the pool
+time="2024-12-06T21:02:22Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="222.865µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:23 Generated new UUID for bundle: eb404feb-8492-4f27-9e65-0929ac8f4e2c
+2024/12/06 21:02:23 Valid transaction: &{inner:0xc00039b980 time:{wall:13964808638654922462 ext:16388750222 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b64e0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:23 Transaction nonce: 26
+2024/12/06 21:02:23 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=26)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:23 Bundle with UUID eb404feb-8492-4f27-9e65-0929ac8f4e2c received and added to the pool
+time="2024-12-06T21:02:23Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="252.125µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:24 Generated new UUID for bundle: abd41fad-a496-4822-bec9-41610e7f1fdf
+2024/12/06 21:02:24 Valid transaction: &{inner:0xc00039bb80 time:{wall:13964808639729955881 ext:17390041797 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6560} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:24 Transaction nonce: 27
+2024/12/06 21:02:24 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=27)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:24 Bundle with UUID abd41fad-a496-4822-bec9-41610e7f1fdf received and added to the pool
+time="2024-12-06T21:02:24Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="197.404µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:25 Generated new UUID for bundle: e8fc93ef-e3df-4e4f-9327-97be8e9b6672
+2024/12/06 21:02:25 Valid transaction: &{inner:0xc00039be00 time:{wall:13964808640803699432 ext:18390043554 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6600} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:25 Transaction nonce: 28
+2024/12/06 21:02:25 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=28)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:25 Bundle with UUID e8fc93ef-e3df-4e4f-9327-97be8e9b6672 received and added to the pool
+time="2024-12-06T21:02:25Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="301.757µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:26 Generated new UUID for bundle: 51d2cdbf-34a8-4944-bb50-46142b78f9ee
+2024/12/06 21:02:26 Valid transaction: &{inner:0xc0006ae300 time:{wall:13964808641879388434 ext:19391990702 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b66a0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:26 Transaction nonce: 29
+2024/12/06 21:02:26 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=29)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:26 Bundle with UUID 51d2cdbf-34a8-4944-bb50-46142b78f9ee received and added to the pool
+time="2024-12-06T21:02:26Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="191.194µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:27 Cleanup job took 6.29µs
+2024/12/06 21:02:27 Bundle 1: ReplacementUuid: 25695f1d-ca6f-44be-a8b5-67dace5b39f9, Status: Bundle processed successfully, Success: true
+2024/12/06 21:02:27 Bundle with UUID 25695f1d-ca6f-44be-a8b5-67dace5b39f9 marked for deletion
+2024/12/06 21:02:27 Bundle 25695f1d-ca6f-44be-a8b5-67dace5b39f9 processed successfully: Bundle processed successfully
+2024/12/06 21:02:27 1 bundles sent via gRPC
+2024/12/06 21:02:27 Generated new UUID for bundle: d3818b18-b90d-406a-87e1-2a15240875d2
+2024/12/06 21:02:27 Valid transaction: &{inner:0xc000752100 time:{wall:13964808642952577983 ext:20391438417 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0004221e0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:27 Transaction nonce: 30
+2024/12/06 21:02:27 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=30)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:27 Bundle with UUID d3818b18-b90d-406a-87e1-2a15240875d2 received and added to the pool
+time="2024-12-06T21:02:27Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="171.213µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:28 Generated new UUID for bundle: 3dd382a7-e9c9-4da9-b99d-335280896e2e
+2024/12/06 21:02:28 Valid transaction: &{inner:0xc000752380 time:{wall:13964808644034176509 ext:21399295129 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422320} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:28 Transaction nonce: 31
+2024/12/06 21:02:28 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=31)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:28 Bundle with UUID 3dd382a7-e9c9-4da9-b99d-335280896e2e received and added to the pool
+time="2024-12-06T21:02:28Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="178.644µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:29 Generated new UUID for bundle: dd7dd745-c0bc-4cee-9224-d1f9486011b4
+2024/12/06 21:02:29 Valid transaction: &{inner:0xc000752580 time:{wall:13964808645114565488 ext:22405942304 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422400} size:{_:{} _:{} v:377} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:29 Transaction nonce: 32
+2024/12/06 21:02:29 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=32)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:29 Bundle with UUID dd7dd745-c0bc-4cee-9224-d1f9486011b4 received and added to the pool
+time="2024-12-06T21:02:29Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="198.814µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:30 Generated new UUID for bundle: 7c59fbe5-7049-4175-bd96-c463871ea575
+2024/12/06 21:02:30 Valid transaction: &{inner:0xc00016c700 time:{wall:13964808646188406171 ext:23406041133 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003be340} size:{_:{} _:{} v:377} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:30 Transaction nonce: 33
+2024/12/06 21:02:30 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=33)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:30 Bundle with UUID 7c59fbe5-7049-4175-bd96-c463871ea575 received and added to the pool
+time="2024-12-06T21:02:30Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="186.534µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:31 Generated new UUID for bundle: 60e21632-11a3-45e2-9f8a-9a1b082cd002
+2024/12/06 21:02:31 Valid transaction: &{inner:0xc00016c980 time:{wall:13964808647253925022 ext:24397818170 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003be4c0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:31 Transaction nonce: 34
+2024/12/06 21:02:31 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=34)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:31 Bundle with UUID 60e21632-11a3-45e2-9f8a-9a1b082cd002 received and added to the pool
+time="2024-12-06T21:02:31Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="195.695µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:32 Cleanup job took 6.95µs
+2024/12/06 21:02:32 Bundle 1: ReplacementUuid: 89d01b19-1161-40a1-90f9-6f074eac5962, Status: Bundle processed successfully, Success: true
+2024/12/06 21:02:32 Bundle with UUID 89d01b19-1161-40a1-90f9-6f074eac5962 marked for deletion
+2024/12/06 21:02:32 Bundle 89d01b19-1161-40a1-90f9-6f074eac5962 processed successfully: Bundle processed successfully
+2024/12/06 21:02:32 1 bundles sent via gRPC
+2024/12/06 21:02:32 Generated new UUID for bundle: 0aee6baf-f84d-4284-812d-04239b7a4ce4
+2024/12/06 21:02:32 Valid transaction: &{inner:0xc000752880 time:{wall:13964808648334460815 ext:25404612169 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0004224c0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:32 Transaction nonce: 35
+2024/12/06 21:02:32 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=35)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:32 Bundle with UUID 0aee6baf-f84d-4284-812d-04239b7a4ce4 received and added to the pool
+time="2024-12-06T21:02:32Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="235.014µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:33 Generated new UUID for bundle: 38389fde-10df-4a08-b3b7-1085c4f0a425
+2024/12/06 21:02:33 Valid transaction: &{inner:0xc00016cb80 time:{wall:13964808649404583400 ext:26400992900 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003be5e0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:33 Transaction nonce: 36
+2024/12/06 21:02:33 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=36)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:33 Bundle with UUID 38389fde-10df-4a08-b3b7-1085c4f0a425 received and added to the pool
+time="2024-12-06T21:02:33Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="166.454µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:34 Generated new UUID for bundle: 86bb725e-92bb-468b-a910-45eb9232890f
+2024/12/06 21:02:34 Valid transaction: &{inner:0xc00016cd80 time:{wall:13964808650481999829 ext:27404667505 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003be700} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:34 Transaction nonce: 37
+2024/12/06 21:02:34 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=37)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:34 Bundle with UUID 86bb725e-92bb-468b-a910-45eb9232890f received and added to the pool
+time="2024-12-06T21:02:34Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="183.784µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:35 Generated new UUID for bundle: 55fedc4b-3c9e-4b4c-bfac-2e3399a64d77
+2024/12/06 21:02:35 Valid transaction: &{inner:0xc00016cf80 time:{wall:13964808651552566412 ext:28401492274 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003be820} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:35 Transaction nonce: 38
+2024/12/06 21:02:35 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=38)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:35 Bundle with UUID 55fedc4b-3c9e-4b4c-bfac-2e3399a64d77 received and added to the pool
+time="2024-12-06T21:02:35Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="257.675µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:36 Generated new UUID for bundle: 33fa345f-9316-4c1a-8e00-c97f3c886c44
+2024/12/06 21:02:36 Valid transaction: &{inner:0xc00016d180 time:{wall:13964808652629300356 ext:29404484374 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003be940} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:36 Transaction nonce: 39
+2024/12/06 21:02:36 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=39)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:36 Bundle with UUID 33fa345f-9316-4c1a-8e00-c97f3c886c44 received and added to the pool
+time="2024-12-06T21:02:36Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="159.384µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:37 Cleanup job took 3.971µs
+2024/12/06 21:02:37 Bundle 1: ReplacementUuid: 93a0053e-2ea4-4edd-baa4-ddc73ef42a44, Status: Bundle processed successfully, Success: true
+2024/12/06 21:02:37 Bundle with UUID 93a0053e-2ea4-4edd-baa4-ddc73ef42a44 marked for deletion
+2024/12/06 21:02:37 Bundle 93a0053e-2ea4-4edd-baa4-ddc73ef42a44 processed successfully: Bundle processed successfully
+2024/12/06 21:02:37 1 bundles sent via gRPC
+2024/12/06 21:02:37 Generated new UUID for bundle: 49d2212b-7a50-4ad9-98cd-0a7d4460616c
+2024/12/06 21:02:37 Valid transaction: &{inner:0xc0004d6600 time:{wall:13964808653704700552 ext:30406142766 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0001543c0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:37 Transaction nonce: 40
+2024/12/06 21:02:37 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=40)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:37 Bundle with UUID 49d2212b-7a50-4ad9-98cd-0a7d4460616c received and added to the pool
+time="2024-12-06T21:02:37Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="207.254µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:38 Generated new UUID for bundle: 0da9749c-564c-43ec-8dbc-aee52eb4929c
+2024/12/06 21:02:38 Valid transaction: &{inner:0xc0004d6800 time:{wall:13964808654780936325 ext:31408636715 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000154420} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:38 Transaction nonce: 41
+2024/12/06 21:02:38 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=41)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:38 Bundle with UUID 0da9749c-564c-43ec-8dbc-aee52eb4929c received and added to the pool
+time="2024-12-06T21:02:38Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="180.214µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:39 Generated new UUID for bundle: ee3cf9c4-ff30-4d61-8135-41a6acfd15b4
+2024/12/06 21:02:39 Valid transaction: &{inner:0xc0004d6a00 time:{wall:13964808655859073938 ext:32413032554 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000154480} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:39 Transaction nonce: 42
+2024/12/06 21:02:39 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=42)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:39 Bundle with UUID ee3cf9c4-ff30-4d61-8135-41a6acfd15b4 received and added to the pool
+time="2024-12-06T21:02:39Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="269.356µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:40 Generated new UUID for bundle: c9d9bce8-26a4-43a1-b117-84bdafe7cfd3
+2024/12/06 21:02:40 Valid transaction: &{inner:0xc0004d6c00 time:{wall:13964808656938403136 ext:33418619888 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000154500} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:40 Transaction nonce: 43
+2024/12/06 21:02:40 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=43)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:40 Bundle with UUID c9d9bce8-26a4-43a1-b117-84bdafe7cfd3 received and added to the pool
+time="2024-12-06T21:02:40Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="195.564µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:41 Generated new UUID for bundle: 5c775382-6d33-4b3c-9357-4bfc64c4abd3
+2024/12/06 21:02:41 Valid transaction: &{inner:0xc0004d6e00 time:{wall:13964808658007452679 ext:34413927587 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0001545a0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:41 Transaction nonce: 44
+2024/12/06 21:02:41 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=44)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:41 Bundle with UUID 5c775382-6d33-4b3c-9357-4bfc64c4abd3 received and added to the pool
+time="2024-12-06T21:02:41Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="203.495µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:42 Cleanup job took 6.661µs
+2024/12/06 21:02:42 Bundle 1: ReplacementUuid: 3cd1f107-4ae2-48af-a6a4-7f4d69733211, Status: Bundle processed successfully, Success: true
+2024/12/06 21:02:42 Bundle with UUID 3cd1f107-4ae2-48af-a6a4-7f4d69733211 marked for deletion
+2024/12/06 21:02:42 Bundle 3cd1f107-4ae2-48af-a6a4-7f4d69733211 processed successfully: Bundle processed successfully
+2024/12/06 21:02:42 1 bundles sent via gRPC
+2024/12/06 21:02:42 Generated new UUID for bundle: 2c9d721c-8b8d-446e-a83f-4a570edc9093
+2024/12/06 21:02:42 Valid transaction: &{inner:0xc00016d480 time:{wall:13964808659078399812 ext:35411132906 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003bea60} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:42 Transaction nonce: 45
+2024/12/06 21:02:42 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=45)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:42 Bundle with UUID 2c9d721c-8b8d-446e-a83f-4a570edc9093 received and added to the pool
+time="2024-12-06T21:02:42Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="230.405µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:43 Generated new UUID for bundle: 4b498943-d265-461f-96b3-fb0dd6016524
+2024/12/06 21:02:43 Valid transaction: &{inner:0xc00016d680 time:{wall:13964808660158748070 ext:36417739340 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003beb80} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:43 Transaction nonce: 46
+2024/12/06 21:02:43 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=46)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:43 Bundle with UUID 4b498943-d265-461f-96b3-fb0dd6016524 received and added to the pool
+time="2024-12-06T21:02:43Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="211.454µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:44 Generated new UUID for bundle: 800415aa-8ba2-400d-a8bb-3e88c4b6dffe
+2024/12/06 21:02:44 Valid transaction: &{inner:0xc0004d7100 time:{wall:13964808661229771215 ext:37415020651 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000154600} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:44 Transaction nonce: 47
+2024/12/06 21:02:44 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=47)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:44 Bundle with UUID 800415aa-8ba2-400d-a8bb-3e88c4b6dffe received and added to the pool
+time="2024-12-06T21:02:44Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="210.285µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:45 Generated new UUID for bundle: 8902a8e3-8730-4180-9c2b-cef2a8cc95de
+2024/12/06 21:02:45 Valid transaction: &{inner:0xc000752c00 time:{wall:13964808662306400467 ext:38417908069 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0004227e0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:45 Transaction nonce: 48
+2024/12/06 21:02:45 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=48)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:45 Bundle with UUID 8902a8e3-8730-4180-9c2b-cef2a8cc95de received and added to the pool
+time="2024-12-06T21:02:45Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="154.383µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:46 Generated new UUID for bundle: 2149933c-dcc1-473d-b625-8638ca432cff
+2024/12/06 21:02:46 Valid transaction: &{inner:0xc000752e00 time:{wall:13964808663377100904 ext:39414866672 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422840} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:46 Transaction nonce: 49
+2024/12/06 21:02:46 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=49)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:46 Bundle with UUID 2149933c-dcc1-473d-b625-8638ca432cff received and added to the pool
+time="2024-12-06T21:02:46Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="176.094µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:47 Cleanup job took 8.191µs
+2024/12/06 21:02:47 Bundle 1: ReplacementUuid: 9447a79b-8ac9-4fba-8700-7b60d6b31d13, Status: Bundle processed successfully, Success: true
+2024/12/06 21:02:47 Bundle with UUID 9447a79b-8ac9-4fba-8700-7b60d6b31d13 marked for deletion
+2024/12/06 21:02:47 Bundle 9447a79b-8ac9-4fba-8700-7b60d6b31d13 processed successfully: Bundle processed successfully
+2024/12/06 21:02:47 1 bundles sent via gRPC
+2024/12/06 21:02:47 Generated new UUID for bundle: a1cedc90-3966-45a8-9013-152a20fa887e
+2024/12/06 21:02:47 Valid transaction: &{inner:0xc00016d880 time:{wall:13964808664456726767 ext:40420750731 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003bed00} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:47 Transaction nonce: 50
+2024/12/06 21:02:47 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=50)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:47 Bundle with UUID a1cedc90-3966-45a8-9013-152a20fa887e received and added to the pool
+time="2024-12-06T21:02:47Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="164.113µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:48 Generated new UUID for bundle: 46b242ac-75e5-4dff-aea7-e3aa62345b8e
+2024/12/06 21:02:48 Valid transaction: &{inner:0xc00016da80 time:{wall:13964808665530243833 ext:41420525983 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003bee20} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:48 Transaction nonce: 51
+2024/12/06 21:02:48 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=51)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:48 Bundle with UUID 46b242ac-75e5-4dff-aea7-e3aa62345b8e received and added to the pool
+time="2024-12-06T21:02:48Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="215.854µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:49 Generated new UUID for bundle: cb42a020-d051-4273-80d6-3c3ef5818bb7
+2024/12/06 21:02:49 Valid transaction: &{inner:0xc00016dc80 time:{wall:13964808666609353846 ext:42425894152 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003bef40} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:49 Transaction nonce: 52
+2024/12/06 21:02:49 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=52)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:49 Bundle with UUID cb42a020-d051-4273-80d6-3c3ef5818bb7 received and added to the pool
+time="2024-12-06T21:02:49Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="164.144µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:50 Generated new UUID for bundle: 45c3ce04-59a7-4b1c-b001-5dc79ee7d730
+2024/12/06 21:02:50 Valid transaction: &{inner:0xc00016de80 time:{wall:13964808667681107246 ext:43423905738 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003bf060} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:50 Transaction nonce: 53
+2024/12/06 21:02:50 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=53)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:50 Bundle with UUID 45c3ce04-59a7-4b1c-b001-5dc79ee7d730 received and added to the pool
+time="2024-12-06T21:02:50Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="206.995µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:51 Generated new UUID for bundle: e263ab29-68e8-4772-91bf-862a86a909e1
+2024/12/06 21:02:51 Valid transaction: &{inner:0xc0001b4180 time:{wall:13964808668756489960 ext:44425546638 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003bf180} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:51 Transaction nonce: 54
+2024/12/06 21:02:51 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=54)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:51 Bundle with UUID e263ab29-68e8-4772-91bf-862a86a909e1 received and added to the pool
+time="2024-12-06T21:02:51Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="203.494µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:52 Cleanup job took 7.67µs
+2024/12/06 21:02:52 Bundle 1: ReplacementUuid: 6633335e-4581-426f-8af7-00038ca9f8db, Status: Bundle processed successfully, Success: true
+2024/12/06 21:02:52 Bundle with UUID 6633335e-4581-426f-8af7-00038ca9f8db marked for deletion
+2024/12/06 21:02:52 Bundle 6633335e-4581-426f-8af7-00038ca9f8db processed successfully: Bundle processed successfully
+2024/12/06 21:02:52 1 bundles sent via gRPC
+2024/12/06 21:02:52 Generated new UUID for bundle: 0bbe7e1b-d6f7-4998-8dc9-da9305c8815d
+2024/12/06 21:02:52 Valid transaction: &{inner:0xc000753100 time:{wall:13964808669828728990 ext:45424043824 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0004229e0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:52 Transaction nonce: 55
+2024/12/06 21:02:52 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=55)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:52 Bundle with UUID 0bbe7e1b-d6f7-4998-8dc9-da9305c8815d received and added to the pool
+time="2024-12-06T21:02:52Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="173.534µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:53 Generated new UUID for bundle: f59d96e3-eba0-49e7-ad15-e0a5e1022e1d
+2024/12/06 21:02:53 Valid transaction: &{inner:0xc0001b4400 time:{wall:13964808670905284341 ext:46426857351 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003bf2a0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:53 Transaction nonce: 56
+2024/12/06 21:02:53 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=56)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:53 Bundle with UUID f59d96e3-eba0-49e7-ad15-e0a5e1022e1d received and added to the pool
+time="2024-12-06T21:02:53Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="183.044µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:54 Generated new UUID for bundle: 713165ed-62d6-4a66-9fc7-3e1c2e266724
+2024/12/06 21:02:54 Valid transaction: &{inner:0xc0001b4600 time:{wall:13964808671983560216 ext:47431391432 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003bf3c0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:54 Transaction nonce: 57
+2024/12/06 21:02:54 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=57)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:54 Bundle with UUID 713165ed-62d6-4a66-9fc7-3e1c2e266724 received and added to the pool
+time="2024-12-06T21:02:54Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="207.685µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:55 Generated new UUID for bundle: 155e8bbb-9046-4556-a329-f814c8a66b8d
+2024/12/06 21:02:55 Valid transaction: &{inner:0xc0001b4800 time:{wall:13964808673056295505 ext:48430384887 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003bf4e0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:55 Transaction nonce: 58
+2024/12/06 21:02:55 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=58)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:55 Bundle with UUID 155e8bbb-9046-4556-a329-f814c8a66b8d received and added to the pool
+time="2024-12-06T21:02:55Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="242.915µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:56 Generated new UUID for bundle: 08b934ff-1f2c-4259-bb7e-2f3db7c5cdf5
+2024/12/06 21:02:56 Valid transaction: &{inner:0xc0001b4a00 time:{wall:13964808674129563376 ext:49429910954 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003bf600} size:{_:{} _:{} v:377} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:56 Transaction nonce: 59
+2024/12/06 21:02:56 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=59)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:56 Bundle with UUID 08b934ff-1f2c-4259-bb7e-2f3db7c5cdf5 received and added to the pool
+time="2024-12-06T21:02:56Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="257.345µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:57 Cleanup job took 7.91µs
+2024/12/06 21:02:57 Bundle 1: ReplacementUuid: eb404feb-8492-4f27-9e65-0929ac8f4e2c, Status: Bundle processed successfully, Success: true
+2024/12/06 21:02:57 Bundle with UUID eb404feb-8492-4f27-9e65-0929ac8f4e2c marked for deletion
+2024/12/06 21:02:57 Bundle eb404feb-8492-4f27-9e65-0929ac8f4e2c processed successfully: Bundle processed successfully
+2024/12/06 21:02:57 1 bundles sent via gRPC
+2024/12/06 21:02:57 Generated new UUID for bundle: 785cb23b-ac77-4862-a487-7523352d0b8f
+2024/12/06 21:02:57 Valid transaction: &{inner:0xc0001b4c80 time:{wall:13964808675206469393 ext:50433075127 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003bf720} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:57 Transaction nonce: 60
+2024/12/06 21:02:57 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=60)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:57 Bundle with UUID 785cb23b-ac77-4862-a487-7523352d0b8f received and added to the pool
+time="2024-12-06T21:02:57Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="245.616µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:58 Generated new UUID for bundle: f5430ba1-956d-4f33-a68d-510cba2d5fa4
+2024/12/06 21:02:58 Valid transaction: &{inner:0xc0001b4e80 time:{wall:13964808676280985280 ext:51433849170 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003bf840} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:58 Transaction nonce: 61
+2024/12/06 21:02:58 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=61)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:58 Bundle with UUID f5430ba1-956d-4f33-a68d-510cba2d5fa4 received and added to the pool
+time="2024-12-06T21:02:58Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="147.264µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:02:59 Generated new UUID for bundle: 00574ff2-9f84-44e7-a59e-89f7f92e7e76
+2024/12/06 21:02:59 Valid transaction: &{inner:0xc0001b5080 time:{wall:13964808677358159493 ext:52437281629 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003bf960} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:02:59 Transaction nonce: 62
+2024/12/06 21:02:59 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=62)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:02:59 Bundle with UUID 00574ff2-9f84-44e7-a59e-89f7f92e7e76 received and added to the pool
+time="2024-12-06T21:02:59Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="235.285µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:00 Generated new UUID for bundle: 262766b6-4f17-4f4a-a21f-0e77aee73f05
+2024/12/06 21:03:00 Valid transaction: &{inner:0xc0001b5280 time:{wall:13964808678430333901 ext:53435714173 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003bfa80} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:00 Transaction nonce: 63
+2024/12/06 21:03:00 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=63)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:00 Bundle with UUID 262766b6-4f17-4f4a-a21f-0e77aee73f05 received and added to the pool
+time="2024-12-06T21:03:00Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="243.685µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:01 Generated new UUID for bundle: 165a33c0-2e6b-492a-b5c1-ab32767e89b4
+2024/12/06 21:03:01 Valid transaction: &{inner:0xc0001b5480 time:{wall:13964808679507600305 ext:54439238753 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003bfba0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:01 Transaction nonce: 64
+2024/12/06 21:03:01 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=64)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:01 Bundle with UUID 165a33c0-2e6b-492a-b5c1-ab32767e89b4 received and added to the pool
+time="2024-12-06T21:03:01Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="332.547µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:02 Cleanup job took 10.92µs
+2024/12/06 21:03:02 Bundle 1: ReplacementUuid: abd41fad-a496-4822-bec9-41610e7f1fdf, Status: Bundle processed successfully, Success: true
+2024/12/06 21:03:02 Bundle with UUID abd41fad-a496-4822-bec9-41610e7f1fdf marked for deletion
+2024/12/06 21:03:02 Bundle abd41fad-a496-4822-bec9-41610e7f1fdf processed successfully: Bundle processed successfully
+2024/12/06 21:03:02 1 bundles sent via gRPC
+2024/12/06 21:03:02 Generated new UUID for bundle: 0b465bf7-2db5-4101-a3a6-d212d1471be9
+2024/12/06 21:03:02 Valid transaction: &{inner:0xc0004d7400 time:{wall:13964808680581620462 ext:55439517056 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000154a20} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:02 Transaction nonce: 65
+2024/12/06 21:03:02 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=65)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:02 Bundle with UUID 0b465bf7-2db5-4101-a3a6-d212d1471be9 received and added to the pool
+time="2024-12-06T21:03:02Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="162.503µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:03 Generated new UUID for bundle: e0685738-dc37-40b1-9948-6b654b8439ad
+2024/12/06 21:03:03 Valid transaction: &{inner:0xc0006ae500 time:{wall:13964808681663563993 ext:56447718773 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6700} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:03 Transaction nonce: 66
+2024/12/06 21:03:03 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=66)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:03 Bundle with UUID e0685738-dc37-40b1-9948-6b654b8439ad received and added to the pool
+time="2024-12-06T21:03:03Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="189.454µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:04 Generated new UUID for bundle: 0fb2e740-d4d9-41bc-be7f-da1921dbe21c
+2024/12/06 21:03:04 Valid transaction: &{inner:0xc0006ae680 time:{wall:13964808682736973177 ext:57447386123 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6760} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:04 Transaction nonce: 67
+2024/12/06 21:03:04 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=67)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:04 Bundle with UUID 0fb2e740-d4d9-41bc-be7f-da1921dbe21c received and added to the pool
+time="2024-12-06T21:03:04Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="209.074µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:05 Generated new UUID for bundle: 9f8bba09-e902-431c-bfc0-42a3992604cb
+2024/12/06 21:03:05 Valid transaction: &{inner:0xc0004d7680 time:{wall:13964808683806732565 ext:58443403707 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000154c60} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:05 Transaction nonce: 68
+2024/12/06 21:03:05 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=68)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:05 Bundle with UUID 9f8bba09-e902-431c-bfc0-42a3992604cb received and added to the pool
+time="2024-12-06T21:03:05Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="505.19µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:06 Generated new UUID for bundle: 2bde13a9-a0db-4e33-8694-4ee88ccc0648
+2024/12/06 21:03:06 Valid transaction: &{inner:0xc0006ae900 time:{wall:13964808684906466578 ext:59469395936 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b67c0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:06 Transaction nonce: 69
+2024/12/06 21:03:06 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=69)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:06 Bundle with UUID 2bde13a9-a0db-4e33-8694-4ee88ccc0648 received and added to the pool
+time="2024-12-06T21:03:06Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="673.894µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:07 Cleanup job took 79.362µs
+2024/12/06 21:03:07 Bundle 1: ReplacementUuid: e8fc93ef-e3df-4e4f-9327-97be8e9b6672, Status: Bundle processed successfully, Success: true
+2024/12/06 21:03:07 Bundle with UUID e8fc93ef-e3df-4e4f-9327-97be8e9b6672 marked for deletion
+2024/12/06 21:03:07 Bundle e8fc93ef-e3df-4e4f-9327-97be8e9b6672 processed successfully: Bundle processed successfully
+2024/12/06 21:03:07 1 bundles sent via gRPC
+2024/12/06 21:03:07 Generated new UUID for bundle: b3c24179-064f-4fea-b933-a3f74f8c543c
+2024/12/06 21:03:07 Valid transaction: &{inner:0xc0006aeb80 time:{wall:13964808685983833195 ext:60473020689 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6820} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:07 Transaction nonce: 70
+2024/12/06 21:03:07 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=70)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:07 Bundle with UUID b3c24179-064f-4fea-b933-a3f74f8c543c received and added to the pool
+time="2024-12-06T21:03:07Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="229.595µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:08 Generated new UUID for bundle: 6305b32c-b561-40ba-a4cb-0c2cbefc4b1e
+2024/12/06 21:03:08 Valid transaction: &{inner:0xc0006aed80 time:{wall:13964808687053888368 ext:61469334038 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6880} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:08 Transaction nonce: 71
+2024/12/06 21:03:08 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=71)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:08 Bundle with UUID 6305b32c-b561-40ba-a4cb-0c2cbefc4b1e received and added to the pool
+time="2024-12-06T21:03:08Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="289.566µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:09 Generated new UUID for bundle: ab03b8b3-e576-4b77-a530-7cd4a84b1af1
+2024/12/06 21:03:09 Valid transaction: &{inner:0xc0006aef80 time:{wall:13964808688117408475 ext:62459112301 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b68e0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:09 Transaction nonce: 72
+2024/12/06 21:03:09 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=72)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:09 Bundle with UUID ab03b8b3-e576-4b77-a530-7cd4a84b1af1 received and added to the pool
+time="2024-12-06T21:03:09Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="151.763µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:10 Generated new UUID for bundle: 4e7d51fb-4464-4779-80f2-7dae217b0543
+2024/12/06 21:03:10 Valid transaction: &{inner:0xc000753400 time:{wall:13964808689215002095 ext:63482964097 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422a60} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:10 Transaction nonce: 73
+2024/12/06 21:03:10 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=73)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:10 Bundle with UUID 4e7d51fb-4464-4779-80f2-7dae217b0543 received and added to the pool
+time="2024-12-06T21:03:10Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="276.916µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:11 Generated new UUID for bundle: 128d04dc-d35c-4230-ae54-f6c5b8e8e23b
+2024/12/06 21:03:11 Valid transaction: &{inner:0xc0006af180 time:{wall:13964808690297620561 ext:64491840759 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6940} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:11 Transaction nonce: 74
+2024/12/06 21:03:11 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=74)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:11 Bundle with UUID 128d04dc-d35c-4230-ae54-f6c5b8e8e23b received and added to the pool
+time="2024-12-06T21:03:11Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="557.622µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:12 Cleanup job took 61.312µs
+2024/12/06 21:03:12 Bundle 1: ReplacementUuid: 51d2cdbf-34a8-4944-bb50-46142b78f9ee, Status: Bundle processed successfully, Success: true
+2024/12/06 21:03:12 Bundle with UUID 51d2cdbf-34a8-4944-bb50-46142b78f9ee marked for deletion
+2024/12/06 21:03:12 Bundle 51d2cdbf-34a8-4944-bb50-46142b78f9ee processed successfully: Bundle processed successfully
+2024/12/06 21:03:12 1 bundles sent via gRPC
+2024/12/06 21:03:12 Generated new UUID for bundle: 424d644e-05aa-45d5-a2bd-e2942c16e630
+2024/12/06 21:03:12 Valid transaction: &{inner:0xc0006af380 time:{wall:13964808691366506300 ext:65486984654 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b69c0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:12 Transaction nonce: 75
+2024/12/06 21:03:12 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=75)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:12 Bundle with UUID 424d644e-05aa-45d5-a2bd-e2942c16e630 received and added to the pool
+time="2024-12-06T21:03:12Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="312.696µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:13 Generated new UUID for bundle: 569e9e24-1909-410f-b8fa-defe29bd946b
+2024/12/06 21:03:13 Valid transaction: &{inner:0xc0004d7880 time:{wall:13964808692443910957 ext:66490647487 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000154ce0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:13 Transaction nonce: 76
+2024/12/06 21:03:13 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=76)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:13 Bundle with UUID 569e9e24-1909-410f-b8fa-defe29bd946b received and added to the pool
+time="2024-12-06T21:03:13Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="167.614µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:14 Generated new UUID for bundle: bd1666eb-6c84-4dbe-ba3b-c4d955996879
+2024/12/06 21:03:14 Valid transaction: &{inner:0xc0004d7a80 time:{wall:13964808693513962001 ext:67486956717 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000154d40} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:14 Transaction nonce: 77
+2024/12/06 21:03:14 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=77)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:14 Bundle with UUID bd1666eb-6c84-4dbe-ba3b-c4d955996879 received and added to the pool
+time="2024-12-06T21:03:14Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="436.749µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:15 Generated new UUID for bundle: e5c63222-d9e1-41cf-ba58-db5043291c81
+2024/12/06 21:03:15 Valid transaction: &{inner:0xc000753700 time:{wall:13964808694600232473 ext:68499485405 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422ac0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:15 Transaction nonce: 78
+2024/12/06 21:03:15 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=78)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:15 Bundle with UUID e5c63222-d9e1-41cf-ba58-db5043291c81 received and added to the pool
+time="2024-12-06T21:03:15Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="302.077µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:16 Generated new UUID for bundle: f20501c4-eca6-4a34-962f-d3d5b8f18a93
+2024/12/06 21:03:16 Valid transaction: &{inner:0xc000753980 time:{wall:13964808695637527812 ext:69463038880 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422b20} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:16 Transaction nonce: 79
+2024/12/06 21:03:16 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=79)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:16 Bundle with UUID f20501c4-eca6-4a34-962f-d3d5b8f18a93 received and added to the pool
+time="2024-12-06T21:03:16Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="157.153µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:17 Cleanup job took 78.621µs
+2024/12/06 21:03:17 Bundle 1: ReplacementUuid: d3818b18-b90d-406a-87e1-2a15240875d2, Status: Bundle processed successfully, Success: true
+2024/12/06 21:03:17 Bundle with UUID d3818b18-b90d-406a-87e1-2a15240875d2 marked for deletion
+2024/12/06 21:03:17 Bundle d3818b18-b90d-406a-87e1-2a15240875d2 processed successfully: Bundle processed successfully
+2024/12/06 21:03:17 1 bundles sent via gRPC
+2024/12/06 21:03:17 Generated new UUID for bundle: 04b910b9-5b8f-4dc9-af2b-ea05127255d9
+2024/12/06 21:03:17 Valid transaction: &{inner:0xc0006af600 time:{wall:13964808696747391016 ext:70499160250 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6a20} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:17 Transaction nonce: 80
+2024/12/06 21:03:17 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=80)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:17 Bundle with UUID 04b910b9-5b8f-4dc9-af2b-ea05127255d9 received and added to the pool
+time="2024-12-06T21:03:17Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="241.505µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:18 Generated new UUID for bundle: 7c305000-db4f-4e6a-b8fd-6db145766461
+2024/12/06 21:03:18 Valid transaction: &{inner:0xc0006af800 time:{wall:13964808697838671074 ext:71516698484 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6a80} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:18 Transaction nonce: 81
+2024/12/06 21:03:18 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=81)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:18 Bundle with UUID 7c305000-db4f-4e6a-b8fd-6db145766461 received and added to the pool
+time="2024-12-06T21:03:18Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="430.198µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:19 Generated new UUID for bundle: 36476f9f-42fd-4eec-b4f2-7760672d1ad2
+2024/12/06 21:03:19 Valid transaction: &{inner:0xc000753c80 time:{wall:13964808698909364420 ext:72513650016 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422b80} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:19 Transaction nonce: 82
+2024/12/06 21:03:19 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=82)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:19 Bundle with UUID 36476f9f-42fd-4eec-b4f2-7760672d1ad2 received and added to the pool
+time="2024-12-06T21:03:19Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="520.571µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:20 Generated new UUID for bundle: 0ace0dc2-15df-4034-9453-ebcb95e51386
+2024/12/06 21:03:20 Valid transaction: &{inner:0xc000753e80 time:{wall:13964808699958882755 ext:73489426517 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422be0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:20 Transaction nonce: 83
+2024/12/06 21:03:20 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=83)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:20 Bundle with UUID 0ace0dc2-15df-4034-9453-ebcb95e51386 received and added to the pool
+time="2024-12-06T21:03:20Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="147.593µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:21 Generated new UUID for bundle: 02108fe8-6809-4c9a-8ed7-f0191bbb2f24
+2024/12/06 21:03:21 Valid transaction: &{inner:0xc00061a100 time:{wall:13964808701045200199 ext:74502002137 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422c40} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:21 Transaction nonce: 84
+2024/12/06 21:03:21 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=84)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:21 Bundle with UUID 02108fe8-6809-4c9a-8ed7-f0191bbb2f24 received and added to the pool
+time="2024-12-06T21:03:21Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="709.475µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:22 Cleanup job took 71.551µs
+2024/12/06 21:03:22 Bundle 1: ReplacementUuid: 3dd382a7-e9c9-4da9-b99d-335280896e2e, Status: Bundle processed successfully, Success: true
+2024/12/06 21:03:22 Bundle with UUID 3dd382a7-e9c9-4da9-b99d-335280896e2e marked for deletion
+2024/12/06 21:03:22 Bundle 3dd382a7-e9c9-4da9-b99d-335280896e2e processed successfully: Bundle processed successfully
+2024/12/06 21:03:22 1 bundles sent via gRPC
+2024/12/06 21:03:22 Generated new UUID for bundle: 71307ded-0c61-4f27-abbb-94ae109095d0
+2024/12/06 21:03:22 Valid transaction: &{inner:0xc0006afa80 time:{wall:13964808702120576082 ext:75503636196 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6b00} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:22 Transaction nonce: 85
+2024/12/06 21:03:22 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=85)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:22 Bundle with UUID 71307ded-0c61-4f27-abbb-94ae109095d0 received and added to the pool
+time="2024-12-06T21:03:22Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="203.674µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:23 Generated new UUID for bundle: 44815d60-5eb5-4696-bc81-b016a4aee626
+2024/12/06 21:03:23 Valid transaction: &{inner:0xc0006afc00 time:{wall:13964808703203845872 ext:76513164162 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6b60} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:23 Transaction nonce: 86
+2024/12/06 21:03:23 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=86)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:23 Bundle with UUID 44815d60-5eb5-4696-bc81-b016a4aee626 received and added to the pool
+time="2024-12-06T21:03:23Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="277.925µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:24 Generated new UUID for bundle: 774ed598-117d-4bb6-9827-d6cdbcf515e3
+2024/12/06 21:03:24 Valid transaction: &{inner:0xc0006afe00 time:{wall:13964808704258711988 ext:77494288454 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6bc0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:24 Transaction nonce: 87
+2024/12/06 21:03:24 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=87)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:24 Bundle with UUID 774ed598-117d-4bb6-9827-d6cdbcf515e3 received and added to the pool
+time="2024-12-06T21:03:24Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="433.899µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:25 Generated new UUID for bundle: 079ff123-b275-4ff2-a1ea-8bf25cce4681
+2024/12/06 21:03:25 Valid transaction: &{inner:0xc0005ac000 time:{wall:13964808705339046926 ext:78500881568 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6c20} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:25 Transaction nonce: 88
+2024/12/06 21:03:25 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=88)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:25 Bundle with UUID 079ff123-b275-4ff2-a1ea-8bf25cce4681 received and added to the pool
+time="2024-12-06T21:03:25Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="576.742µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:26 Generated new UUID for bundle: fff294ea-3067-4121-a210-12537297c4fe
+2024/12/06 21:03:26 Valid transaction: &{inner:0xc0005ac200 time:{wall:13964808706428633458 ext:79516726286 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6c80} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:26 Transaction nonce: 89
+2024/12/06 21:03:26 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=89)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:26 Bundle with UUID fff294ea-3067-4121-a210-12537297c4fe received and added to the pool
+time="2024-12-06T21:03:26Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="275.106µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:27 Cleanup job took 31.981µs
+2024/12/06 21:03:27 Bundle 1: ReplacementUuid: dd7dd745-c0bc-4cee-9224-d1f9486011b4, Status: Bundle processed successfully, Success: true
+2024/12/06 21:03:27 Bundle with UUID dd7dd745-c0bc-4cee-9224-d1f9486011b4 marked for deletion
+2024/12/06 21:03:27 Bundle dd7dd745-c0bc-4cee-9224-d1f9486011b4 processed successfully: Bundle processed successfully
+2024/12/06 21:03:27 1 bundles sent via gRPC
+2024/12/06 21:03:27 Generated new UUID for bundle: 2c92239f-d78b-4dbe-962d-648ca509d906
+2024/12/06 21:03:27 Valid transaction: &{inner:0xc0005ac400 time:{wall:13964808707482704467 ext:80497055461 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6d00} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:27 Transaction nonce: 90
+2024/12/06 21:03:27 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=90)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:27 Bundle with UUID 2c92239f-d78b-4dbe-962d-648ca509d906 received and added to the pool
+time="2024-12-06T21:03:27Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="198.854µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:28 Generated new UUID for bundle: 99cc2080-78cf-4eb3-a83a-2aead0c0b069
+2024/12/06 21:03:28 Valid transaction: &{inner:0xc0004d7e80 time:{wall:13964808708563433204 ext:81504042374 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000154dc0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:28 Transaction nonce: 91
+2024/12/06 21:03:28 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=91)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:28 Bundle with UUID 99cc2080-78cf-4eb3-a83a-2aead0c0b069 received and added to the pool
+time="2024-12-06T21:03:28Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="454.2µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:29 Generated new UUID for bundle: 8eabc7c7-da84-4c47-b554-978924ecd0a1
+2024/12/06 21:03:29 Valid transaction: &{inner:0xc00061a400 time:{wall:13964808709656233262 ext:82523100608 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422ca0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:29 Transaction nonce: 92
+2024/12/06 21:03:29 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=92)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:29 Bundle with UUID 8eabc7c7-da84-4c47-b554-978924ecd0a1 received and added to the pool
+time="2024-12-06T21:03:29Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="724.515µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:30 Generated new UUID for bundle: 67ce0030-305e-4735-937f-fa6691e549db
+2024/12/06 21:03:30 Valid transaction: &{inner:0xc00061a600 time:{wall:13964808710727722125 ext:83520847647 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422d00} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:30 Transaction nonce: 93
+2024/12/06 21:03:30 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=93)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:30 Bundle with UUID 67ce0030-305e-4735-937f-fa6691e549db received and added to the pool
+time="2024-12-06T21:03:30Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="284.616µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:31 Generated new UUID for bundle: 61f9654c-3fff-49b9-bea1-aeb3f207c652
+2024/12/06 21:03:31 Valid transaction: &{inner:0xc00061a800 time:{wall:13964808711787436363 ext:84506820061 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422d60} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:31 Transaction nonce: 94
+2024/12/06 21:03:31 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=94)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:31 Bundle with UUID 61f9654c-3fff-49b9-bea1-aeb3f207c652 received and added to the pool
+time="2024-12-06T21:03:31Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="292.616µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:32 Cleanup job took 19.141µs
+2024/12/06 21:03:32 Bundle 1: ReplacementUuid: 7c59fbe5-7049-4175-bd96-c463871ea575, Status: Bundle processed successfully, Success: true
+2024/12/06 21:03:32 Bundle with UUID 7c59fbe5-7049-4175-bd96-c463871ea575 marked for deletion
+2024/12/06 21:03:32 Bundle 7c59fbe5-7049-4175-bd96-c463871ea575 processed successfully: Bundle processed successfully
+2024/12/06 21:03:32 1 bundles sent via gRPC
+2024/12/06 21:03:32 Generated new UUID for bundle: b8847584-3bbe-405b-aba5-9dd99611df40
+2024/12/06 21:03:32 Valid transaction: &{inner:0xc00061aa80 time:{wall:13964808712884752556 ext:85530394440 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422dc0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:32 Transaction nonce: 95
+2024/12/06 21:03:32 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=95)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:32 Bundle with UUID b8847584-3bbe-405b-aba5-9dd99611df40 received and added to the pool
+time="2024-12-06T21:03:32Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="191.674µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:33 Generated new UUID for bundle: 40cdc847-3deb-49b7-ae37-f93646fa0cf5
+2024/12/06 21:03:33 Valid transaction: &{inner:0xc0002c8200 time:{wall:13964808713962864487 ext:86534764537 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000154e20} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:33 Transaction nonce: 96
+2024/12/06 21:03:33 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=96)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:33 Bundle with UUID 40cdc847-3deb-49b7-ae37-f93646fa0cf5 received and added to the pool
+time="2024-12-06T21:03:33Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="263.956µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:34 Generated new UUID for bundle: 9ffaea44-38b3-4d63-9777-baa817dd9bc3
+2024/12/06 21:03:34 Valid transaction: &{inner:0xc0002c8380 time:{wall:13964808715022135905 ext:87520294131 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000154e80} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:34 Transaction nonce: 97
+2024/12/06 21:03:34 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=97)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:34 Bundle with UUID 9ffaea44-38b3-4d63-9777-baa817dd9bc3 received and added to the pool
+time="2024-12-06T21:03:34Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="257.855µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:35 Generated new UUID for bundle: df1781b0-dfbe-4063-9b39-db2909fa9793
+2024/12/06 21:03:35 Valid transaction: &{inner:0xc0002c8580 time:{wall:13964808716072172581 ext:88496588983 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000154ee0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:35 Transaction nonce: 98
+2024/12/06 21:03:35 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=98)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:35 Bundle with UUID df1781b0-dfbe-4063-9b39-db2909fa9793 received and added to the pool
+time="2024-12-06T21:03:35Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="129.463µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:36 Generated new UUID for bundle: b80fb3bd-3cb2-4074-9feb-a07900217747
+2024/12/06 21:03:36 Valid transaction: &{inner:0xc0002c8780 time:{wall:13964808717178814168 ext:89529488746 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000154f40} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:36 Transaction nonce: 99
+2024/12/06 21:03:36 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=99)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:36 Bundle with UUID b80fb3bd-3cb2-4074-9feb-a07900217747 received and added to the pool
+time="2024-12-06T21:03:36Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="337.387µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:37 Cleanup job took 22.98µs
+2024/12/06 21:03:37 Bundle 1: ReplacementUuid: 60e21632-11a3-45e2-9f8a-9a1b082cd002, Status: Bundle processed successfully, Success: true
+2024/12/06 21:03:37 Bundle with UUID 60e21632-11a3-45e2-9f8a-9a1b082cd002 marked for deletion
+2024/12/06 21:03:37 Bundle 60e21632-11a3-45e2-9f8a-9a1b082cd002 processed successfully: Bundle processed successfully
+2024/12/06 21:03:37 1 bundles sent via gRPC
+2024/12/06 21:03:37 Generated new UUID for bundle: 3d7c4be9-a3ff-4997-af01-d3d4e25fce13
+2024/12/06 21:03:37 Valid transaction: &{inner:0xc00061ad00 time:{wall:13964808718245665075 ext:90522597859 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422e40} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:37 Transaction nonce: 100
+2024/12/06 21:03:37 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=100)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:37 Bundle with UUID 3d7c4be9-a3ff-4997-af01-d3d4e25fce13 received and added to the pool
+time="2024-12-06T21:03:37Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="692.034µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:38 Generated new UUID for bundle: e37a201e-bf6d-4529-a26b-698948aaeb44
+2024/12/06 21:03:38 Valid transaction: &{inner:0xc00061af00 time:{wall:13964808719309584879 ext:91512775819 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422ea0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:38 Transaction nonce: 101
+2024/12/06 21:03:38 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=101)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:38 Bundle with UUID e37a201e-bf6d-4529-a26b-698948aaeb44 received and added to the pool
+time="2024-12-06T21:03:38Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="195.044µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:39 Generated new UUID for bundle: c006b108-2b09-447a-ae91-e4b09b7585a9
+2024/12/06 21:03:39 Valid transaction: &{inner:0xc00061b100 time:{wall:13964808720377402495 ext:92506851651 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422f00} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:39 Transaction nonce: 102
+2024/12/06 21:03:39 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=102)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:39 Bundle with UUID c006b108-2b09-447a-ae91-e4b09b7585a9 received and added to the pool
+time="2024-12-06T21:03:39Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="223.595µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:40 Generated new UUID for bundle: 3e36e46c-fed6-4cb1-b9ab-719c4d71a182
+2024/12/06 21:03:40 Valid transaction: &{inner:0xc00061b300 time:{wall:13964808721452528805 ext:93508236107 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422f60} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:40 Transaction nonce: 103
+2024/12/06 21:03:40 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=103)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:40 Bundle with UUID 3e36e46c-fed6-4cb1-b9ab-719c4d71a182 received and added to the pool
+time="2024-12-06T21:03:40Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="177.943µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:41 Generated new UUID for bundle: 3ad27563-5014-440c-a806-37a63cb33feb
+2024/12/06 21:03:41 Valid transaction: &{inner:0xc00061b500 time:{wall:13964808722536404227 ext:94518369705 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422fc0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:41 Transaction nonce: 104
+2024/12/06 21:03:41 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=104)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:41 Bundle with UUID 3ad27563-5014-440c-a806-37a63cb33feb received and added to the pool
+time="2024-12-06T21:03:41Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="205.154µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:42 Cleanup job took 10.99µs
+2024/12/06 21:03:42 Bundle 1: ReplacementUuid: 0aee6baf-f84d-4284-812d-04239b7a4ce4, Status: Bundle processed successfully, Success: true
+2024/12/06 21:03:42 Bundle with UUID 0aee6baf-f84d-4284-812d-04239b7a4ce4 marked for deletion
+2024/12/06 21:03:42 Bundle 0aee6baf-f84d-4284-812d-04239b7a4ce4 processed successfully: Bundle processed successfully
+2024/12/06 21:03:42 1 bundles sent via gRPC
+2024/12/06 21:03:42 Generated new UUID for bundle: 27de2733-cfe4-476f-a069-0f29c8d3bb1d
+2024/12/06 21:03:42 Valid transaction: &{inner:0xc0002c8a80 time:{wall:13964808723603534049 ext:95511757693 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000154fa0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:42 Transaction nonce: 105
+2024/12/06 21:03:42 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=105)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:42 Bundle with UUID 27de2733-cfe4-476f-a069-0f29c8d3bb1d received and added to the pool
+time="2024-12-06T21:03:42Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="794.667µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:43 Generated new UUID for bundle: 6528f85a-292c-4230-a3b0-a98172ff8599
+2024/12/06 21:03:43 Valid transaction: &{inner:0xc0005ac800 time:{wall:13964808724676963182 ext:96511445032 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6d80} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:43 Transaction nonce: 106
+2024/12/06 21:03:43 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=106)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:43 Bundle with UUID 6528f85a-292c-4230-a3b0-a98172ff8599 received and added to the pool
+time="2024-12-06T21:03:43Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="234.945µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:44 Generated new UUID for bundle: 2f3439f0-701f-4aef-b052-693f692422b8
+2024/12/06 21:03:44 Valid transaction: &{inner:0xc0005aca00 time:{wall:13964808725751564531 ext:97512304587 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6de0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:44 Transaction nonce: 107
+2024/12/06 21:03:44 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=107)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:44 Bundle with UUID 2f3439f0-701f-4aef-b052-693f692422b8 received and added to the pool
+time="2024-12-06T21:03:44Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="571.222µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:45 Generated new UUID for bundle: 7ba8ec1b-acf0-4089-a785-588fbdac947a
+2024/12/06 21:03:45 Valid transaction: &{inner:0xc0005acc00 time:{wall:13964808726827719091 ext:98514717263 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6e40} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:45 Transaction nonce: 108
+2024/12/06 21:03:45 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=108)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:45 Bundle with UUID 7ba8ec1b-acf0-4089-a785-588fbdac947a received and added to the pool
+time="2024-12-06T21:03:45Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="234.915µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:46 Generated new UUID for bundle: 1d00a26a-b900-4faf-9368-5621e143de76
+2024/12/06 21:03:46 Valid transaction: &{inner:0xc0001b5580 time:{wall:13964808727904247070 ext:99517503428 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003bfc60} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:46 Transaction nonce: 109
+2024/12/06 21:03:46 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=109)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:46 Bundle with UUID 1d00a26a-b900-4faf-9368-5621e143de76 received and added to the pool
+time="2024-12-06T21:03:46Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time=1.213306ms method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:47 Cleanup job took 11.271µs
+2024/12/06 21:03:47 Bundle 1: ReplacementUuid: 38389fde-10df-4a08-b3b7-1085c4f0a425, Status: Bundle processed successfully, Success: true
+2024/12/06 21:03:47 Bundle with UUID 38389fde-10df-4a08-b3b7-1085c4f0a425 marked for deletion
+2024/12/06 21:03:47 Bundle 38389fde-10df-4a08-b3b7-1085c4f0a425 processed successfully: Bundle processed successfully
+2024/12/06 21:03:47 1 bundles sent via gRPC
+2024/12/06 21:03:47 Generated new UUID for bundle: 611b84bb-852f-4e6c-bcf4-ba805084525b
+2024/12/06 21:03:47 Valid transaction: &{inner:0xc0002c8900 time:{wall:13964808728974214221 ext:100513728755 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6220} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:47 Transaction nonce: 110
+2024/12/06 21:03:47 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=110)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:47 Bundle with UUID 611b84bb-852f-4e6c-bcf4-ba805084525b received and added to the pool
+time="2024-12-06T21:03:47Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="231.574µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:48 Generated new UUID for bundle: 79dec324-f321-4f28-a246-f7f39174fafe
+2024/12/06 21:03:48 Valid transaction: &{inner:0xc0002c8c00 time:{wall:13964808730053420564 ext:101519193254 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6280} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:48 Transaction nonce: 111
+2024/12/06 21:03:48 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=111)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:48 Bundle with UUID 79dec324-f321-4f28-a246-f7f39174fafe received and added to the pool
+time="2024-12-06T21:03:48Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="190.134µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:49 Generated new UUID for bundle: cd145fc9-41c7-4315-82e0-499c8abc581a
+2024/12/06 21:03:49 Valid transaction: &{inner:0xc0002c8e00 time:{wall:13964808731127766628 ext:102519797504 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b62e0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:49 Transaction nonce: 112
+2024/12/06 21:03:49 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=112)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:49 Bundle with UUID cd145fc9-41c7-4315-82e0-499c8abc581a received and added to the pool
+time="2024-12-06T21:03:49Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="187.833µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:50 Generated new UUID for bundle: f8b7d016-63ba-477d-b952-1a85f9861bd1
+2024/12/06 21:03:50 Valid transaction: &{inner:0xc0002c9000 time:{wall:13964808732202131261 ext:103520420303 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6360} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:50 Transaction nonce: 113
+2024/12/06 21:03:50 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=113)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:50 Bundle with UUID f8b7d016-63ba-477d-b952-1a85f9861bd1 received and added to the pool
+time="2024-12-06T21:03:50Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="157.673µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:51 Generated new UUID for bundle: 027aad2e-75b6-42db-9694-fd4a4d235141
+2024/12/06 21:03:51 Valid transaction: &{inner:0xc0002c9200 time:{wall:13964808733310232998 ext:104554780216 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b63c0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:51 Transaction nonce: 114
+2024/12/06 21:03:51 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=114)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:51 Bundle with UUID 027aad2e-75b6-42db-9694-fd4a4d235141 received and added to the pool
+time="2024-12-06T21:03:51Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="298.666µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:52 Cleanup job took 43.101µs
+2024/12/06 21:03:52 Bundle 1: ReplacementUuid: 86bb725e-92bb-468b-a910-45eb9232890f, Status: Bundle processed successfully, Success: true
+2024/12/06 21:03:52 Bundle with UUID 86bb725e-92bb-468b-a910-45eb9232890f marked for deletion
+2024/12/06 21:03:52 Bundle 86bb725e-92bb-468b-a910-45eb9232890f processed successfully: Bundle processed successfully
+2024/12/06 21:03:52 1 bundles sent via gRPC
+2024/12/06 21:03:52 Generated new UUID for bundle: 21e02a4d-fa90-46f4-9bb5-cedde832e3e7
+2024/12/06 21:03:52 Valid transaction: &{inner:0xc0005ac300 time:{wall:13964808734385469870 ext:105556275264 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422240} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:52 Transaction nonce: 115
+2024/12/06 21:03:52 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=115)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:52 Bundle with UUID 21e02a4d-fa90-46f4-9bb5-cedde832e3e7 received and added to the pool
+time="2024-12-06T21:03:52Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="699.684µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:53 Generated new UUID for bundle: 31a55ce7-2b14-4616-bf46-dca908a973cd
+2024/12/06 21:03:53 Valid transaction: &{inner:0xc0005ac680 time:{wall:13964808735479162807 ext:106576226377 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422340} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:53 Transaction nonce: 116
+2024/12/06 21:03:53 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=116)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:53 Bundle with UUID 31a55ce7-2b14-4616-bf46-dca908a973cd received and added to the pool
+time="2024-12-06T21:03:53Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="196.925µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:54 Generated new UUID for bundle: 1c923386-a300-424d-bc8f-4852aaa81135
+2024/12/06 21:03:54 Valid transaction: &{inner:0xc0005ac980 time:{wall:13964808736522111674 ext:107545433420 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422420} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:54 Transaction nonce: 117
+2024/12/06 21:03:54 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=117)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:54 Bundle with UUID 1c923386-a300-424d-bc8f-4852aaa81135 received and added to the pool
+time="2024-12-06T21:03:54Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="178.694µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:55 Generated new UUID for bundle: 8592b8f7-5efb-4ec5-ae54-40c901ecd2c2
+2024/12/06 21:03:55 Valid transaction: &{inner:0xc0002c9500 time:{wall:13964808737577656303 ext:108527236225 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6420} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:55 Transaction nonce: 118
+2024/12/06 21:03:55 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=118)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:55 Bundle with UUID 8592b8f7-5efb-4ec5-ae54-40c901ecd2c2 received and added to the pool
+time="2024-12-06T21:03:55Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="159.483µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:56 Generated new UUID for bundle: 20bd460e-b1e2-4608-bf1e-01fcec66801f
+2024/12/06 21:03:56 Valid transaction: &{inner:0xc0002c9700 time:{wall:13964808738700629571 ext:109576467669 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6480} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:56 Transaction nonce: 119
+2024/12/06 21:03:56 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=119)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:56 Bundle with UUID 20bd460e-b1e2-4608-bf1e-01fcec66801f received and added to the pool
+time="2024-12-06T21:03:56Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="318.286µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:57 Cleanup job took 11.25µs
+2024/12/06 21:03:57 Bundle 1: ReplacementUuid: 55fedc4b-3c9e-4b4c-bfac-2e3399a64d77, Status: Bundle processed successfully, Success: true
+2024/12/06 21:03:57 Bundle with UUID 55fedc4b-3c9e-4b4c-bfac-2e3399a64d77 marked for deletion
+2024/12/06 21:03:57 Bundle 55fedc4b-3c9e-4b4c-bfac-2e3399a64d77 processed successfully: Bundle processed successfully
+2024/12/06 21:03:57 1 bundles sent via gRPC
+2024/12/06 21:03:57 Generated new UUID for bundle: 56d99ef3-7a69-489e-aebf-6dd965860868
+2024/12/06 21:03:57 Valid transaction: &{inner:0xc00061a200 time:{wall:13964808739764119187 ext:110566215461 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000154320} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:57 Transaction nonce: 120
+2024/12/06 21:03:57 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=120)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:57 Bundle with UUID 56d99ef3-7a69-489e-aebf-6dd965860868 received and added to the pool
+time="2024-12-06T21:03:57Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="558.691µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:58 Generated new UUID for bundle: 52480d17-6765-4a05-ba7e-eee4aed5de74
+2024/12/06 21:03:58 Valid transaction: &{inner:0xc0002c9900 time:{wall:13964808740833286583 ext:111561641033 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b64e0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:58 Transaction nonce: 121
+2024/12/06 21:03:58 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=121)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:58 Bundle with UUID 52480d17-6765-4a05-ba7e-eee4aed5de74 received and added to the pool
+time="2024-12-06T21:03:58Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="691.954µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:03:59 Generated new UUID for bundle: 75fb4559-6f79-45aa-b4e3-4395a12e54f1
+2024/12/06 21:03:59 Valid transaction: &{inner:0xc00061a580 time:{wall:13964808741891759973 ext:112546372599 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000154380} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:03:59 Transaction nonce: 132
+2024/12/06 21:03:59 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=132)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:03:59 Bundle with UUID 75fb4559-6f79-45aa-b4e3-4395a12e54f1 received and added to the pool
+time="2024-12-06T21:03:59Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="457.969µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:00 Generated new UUID for bundle: 8c46eac1-5d6f-4811-8892-ba048e316db7
+2024/12/06 21:04:00 Valid transaction: &{inner:0xc0002c9b00 time:{wall:13964808742978735690 ext:113559606492 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6560} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:00 Transaction nonce: 133
+2024/12/06 21:04:00 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=133)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:00 Bundle with UUID 8c46eac1-5d6f-4811-8892-ba048e316db7 received and added to the pool
+time="2024-12-06T21:04:00Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="297.876µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:01 Generated new UUID for bundle: a72ba6ea-eeb8-41a2-9c27-e997bea376b6
+2024/12/06 21:04:01 Valid transaction: &{inner:0xc0005acf80 time:{wall:13964808744055528383 ext:114562657361 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422640} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:01 Transaction nonce: 134
+2024/12/06 21:04:01 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=134)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:01 Bundle with UUID a72ba6ea-eeb8-41a2-9c27-e997bea376b6 received and added to the pool
+time="2024-12-06T21:04:01Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="178.154µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:02 Cleanup job took 55.211µs
+2024/12/06 21:04:02 Bundle 1: ReplacementUuid: 33fa345f-9316-4c1a-8e00-c97f3c886c44, Status: Bundle processed successfully, Success: true
+2024/12/06 21:04:02 Bundle with UUID 33fa345f-9316-4c1a-8e00-c97f3c886c44 marked for deletion
+2024/12/06 21:04:02 Bundle 33fa345f-9316-4c1a-8e00-c97f3c886c44 processed successfully: Bundle processed successfully
+2024/12/06 21:04:02 1 bundles sent via gRPC
+2024/12/06 21:04:02 Generated new UUID for bundle: 12946c3d-7c34-414d-8166-4545f94217c3
+2024/12/06 21:04:02 Valid transaction: &{inner:0xc0005ad300 time:{wall:13964808745117217491 ext:115550604675 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422820} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:02 Transaction nonce: 135
+2024/12/06 21:04:02 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=135)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:02 Bundle with UUID 12946c3d-7c34-414d-8166-4545f94217c3 received and added to the pool
+time="2024-12-06T21:04:02Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time=1.129244ms method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:03 Generated new UUID for bundle: 7507964d-e1b9-4b69-9ab0-2ec48df7e324
+2024/12/06 21:04:03 Valid transaction: &{inner:0xc00061aa00 time:{wall:13964808746204507425 ext:116564152755 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000154440} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:03 Transaction nonce: 136
+2024/12/06 21:04:03 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=136)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:03 Bundle with UUID 7507964d-e1b9-4b69-9ab0-2ec48df7e324 received and added to the pool
+time="2024-12-06T21:04:03Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="492.22µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:04 Generated new UUID for bundle: 21af70dc-353b-4960-943b-2881978a4cb6
+2024/12/06 21:04:04 Valid transaction: &{inner:0xc00061ae00 time:{wall:13964808747274563057 ext:117560466563 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0001544e0} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:04 Transaction nonce: 137
+2024/12/06 21:04:04 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=137)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:04 Bundle with UUID 21af70dc-353b-4960-943b-2881978a4cb6 received and added to the pool
+time="2024-12-06T21:04:04Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="456.709µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:05 Generated new UUID for bundle: cc393663-75be-40f8-8538-024ed4508e19
+2024/12/06 21:04:05 Valid transaction: &{inner:0xc00061b200 time:{wall:13964808748375119800 ext:118587281482 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0001545c0} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:05 Transaction nonce: 138
+2024/12/06 21:04:05 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=138)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:05 Bundle with UUID cc393663-75be-40f8-8538-024ed4508e19 received and added to the pool
+time="2024-12-06T21:04:05Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="393.098µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:06 Generated new UUID for bundle: a0a214d7-5ddd-402b-b7c6-18118aa3b8db
+2024/12/06 21:04:06 Valid transaction: &{inner:0xc00061b600 time:{wall:13964808749452947379 ext:119591367237 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000154700} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:06 Transaction nonce: 139
+2024/12/06 21:04:06 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=139)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:06 Bundle with UUID a0a214d7-5ddd-402b-b7c6-18118aa3b8db received and added to the pool
+time="2024-12-06T21:04:06Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="154.033µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:07 Cleanup job took 35.49µs
+2024/12/06 21:04:07 Bundle 1: ReplacementUuid: 49d2212b-7a50-4ad9-98cd-0a7d4460616c, Status: Bundle processed successfully, Success: true
+2024/12/06 21:04:07 Bundle with UUID 49d2212b-7a50-4ad9-98cd-0a7d4460616c marked for deletion
+2024/12/06 21:04:07 Bundle 49d2212b-7a50-4ad9-98cd-0a7d4460616c processed successfully: Bundle processed successfully
+2024/12/06 21:04:07 1 bundles sent via gRPC
+2024/12/06 21:04:07 Generated new UUID for bundle: 81b54104-1127-4d9c-b90d-565c4badccaf
+2024/12/06 21:04:07 Valid transaction: &{inner:0xc0005ad680 time:{wall:13964808750485180916 ext:120549858950 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422a00} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:07 Transaction nonce: 140
+2024/12/06 21:04:07 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=140)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:07 Bundle with UUID 81b54104-1127-4d9c-b90d-565c4badccaf received and added to the pool
+time="2024-12-06T21:04:07Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="185.164µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:08 Generated new UUID for bundle: 6f3fef05-3ffa-4e85-a1c8-461abdb301dd
+2024/12/06 21:04:08 Valid transaction: &{inner:0xc0005ad880 time:{wall:13964808751594094554 ext:121585030764 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422a80} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:08 Transaction nonce: 141
+2024/12/06 21:04:08 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=141)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:08 Bundle with UUID 6f3fef05-3ffa-4e85-a1c8-461abdb301dd received and added to the pool
+time="2024-12-06T21:04:08Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="850.687µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:09 Generated new UUID for bundle: e36deea2-2383-40f2-98fb-c5bf108bafd4
+2024/12/06 21:04:09 Valid transaction: &{inner:0xc0005ada80 time:{wall:13964808752674246482 ext:122591440868 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422b00} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:09 Transaction nonce: 142
+2024/12/06 21:04:09 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=142)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:09 Bundle with UUID e36deea2-2383-40f2-98fb-c5bf108bafd4 received and added to the pool
+time="2024-12-06T21:04:09Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="252.575µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:10 Generated new UUID for bundle: 03060809-76db-419c-9e14-d1b745a468c6
+2024/12/06 21:04:10 Valid transaction: &{inner:0xc0005adc80 time:{wall:13964808753754309798 ext:123597762360 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422ba0} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:10 Transaction nonce: 143
+2024/12/06 21:04:10 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=143)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:10 Bundle with UUID 03060809-76db-419c-9e14-d1b745a468c6 received and added to the pool
+time="2024-12-06T21:04:10Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="393.068µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:11 Generated new UUID for bundle: f2fc24d5-24d0-46e3-82aa-99e2d81e955e
+2024/12/06 21:04:11 Valid transaction: &{inner:0xc0002c9d00 time:{wall:13964808754835126728 ext:124604837596 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6600} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:11 Transaction nonce: 144
+2024/12/06 21:04:11 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=144)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:11 Bundle with UUID f2fc24d5-24d0-46e3-82aa-99e2d81e955e received and added to the pool
+time="2024-12-06T21:04:11Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="718.685µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:12 Cleanup job took 84.942µs
+2024/12/06 21:04:12 Bundle 1: ReplacementUuid: 0da9749c-564c-43ec-8dbc-aee52eb4929c, Status: Bundle processed successfully, Success: true
+2024/12/06 21:04:12 Bundle with UUID 0da9749c-564c-43ec-8dbc-aee52eb4929c marked for deletion
+2024/12/06 21:04:12 Bundle 0da9749c-564c-43ec-8dbc-aee52eb4929c processed successfully: Bundle processed successfully
+2024/12/06 21:04:12 1 bundles sent via gRPC
+2024/12/06 21:04:12 Generated new UUID for bundle: a687ee44-8f64-4277-a93e-b72a44446f18
+2024/12/06 21:04:12 Valid transaction: &{inner:0xc0005ade80 time:{wall:13964808755911988497 ext:125607957431 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422c60} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:12 Transaction nonce: 155
+2024/12/06 21:04:12 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=155)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:12 Bundle with UUID a687ee44-8f64-4277-a93e-b72a44446f18 received and added to the pool
+time="2024-12-06T21:04:12Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="920.489µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:13 Generated new UUID for bundle: 7529d24f-af06-4d54-afa8-2dd64cc271ae
+2024/12/06 21:04:13 Valid transaction: &{inner:0xc00061b900 time:{wall:13964808756959789059 ext:126582016149 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000154c40} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:13 Transaction nonce: 160
+2024/12/06 21:04:13 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=160)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:13 Bundle with UUID 7529d24f-af06-4d54-afa8-2dd64cc271ae received and added to the pool
+time="2024-12-06T21:04:13Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="162.373µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:14 Generated new UUID for bundle: f931afc7-2921-4f8b-ae73-9433adf4441a
+2024/12/06 21:04:14 Valid transaction: &{inner:0xc000910180 time:{wall:13964808758014883763 ext:127563369049 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422ce0} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:14 Transaction nonce: 161
+2024/12/06 21:04:14 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=161)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:14 Bundle with UUID f931afc7-2921-4f8b-ae73-9433adf4441a received and added to the pool
+time="2024-12-06T21:04:14Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="189.114µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:15 Generated new UUID for bundle: 04bbbfd4-e520-4eba-b045-ec0f944cd247
+2024/12/06 21:04:15 Valid transaction: &{inner:0xc000910300 time:{wall:13964808759125782973 ext:128600526425 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422d80} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:15 Transaction nonce: 162
+2024/12/06 21:04:15 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=162)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:15 Bundle with UUID 04bbbfd4-e520-4eba-b045-ec0f944cd247 received and added to the pool
+time="2024-12-06T21:04:15Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="303.867µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:16 Generated new UUID for bundle: d269c004-8ac9-4e80-bb32-d785d4cdf768
+2024/12/06 21:04:16 Valid transaction: &{inner:0xc000910480 time:{wall:13964808760237865825 ext:129638867463 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422e00} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:16 Transaction nonce: 163
+2024/12/06 21:04:16 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=163)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:16 Bundle with UUID d269c004-8ac9-4e80-bb32-d785d4cdf768 received and added to the pool
+time="2024-12-06T21:04:16Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="808.317µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:17 Cleanup job took 200.464µs
+2024/12/06 21:04:17 Bundle 1: ReplacementUuid: ee3cf9c4-ff30-4d61-8135-41a6acfd15b4, Status: Bundle processed successfully, Success: true
+2024/12/06 21:04:17 Bundle with UUID ee3cf9c4-ff30-4d61-8135-41a6acfd15b4 marked for deletion
+2024/12/06 21:04:17 Bundle ee3cf9c4-ff30-4d61-8135-41a6acfd15b4 processed successfully: Bundle processed successfully
+2024/12/06 21:04:17 1 bundles sent via gRPC
+2024/12/06 21:04:17 Generated new UUID for bundle: 2340a764-ac3f-4cd8-af3a-94e45e52f08e
+2024/12/06 21:04:17 Valid transaction: &{inner:0xc00061bb00 time:{wall:13964808761273458664 ext:130600718478 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000154d00} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:17 Transaction nonce: 164
+2024/12/06 21:04:17 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=164)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:17 Bundle with UUID 2340a764-ac3f-4cd8-af3a-94e45e52f08e received and added to the pool
+time="2024-12-06T21:04:17Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="471.4µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:18 Generated new UUID for bundle: c49eb8af-a827-49ad-b158-7842ccb24e28
+2024/12/06 21:04:18 Valid transaction: &{inner:0xc0001b4500 time:{wall:13964808762346759298 ext:131600277438 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6680} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:18 Transaction nonce: 165
+2024/12/06 21:04:18 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=165)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:18 Bundle with UUID c49eb8af-a827-49ad-b158-7842ccb24e28 received and added to the pool
+time="2024-12-06T21:04:18Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="691.714µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:19 Generated new UUID for bundle: 71288e8f-8384-45f4-a19f-829c600d6a22
+2024/12/06 21:04:19 Valid transaction: &{inner:0xc00061bc80 time:{wall:13964808763427161350 ext:132606937496 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000154d80} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:19 Transaction nonce: 166
+2024/12/06 21:04:19 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=166)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:19 Bundle with UUID 71288e8f-8384-45f4-a19f-829c600d6a22 received and added to the pool
+time="2024-12-06T21:04:19Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="334.517µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:20 Generated new UUID for bundle: de34aa07-0f73-4424-9f95-ea33f8042bb6
+2024/12/06 21:04:20 Valid transaction: &{inner:0xc00061be80 time:{wall:13964808764497022133 ext:133603056455 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000154e00} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:20 Transaction nonce: 168
+2024/12/06 21:04:20 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=168)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:20 Bundle with UUID de34aa07-0f73-4424-9f95-ea33f8042bb6 received and added to the pool
+time="2024-12-06T21:04:20Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="760.546µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:21 Generated new UUID for bundle: b60cf841-cc71-4362-8f3c-f50eac7c3b81
+2024/12/06 21:04:21 Valid transaction: &{inner:0xc00039aa80 time:{wall:13964808765545314896 ext:134577607414 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000154ea0} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:21 Transaction nonce: 169
+2024/12/06 21:04:21 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=169)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:21 Bundle with UUID b60cf841-cc71-4362-8f3c-f50eac7c3b81 received and added to the pool
+time="2024-12-06T21:04:21Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="204.195µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:22 Cleanup job took 111.722µs
+2024/12/06 21:04:22 Bundle 1: ReplacementUuid: c9d9bce8-26a4-43a1-b117-84bdafe7cfd3, Status: Bundle processed successfully, Success: true
+2024/12/06 21:04:22 Bundle with UUID c9d9bce8-26a4-43a1-b117-84bdafe7cfd3 marked for deletion
+2024/12/06 21:04:22 Bundle c9d9bce8-26a4-43a1-b117-84bdafe7cfd3 processed successfully: Bundle processed successfully
+2024/12/06 21:04:22 1 bundles sent via gRPC
+2024/12/06 21:04:22 Generated new UUID for bundle: cdda76dc-78eb-4cb8-be9c-f7ed1248d017
+2024/12/06 21:04:22 Valid transaction: &{inner:0xc0001b4980 time:{wall:13964808766649177967 ext:135607728661 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b66e0} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:22 Transaction nonce: 170
+2024/12/06 21:04:22 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=170)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:22 Bundle with UUID cdda76dc-78eb-4cb8-be9c-f7ed1248d017 received and added to the pool
+time="2024-12-06T21:04:22Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="640.593µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:23 Generated new UUID for bundle: f4269bdc-3129-407c-94a2-a1e8af550f2b
+2024/12/06 21:04:23 Valid transaction: &{inner:0xc000910800 time:{wall:13964808767732916070 ext:136617724940 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422ec0} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:23 Transaction nonce: 171
+2024/12/06 21:04:23 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=171)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:23 Bundle with UUID f4269bdc-3129-407c-94a2-a1e8af550f2b received and added to the pool
+time="2024-12-06T21:04:23Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="435.369µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:24 Generated new UUID for bundle: f42eb8c6-3a2f-4c6c-951f-b79bcb77186d
+2024/12/06 21:04:24 Valid transaction: &{inner:0xc00016c180 time:{wall:13964808768817005478 ext:137628072514 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003be100} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:24 Transaction nonce: 172
+2024/12/06 21:04:24 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=172)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:24 Bundle with UUID f42eb8c6-3a2f-4c6c-951f-b79bcb77186d received and added to the pool
+time="2024-12-06T21:04:24Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="622.183µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:25 Generated new UUID for bundle: 8ba9a803-287f-4014-91b8-45fe6e4e1d52
+2024/12/06 21:04:25 Valid transaction: &{inner:0xc000910a00 time:{wall:13964808769899657578 ext:138636982780 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422f40} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:25 Transaction nonce: 173
+2024/12/06 21:04:25 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=173)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:25 Bundle with UUID 8ba9a803-287f-4014-91b8-45fe6e4e1d52 received and added to the pool
+time="2024-12-06T21:04:25Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="384.588µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:26 Generated new UUID for bundle: e5f0052b-2745-4b7f-88ed-7cf86a977f15
+2024/12/06 21:04:26 Valid transaction: &{inner:0xc000910c00 time:{wall:13964808770948582044 ext:139612165422 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000422fe0} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:26 Transaction nonce: 174
+2024/12/06 21:04:26 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=174)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:26 Bundle with UUID e5f0052b-2745-4b7f-88ed-7cf86a977f15 received and added to the pool
+time="2024-12-06T21:04:26Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="192.124µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:27 Cleanup job took 11.86µs
+2024/12/06 21:04:27 Bundle 1: ReplacementUuid: 5c775382-6d33-4b3c-9357-4bfc64c4abd3, Status: Bundle processed successfully, Success: true
+2024/12/06 21:04:27 Bundle with UUID 5c775382-6d33-4b3c-9357-4bfc64c4abd3 marked for deletion
+2024/12/06 21:04:27 Bundle 5c775382-6d33-4b3c-9357-4bfc64c4abd3 processed successfully: Bundle processed successfully
+2024/12/06 21:04:27 1 bundles sent via gRPC
+2024/12/06 21:04:27 Generated new UUID for bundle: d6508ecf-f77e-4f33-ab0c-7de0545e4929
+2024/12/06 21:04:27 Valid transaction: &{inner:0xc00016c700 time:{wall:13964808772001554294 ext:140591395848 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003be280} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:27 Transaction nonce: 175
+2024/12/06 21:04:27 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=175)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:27 Bundle with UUID d6508ecf-f77e-4f33-ab0c-7de0545e4929 received and added to the pool
+time="2024-12-06T21:04:27Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="161.764µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:28 Generated new UUID for bundle: fa4a7dd1-73b9-474c-8048-117fa91c019c
+2024/12/06 21:04:28 Valid transaction: &{inner:0xc00016c980 time:{wall:13964808773098297628 ext:141614397398 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003be3a0} size:{_:{} _:{} v:378} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:28 Transaction nonce: 176
+2024/12/06 21:04:28 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=176)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:28 Bundle with UUID fa4a7dd1-73b9-474c-8048-117fa91c019c received and added to the pool
+time="2024-12-06T21:04:28Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="769.846µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:29 Generated new UUID for bundle: ce544b7f-954b-4417-a08a-8695df88d991
+2024/12/06 21:04:29 Valid transaction: &{inner:0xc0001b5000 time:{wall:13964808774187866631 ext:142630224537 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6780} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:29 Transaction nonce: 177
+2024/12/06 21:04:29 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=177)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:29 Bundle with UUID ce544b7f-954b-4417-a08a-8695df88d991 received and added to the pool
+time="2024-12-06T21:04:29Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="322.846µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:30 Generated new UUID for bundle: 9bbd78fb-5d6f-4195-97d3-1eaa360cbb26
+2024/12/06 21:04:30 Valid transaction: &{inner:0xc0001b5600 time:{wall:13964808775254066647 ext:143622682729 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6800} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:30 Transaction nonce: 180
+2024/12/06 21:04:30 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=180)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:30 Bundle with UUID 9bbd78fb-5d6f-4195-97d3-1eaa360cbb26 received and added to the pool
+time="2024-12-06T21:04:30Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="260.396µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:31 Generated new UUID for bundle: 70aa787e-7dd6-44a2-88fd-7a211ecf6b2a
+2024/12/06 21:04:31 Valid transaction: &{inner:0xc0001b5800 time:{wall:13964808776336562023 ext:144631436281 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b68a0} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:31 Transaction nonce: 181
+2024/12/06 21:04:31 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=181)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:31 Bundle with UUID 70aa787e-7dd6-44a2-88fd-7a211ecf6b2a received and added to the pool
+time="2024-12-06T21:04:31Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="615.363µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:32 Cleanup job took 17.231µs
+2024/12/06 21:04:32 Bundle 1: ReplacementUuid: 2c9d721c-8b8d-446e-a83f-4a570edc9093, Status: Bundle processed successfully, Success: true
+2024/12/06 21:04:32 Bundle with UUID 2c9d721c-8b8d-446e-a83f-4a570edc9093 marked for deletion
+2024/12/06 21:04:32 Bundle 2c9d721c-8b8d-446e-a83f-4a570edc9093 processed successfully: Bundle processed successfully
+2024/12/06 21:04:32 1 bundles sent via gRPC
+2024/12/06 21:04:32 Generated new UUID for bundle: 782151d0-c458-422d-a36b-ba17f9f245b2
+2024/12/06 21:04:32 Valid transaction: &{inner:0xc0001b5a00 time:{wall:13964808777412995643 ext:145634128077 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6960} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:32 Transaction nonce: 182
+2024/12/06 21:04:32 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=182)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:32 Bundle with UUID 782151d0-c458-422d-a36b-ba17f9f245b2 received and added to the pool
+time="2024-12-06T21:04:32Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="266.586µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:33 Generated new UUID for bundle: e1b370da-fa0c-4ca8-92a1-a0ff75b2993a
+2024/12/06 21:04:33 Valid transaction: &{inner:0xc0001b5c00 time:{wall:13964808778470385215 ext:146617775835 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b69e0} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:33 Transaction nonce: 183
+2024/12/06 21:04:33 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=183)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:33 Bundle with UUID e1b370da-fa0c-4ca8-92a1-a0ff75b2993a received and added to the pool
+time="2024-12-06T21:04:33Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="537.002µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:34 Generated new UUID for bundle: eac04b82-dc4a-419d-8f59-85b869de6fa5
+2024/12/06 21:04:34 Valid transaction: &{inner:0xc0001b5d80 time:{wall:13964808779532757661 ext:147606406447 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6a60} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:34 Transaction nonce: 184
+2024/12/06 21:04:34 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=184)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:34 Bundle with UUID eac04b82-dc4a-419d-8f59-85b869de6fa5 received and added to the pool
+time="2024-12-06T21:04:34Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="155.713µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:35 Generated new UUID for bundle: 052f16a3-3755-4831-8a2c-f06d147e0eec
+2024/12/06 21:04:35 Valid transaction: &{inner:0xc000752000 time:{wall:13964808780636128633 ext:148636035595 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6ae0} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:35 Transaction nonce: 186
+2024/12/06 21:04:35 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=186)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:35 Bundle with UUID 052f16a3-3755-4831-8a2c-f06d147e0eec received and added to the pool
+time="2024-12-06T21:04:35Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="298.136µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:36 Generated new UUID for bundle: d392d0e3-bd1a-4682-932d-791822c59800
+2024/12/06 21:04:36 Valid transaction: &{inner:0xc000752280 time:{wall:13964808781712015281 ext:149638180499 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6b40} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:36 Transaction nonce: 187
+2024/12/06 21:04:36 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=187)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:36 Bundle with UUID d392d0e3-bd1a-4682-932d-791822c59800 received and added to the pool
+time="2024-12-06T21:04:36Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="595.263µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:37 Cleanup job took 101.342µs
+2024/12/06 21:04:37 Bundle 1: ReplacementUuid: 4b498943-d265-461f-96b3-fb0dd6016524, Status: Bundle processed successfully, Success: true
+2024/12/06 21:04:37 Bundle with UUID 4b498943-d265-461f-96b3-fb0dd6016524 marked for deletion
+2024/12/06 21:04:37 Bundle 4b498943-d265-461f-96b3-fb0dd6016524 processed successfully: Bundle processed successfully
+2024/12/06 21:04:37 1 bundles sent via gRPC
+2024/12/06 21:04:37 Generated new UUID for bundle: e00c4870-3f67-4e1f-8ed0-7d355c0a075f
+2024/12/06 21:04:37 Valid transaction: &{inner:0xc000911080 time:{wall:13964808782786390508 ext:150638813822 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0004230c0} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:37 Transaction nonce: 188
+2024/12/06 21:04:37 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=188)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:37 Bundle with UUID e00c4870-3f67-4e1f-8ed0-7d355c0a075f received and added to the pool
+time="2024-12-06T21:04:37Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="525.061µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:38 Generated new UUID for bundle: c289be6d-b50f-4563-a0d3-4c105c6774cb
+2024/12/06 21:04:38 Valid transaction: &{inner:0xc000911200 time:{wall:13964808783860257524 ext:151638939014 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000423120} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:38 Transaction nonce: 189
+2024/12/06 21:04:38 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=189)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:38 Bundle with UUID c289be6d-b50f-4563-a0d3-4c105c6774cb received and added to the pool
+time="2024-12-06T21:04:38Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="491.57µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:39 Generated new UUID for bundle: a758358d-23e7-41f7-b422-4f349ae2d010
+2024/12/06 21:04:39 Valid transaction: &{inner:0xc000911400 time:{wall:13964808784930465834 ext:152635405520 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000423180} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:39 Transaction nonce: 191
+2024/12/06 21:04:39 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=191)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:39 Bundle with UUID a758358d-23e7-41f7-b422-4f349ae2d010 received and added to the pool
+time="2024-12-06T21:04:39Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="222.735µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:40 Generated new UUID for bundle: cbd61c69-7dbb-489b-8e6d-ca61d14db363
+2024/12/06 21:04:40 Valid transaction: &{inner:0xc000911600 time:{wall:13964808785982789810 ext:153613987672 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0004231e0} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:40 Transaction nonce: 192
+2024/12/06 21:04:40 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=192)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:40 Bundle with UUID cbd61c69-7dbb-489b-8e6d-ca61d14db363 received and added to the pool
+time="2024-12-06T21:04:40Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="206.314µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:41 Generated new UUID for bundle: 2a834a5d-7df6-4da5-96aa-bb1b88124486
+2024/12/06 21:04:41 Valid transaction: &{inner:0xc00016ce80 time:{wall:13964808787054865100 ext:154612321128 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003be4c0} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:41 Transaction nonce: 193
+2024/12/06 21:04:41 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=193)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:41 Bundle with UUID 2a834a5d-7df6-4da5-96aa-bb1b88124486 received and added to the pool
+time="2024-12-06T21:04:41Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="182.943µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:42 Cleanup job took 12.691µs
+2024/12/06 21:04:42 Bundle 1: ReplacementUuid: 800415aa-8ba2-400d-a8bb-3e88c4b6dffe, Status: Bundle processed successfully, Success: true
+2024/12/06 21:04:42 Bundle with UUID 800415aa-8ba2-400d-a8bb-3e88c4b6dffe marked for deletion
+2024/12/06 21:04:42 Bundle 800415aa-8ba2-400d-a8bb-3e88c4b6dffe processed successfully: Bundle processed successfully
+2024/12/06 21:04:42 1 bundles sent via gRPC
+2024/12/06 21:04:42 Generated new UUID for bundle: 1ad6d58a-cbe9-4e1b-bbc2-276a8cde0e3f
+2024/12/06 21:04:42 Valid transaction: &{inner:0xc00016d380 time:{wall:13964808788130636115 ext:155614350329 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003be6a0} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:42 Transaction nonce: 194
+2024/12/06 21:04:42 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=194)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:42 Bundle with UUID 1ad6d58a-cbe9-4e1b-bbc2-276a8cde0e3f received and added to the pool
+time="2024-12-06T21:04:42Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="221.345µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:43 Generated new UUID for bundle: f3b0b972-1e60-4b6b-b688-f659ff3a5bf2
+2024/12/06 21:04:43 Valid transaction: &{inner:0xc00016d780 time:{wall:13964808789203485031 ext:156613457411 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003be880} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:43 Transaction nonce: 195
+2024/12/06 21:04:43 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=195)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:43 Bundle with UUID f3b0b972-1e60-4b6b-b688-f659ff3a5bf2 received and added to the pool
+time="2024-12-06T21:04:43Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="228.505µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:44 Generated new UUID for bundle: 71aadda8-20cc-4b98-9bd3-1c9b7e433617
+2024/12/06 21:04:44 Valid transaction: &{inner:0xc00016db80 time:{wall:13964808790280488162 ext:157616718728 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003bea00} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:44 Transaction nonce: 196
+2024/12/06 21:04:44 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=196)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:44 Bundle with UUID 71aadda8-20cc-4b98-9bd3-1c9b7e433617 received and added to the pool
+time="2024-12-06T21:04:44Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="199.644µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:45 Generated new UUID for bundle: 2f09801c-311c-4d6e-8d62-23ab6de7ebc8
+2024/12/06 21:04:45 Valid transaction: &{inner:0xc0006ae000 time:{wall:13964808791354419239 ext:158616907981 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003bebe0} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:45 Transaction nonce: 197
+2024/12/06 21:04:45 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=197)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:45 Bundle with UUID 2f09801c-311c-4d6e-8d62-23ab6de7ebc8 received and added to the pool
+time="2024-12-06T21:04:45Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="250.195µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:46 Generated new UUID for bundle: 58a81894-931a-4dee-a7b8-aa5af101aa5f
+2024/12/06 21:04:46 Valid transaction: &{inner:0xc0006ae280 time:{wall:13964808792429532550 ext:159618279468 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003bed60} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:46 Transaction nonce: 199
+2024/12/06 21:04:46 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=199)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:46 Bundle with UUID 58a81894-931a-4dee-a7b8-aa5af101aa5f received and added to the pool
+time="2024-12-06T21:04:46Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="216.165µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:47 Cleanup job took 11.9µs
+2024/12/06 21:04:47 Bundle 1: ReplacementUuid: 8902a8e3-8730-4180-9c2b-cef2a8cc95de, Status: Bundle processed successfully, Success: true
+2024/12/06 21:04:47 Bundle with UUID 8902a8e3-8730-4180-9c2b-cef2a8cc95de marked for deletion
+2024/12/06 21:04:47 Bundle 8902a8e3-8730-4180-9c2b-cef2a8cc95de processed successfully: Bundle processed successfully
+2024/12/06 21:04:47 1 bundles sent via gRPC
+2024/12/06 21:04:47 Generated new UUID for bundle: 928b565f-9654-4cc9-821d-c163d4fec9c7
+2024/12/06 21:04:47 Valid transaction: &{inner:0xc0006ae800 time:{wall:13964808793503480259 ext:160618485353 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003befa0} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:47 Transaction nonce: 200
+2024/12/06 21:04:47 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=200)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:47 Bundle with UUID 928b565f-9654-4cc9-821d-c163d4fec9c7 received and added to the pool
+time="2024-12-06T21:04:47Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="225.014µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:48 Generated new UUID for bundle: b9112600-ec35-49f6-9cc3-402137f3e7f0
+2024/12/06 21:04:48 Valid transaction: &{inner:0xc0006aeb00 time:{wall:13964808794579670584 ext:161620933844 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003bf120} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:48 Transaction nonce: 201
+2024/12/06 21:04:48 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=201)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:48 Bundle with UUID b9112600-ec35-49f6-9cc3-402137f3e7f0 received and added to the pool
+time="2024-12-06T21:04:48Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="229.095µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:49 Generated new UUID for bundle: d73fc244-c33b-48a9-b13e-d3a5268999b6
+2024/12/06 21:04:49 Valid transaction: &{inner:0xc0006aef00 time:{wall:13964808795655142304 ext:162622663760 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003bf300} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:49 Transaction nonce: 202
+2024/12/06 21:04:49 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=202)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:49 Bundle with UUID d73fc244-c33b-48a9-b13e-d3a5268999b6 received and added to the pool
+time="2024-12-06T21:04:49Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="205.085µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:50 Generated new UUID for bundle: e14b2fa8-d506-46f1-8306-9ea9af83ae4d
+2024/12/06 21:04:50 Valid transaction: &{inner:0xc0006af300 time:{wall:13964808796730261446 ext:163624041078 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003bf480} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:50 Transaction nonce: 203
+2024/12/06 21:04:50 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=203)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:50 Bundle with UUID e14b2fa8-d506-46f1-8306-9ea9af83ae4d received and added to the pool
+time="2024-12-06T21:04:50Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="202.654µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:51 Generated new UUID for bundle: 31ed73a0-450a-4fa6-a7f7-9e73456800da
+2024/12/06 21:04:51 Valid transaction: &{inner:0xc000911800 time:{wall:13964808797804235633 ext:164624273431 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc000423240} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:51 Transaction nonce: 204
+2024/12/06 21:04:51 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=204)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:51 Bundle with UUID 31ed73a0-450a-4fa6-a7f7-9e73456800da received and added to the pool
+time="2024-12-06T21:04:51Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="216.324µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:52 Cleanup job took 19.481µs
+2024/12/06 21:04:52 Bundle 1: ReplacementUuid: 2149933c-dcc1-473d-b625-8638ca432cff, Status: Bundle processed successfully, Success: true
+2024/12/06 21:04:52 Bundle with UUID 2149933c-dcc1-473d-b625-8638ca432cff marked for deletion
+2024/12/06 21:04:52 Bundle 2149933c-dcc1-473d-b625-8638ca432cff processed successfully: Bundle processed successfully
+2024/12/06 21:04:52 1 bundles sent via gRPC
+2024/12/06 21:04:52 Generated new UUID for bundle: 5a4051e3-809b-4727-a251-6fcd845cfa68
+2024/12/06 21:04:52 Valid transaction: &{inner:0xc000752800 time:{wall:13964808798880017179 ext:165626313173 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6be0} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:52 Transaction nonce: 205
+2024/12/06 21:04:52 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=205)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:52 Bundle with UUID 5a4051e3-809b-4727-a251-6fcd845cfa68 received and added to the pool
+time="2024-12-06T21:04:52Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="246.896µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:53 Generated new UUID for bundle: 2d459b6e-c85d-4a69-8ce7-03f817754e15
+2024/12/06 21:04:53 Valid transaction: &{inner:0xc000752d00 time:{wall:13964808799956602902 ext:166629157042 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6c60} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:53 Transaction nonce: 208
+2024/12/06 21:04:53 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=208)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:53 Bundle with UUID 2d459b6e-c85d-4a69-8ce7-03f817754e15 received and added to the pool
+time="2024-12-06T21:04:53Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="178.314µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:54 Generated new UUID for bundle: c7378cf8-516d-413d-81c1-189d9e3feda7
+2024/12/06 21:04:54 Valid transaction: &{inner:0xc000753000 time:{wall:13964808801031590190 ext:167630402496 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6ce0} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:54 Transaction nonce: 209
+2024/12/06 21:04:54 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=209)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:54 Bundle with UUID c7378cf8-516d-413d-81c1-189d9e3feda7 received and added to the pool
+time="2024-12-06T21:04:54Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="197.634µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:55 Generated new UUID for bundle: 9be333a5-5da3-4359-8b5f-83f358611c50
+2024/12/06 21:04:55 Valid transaction: &{inner:0xc000753300 time:{wall:13964808802101848401 ext:168626918903 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6d60} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:55 Transaction nonce: 210
+2024/12/06 21:04:55 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=210)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:55 Bundle with UUID 9be333a5-5da3-4359-8b5f-83f358611c50 received and added to the pool
+time="2024-12-06T21:04:55Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="206.914µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:56 Generated new UUID for bundle: 291cd2ec-366b-4d88-bde2-79079ab200a0
+2024/12/06 21:04:56 Valid transaction: &{inner:0xc000753600 time:{wall:13964808803178947275 ext:169630275953 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6e00} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:56 Transaction nonce: 211
+2024/12/06 21:04:56 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=211)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:56 Bundle with UUID 291cd2ec-366b-4d88-bde2-79079ab200a0 received and added to the pool
+time="2024-12-06T21:04:56Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="259.896µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:57 Cleanup job took 16.46µs
+2024/12/06 21:04:57 Bundle 1: ReplacementUuid: a1cedc90-3966-45a8-9013-152a20fa887e, Status: Bundle processed successfully, Success: true
+2024/12/06 21:04:57 Bundle with UUID a1cedc90-3966-45a8-9013-152a20fa887e marked for deletion
+2024/12/06 21:04:57 Bundle a1cedc90-3966-45a8-9013-152a20fa887e processed successfully: Bundle processed successfully
+2024/12/06 21:04:57 1 bundles sent via gRPC
+2024/12/06 21:04:57 Generated new UUID for bundle: 11cf04a9-c67f-4c4a-a0fb-be1d29ee663b
+2024/12/06 21:04:57 Valid transaction: &{inner:0xc000753c00 time:{wall:13964808804256320774 ext:170633907608 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6e80} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:57 Transaction nonce: 212
+2024/12/06 21:04:57 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=212)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:57 Bundle with UUID 11cf04a9-c67f-4c4a-a0fb-be1d29ee663b received and added to the pool
+time="2024-12-06T21:04:57Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="216.634µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:58 Generated new UUID for bundle: 2b9fa14e-22ea-431f-8640-8ee0ce7cea7c
+2024/12/06 21:04:58 Valid transaction: &{inner:0xc0004d6100 time:{wall:13964808805328631998 ext:171632477028 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6ee0} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:58 Transaction nonce: 213
+2024/12/06 21:04:58 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=213)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:58 Bundle with UUID 2b9fa14e-22ea-431f-8640-8ee0ce7cea7c received and added to the pool
+time="2024-12-06T21:04:58Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="244.795µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:04:59 Generated new UUID for bundle: a7c3b925-778c-4e59-a77d-f012201c4bce
+2024/12/06 21:04:59 Valid transaction: &{inner:0xc0004d6400 time:{wall:13964808806405579218 ext:172635682404 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6f40} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:04:59 Transaction nonce: 215
+2024/12/06 21:04:59 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=215)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:04:59 Bundle with UUID a7c3b925-778c-4e59-a77d-f012201c4bce received and added to the pool
+time="2024-12-06T21:04:59Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="193.234µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:05:00 Generated new UUID for bundle: fcf7d0ce-2c04-431c-a9a6-4e330974fd0e
+2024/12/06 21:05:00 Valid transaction: &{inner:0xc0004d6700 time:{wall:13964808807481634240 ext:173637995612 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b6fa0} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:05:00 Transaction nonce: 216
+2024/12/06 21:05:00 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=216)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:05:00 Bundle with UUID fcf7d0ce-2c04-431c-a9a6-4e330974fd0e received and added to the pool
+time="2024-12-06T21:05:00Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="203.074µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:05:01 Generated new UUID for bundle: 04cfe915-c76c-4580-a408-de0c7a400362
+2024/12/06 21:05:01 Valid transaction: &{inner:0xc0004d6b00 time:{wall:13964808808560228244 ext:174642847802 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0000b7000} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:05:01 Transaction nonce: 217
+2024/12/06 21:05:01 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=217)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:05:01 Bundle with UUID 04cfe915-c76c-4580-a408-de0c7a400362 received and added to the pool
+time="2024-12-06T21:05:01Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="246.055µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:05:02 Cleanup job took 13.08µs
+2024/12/06 21:05:02 Bundle 1: ReplacementUuid: 46b242ac-75e5-4dff-aea7-e3aa62345b8e, Status: Bundle processed successfully, Success: true
+2024/12/06 21:05:02 Bundle with UUID 46b242ac-75e5-4dff-aea7-e3aa62345b8e marked for deletion
+2024/12/06 21:05:02 Bundle 46b242ac-75e5-4dff-aea7-e3aa62345b8e processed successfully: Bundle processed successfully
+2024/12/06 21:05:02 1 bundles sent via gRPC
+2024/12/06 21:05:02 Generated new UUID for bundle: 2f46b868-f570-42b4-8198-2ab4c2c5e23c
+2024/12/06 21:05:02 Valid transaction: &{inner:0xc0006af900 time:{wall:13964808809634190752 ext:175643068486 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003bf780} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:05:02 Transaction nonce: 218
+2024/12/06 21:05:02 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=218)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:05:02 Bundle with UUID 2f46b868-f570-42b4-8198-2ab4c2c5e23c received and added to the pool
+time="2024-12-06T21:05:02Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="194.694µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+2024/12/06 21:05:03 Generated new UUID for bundle: 68e3cc39-b440-4098-9a22-a0f558f7278a
+2024/12/06 21:05:03 Valid transaction: &{inner:0xc0006afd00 time:{wall:13964808810731917445 ext:176667053335 loc:0x12cb3a0} hash:{_:[] _:{} v:0xc0003bf900} size:{_:{} _:{} v:379} from:{_:[] _:{} v:<nil>}}
+2024/12/06 21:05:03 Transaction nonce: 220
+2024/12/06 21:05:03 Transaction 1: To: %!!(address=71e67695db8bc44aa6bf2014142c42221967ee98)s(func() *common.Address=%!p(uint64=220)), Nonce: 150000, Gas: 0, Value: %!!(MISSING)s(func() *big.Int=%!p(MISSING))
+2024/12/06 21:05:03 Bundle with UUID 68e3cc39-b440-4098-9a22-a0f558f7278a received and added to the pool
+time="2024-12-06T21:05:03Z" level=info msg="Request details" client_ip=172.16.4.28 error= latency_time="168.453µs" method=POST path=/sequencer/eth_sendBundle status_code=202 user_agent="node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"

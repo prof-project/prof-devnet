@@ -1,7 +1,0 @@
-time="2024-12-01T01:39:26Z" level=info msg="boost-relay b4947ea-dev" service=relay/website version=b4947ea-dev
-time="2024-12-01T01:39:26Z" level=info msg="Using network: custom" service=relay/website version=b4947ea-dev
-time="2024-12-01T01:39:26Z" level=debug msg="EthNetworkDetails{\n\tName: custom, \n\tGenesisForkVersionHex: 0x10000038, \n\tGenesisValidatorsRootHex: 0xd1ec305b97bf6336571c2348e4a8bf173684b0cdb7e55f7e6554d51f8478b5a3,\n\tBellatrixForkVersionHex: 0x30000038, \n\tCapellaForkVersionHex: 0x40000038, \n\tDenebForkVersionHex: 0x50000038,\n\tDomainBuilder: 000000010b41be4cdb34d183dddca5398337626dcdcfaf1720c1202d3b95f84e, \n\tDomainBeaconProposerBellatrix: 0000000039f8fd88b8d7b1c857fa0e5338f3b223b289ead5c79b8f92fae1f5af, \n\tDomainBeaconProposerCapella: 0000000033ec6748d1acfb818e136b47e200802a7d620e7f8d7f08e635563f95, \n\tDomainBeaconProposerDeneb: 00000000d84e2ee04414f00cdad7d07b154bc291236f4e0ae0d364fbdcdda501\n}" service=relay/website version=b4947ea-dev
-time="2024-12-01T01:39:26Z" level=info msg="Connecting to Redis at mev-relay-redis:6379 ..." service=relay/website version=b4947ea-dev
-time="2024-12-01T01:39:26Z" level=info msg="Connecting to Postgres database..." service=relay/website version=b4947ea-dev
-time="2024-12-01T01:39:26Z" level=info msg="Connecting to Postgres database at mev-relay-postgres/postgres ..." service=relay/website version=b4947ea-dev
-time="2024-12-01T01:39:26Z" level=info msg="Webserver starting on 0.0.0.0:9060 ..." service=relay/website version=b4947ea-dev

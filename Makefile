@@ -34,28 +34,28 @@ create-logs-dir:
 
 # New target that waits for Kurtosis and then attaches loggers
 attach-loggers:
-	@./scripts/attach-loggers.sh prof-test-flood-$(USER)-3
+	@./scripts/attach-loggers.sh prof-test-flood-$(USER)-2
 
 # Modified run target that starts logging after Kurtosis
 clean-kurtosis:
 	# First stop the engine if it's running
 	-kurtosis engine stop 2>/dev/null || true
-	sleep 2
+	# sleep 2
 	# Remove any leftover containers
-	-docker rm -f kurtosis-engine kurtosis-github-auth-storage-creator kurtosis-reverse-proxy 2>/dev/null || true
+	# -docker rm -f kurtosis-engine kurtosis-github-auth-storage-creator kurtosis-reverse-proxy 2>/dev/null || true
 	# # Start engine and wait for it
-	-kurtosis engine start 2>/dev/null || true
-	sleep 5
+	# -kurtosis engine start 2>/dev/null || true
+	# sleep 5
 	# # Now remove the enclave
 	-kurtosis enclave rm -f prof-test-flood-$(USER)-2 2>/dev/null || true
 	# # Final cleanup
 	-kurtosis clean -a 2>/dev/null || true
 	-kurtosis engine stop 2>/dev/null || true
-	sleep 2
+	# sleep 2
 
-run: clean-kurtosis create-logs-dir
+run: create-logs-dir
 	cd prof-ethereum-package && kurtosis run \
-		--enclave prof-test-flood-$(USER)-3 \
+		--enclave prof-test-flood-$(USER)-2 \
 		./ \
 		--args-file network_params.yaml \
 		2>&1 | tee ../logs/run-$(shell date +%Y%m%d-%H%M%S)/kurtosis.log & \
