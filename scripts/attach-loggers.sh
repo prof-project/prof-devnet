@@ -36,9 +36,9 @@ start_service_logger() {
     local max_retries=3
     local retry=0
     
-    # Immediately start mev-flood-2 logger
-    if [ "$service" = "mev-flood-2" ]; then
-        echo "Starting priority logger for mev-flood-2"
+    # Immediately start prof-spamoor logger
+    if [ "$service" = "prof-spamoor" ]; then
+        echo "Starting priority logger for prof-spamoor"
         kurtosis service logs "$ENCLAVE_NAME" "$service" -f > "$logfile" 2>&1 &
         local pid=$!
         echo $pid >> "$LOG_DIR/pids"
@@ -72,10 +72,10 @@ start_service_logger() {
 }
 
 # Main execution
-# Start mev-flood-2 immediately if it exists
-echo "Checking for mev-flood-2..."
-if kurtosis enclave inspect $ENCLAVE_NAME | grep -q "mev-flood-2.*RUNNING"; then
-    start_service_logger "mev-flood-2"
+# Start prof-spamoor immediately if it exists
+echo "Checking for prof-spamoor..."
+if kurtosis enclave inspect $ENCLAVE_NAME | grep -q "prof-spamoor.*RUNNING"; then
+    start_service_logger "prof-spamoor"
 fi
 
 wait_for_services

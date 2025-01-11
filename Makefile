@@ -22,8 +22,11 @@ build-go-prof-sequencer:
 build-prof-flood:
 	$(MAKE) -C prof-flood/ docker-build
 
+build-prof-spamoor:
+	$(MAKE) -C prof-spamoor/ docker-build
+
 # Target to build all containers
-build-all-containers: stop build-go-bundle-merger build-go-prof-builder build-go-prof-relay build-go-prof-sequencer build-prof-flood
+build-all-containers: stop build-go-bundle-merger build-go-prof-builder build-go-prof-relay build-go-prof-sequencer build-prof-flood build-prof-spamoor
 	@echo "All containers have been built."
 
 setup: init
